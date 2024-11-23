@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "ice_and_fire"
 	group: ""
+	icon: "iceandfire:dragon_skull_fire"
 	id: "5A4A0EE186CA1E89"
 	order_index: 0
 	quest_links: [ ]
