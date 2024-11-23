@@ -1,0 +1,28 @@
+{
+	id: "30E7DD0E2616CEB8"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:dread_queen_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "iceandfire:dread_queen_staff" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:lich_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "iceandfire:dread_portal", weight: 0.01f }
+	]
+	title: "Dread"
+}

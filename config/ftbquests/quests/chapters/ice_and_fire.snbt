@@ -1,0 +1,1088 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ice_and_fire"
+	group: ""
+	id: "5A4A0EE186CA1E89"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0BE6AB6B0810654E"
+			rewards: [{
+				id: "0B706241A6CE30A1"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [
+				{
+					id: "4DEC2C32389C0E1E"
+					item: "iceandfire:bestiary"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "77B7ADF68CB77A18"
+					item: { Count: 3, id: "iceandfire:manuscript" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BE6AB6B0810654E"]
+			id: "0D0764E4440C4BB7"
+			rewards: [{
+				id: "327454652433EA4A"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "3D368680CD0F2691"
+				item: "iceandfire:lectern"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E13DBD16BC997DE"]
+			description: ["Gorgon can be found I their old temple near to the beach"]
+			id: "4369AB1AE12CBF38"
+			rewards: [{
+				id: "11F87C0DB800E968"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				icon: "iceandfire:spawn_egg_gorgon"
+				id: "01CA86B23B411FA8"
+				title: "Medusa"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4369AB1AE12CBF38"]
+			description: [
+				"A powerfull head with the power of the gorgon."
+				"Be carefullm, you can use it once before it destruction."
+			]
+			id: "124ED7980E3BF35F"
+			rewards: [{
+				id: "5B8F659D2DC036B1"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "535D7E32A739A269"
+				item: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			description: ["Giant cyclope can be found in their cave with their sheep."]
+			id: "33B8BFD1FCED4B53"
+			rewards: [{
+				id: "7949CDEBF93C35CA"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "minecraft:giant"
+				icon: "iceandfire:cyclops_skull"
+				id: "1C76E9CC56A3D106"
+				title: "Cyclope"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["33B8BFD1FCED4B53"]
+			id: "101B337FD5CB1217"
+			rewards: [{
+				id: "0D9C91DB879702D6"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "2BB12388A742C4D0"
+				item: {
+					Count: 1
+					id: "iceandfire:cyclops_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			id: "5E13DBD16BC997DE"
+			tasks: [{
+				id: "0162C7FF7E90645F"
+				item: {
+					Count: 1
+					id: "iceandfire:blindfold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			id: "2D4A5557B82CBD91"
+			tasks: [{
+				id: "293B9E61C4DA2F0A"
+				item: {
+					Count: 1
+					id: "iceandfire:earplugs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4369AB1AE12CBF38"]
+			description: ["Someone who have faced the gorgon without protection..."]
+			id: "347750104F66B5FE"
+			tasks: [{
+				id: "257011F868C59D83"
+				item: "iceandfire:stone_statue"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2D4A5557B82CBD91"]
+			description: ["Siren can be found in the ocean."]
+			icon: "iceandfire:spawn_egg_siren"
+			id: "680EC163D898ABF9"
+			rewards: [{
+				id: "4BFA130E68941A9C"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:siren"
+				id: "3AF0FDF0C07E3B98"
+				title: "Siren"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["680EC163D898ABF9"]
+			description: ["A powerfull flute with the charming power of the sirens."]
+			id: "0DBD5BE8155FA012"
+			tasks: [{
+				id: "2BABEC6AF6E3EE93"
+				item: {
+					Count: 1
+					id: "iceandfire:siren_flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			description: ["Amphithere is a beautyfull creature who can be found in jungle."]
+			icon: "iceandfire:amphithere_skull"
+			id: "72C27001DD3454FF"
+			rewards: [{
+				id: "4B2B2F027D71D56E"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:amphithere"
+				id: "3BE2414A47F65349"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Amphithere"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72C27001DD3454FF"]
+			description: ["A more powerfull arow with a great knockback."]
+			id: "5D083C0F136651BD"
+			rewards: [{
+				id: "607CA8B0901B5EC0"
+				type: "xp"
+				xp: 0
+			}]
+			tasks: [{
+				id: "035F46BA5837A2FD"
+				item: "iceandfire:amphithere_arrow"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72C27001DD3454FF"]
+			id: "01270CB575D2381A"
+			tasks: [{
+				id: "5C15D276B1833F52"
+				item: {
+					Count: 1
+					id: "iceandfire:amphithere_macuahuitl"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72C27001DD3454FF"]
+			description: ["Try to mount a Amphithere can be a good idea."]
+			id: "2FB86F981EBD0BF6"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_amphithere"
+				criterion: ""
+				id: "5769A82B551D932B"
+				title: "Tame an Amphitthere"
+				type: "advancement"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			description: ["Hipocamous can be found deep in sea."]
+			icon: "iceandfire:spawn_egg_hippocampus"
+			id: "6A7A9E330F5999AD"
+			rewards: [{
+				id: "4CE10EF6EFBFA723"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:hippocampus"
+				icon: "iceandfire:hippocampus_fin"
+				id: "35E20608E62BADB5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hippocampus"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A7A9E330F5999AD"]
+			id: "0E3A9EE122145F08"
+			tasks: [{
+				id: "41776F242AE6F593"
+				item: {
+					Count: 1
+					id: "iceandfire:hippocampus_slapper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A7A9E330F5999AD"]
+			description: ["Feed a hippocampus with kelp to tame it."]
+			id: "07344276A72EFAC3"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippocampus"
+				criterion: ""
+				id: "300ED43A63FF501C"
+				title: "Tame a Hippocampus"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68FD59EDB0F2C9EE"]
+			description: ["Give it some rabbit feed."]
+			id: "4C27127BF52FE2B5"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippogryph"
+				criterion: ""
+				id: "2F1555FBC101B2F9"
+				title: "Tame a Hippogryph"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "68FD59EDB0F2C9EE"
+			rewards: [{
+				id: "0BB121C8352D38B5"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:hippogryph"
+				icon: "iceandfire:spawn_egg_hippogryph"
+				id: "62EE5C73110920CE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hippogryph"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68FD59EDB0F2C9EE"]
+			id: "36C7164F5F7ADCEC"
+			tasks: [{
+				id: "3E1B503AE4A5DDF2"
+				item: {
+					Count: 1
+					id: "iceandfire:hippogryph_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Fire dragon can be found in plain and desert."
+				"Ice dragon can be found in cold biome."
+				"Lithning dragon can be found il junlge and savane."
+			]
+			id: "031B1EEFA4BB77FD"
+			rewards: [{
+				id: "7CE4B37AC50E965E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_if_dragon"
+				criterion: ""
+				icon: "iceandfire:dragon_skull_fire"
+				id: "467EF349C126D227"
+				type: "advancement"
+			}]
+			title: "Dragon Slayer"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["031B1EEFA4BB77FD"]
+			description: ["Create any dragon bone tools."]
+			id: "4A52735645BF2124"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonbone_tool"
+				criterion: ""
+				id: "759C866D6B48BAA0"
+				title: "Dragon tools"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A52735645BF2124"]
+			id: "1E07C7190ED3359C"
+			tasks: [{
+				id: "1D09F1F7F290479D"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E07C7190ED3359C"]
+			id: "0F4B8C74A9E85390"
+			tasks: [{
+				id: "36967F6C3003D47E"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E07C7190ED3359C"]
+			id: "1369954BE3EB666B"
+			tasks: [{
+				id: "2E4D5A9F897EC801"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_ice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E07C7190ED3359C"]
+			id: "525BC8945FE29CB5"
+			tasks: [{
+				id: "072ABDE8E1CAD94F"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["031B1EEFA4BB77FD"]
+			description: ["Dragon's mother keep their eggs deep."]
+			id: "66A2B29695A66762"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+				id: "23B772F1CE5AF5AB"
+				type: "advancement"
+			}]
+			title: "Baby Dragon"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["66A2B29695A66762"]
+			id: "61DFEB888B360127"
+			tasks: [{
+				id: "79393A17BB446E32"
+				item: "iceandfire:dragon_stick"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["66A2B29695A66762"]
+			id: "07F018310F218A10"
+			tasks: [{
+				id: "101A5DB64290AED0"
+				item: "iceandfire:dragon_horn"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["66A2B29695A66762"]
+			id: "7DFDDD0D20FA6797"
+			tasks: [{
+				id: "5D72C2ABB2D161FF"
+				item: "iceandfire:dragon_flute"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66A2B29695A66762"]
+			id: "2C33097930A78326"
+			tasks: [{
+				id: "13B184CFD128BB1E"
+				item: "iceandfire:dragon_meal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2C33097930A78326"]
+			description: [
+				"Dragon forge is a multi block (3x3x3) compose by :"
+				"- 25 dragon bricks of your dragon type."
+				"- 1 dragon core of your dragon type."
+				"- 1 aparture of your dragon type."
+			]
+			id: "2F4AF5316D966C10"
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/dragon_forge_brick"
+					criterion: ""
+					id: "00310525008F6F99"
+					title: "Create a dragon Forge"
+					type: "advancement"
+				}
+				{
+					advancement: "iceandfire:iceandfire/dragon_forge_core"
+					criterion: ""
+					id: "1062C5AE91337BC5"
+					type: "advancement"
+				}
+			]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2F4AF5316D966C10"]
+			description: ["Put iron ingot in the forge and use dragon breath to smelt it."]
+			id: "279374D89DF4204D"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonsteel"
+				criterion: ""
+				id: "300B650C29DCA7B9"
+				type: "advancement"
+			}]
+			title: "Dragonsteel"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["279374D89DF4204D"]
+			id: "7821D89871D3787B"
+			tasks: [{
+				id: "2C11023AE489ACF7"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["279374D89DF4204D"]
+			id: "703FAB5A9EC9FC45"
+			tasks: [{
+				id: "7C2EA4091567B997"
+				item: "iceandfire:dragonsteel_ice_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["279374D89DF4204D"]
+			id: "11BD35910A6B0635"
+			tasks: [{
+				id: "04D81A78019E1E8D"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			description: ["Sea serpent can be found in ocean."]
+			id: "7981B85ED1394451"
+			rewards: [{
+				id: "50AAD8C81026627A"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				icon: "iceandfire:seaserpent_skull"
+				id: "08974265327F2336"
+				title: "Sea serpent"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7981B85ED1394451"]
+			id: "07414CBEB02D6B6A"
+			tasks: [{
+				id: "17FF53FB719B7395"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7981B85ED1394451"]
+			description: ["Waterproof arrow"]
+			id: "12E2755F5C4F6753"
+			tasks: [{
+				id: "7965A513BBA3A622"
+				item: "iceandfire:sea_serpent_arrow"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			description: ["Troll can be found in cave."]
+			id: "6FF636D886125B99"
+			rewards: [{
+				id: "02E9A20BA24FF9F5"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:troll"
+				icon: "iceandfire:troll_skull"
+				id: "5FCE754AAB851294"
+				title: "Troll"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6FF636D886125B99"]
+			description: ["You can make armor with troll loot."]
+			id: "2DC79C858709D038"
+			tasks: [{
+				count: 10L
+				id: "14BB5888C5FBFE58"
+				item: { Count: 10, id: "iceandfire:troll_tusk" }
+				type: "item"
+			}]
+			title: "Troll Armor"
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			description: ["Ghost can be found in graveyard."]
+			id: "279788C4474F86E2"
+			rewards: [{
+				id: "0EF64983124E1974"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:ghost"
+				icon: "iceandfire:spawn_egg_ghost"
+				id: "6401C8D82A791384"
+				title: "Casper"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["279788C4474F86E2"]
+			id: "60F8100E5A4E43E2"
+			tasks: [{
+				id: "3DA2D54935C7F5AC"
+				item: {
+					Count: 1
+					id: "iceandfire:ghost_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			description: ["Cockatrice can be found in savane."]
+			id: "57C9E201A577B477"
+			rewards: [{
+				id: "640280B9B72285B0"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:cockatrice"
+				icon: "iceandfire:cockatrice_eye"
+				id: "1575164459DCA11B"
+				title: "Cockatrice"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57C9E201A577B477"]
+			id: "2446ABB693393297"
+			tasks: [{
+				id: "6251C5792D2C720E"
+				item: {
+					Count: 1
+					id: "iceandfire:cockatrice_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"There is different type of myrmex."
+				"Ones can be found in desert."
+				"The other can be found in jungle."
+			]
+			icon: "iceandfire:myrmex_desert_egg"
+			id: "0A50D761B6BBCA30"
+			rewards: [{
+				id: "47BF220B1657EAE4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					entity: "iceandfire:myrmex_soldier"
+					icon: "iceandfire:spawn_egg_myrmex_soldier"
+					id: "7BFCD7888AE87228"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "iceandfire:myrmex_royal"
+					icon: "iceandfire:spawn_egg_myrmex_royal"
+					id: "7F59EE180303EBC7"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "iceandfire:myrmex_queen"
+					icon: "iceandfire:myrmex_desert_egg"
+					id: "5AC09DFC8C7B74EA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Myrmex"
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A50D761B6BBCA30"]
+			id: "261D0EC6CA3F528E"
+			tasks: [{
+				id: "17A1240F0EB2D74A"
+				item: "iceandfire:myrmex_desert_chitin"
+				type: "item"
+			}]
+			title: "Desert Myrmex"
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A50D761B6BBCA30"]
+			id: "4EDB74DAC99D025F"
+			tasks: [{
+				id: "3D4051F9196150A1"
+				item: "iceandfire:myrmex_jungle_chitin"
+				type: "item"
+			}]
+			title: "Jungle myrmex"
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			description: ["Hydra can be found in swamp."]
+			id: "1744BD7D6921AA9A"
+			rewards: [{
+				id: "70AFF0F792C0B387"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "iceandfire:hydra_skull"
+				id: "11993E940847907C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hydra"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1744BD7D6921AA9A"]
+			id: "245B6B61CAE397CA"
+			tasks: [{
+				id: "7551D7F86268B674"
+				item: "iceandfire:hydra_heart"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1744BD7D6921AA9A"]
+			id: "3554B8EBEF8CB138"
+			tasks: [{
+				id: "37E52748E48C33D8"
+				item: "iceandfire:hydra_arrow"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			description: ["Death worm can be found in desert."]
+			id: "2DB60CB78D06F21D"
+			rewards: [{
+				id: "70130D4B9FB68EBD"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:deathworm"
+				icon: "iceandfire:spawn_egg_death_worm"
+				id: "691770EBDE800966"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Death worm"
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DB60CB78D06F21D"]
+			description: ["Death worm tongle can be you to create death worm gautlet"]
+			id: "51F08DAD4F27E1DE"
+			tasks: [{
+				id: "7AFBCD5D6B6E221C"
+				item: "iceandfire:deathworm_tounge"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			description: ["Pixie was found in dark oak forest."]
+			id: "5CBAA819DAC4A291"
+			rewards: [{
+				id: "6A8DEFF9BD7E9234"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/jar_pixie"
+				criterion: ""
+				id: "70A98C027FFC21E3"
+				title: "Clochette"
+				type: "advancement"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			description: ["You are very cruel !"]
+			hide_text_until_complete: true
+			id: "543C9A925E664BB8"
+			tasks: [{
+				entity: "iceandfire:pixie"
+				id: "6EB91F15D1FF77BC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Pixie killer"
+			x: -14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["543C9A925E664BB8"]
+			hide_until_deps_complete: true
+			id: "039EC864BD0020B0"
+			tasks: [{
+				id: "22221B0E42480FBA"
+				item: {
+					Count: 1
+					id: "iceandfire:pixie_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 5.5d
+		}
+		{
+			description: ["Styphalian bird can be found in swamp."]
+			id: "0A0281841D46F874"
+			rewards: [{
+				id: "724189D5709824A4"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:stymphalian_bird"
+				icon: "iceandfire:stymphalian_skull"
+				id: "71A7F2CF6F2C498D"
+				title: "Stymphalian Bird"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A0281841D46F874"]
+			id: "7D6EEB094E7A3732"
+			tasks: [{
+				id: "4CBE3C0F67178954"
+				item: {
+					Count: 1
+					id: "iceandfire:stymphalian_bird_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A0281841D46F874"]
+			id: "7125B25CDA068D84"
+			tasks: [{
+				id: "0E724929D0EC762B"
+				item: "iceandfire:stymphalian_arrow"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			icon: "iceandfire:dread_key"
+			id: "3402E1E7F734BACE"
+			tasks: [
+				{
+					icon: "iceandfire:dread_spawner"
+					id: "03EDB573D1819D0A"
+					structure: "iceandfire:mausoleum"
+					type: "structure"
+				}
+				{
+					id: "1D5374EA413D235F"
+					item: "iceandfire:dread_key"
+					type: "item"
+				}
+			]
+			title: "Mausoleum"
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3402E1E7F734BACE"]
+			description: ["Kill all the dread army and you will able to fight the dread lich"]
+			id: "01D7B0EBE178E46F"
+			rewards: [{
+				id: "187BCC032A7EF692"
+				item: "iceandfire:spawn_egg_lich"
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "iceandfire:dread_ghoul"
+					icon: "iceandfire:spawn_egg_dread_ghoul"
+					id: "4DCFD5FCFFB4416C"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "iceandfire:dread_beast"
+					icon: "iceandfire:spawn_egg_dread_beast"
+					id: "30AE5629BE3C393E"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "iceandfire:dread_knight"
+					icon: "iceandfire:spawn_egg_dread_knight"
+					id: "03E5B6161CB78017"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "Defeat dread army"
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["01D7B0EBE178E46F"]
+			id: "7FFCCC6CCA45B1AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "539E3BCEEC91D8E1"
+				table_id: 3524028286279012024L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_lich"
+				icon: "iceandfire:spawn_egg_lich"
+				id: "50501FB995D594BC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the dread lich"
+			x: -16.0d
+			y: 2.0d
+		}
+	]
+	title: "Ice and Fire"
+}

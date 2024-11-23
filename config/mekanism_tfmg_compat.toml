@@ -1,0 +1,5 @@
+
+["Configs for Mekanism TFMG Compat"]
+	#Enable or disable additional recipes to further improve the connection between the two mods (Requires Reload)
+	extra_recipes = true
+
