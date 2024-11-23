@@ -90,8 +90,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: 7.0d
+			x: -10.0d
+			y: 6.5d
 		}
 		{
 			description: ["Giant cyclope can be found in their cave with their sheep."]
@@ -109,7 +109,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -7.0d
+			x: -8.0d
 			y: 4.0d
 		}
 		{
@@ -131,7 +131,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.0d
 			y: 5.5d
 		}
 		{
@@ -163,7 +163,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
+			x: -11.5d
 			y: 4.0d
 		}
 		{
@@ -175,8 +175,8 @@
 				item: "iceandfire:stone_statue"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 6.0d
+			x: -9.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2D4A5557B82CBD91"]
@@ -195,7 +195,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -11.0d
+			x: -11.5d
 			y: 5.5d
 		}
 		{
@@ -213,7 +213,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
+			x: -11.5d
 			y: 7.0d
 		}
 		{
@@ -249,7 +249,7 @@
 				item: "iceandfire:amphithere_arrow"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -6.0d
 			y: -1.5d
 		}
 		{
@@ -266,8 +266,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -1.0d
+			x: -7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["72C27001DD3454FF"]
@@ -280,8 +280,8 @@
 				title: "Tame an Amphitthere"
 				type: "advancement"
 			}]
-			x: -8.5d
-			y: 0.0d
+			x: -8.0d
+			y: -1.5d
 		}
 		{
 			description: ["Hipocamous can be found deep in sea."]
@@ -300,7 +300,7 @@
 				value: 1L
 			}]
 			title: "Hippocampus"
-			x: -5.5d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -317,7 +317,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.5d
 			y: -1.5d
 		}
 		{
@@ -331,8 +331,8 @@
 				title: "Tame a Hippocampus"
 				type: "advancement"
 			}]
-			x: -4.5d
-			y: -1.0d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["68FD59EDB0F2C9EE"]
@@ -345,8 +345,8 @@
 				title: "Tame a Hippogryph"
 				type: "advancement"
 			}]
-			x: -3.5d
-			y: -1.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			id: "68FD59EDB0F2C9EE"
@@ -363,7 +363,7 @@
 				value: 1L
 			}]
 			title: "Hippogryph"
-			x: -2.5d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -380,7 +380,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
@@ -411,13 +411,61 @@
 			description: ["Create any dragon bone tools."]
 			id: "4A52735645BF2124"
 			tasks: [{
-				advancement: "iceandfire:iceandfire/dragonbone_tool"
-				criterion: ""
-				id: "759C866D6B48BAA0"
-				title: "Dragon tools"
-				type: "advancement"
+				id: "7DEA75D633AEB895"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:dragonbone_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonbone_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonbone_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonbone_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonbone_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonbone_bow"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
 			}]
-			x: 0.5d
+			title: "Dragon Tool"
+			x: 1.5d
 			y: 2.0d
 		}
 		{
@@ -434,8 +482,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.0d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1E07C7190ED3359C"]
@@ -451,8 +499,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1E07C7190ED3359C"]
@@ -468,8 +516,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1E07C7190ED3359C"]
@@ -485,8 +533,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["031B1EEFA4BB77FD"]
@@ -500,7 +548,7 @@
 			}]
 			title: "Baby Dragon"
 			x: -1.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["66A2B29695A66762"]
@@ -511,7 +559,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["66A2B29695A66762"]
@@ -521,8 +569,8 @@
 				item: "iceandfire:dragon_horn"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.0d
+			x: 1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["66A2B29695A66762"]
@@ -533,7 +581,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["66A2B29695A66762"]
@@ -544,7 +592,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2C33097930A78326"]
@@ -557,68 +605,116 @@
 			id: "2F4AF5316D966C10"
 			tasks: [
 				{
-					advancement: "iceandfire:iceandfire/dragon_forge_brick"
-					criterion: ""
-					id: "00310525008F6F99"
-					title: "Create a dragon Forge"
-					type: "advancement"
+					count: 25L
+					icon: "iceandfire:dragonforge_fire_brick"
+					id: "43EE7F51AF08928D"
+					item: {
+						Count: 25
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "iceandfire:dragonforge_lightning_brick"
+								}
+								{
+									Count: 1b
+									id: "iceandfire:dragonforge_ice_brick"
+								}
+								{
+									Count: 1b
+									id: "iceandfire:dragonforge_fire_brick"
+								}
+							]
+						}
+					}
+					type: "item"
 				}
 				{
-					advancement: "iceandfire:iceandfire/dragon_forge_core"
-					criterion: ""
-					id: "1062C5AE91337BC5"
-					type: "advancement"
+					id: "41F4BD0450DDD090"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "iceandfire:dragonforge_fire_input"
+								}
+								{
+									Count: 1b
+									id: "iceandfire:dragonforge_ice_input"
+								}
+								{
+									Count: 1b
+									id: "iceandfire:dragonforge_lightning_input"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C267342AB106240"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "iceandfire:dragonforge_ice_core_disabled"
+								}
+								{
+									Count: 1b
+									id: "iceandfire:dragonforge_fire_core_disabled"
+								}
+								{
+									Count: 1b
+									id: "iceandfire:dragonforge_lightning_core_disabled"
+								}
+							]
+						}
+					}
+					type: "item"
 				}
 			]
+			title: "Dragon Forge"
 			x: -1.0d
-			y: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2F4AF5316D966C10"]
-			description: ["Put iron ingot in the forge and use dragon breath to smelt it."]
-			id: "279374D89DF4204D"
-			tasks: [{
-				advancement: "iceandfire:iceandfire/dragonsteel"
-				criterion: ""
-				id: "300B650C29DCA7B9"
-				type: "advancement"
-			}]
-			title: "Dragonsteel"
-			x: 0.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["279374D89DF4204D"]
 			id: "7821D89871D3787B"
 			tasks: [{
 				id: "2C11023AE489ACF7"
 				item: "iceandfire:dragonsteel_fire_ingot"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.5d
+			x: 0.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["279374D89DF4204D"]
+			dependencies: ["2F4AF5316D966C10"]
 			id: "703FAB5A9EC9FC45"
 			tasks: [{
 				id: "7C2EA4091567B997"
 				item: "iceandfire:dragonsteel_ice_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.5d
+			x: 0.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["279374D89DF4204D"]
+			dependencies: ["2F4AF5316D966C10"]
 			id: "11BD35910A6B0635"
 			tasks: [{
 				id: "04D81A78019E1E8D"
 				item: "iceandfire:dragonsteel_lightning_ingot"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.5d
+			x: 1.0d
+			y: 8.0d
 		}
 		{
 			description: ["Sea serpent can be found in ocean."]
@@ -636,7 +732,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 4.0d
 		}
 		{
@@ -653,7 +749,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: 5.5d
 		}
 		{
@@ -665,8 +761,8 @@
 				item: "iceandfire:sea_serpent_arrow"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 5.0d
+			x: -4.0d
+			y: 5.5d
 		}
 		{
 			description: ["Troll can be found in cave."]
@@ -684,22 +780,47 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -12.5d
-			y: 4.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6FF636D886125B99"]
-			description: ["You can make armor with troll loot."]
+			description: ["You can make armor with troll leather and tusk."]
 			id: "2DC79C858709D038"
-			tasks: [{
-				count: 10L
-				id: "14BB5888C5FBFE58"
-				item: { Count: 10, id: "iceandfire:troll_tusk" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "14BB5888C5FBFE58"
+					item: "iceandfire:troll_tusk"
+					type: "item"
+				}
+				{
+					id: "53DF031E27DF6E8A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "iceandfire:troll_leather_frost"
+								}
+								{
+									Count: 1b
+									id: "iceandfire:troll_leather_mountain"
+								}
+								{
+									Count: 1b
+									id: "iceandfire:troll_leather_forest"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "Troll Armor"
-			x: -12.5d
-			y: 5.5d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			description: ["Ghost can be found in graveyard."]
@@ -814,30 +935,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0A50D761B6BBCA30"]
-			id: "261D0EC6CA3F528E"
-			tasks: [{
-				id: "17A1240F0EB2D74A"
-				item: "iceandfire:myrmex_desert_chitin"
-				type: "item"
-			}]
-			title: "Desert Myrmex"
-			x: -10.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["0A50D761B6BBCA30"]
-			id: "4EDB74DAC99D025F"
-			tasks: [{
-				id: "3D4051F9196150A1"
-				item: "iceandfire:myrmex_jungle_chitin"
-				type: "item"
-			}]
-			title: "Jungle myrmex"
-			x: -10.0d
-			y: 2.5d
-		}
-		{
 			description: ["Hydra can be found in swamp."]
 			id: "1744BD7D6921AA9A"
 			rewards: [{
@@ -853,7 +950,7 @@
 				value: 1L
 			}]
 			title: "Hydra"
-			x: -5.5d
+			x: -6.0d
 			y: 4.0d
 		}
 		{
@@ -864,7 +961,7 @@
 				item: "iceandfire:hydra_heart"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.5d
 			y: 5.5d
 		}
 		{
@@ -875,8 +972,8 @@
 				item: "iceandfire:hydra_arrow"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.0d
+			x: -5.5d
+			y: 5.5d
 		}
 		{
 			description: ["Death worm can be found in desert."]
@@ -894,20 +991,8 @@
 				value: 1L
 			}]
 			title: "Death worm"
-			x: -12.5d
+			x: -13.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["2DB60CB78D06F21D"]
-			description: ["Death worm tongle can be you to create death worm gautlet"]
-			id: "51F08DAD4F27E1DE"
-			tasks: [{
-				id: "7AFBCD5D6B6E221C"
-				item: "iceandfire:deathworm_tounge"
-				type: "item"
-			}]
-			x: -12.5d
-			y: -1.5d
 		}
 		{
 			description: ["Pixie was found in dark oak forest."]
@@ -924,8 +1009,8 @@
 				title: "Clochette"
 				type: "advancement"
 			}]
-			x: -11.5d
-			y: 2.0d
+			x: -14.5d
+			y: 4.0d
 		}
 		{
 			description: ["You are very cruel !"]
@@ -938,7 +1023,7 @@
 				value: 1L
 			}]
 			title: "Pixie killer"
-			x: -14.0d
+			x: -13.0d
 			y: 4.0d
 		}
 		{
@@ -956,7 +1041,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
+			x: -13.0d
 			y: 5.5d
 		}
 		{
@@ -975,7 +1060,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -14.0d
+			x: -15.0d
 			y: 0.0d
 		}
 		{
@@ -992,7 +1077,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
+			x: -14.5d
 			y: -1.5d
 		}
 		{
@@ -1003,8 +1088,8 @@
 				item: "iceandfire:stymphalian_arrow"
 				type: "item"
 			}]
-			x: -15.0d
-			y: -1.0d
+			x: -15.5d
+			y: -1.5d
 		}
 		{
 			icon: "iceandfire:dread_key"
@@ -1083,6 +1168,281 @@
 			title: "Kill the dread lich"
 			x: -16.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["6FF636D886125B99"]
+			description: ["Troll can loot their weapon."]
+			id: "11C109361C3A124D"
+			tasks: [{
+				id: "20361F401CAEDA85"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:troll_weapon_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:troll_weapon_column"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:troll_weapon_column_forest"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:troll_weapon_column_frost"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:troll_weapon_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:troll_weapon_trunk"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:troll_weapon_trunk_frost"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Troll Weapon"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2DB60CB78D06F21D"]
+			description: ["You can make armor with Death worm chitin"]
+			id: "2626A1002DF33006"
+			tasks: [{
+				id: "2349FAE4691F0F47"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:deathworm_chitin_red"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:deathworm_chitin_white"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:deathworm_chitin_yellow"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Death Worm Armor"
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2DB60CB78D06F21D"]
+			id: "27FCDBD60EE3A082"
+			tasks: [{
+				id: "19FB11A1A5016DE9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:deathworm_gauntlet_yellow"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:deathworm_gauntlet_white"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:deathworm_gauntlet_red"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Death Worm Gauntlet"
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A50D761B6BBCA30"]
+			description: ["Myrmex swarm summons 5 myrmex sentinel who protect you during 30s."]
+			id: "157B772D1CD526C7"
+			tasks: [{
+				id: "0376F07EF2FF9C5E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:myrmex_jungle_swarm"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:myrmex_desert_swarm"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Myrmex Swarm"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A50D761B6BBCA30"]
+			description: ["You can trade with myrmex if your reputation is above 50."]
+			id: "19514CA9B6C94138"
+			tasks: [{
+				id: "6F7FA81605082376"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:myrmex_desert_resin"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:myrmex_jungle_resin"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Trade"
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19514CA9B6C94138"]
+			description: ["You can control myrmex with the myrmex staff."]
+			id: "4AD2AA7F85EA95FF"
+			tasks: [{
+				id: "5A51E6A6FDFE3800"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:myrmex_jungle_staff"
+								tag: {
+									HiveUUID: [I;
+										0
+										0
+										0
+										0
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:myrmex_desert_staff"
+								tag: {
+									HiveUUID: [I;
+										0
+										0
+										0
+										0
+									]
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Myrmex Staff"
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A50D761B6BBCA30"]
+			description: ["You can create sword with myrmex loot but also armor and tool."]
+			id: "064EF5956589529D"
+			tasks: [{
+				id: "15F78253DF190237"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:myrmex_desert_sword_venom"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "iceandfire:myrmex_jungle_sword_venom"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Myrmex Sword"
+			x: -7.0d
+			y: 2.5d
 		}
 	]
 	title: "Ice and Fire"
