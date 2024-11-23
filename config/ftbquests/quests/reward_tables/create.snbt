@@ -1,0 +1,22 @@
+{
+	id: "48DA81CB82402CDB"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 8, item: "create:andesite_alloy" }
+		{ count: 3, item: "create:cogwheel" }
+		{ count: 4, item: "create:gearbox" }
+		{ count: 4, item: "create:shaft" }
+		{ count: 8, item: "create:iron_sheet" }
+		{ count: 2, item: "create:water_wheel" }
+		{ count: 4, item: "create:fluid_pipe" }
+		{ count: 12, item: "minecraft:andesite" }
+		{ count: 6, item: "createaddition:copper_rod" }
+		{ count: 6, item: "createaddition:iron_rod" }
+		{ count: 6, item: "createaddition:brass_rod" }
+		{ count: 8, item: "create:belt_connector" }
+		{ count: 6, item: "create:andesite_casing" }
+		{ count: 6, item: "create:copper_casing" }
+	]
+	title: "Create"
+}

@@ -1,0 +1,23 @@
+{
+	id: "45675CE5A54BE754"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "nocubescreateexp:exp_block" }
+		{ count: 10, item: "create_things_and_misc:experience_sheet" }
+		{ count: 12, item: "create:experience_nugget" }
+		{
+			type: "xp"
+			xp: 100
+		}
+		{
+			type: "xp"
+			xp: 500
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+	]
+	title: "xp"
+}
