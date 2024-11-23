@@ -38,18 +38,11 @@
 		{
 			dependencies: ["54A4E0568EAA9DF4"]
 			id: "6814CD8420D6DA66"
-			rewards: [
-				{
-					id: "0F9A1BDD598223FF"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "43DCF13B61F8F1EB"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "0F9A1BDD598223FF"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "You heard it right lads, FE in create. You'll probably need more than your normal waterwheels to power this thing."
@@ -97,18 +90,11 @@
 		{
 			dependencies: ["0148D094A35294EB"]
 			id: "02903C6F107C8DA0"
-			rewards: [
-				{
-					id: "453E1880DC21AF61"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "77D8EB149CBCA75F"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "453E1880DC21AF61"
+				type: "xp"
+				xp: 50
+			}]
 			subtitle: "Finally, nuclear"
 			tasks: [{
 				id: "7C14DF508D05C127"
@@ -276,18 +262,11 @@
 		{
 			dependencies: ["2A591D6E9FFCC960"]
 			id: "1FAFD4CD5C52D00A"
-			rewards: [
-				{
-					id: "63E92FBC738AF0A8"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0A66E04AE30862BC"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "63E92FBC738AF0A8"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "7B42DDD07D5A6AA7"
 				item: "create_new_age:energiser_t2"
@@ -331,18 +310,11 @@
 		{
 			dependencies: ["1A40F1A86E379946"]
 			id: "135215C7296928E0"
-			rewards: [
-				{
-					id: "3E308710A7EBF26A"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6C441AF890C6DB79"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "3E308710A7EBF26A"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "3F08453A47F32730"
 				item: "create_new_age:energiser_t3"
@@ -364,11 +336,6 @@
 					id: "3FD2AD4E18194891"
 					type: "xp"
 					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4F862A8E9FF76F2C"
-					type: "random"
 				}
 			]
 			subtitle: "Basically electricity = speed"
@@ -499,18 +466,11 @@
 		{
 			dependencies: ["7C0C87AECC742AC0"]
 			id: "30D7DB66D96F6059"
-			rewards: [
-				{
-					id: "0B5A28AC77D123E6"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0A755964ECD519E9"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "0B5A28AC77D123E6"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "\"I am you, but stronger.\""
 			tasks: [{
 				id: "72C66061EA561AF0"
@@ -558,18 +518,11 @@
 				"75CE85AB23847F4C"
 			]
 			id: "62316183AAFBD68B"
-			rewards: [
-				{
-					id: "0CB115E41B5FD943"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "25D0F99A84121962"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "0CB115E41B5FD943"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "Mixing Thorium, Stone and Clay in water will generate thorium"
 			tasks: [
 				{
@@ -625,18 +578,11 @@
 		{
 			dependencies: ["7FD0E84C5EBA6702"]
 			id: "2C96A172ACC0226F"
-			rewards: [
-				{
-					id: "1F8D5309E833F2BC"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5E1AC5CC6E99D911"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "1F8D5309E833F2BC"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "Remember to cover your rods before activating... or it's going to be chernobyl."
 			tasks: [
 				{
@@ -658,18 +604,11 @@
 		{
 			dependencies: ["4B99B70CD1506925"]
 			id: "056C707476E4BA33"
-			rewards: [
-				{
-					id: "6156458E83E7B43B"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "313B6975915B1C60"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "6156458E83E7B43B"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "You will require either of these to insert fuel into the inserter"
 			tasks: [
 				{
@@ -701,18 +640,11 @@
 				"02903C6F107C8DA0"
 			]
 			id: "4B99B70CD1506925"
-			rewards: [
-				{
-					id: "53D89DC5389D8FB3"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "06D0880BC8607CD0"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "53D89DC5389D8FB3"
+				type: "xp"
+				xp: 100
+			}]
 			subtitle: "connect both of these directly to a rod. (reminder that the inserter works ONLY in a straight line)"
 			tasks: [
 				{
@@ -732,18 +664,11 @@
 		}
 		{
 			id: "095C1249FDE419C7"
-			rewards: [
-				{
-					id: "6B520D4079EEF988"
-					type: "xp"
-					xp: 200
-				}
-				{
-					exclude_from_claim_all: true
-					id: "20F2C540AD5EC36A"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "6B520D4079EEF988"
+				type: "xp"
+				xp: 200
+			}]
 			shape: "heart"
 			subtitle: "Melt my heart.."
 			tasks: [
