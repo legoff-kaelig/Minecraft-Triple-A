@@ -63,7 +63,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -4.0d
+			x: -9.5d
 			y: 5.5d
 		}
 		{
@@ -89,7 +89,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -9.5d
 			y: 7.0d
 		}
 		{
@@ -146,7 +146,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -9.5d
 			y: 4.0d
 		}
 		{
@@ -162,7 +162,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
+			x: -11.0d
 			y: 4.0d
 		}
 		{
@@ -174,8 +174,8 @@
 				item: "iceandfire:stone_statue"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 5.5d
+			x: -8.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2D4A5557B82CBD91"]
@@ -194,7 +194,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.5d
+			x: -11.0d
 			y: 5.5d
 		}
 		{
@@ -212,7 +212,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
+			x: -11.0d
 			y: 7.0d
 		}
 		{
@@ -635,7 +635,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -8.5d
+			x: -2.5d
 			y: 4.0d
 		}
 		{
@@ -652,7 +652,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
+			x: -2.5d
 			y: 5.5d
 		}
 		{
@@ -664,12 +664,17 @@
 				item: "iceandfire:sea_serpent_arrow"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 5.5d
+			x: -3.5d
+			y: 5.0d
 		}
 		{
 			description: ["Troll can be found in cave."]
 			id: "6FF636D886125B99"
+			rewards: [{
+				id: "02E9A20BA24FF9F5"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				entity: "iceandfire:troll"
 				icon: "iceandfire:troll_skull"
@@ -678,7 +683,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -10.5d
+			x: -12.5d
 			y: 4.0d
 		}
 		{
@@ -691,8 +696,392 @@
 				item: { Count: 10, id: "iceandfire:troll_tusk" }
 				type: "item"
 			}]
-			x: -10.5d
+			title: "Troll Armor"
+			x: -12.5d
 			y: 5.5d
+		}
+		{
+			description: ["Ghost can be found in graveyard."]
+			id: "279788C4474F86E2"
+			rewards: [{
+				id: "0EF64983124E1974"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:ghost"
+				icon: "iceandfire:spawn_egg_ghost"
+				id: "6401C8D82A791384"
+				title: "Casper"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["279788C4474F86E2"]
+			id: "60F8100E5A4E43E2"
+			tasks: [{
+				id: "3DA2D54935C7F5AC"
+				item: {
+					Count: 1
+					id: "iceandfire:ghost_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			description: ["Cockatrice can be found in savane."]
+			id: "57C9E201A577B477"
+			rewards: [{
+				id: "640280B9B72285B0"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:cockatrice"
+				icon: "iceandfire:cockatrice_eye"
+				id: "1575164459DCA11B"
+				title: "Cockatrice"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57C9E201A577B477"]
+			id: "2446ABB693393297"
+			tasks: [{
+				id: "6251C5792D2C720E"
+				item: {
+					Count: 1
+					id: "iceandfire:cockatrice_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"There is different type of myrmex."
+				"Ones can be found in desert."
+				"The other can be found in jungle."
+			]
+			icon: "iceandfire:myrmex_desert_egg"
+			id: "0A50D761B6BBCA30"
+			rewards: [{
+				id: "47BF220B1657EAE4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					entity: "iceandfire:myrmex_soldier"
+					icon: "iceandfire:spawn_egg_myrmex_soldier"
+					id: "7BFCD7888AE87228"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "iceandfire:myrmex_royal"
+					icon: "iceandfire:spawn_egg_myrmex_royal"
+					id: "7F59EE180303EBC7"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "iceandfire:myrmex_queen"
+					icon: "iceandfire:myrmex_desert_egg"
+					id: "5AC09DFC8C7B74EA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Myrmex"
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A50D761B6BBCA30"]
+			id: "261D0EC6CA3F528E"
+			tasks: [{
+				id: "17A1240F0EB2D74A"
+				item: "iceandfire:myrmex_desert_chitin"
+				type: "item"
+			}]
+			title: "Desert Myrmex"
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A50D761B6BBCA30"]
+			id: "4EDB74DAC99D025F"
+			tasks: [{
+				id: "3D4051F9196150A1"
+				item: "iceandfire:myrmex_jungle_chitin"
+				type: "item"
+			}]
+			title: "Jungle myrmex"
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			description: ["Hydra can be found in swamp."]
+			id: "1744BD7D6921AA9A"
+			rewards: [{
+				id: "70AFF0F792C0B387"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "iceandfire:hydra_skull"
+				id: "11993E940847907C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hydra"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1744BD7D6921AA9A"]
+			id: "245B6B61CAE397CA"
+			tasks: [{
+				id: "7551D7F86268B674"
+				item: "iceandfire:hydra_heart"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1744BD7D6921AA9A"]
+			id: "3554B8EBEF8CB138"
+			tasks: [{
+				id: "37E52748E48C33D8"
+				item: "iceandfire:hydra_arrow"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			description: ["Death worm can be found in desert."]
+			id: "2DB60CB78D06F21D"
+			rewards: [{
+				id: "70130D4B9FB68EBD"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:deathworm"
+				icon: "iceandfire:spawn_egg_death_worm"
+				id: "691770EBDE800966"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Death worm"
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DB60CB78D06F21D"]
+			description: ["Death worm tongle can be you to create death worm gautlet"]
+			id: "51F08DAD4F27E1DE"
+			tasks: [{
+				id: "7AFBCD5D6B6E221C"
+				item: "iceandfire:deathworm_tounge"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			description: ["Pixie was found in dark oak forest."]
+			id: "5CBAA819DAC4A291"
+			rewards: [{
+				id: "6A8DEFF9BD7E9234"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/jar_pixie"
+				criterion: ""
+				id: "70A98C027FFC21E3"
+				title: "Clochette"
+				type: "advancement"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			description: ["You are very cruel !"]
+			hide_text_until_complete: true
+			id: "543C9A925E664BB8"
+			tasks: [{
+				entity: "iceandfire:pixie"
+				id: "6EB91F15D1FF77BC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Pixie killer"
+			x: -14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["543C9A925E664BB8"]
+			hide_until_deps_complete: true
+			id: "039EC864BD0020B0"
+			tasks: [{
+				id: "22221B0E42480FBA"
+				item: {
+					Count: 1
+					id: "iceandfire:pixie_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 5.5d
+		}
+		{
+			description: ["Styphalian bird can be found in swamp."]
+			id: "0A0281841D46F874"
+			rewards: [{
+				id: "724189D5709824A4"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:stymphalian_bird"
+				icon: "iceandfire:stymphalian_skull"
+				id: "71A7F2CF6F2C498D"
+				title: "Stymphalian Bird"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A0281841D46F874"]
+			id: "7D6EEB094E7A3732"
+			tasks: [{
+				id: "4CBE3C0F67178954"
+				item: {
+					Count: 1
+					id: "iceandfire:stymphalian_bird_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A0281841D46F874"]
+			id: "7125B25CDA068D84"
+			tasks: [{
+				id: "0E724929D0EC762B"
+				item: "iceandfire:stymphalian_arrow"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			icon: "iceandfire:dread_key"
+			id: "3402E1E7F734BACE"
+			tasks: [
+				{
+					icon: "iceandfire:dread_spawner"
+					id: "03EDB573D1819D0A"
+					structure: "iceandfire:mausoleum"
+					type: "structure"
+				}
+				{
+					id: "1D5374EA413D235F"
+					item: "iceandfire:dread_key"
+					type: "item"
+				}
+			]
+			title: "Mausoleum"
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3402E1E7F734BACE"]
+			description: ["Kill all the dread army and you will able to fight the dread lich"]
+			id: "01D7B0EBE178E46F"
+			rewards: [{
+				id: "187BCC032A7EF692"
+				item: "iceandfire:spawn_egg_lich"
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "iceandfire:dread_ghoul"
+					icon: "iceandfire:spawn_egg_dread_ghoul"
+					id: "4DCFD5FCFFB4416C"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "iceandfire:dread_beast"
+					icon: "iceandfire:spawn_egg_dread_beast"
+					id: "30AE5629BE3C393E"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "iceandfire:dread_knight"
+					icon: "iceandfire:spawn_egg_dread_knight"
+					id: "03E5B6161CB78017"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "Defeat dread army"
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["01D7B0EBE178E46F"]
+			id: "7FFCCC6CCA45B1AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "539E3BCEEC91D8E1"
+				table_id: 3524028286279012024L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:dread_lich"
+				icon: "iceandfire:spawn_egg_lich"
+				id: "50501FB995D594BC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the dread lich"
+			x: -16.0d
+			y: 2.0d
 		}
 	]
 	title: "Ice and Fire"
