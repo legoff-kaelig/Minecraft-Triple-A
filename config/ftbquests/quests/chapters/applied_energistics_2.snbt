@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "applied_energistics_2"
-	group: "1AC60211DE7427FC"
+	group: ""
 	icon: "ae2:controller"
 	id: "07210DDF872160BA"
-	order_index: 1
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -24,7 +24,7 @@
 				{
 					id: "705C55E801A67B8C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
@@ -215,7 +215,7 @@
 				{
 					id: "19CE95EDCB04AA89"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:energy_cell"
 						tag: { }
 					}
@@ -224,7 +224,7 @@
 				{
 					id: "3606A3CEDFF76F77"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:dense_energy_cell"
 						tag: { }
 					}
@@ -538,7 +538,7 @@
 			tasks: [{
 				id: "7241918F270CA402"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "ae2:interface"
@@ -581,7 +581,7 @@
 				{
 					id: "338A6DA0D711B7DC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:pattern_provider"
@@ -1020,7 +1020,7 @@
 			tasks: [{
 				id: "52521FCD58B2FEF0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:item_storage_cell_1k"
 					tag: { }
 				}
@@ -1057,7 +1057,7 @@
 			tasks: [{
 				id: "61D93B13D496547D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:fluid_storage_cell_256k"
 					tag: { }
 				}
@@ -1363,7 +1363,7 @@
 			tasks: [{
 				id: "2D19A4EF2E4B7A55"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:memory_card"
 					tag: { }
 				}
@@ -1451,7 +1451,7 @@
 			tasks: [{
 				id: "65C439FD14C5EEB9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "appmek:portable_chemical_storage_cell_256k"
 					tag: { }
 				}
@@ -1991,7 +1991,7 @@
 				{
 					id: "23D186249A999B8C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "ae2:knife"
@@ -2008,7 +2008,7 @@
 				{
 					id: "1FFAB0FE9A2D46F2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:name_press"
 						tag: { }
 					}
@@ -2047,7 +2047,7 @@
 			tasks: [{
 				id: "6691176371563341"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:color_applicator"
 					tag: { }
 				}
@@ -2103,7 +2103,7 @@
 				{
 					id: "3B720F63D105F7DF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:matter_cannon"
 						tag: { }
 					}

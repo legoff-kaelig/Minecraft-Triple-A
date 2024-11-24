@@ -3,16 +3,15 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "draconic_evolution"
-	group: "665E55C66CD00092"
+	group: ""
 	icon: "draconicevolution:chaotic_core"
 	id: "16967B0B3BFED1E9"
-	order_index: 9
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7DD2C358570375BE"]
 			description: ["This is an end-game mod. I suggest you to have a Nether Star farm"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "draconicevolution:chaotic_core"
 			id: "023261B403563795"
 			shape: "pentagon"
@@ -529,7 +528,6 @@
 			dependencies: ["3F0D694A8AD8565E"]
 			description: ["Beat the &l&4Chaos Guardian&r&r under 3 hours. If you want, send me the video of you trying this challenge via Discord"]
 			id: "1CE02E95EA12040D"
-			incompatible: ["2B97C3114CB26D14"]
 			optional: true
 			shape: "pentagon"
 			tasks: [{

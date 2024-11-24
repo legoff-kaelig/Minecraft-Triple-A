@@ -3,21 +3,19 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "pneumaticcraft"
-	group: "665E55C66CD00092"
+	group: ""
 	icon: "pneumaticcraft:pressure_gauge"
 	id: "6189F33BEBED0EB7"
-	order_index: 2
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7DD2C358570375BE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7FC3915290C5D874"
 			rewards: [
 				{
 					exclude_from_claim_all: true
 					id: "5DE237EBF551D5CD"
-					table_id: 8858768496495966770L
 					type: "random"
 				}
 				{
@@ -42,7 +40,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "06653DE709727271"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -59,7 +56,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5592B0EEA39F4A1E"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -76,7 +72,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1172505CB8A2A2B4"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -93,7 +88,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "00B0CA16E518A331"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -105,13 +99,11 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["7DD2C358570375BE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "521C06E4EB741372"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5A808DADD11A0E59"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			shape: "pentagon"
@@ -135,7 +127,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "459A2C56DD9C35D4"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -153,7 +144,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4697C97B38F9C881"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -170,7 +160,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6930910BBDBE6A63"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -187,7 +176,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2F9172B6D7B7B8B2"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [
@@ -216,7 +204,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "72BE13C65E8B4C48"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			shape: "hexagon"
@@ -235,7 +222,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6794BFBEF9748C1A"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -252,7 +238,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6AA9E03DA1AB6E9E"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -269,7 +254,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "736D888AE8A03B39"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -286,7 +270,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "356CCBC0B2DBFCD4"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -303,7 +286,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "142C3CD08B3856F3"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -320,7 +302,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "67AD4BD8AF92BA2E"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -337,7 +318,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "314CE9EC2F962E42"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -354,7 +334,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4579901FA325084C"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -377,7 +356,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2990F3D0C2F87C85"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -400,7 +378,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "051B0CEA0AB6316E"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -423,7 +400,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6999087AA90FD797"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -446,7 +422,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1DED4C526AED1774"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -469,7 +444,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "71FEFEB59A9BB046"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -492,7 +466,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2642AC42C2420356"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -509,7 +482,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "272E68D577077480"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -526,7 +498,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0F88D41733E8EBE4"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -543,7 +514,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "10AE9398FFFAAB8A"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -561,7 +531,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2C0AD49B0F0224E2"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -578,7 +547,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3B7DB55C4C1C237C"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [
@@ -607,7 +575,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "79F2C8D26BF0ED66"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -624,7 +591,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1AC89C1F9EBE474C"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [
@@ -688,7 +654,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "682F7C20592F9BD8"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -705,7 +670,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "23E2A8184593A7FC"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -722,7 +686,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1DCE9DE104333D7E"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -739,7 +702,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "64F365B150FEEBFF"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -756,7 +718,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2FCFF6265AC3BFF8"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -773,7 +734,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "70DE2A90E82EE6B5"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -790,7 +750,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "158D6FB53DFFFE46"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -807,7 +766,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "34785AE93AD7EE5F"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -824,7 +782,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5B9FEE9B18CDDA14"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -841,7 +798,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2E0945A9AE79563D"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			tasks: [{
@@ -864,7 +820,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "37326FFAC0BA231A"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			shape: "gear"
@@ -878,14 +833,12 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["7DD2C358570375BE"]
 			description: ["Missing quests and descriptions"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "742A0C8CE3F34826"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "07EE92687492004F"
-				table_id: 8858768496495966770L
 				type: "random"
 			}]
 			shape: "rsquare"

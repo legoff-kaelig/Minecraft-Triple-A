@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: "square"
 	filename: "hostile_neural_networks"
-	group: "6614EE2378B8AFB9"
+	group: ""
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "hostilenetworks:data_model"
 		tag: {
 			data_model: {
@@ -15,11 +15,7 @@
 	id: "0A52D0932DA3F809"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
 			width: 1.5d
@@ -27,11 +23,7 @@
 			y: 10.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.5d
-			hover: [ ]
 			image: "ftbquests:tasks/input_only"
 			rotation: 90.0d
 			width: 1.5d
@@ -39,7 +31,7 @@
 			y: 10.0d
 		}
 	]
-	order_index: 1
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -49,7 +41,7 @@
 				"To do this, you will be collecting \"data\" on mobs, then running simulations from the data to create their drops!"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "hostilenetworks:data_model"
 				tag: {
 					data_model: {
@@ -84,13 +76,12 @@
 				""
 				"Note: You can have multiple Deep Learners in your inventory, and it will count the kills for all Data Models inside all of the Learners."
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "3E3CBDCEAB0FF28F"
 			rewards: [
 				{
 					exclude_from_claim_all: true
 					id: "601E3BA6CC04F9AE"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 				{
@@ -119,13 +110,12 @@
 				""
 				"To \"gather data\" for that mob, place the newly created Data Model inside of a &aDeep Learner&r, then start killing that specific mob with the Deep Learner in your inventory."
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "58C2ABED43B2EA61"
 			rewards: [
 				{
 					exclude_from_claim_all: true
 					id: "050F4D5ACBA8C0C4"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 				{
@@ -161,8 +151,8 @@
 				""
 				"If the simulation succeeds, you will receive a &dMob Prediction&r based off of the model. The higher the tier of the Data Model used, the higher the success rate is for a simulation."
 			]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			id: "104EBBC08B4733F5"
 			min_width: 300
 			rewards: [
@@ -209,10 +199,10 @@
 				""
 				"Once placed inside of the Deep Learner, the HUD will tell you how many kills are required to level it up. You can also see this info in the tooltip of the Model itself, although you'll have to do math."
 			]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "hostilenetworks:data_model"
 				tag: {
 					data_model: {
@@ -279,7 +269,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "49A92EEA6A14622F"
 			optional: true
 			rewards: [
@@ -298,7 +288,7 @@
 			tasks: [{
 				id: "1CB9ADBCDCEBB856"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -314,7 +304,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1F0EF605CC6E5E40"
 			optional: true
 			rewards: [
@@ -333,7 +323,7 @@
 			tasks: [{
 				id: "096DD8109F0AF32B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -349,7 +339,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "245D83BA9D00AFF8"
 			optional: true
 			rewards: [
@@ -368,7 +358,7 @@
 			tasks: [{
 				id: "642B385EA62F46F3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -384,7 +374,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1E985ADC4067A107"
 			optional: true
 			rewards: [
@@ -403,7 +393,7 @@
 			tasks: [{
 				id: "3E7DC0A0B86C4520"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -419,7 +409,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "5DF8A07DED732B8B"
 			optional: true
 			rewards: [
@@ -438,7 +428,7 @@
 			tasks: [{
 				id: "1BF7753A8E889B62"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -454,7 +444,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "3B85E2D0774F53CA"
 			optional: true
 			rewards: [
@@ -473,7 +463,7 @@
 			tasks: [{
 				id: "179812552CBC8D0B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -489,7 +479,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7352BB6533AE6E75"
 			optional: true
 			rewards: [
@@ -508,7 +498,7 @@
 			tasks: [{
 				id: "214749A96C7E4593"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -524,7 +514,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "68153B68FA878DAE"
 			optional: true
 			rewards: [
@@ -543,7 +533,7 @@
 			tasks: [{
 				id: "56FAECD527832184"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -559,7 +549,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "354E0774523B374F"
 			optional: true
 			rewards: [
@@ -578,7 +568,7 @@
 			tasks: [{
 				id: "725B568705B03E81"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -594,7 +584,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7EBBEB504C38898A"
 			optional: true
 			rewards: [
@@ -613,7 +603,7 @@
 			tasks: [{
 				id: "1F4B02AFDFD7CDBE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -629,7 +619,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "3F8E733CBA5DD26D"
 			optional: true
 			rewards: [
@@ -648,7 +638,7 @@
 			tasks: [{
 				id: "4438A3EB8EE6FEF5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -664,7 +654,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1B0F2AEB913BD3D1"
 			rewards: [
 				{
@@ -682,7 +672,7 @@
 			tasks: [{
 				id: "79A156F12CA12C10"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -698,7 +688,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "6BF7C7ADF1B80ACB"
 			optional: true
 			rewards: [
@@ -717,7 +707,7 @@
 			tasks: [{
 				id: "2078CF8923772753"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -733,7 +723,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "228AEC85F5348ED2"
 			optional: true
 			rewards: [
@@ -752,7 +742,7 @@
 			tasks: [{
 				id: "283C3CB8F88E7521"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -768,7 +758,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7948AF9B8C40B17D"
 			optional: true
 			rewards: [
@@ -787,7 +777,7 @@
 			tasks: [{
 				id: "2C96D9C655645231"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -803,7 +793,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "05123E63B51561FF"
 			optional: true
 			rewards: [
@@ -822,7 +812,7 @@
 			tasks: [{
 				id: "172566DF04412AD6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -838,7 +828,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "25486FC0ED7133D9"
 			optional: true
 			rewards: [
@@ -857,7 +847,7 @@
 			tasks: [{
 				id: "5DC1BD98D00158DB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -873,7 +863,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "20CB60F162DDB01B"
 			optional: true
 			rewards: [
@@ -892,7 +882,7 @@
 			tasks: [{
 				id: "5514A808185AE178"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -908,7 +898,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4FDE0E4C6413EC7D"
 			optional: true
 			rewards: [
@@ -927,7 +917,7 @@
 			tasks: [{
 				id: "1CE648559814D23C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -943,7 +933,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "40EE3BBCF238942D"
 			optional: true
 			rewards: [
@@ -962,7 +952,7 @@
 			tasks: [{
 				id: "20B6EC414F3EB424"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -978,7 +968,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "2F6F888610373E21"
 			optional: true
 			rewards: [
@@ -997,7 +987,7 @@
 			tasks: [{
 				id: "52EB253913441EA0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1013,7 +1003,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "5AE5D2F42A75FEB1"
 			optional: true
 			rewards: [
@@ -1032,7 +1022,7 @@
 			tasks: [{
 				id: "4900E0381AC1E489"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1048,7 +1038,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "78EE970AE4954E64"
 			rewards: [
 				{
@@ -1066,7 +1056,7 @@
 			tasks: [{
 				id: "30E7379687568DBA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1082,7 +1072,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "6CCDF28A50BEA391"
 			optional: true
 			rewards: [
@@ -1101,7 +1091,7 @@
 			tasks: [{
 				id: "33AC152163CC680D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1117,7 +1107,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1FD43610960E3450"
 			optional: true
 			rewards: [
@@ -1136,7 +1126,7 @@
 			tasks: [{
 				id: "08204D18E3EEA011"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1152,7 +1142,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "0E91D8CF933586DF"
 			optional: true
 			rewards: [
@@ -1171,7 +1161,7 @@
 			tasks: [{
 				id: "1673E580A0CAB0F9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1187,7 +1177,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "2C6D0311960BC625"
 			optional: true
 			rewards: [
@@ -1206,7 +1196,7 @@
 			tasks: [{
 				id: "027B0D9126A6666E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1222,7 +1212,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1C77C432FDB7A867"
 			optional: true
 			rewards: [
@@ -1241,7 +1231,7 @@
 			tasks: [{
 				id: "3E2089A51091B608"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1257,7 +1247,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "552CE591220ECD68"
 			optional: true
 			rewards: [
@@ -1276,7 +1266,7 @@
 			tasks: [{
 				id: "7955690D5768510E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1292,7 +1282,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4AAEAC854FC8DB3A"
 			optional: true
 			rewards: [
@@ -1311,7 +1301,7 @@
 			tasks: [{
 				id: "7523634E63F040BC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1327,7 +1317,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "24157BFA5B85DCBA"
 			rewards: [
 				{
@@ -1345,7 +1335,7 @@
 			tasks: [{
 				id: "105DDFCEDAB2C613"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1361,7 +1351,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4A26233C179D02C4"
 			optional: true
 			rewards: [
@@ -1380,7 +1370,7 @@
 			tasks: [{
 				id: "7EFE4E397DF4D4C9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1396,7 +1386,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "61F1ADF55C49872D"
 			optional: true
 			rewards: [
@@ -1415,7 +1405,7 @@
 			tasks: [{
 				id: "2E52E1B9814D2024"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1431,7 +1421,7 @@
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "12172C1449296E06"
 			optional: true
 			rewards: [
@@ -1450,7 +1440,7 @@
 			tasks: [{
 				id: "7A549C91E418F0B8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {
@@ -1483,7 +1473,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4531787C434F9718"
-					table_id: 4196188979167302596L
 					type: "loot"
 				}
 				{
@@ -1509,7 +1498,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7CF9689EC20E6493"
-				table_id: 7025454341029952768L
 				type: "loot"
 			}]
 			shape: "diamond"
@@ -1517,7 +1505,7 @@
 			tasks: [{
 				id: "5EBA48032F985AC8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "hostilenetworks:prediction"
 					tag: {
 						data_model: {

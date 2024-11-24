@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "forbidden_and_arcanus"
-	group: "02FE661031A105D8"
+	group: ""
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "forbidden_arcanus:smelter_prism"
 		tag: {
 			Damage: 0
@@ -20,7 +20,7 @@
 		x: 9.5d
 		y: 2.25d
 	}]
-	order_index: 0
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -31,7 +31,7 @@
 				"This magic-themed mod has amazing animations, as well as some overpowered items like the &6Eternal Stella&r. "
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "forbidden_arcanus:smelter_prism"
 				tag: {
 					Damage: 0
@@ -71,7 +71,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "6FB1E5AF3499CEC5"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]
@@ -103,7 +102,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4B78ED9D7AA00767"
-					table_id: 4196188979167302596L
 					type: "loot"
 				}
 			]
@@ -112,7 +110,7 @@
 			tasks: [{
 				id: "2DE570337D6E8368"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:slimec_pickaxe"
 					tag: {
 						Damage: 0
@@ -144,14 +142,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "6AD0EF6BEE6FE02E"
-					table_id: 4196188979167302596L
 					type: "loot"
 				}
 			]
 			tasks: [{
 				id: "3CCC73D361A4A5D6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:mystical_dagger"
 					tag: {
 						Damage: 0
@@ -179,7 +176,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "62401F9F57E947F5"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]
@@ -204,7 +200,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "1E359BB97FC14B5A"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]
@@ -235,7 +230,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "43A62BE7CE2BAA3A"
-					table_id: 4196188979167302596L
 					type: "loot"
 				}
 			]
@@ -300,7 +294,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "2C776EFCAC879354"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]
@@ -326,7 +319,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4D0D5D21778C093A"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]
@@ -351,7 +343,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4EF9CA4D055A3985"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]
@@ -371,8 +362,8 @@
 				""
 				"When used, it grants 5 minutes of creative flight."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "709118898CF960BE"
 			optional: true
 			rewards: [{
@@ -403,7 +394,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "131777F15F899CCA"
-					table_id: 5564196992594175882L
 					type: "loot"
 				}
 			]
@@ -411,7 +401,7 @@
 			tasks: [{
 				id: "35004413DAFA1C58"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "forbidden_arcanus:spectral_eye_amulet"
 					tag: { }
 				}
@@ -438,7 +428,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "2E7C40543FBBE589"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]
@@ -453,8 +442,8 @@
 		}
 		{
 			dependencies: ["5523A71F1688EA88"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "6780984A7CE63392"
 			optional: true
 			rewards: [{
@@ -474,8 +463,8 @@
 		}
 		{
 			dependencies: ["5523A71F1688EA88"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "371DF7589239CB78"
 			optional: true
 			rewards: [{
@@ -495,8 +484,8 @@
 		}
 		{
 			dependencies: ["5523A71F1688EA88"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "6C832BFE4D07D897"
 			optional: true
 			rewards: [{
@@ -532,7 +521,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "43600BCD51BEA890"
-					table_id: 4196188979167302596L
 					type: "loot"
 				}
 			]
@@ -553,7 +541,7 @@
 				""
 				"It's also really cool looking."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5EFC63CF97D97AB5"
 			rewards: [
 				{
@@ -564,7 +552,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "337B933C14FEC49A"
-					table_id: 4196188979167302596L
 					type: "loot"
 				}
 			]
@@ -574,7 +561,7 @@
 				{
 					id: "36C413F578D44CBF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:mortem_helmet"
 						tag: {
 							Damage: 0
@@ -585,7 +572,7 @@
 				{
 					id: "6A341DEA25087489"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:mortem_chestplate"
 						tag: {
 							Damage: 0
@@ -596,7 +583,7 @@
 				{
 					id: "3F1B3851C4BC39F1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:mortem_leggings"
 						tag: {
 							Damage: 0
@@ -607,7 +594,7 @@
 				{
 					id: "34E13EE51BE65AE3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:mortem_boots"
 						tag: {
 							Damage: 0
@@ -639,7 +626,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "49162E5C2747F28B"
-					table_id: 5564196992594175882L
 					type: "loot"
 				}
 			]
@@ -666,7 +652,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4770A3AA68C25954"
-					table_id: 7025454341029952768L
 					type: "loot"
 				}
 			]
@@ -676,7 +661,7 @@
 				{
 					id: "4F68A985DED494B6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_helmet"
 						tag: {
 							Damage: 0
@@ -687,7 +672,7 @@
 				{
 					id: "51FBF0E6CAAF10EB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_chestplate"
 						tag: {
 							Damage: 0
@@ -698,7 +683,7 @@
 				{
 					id: "2D69FAD94A981FCD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_leggings"
 						tag: {
 							Damage: 0
@@ -709,7 +694,7 @@
 				{
 					id: "528B85B2554A3691"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_boots"
 						tag: {
 							Damage: 0
@@ -739,7 +724,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "5B6682F0093D1CB9"
-					table_id: 4196188979167302596L
 					type: "loot"
 				}
 			]
@@ -775,7 +759,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "054EBA32D928C748"
-					table_id: 4196188979167302596L
 					type: "loot"
 				}
 			]
@@ -804,7 +787,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4B4AA1D36182C5A3"
-					table_id: 4196188979167302596L
 					type: "loot"
 				}
 			]
@@ -836,7 +818,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "4917AD3F2F860E13"
-					table_id: 4196188979167302596L
 					type: "loot"
 				}
 			]
@@ -862,7 +843,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "0ECDE8A70B7E2406"
-					table_id: 7025454341029952768L
 					type: "loot"
 				}
 			]
@@ -871,7 +851,7 @@
 				{
 					id: "1837D97833619166"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:tyr_helmet"
 						tag: {
 							Damage: 0
@@ -882,7 +862,7 @@
 				{
 					id: "679C3B7915C403AC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:tyr_chestplate"
 						tag: {
 							Damage: 0
@@ -893,7 +873,7 @@
 				{
 					id: "2B5AFD104DE50D5F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:tyr_leggings"
 						tag: {
 							Damage: 0
@@ -904,7 +884,7 @@
 				{
 					id: "11795A1BD0916EC2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:tyr_boots"
 						tag: {
 							Damage: 0
@@ -930,7 +910,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "2B6F5CCAF6FB6DC1"
-					table_id: 5564196992594175882L
 					type: "loot"
 				}
 			]
@@ -961,7 +940,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "45C4262EE93CDE02"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]
@@ -1027,7 +1005,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "0995A0FADA6C2F46"
-					table_id: 5564196992594175882L
 					type: "loot"
 				}
 			]
@@ -1084,7 +1061,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "1793DE5499CA511D"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]
@@ -1113,7 +1089,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "624004E74D24E78A"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]
@@ -1142,7 +1117,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "5013D71281FAA4DC"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]
@@ -1173,7 +1147,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "5FF2EEBB6AA06A57"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]
@@ -1210,7 +1183,7 @@
 				{
 					id: "6558C3AA159F57D6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:soul_extractor"
 						tag: {
 							Damage: 0
@@ -1288,7 +1261,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "762562FED6509A32"
-					table_id: 4196188979167302596L
 					type: "loot"
 				}
 			]
@@ -1319,14 +1291,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "0CD71A4CD4194AF4"
-					table_id: 4196188979167302596L
 					type: "loot"
 				}
 			]
 			tasks: [{
 				id: "0309B0EB29771EC0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forbidden_arcanus:blacksmith_gavel"
@@ -1365,7 +1336,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7B0FCA99C04034D6"
-					table_id: 7025454341029952768L
 					type: "loot"
 				}
 			]
@@ -1375,7 +1345,7 @@
 				{
 					id: "662F567369FBB0AD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:eternal_stella"
 						tag: { }
 					}
@@ -1408,7 +1378,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "35A5F47F767A8610"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]
@@ -1432,7 +1401,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "7D87FFC6848D11E0"
-					table_id: 7025454341029952768L
 					type: "loot"
 				}
 			]
@@ -1442,7 +1410,7 @@
 				{
 					id: "6B1B4574299B7E42"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_shovel"
 						tag: {
 							Damage: 0
@@ -1453,7 +1421,7 @@
 				{
 					id: "7AC6974CDDE401B1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_pickaxe"
 						tag: {
 							Damage: 0
@@ -1464,7 +1432,7 @@
 				{
 					id: "1EC5573A12A3B7F7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_axe"
 						tag: {
 							Damage: 0
@@ -1475,7 +1443,7 @@
 				{
 					id: "70CEF00CFA26E97A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_hoe"
 						tag: {
 							Damage: 0
@@ -1501,7 +1469,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "01B8C6C6E058B2AF"
-					table_id: 7025454341029952768L
 					type: "loot"
 				}
 			]
@@ -1511,7 +1478,7 @@
 				{
 					id: "49FEFEC69106EFFA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "forbidden_arcanus:draco_arcanus_sword"
 						tag: {
 							Damage: 0
@@ -1549,7 +1516,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "2A9FFEDDE51746D7"
-					table_id: 487623848494439020L
 					type: "loot"
 				}
 			]

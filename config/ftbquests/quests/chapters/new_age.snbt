@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "new_age"
-	group: "3F6C85128FDC7EDA"
+	group: ""
 	icon: "create_new_age:nuclear_fuel"
 	id: "016D52CB8F1295E5"
-	order_index: 1
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{

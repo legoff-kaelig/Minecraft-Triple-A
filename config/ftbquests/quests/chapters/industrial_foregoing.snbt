@@ -2,16 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "industrial_foregoing"
-	group: "2B51AC12041E3F89"
+	group: ""
 	icon: "industrialforegoing:common_black_hole_unit"
 	id: "193F91842D2ED7D9"
-	order_index: 1
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["Welcome to &aIndustrial Foregoing&f!"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "patchouli:guide_book"
 				tag: {
 					"patchouli:book": "industrialforegoing:industrial_foregoing"
@@ -145,7 +145,7 @@
 				count: 2
 				id: "6D991DABAE36FE01"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "mekanism:basic_fluid_tank"
 					tag: {
 						BlockEntityTag: {
@@ -291,7 +291,7 @@
 				{
 					id: "6AD72BC1A1F77913"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mekanism:basic_fluid_tank"
 						tag: {
 							mekData: {
@@ -312,7 +312,7 @@
 				{
 					id: "0D8B60F8BD60B5CB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mekanism:basic_fluid_tank"
 						tag: {
 							mekData: {
@@ -838,7 +838,7 @@
 			rewards: [{
 				id: "3F01AE70E8D45133"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "mekanism:basic_fluid_tank"
 					tag: {
 						BlockEntityTag: {
@@ -1225,7 +1225,7 @@
 				{
 					id: "6D1A2543E374542A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:infinity_trident"
 						tag: {
 							CanCharge: 1b
@@ -1246,7 +1246,7 @@
 				{
 					id: "798860AC37F98D4E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:infinity_drill"
 						tag: {
 							CanCharge: 1b
@@ -1264,7 +1264,7 @@
 				{
 					id: "75341FD6B58D8988"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:infinity_saw"
 						tag: {
 							CanCharge: 1b
@@ -1282,7 +1282,7 @@
 				{
 					id: "291E22AEBC7FBCE2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:infinity_hammer"
 						tag: {
 							Beheading: 0
@@ -1301,7 +1301,7 @@
 				{
 					id: "1A3351BC0935160A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "industrialforegoing:infinity_backpack"
 						tag: {
 							CanCharge: 1b

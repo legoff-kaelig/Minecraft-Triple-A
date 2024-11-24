@@ -2,15 +2,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ad_astra"
-	group: "665E55C66CD00092"
+	group: ""
 	icon: "ad_astra:nasa_workbench"
 	id: "1693702248D9D9FD"
-	order_index: 7
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7DD2C358570375BE"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1EA599F52C43297A"
 			shape: "pentagon"
 			size: 2.0d
