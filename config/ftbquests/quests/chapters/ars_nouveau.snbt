@@ -3,8 +3,8 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ars_nouveau"
-	group: "615C123804B97629"
-	icon: "kubejs:questrpgone"
+	group: ""
+	icon: "ars_nouveau:creative_spell_book"
 	id: "6AEDA2F9BEB57759"
 	images: [
 		{
@@ -29,7 +29,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7CCED407A4BB55AC"]
 			description: [
 				"&n&6                                                 &r&6               "
 				"Welcome to &aArs Nouveau&f!"
@@ -47,8 +46,8 @@
 				"Some default recipes have changed."
 				"&n&6                                                 &r&6               "
 			]
-			hide: false
-			icon: "kubejs:hourglass"
+			hide_until_deps_visible: false
+			icon: "ars_nouveau:creative_spell_book"
 			id: "6E0E13806F388D7E"
 			shape: "hexagon"
 			size: 2.0d
