@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "industrial_foregoing"
-	group: ""
+	group: "2136CD76886E1B45"
 	icon: "industrialforegoing:common_black_hole_unit"
 	id: "193F91842D2ED7D9"
-	order_index: 8
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

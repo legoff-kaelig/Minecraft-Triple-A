@@ -5,7 +5,7 @@
 	group: "40CB7CFDC4D0BDFE"
 	icon: "gtceu:bronze_brick_casing"
 	id: "3B89FB8839204148"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

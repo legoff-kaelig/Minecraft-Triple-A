@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "8alex_4caves"
-	group: "50C9D5775BEB220E"
+	group: "4EBD007B117E8463"
 	icon: {
 		Count: 1
 		id: "alexscaves:totem_of_possession"

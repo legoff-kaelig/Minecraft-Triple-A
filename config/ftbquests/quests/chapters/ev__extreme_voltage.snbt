@@ -6,7 +6,7 @@
 	group: "40CB7CFDC4D0BDFE"
 	icon: "gtceu:ev_electric_motor"
 	id: "7FB9F636D95820A3"
-	order_index: 4
+	order_index: 5
 	quest_links: [
 		{
 			id: "2E99A771FCA40E15"
@@ -1485,7 +1485,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2893ECAD2905293A"
-				table_id: 4190763620137969664L
 				type: "choice"
 			}]
 			shape: "gear"
@@ -1875,7 +1874,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "766886CFFF5CDC23"
-				table_id: 1971029833527055160L
 				title: "Platinum-bearing Ores"
 				type: "choice"
 			}]

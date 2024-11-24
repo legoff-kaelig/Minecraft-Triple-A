@@ -5,7 +5,7 @@
 	group: "40CB7CFDC4D0BDFE"
 	icon: "gtceu:mv_electric_motor"
 	id: "43E779CEEB25D55B"
-	order_index: 2
+	order_index: 3
 	quest_links: [{
 		id: "6FCAD016C795DE93"
 		linked_quest: "7567E885B7166603"
@@ -325,7 +325,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3973B757526393F6"
-				table_id: 6500114529187527477L
 				type: "choice"
 			}]
 			shape: "gear"
@@ -1300,7 +1299,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "48DD442B4934D192"
-				table_id: 8104073045527404694L
 				type: "choice"
 			}]
 			shape: "gear"

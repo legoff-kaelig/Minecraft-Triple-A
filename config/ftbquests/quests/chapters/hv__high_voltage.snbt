@@ -5,7 +5,7 @@
 	group: "40CB7CFDC4D0BDFE"
 	icon: "gtceu:hv_electric_motor"
 	id: "237BDB19A9495869"
-	order_index: 3
+	order_index: 4
 	quest_links: [
 		{
 			id: "2583D0B64E51FAC8"
@@ -204,7 +204,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "72019B9C7B00FDB7"
-				table_id: 4302125856527628630L
 				type: "choice"
 			}]
 			shape: "rsquare"
@@ -566,7 +565,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "106D8C718FA5E22C"
-				table_id: 3622252502177806142L
 				type: "choice"
 			}]
 			shape: "gear"

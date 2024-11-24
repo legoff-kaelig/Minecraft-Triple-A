@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "forbidden_and_arcanus"
-	group: ""
+	group: "0555E5C3250B1EBE"
 	icon: {
 		Count: 1
 		id: "forbidden_arcanus:smelter_prism"
@@ -20,7 +20,7 @@
 		x: 9.5d
 		y: 2.25d
 	}]
-	order_index: 2
+	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

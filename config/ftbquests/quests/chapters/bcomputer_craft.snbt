@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bcomputer_craft"
-	group: "39BD55737A7439A2"
+	group: "2136CD76886E1B45"
 	icon: "computercraft:computer_normal"
 	id: "1EF5D3F6E14DA3C4"
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

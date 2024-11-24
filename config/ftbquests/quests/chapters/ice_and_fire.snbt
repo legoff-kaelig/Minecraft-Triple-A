@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ice_and_fire"
-	group: ""
+	group: "4EBD007B117E8463"
 	icon: "iceandfire:dragon_skull_fire"
 	id: "5A4A0EE186CA1E89"
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -28,7 +28,7 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
+			x: -5.0d
 			y: 2.0d
 		}
 		{
@@ -44,7 +44,7 @@
 				item: "iceandfire:lectern"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 2.0d
 		}
 		{

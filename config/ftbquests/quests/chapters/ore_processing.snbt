@@ -5,7 +5,7 @@
 	group: "40CB7CFDC4D0BDFE"
 	icon: "gtceu:crushed_gold_ore"
 	id: "72E9EAAA24C77C22"
-	order_index: 15
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{
