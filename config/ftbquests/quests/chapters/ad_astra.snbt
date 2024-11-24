@@ -1,0 +1,272 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "665E55C66CD00092"
+	icon: "ad_astra:nasa_workbench"
+	id: "1693702248D9D9FD"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DD2C358570375BE"]
+			hide: true
+			id: "1EA599F52C43297A"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "441E902E73085400"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "ad_astra:astrodux"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EA599F52C43297A"]
+			id: "175328E49E9E06EC"
+			tasks: [{
+				id: "73D99EAB44E00C49"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["24C3CAFD2700A86F"]
+			id: "017E724F8E075B23"
+			tasks: [{
+				id: "09CF6E079AEAC1D3"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["175328E49E9E06EC"]
+			id: "24C3CAFD2700A86F"
+			tasks: [{
+				id: "1BF14612511D3395"
+				item: "ad_astra:iron_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["24C3CAFD2700A86F"]
+			id: "11F0B45B513F2B0B"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "1B54D9056F3B5CCD"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.875d
+		}
+		{
+			dependencies: ["24C3CAFD2700A86F"]
+			id: "5CBDE739D6D7532D"
+			tasks: [{
+				id: "2077348DCFA8DE64"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["24C3CAFD2700A86F"]
+			id: "3775CE4CAE7A53CE"
+			tasks: [{
+				id: "6DE21449C757A86C"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["24C3CAFD2700A86F"]
+			id: "41C6AC60209A5239"
+			tasks: [{
+				id: "0AD84F4B758449AA"
+				item: {
+					Count: 1
+					id: "ad_astra:gas_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["41C6AC60209A5239"]
+			id: "48C895A713797DAB"
+			tasks: [{
+				id: "3CC5019240C4DAF8"
+				item: {
+					Count: 1
+					id: "ad_astra:space_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["41C6AC60209A5239"]
+			id: "68A9C8F05ED93BB3"
+			tasks: [{
+				id: "6C4FC9FDFB6120DF"
+				item: {
+					Count: 1
+					id: "ad_astra:space_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41C6AC60209A5239"]
+			id: "713B8DD225592CA9"
+			tasks: [{
+				id: "7D269C4BEA3616FA"
+				item: {
+					Count: 1
+					id: "ad_astra:space_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["41C6AC60209A5239"]
+			id: "3B34D95A648339B9"
+			tasks: [{
+				id: "4AA0405DB64D43F7"
+				item: {
+					Count: 1
+					id: "ad_astra:space_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["24C3CAFD2700A86F"]
+			id: "6BECFD8A53D27F2C"
+			tasks: [{
+				id: "73AB534FBEAD34C3"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["11F0B45B513F2B0B"]
+			id: "245B6A0381A23155"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7C46CBF37A4638CA"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"11F0B45B513F2B0B"
+				"245B6A0381A23155"
+			]
+			id: "41029658D95872DD"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0654EBE37ECC4C84"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"11F0B45B513F2B0B"
+				"41029658D95872DD"
+			]
+			id: "5C2772F8F7BBCCC3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1A231AAB6040D33A"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"11F0B45B513F2B0B"
+				"5C2772F8F7BBCCC3"
+			]
+			id: "4B4D7CCBA05D63E4"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "326A6A1BDD0EAEC7"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+	]
+	title: "Ad Astra"
+}

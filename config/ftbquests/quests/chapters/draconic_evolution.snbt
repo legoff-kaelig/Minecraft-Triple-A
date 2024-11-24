@@ -1,0 +1,653 @@
+{
+	autofocus_id: "0A3856C17F119DF9"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "draconic_evolution"
+	group: "665E55C66CD00092"
+	icon: "draconicevolution:chaotic_core"
+	id: "16967B0B3BFED1E9"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DD2C358570375BE"]
+			description: ["This is an end-game mod. I suggest you to have a Nether Star farm"]
+			hide: true
+			icon: "draconicevolution:chaotic_core"
+			id: "023261B403563795"
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "D.E."
+			tasks: [{
+				id: "29AD7B0023BEEE64"
+				title: "Draconic Evolution"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["023261B403563795"]
+			id: "39E7BEC31D9CCE4F"
+			tasks: [{
+				id: "3F5214804434E3F2"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39E7BEC31D9CCE4F"]
+			id: "69DA2F1B4F0FC055"
+			shape: "hexagon"
+			tasks: [{
+				id: "0AC70A14ABA4099C"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69DA2F1B4F0FC055"]
+			id: "0A3856C17F119DF9"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "13EC2AF67CC506EB"
+				item: "draconicevolution:crafting_core"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69DA2F1B4F0FC055"]
+			id: "058FF1F8F1654ED2"
+			tasks: [{
+				id: "24F75E9795BA4B4B"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69DA2F1B4F0FC055"]
+			id: "5C45E299807866BB"
+			tasks: [{
+				id: "05241A1EC39E8F02"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									charge_armor: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_main: {
+										hud: 1b
+									}
+								}
+								provider_id: [I;
+									622171067
+									1837777788
+									-1238818672
+									1214085665
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_capacitor"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0A3856C17F119DF9"
+				"56AE8D5C6DE6CEC8"
+			]
+			id: "0DE6C01397D014F6"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "1F83B81508867F18"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A3856C17F119DF9"]
+			id: "56AE8D5C6DE6CEC8"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "69D7EE1928C81039"
+				item: "draconicevolution:basic_crafting_injector"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0A3856C17F119DF9"
+				"0DE6C01397D014F6"
+			]
+			id: "4DC537585A7338EE"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "0BEFB79286A453BE"
+				item: "draconicevolution:awakened_crafting_injector"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0A3856C17F119DF9"
+				"4DC537585A7338EE"
+			]
+			id: "493AB31D6E663C61"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "0DA1B7C2F41D4AEC"
+				item: "draconicevolution:chaotic_crafting_injector"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0DE6C01397D014F6"]
+			id: "58D6C8A014CA2E97"
+			shape: "hexagon"
+			tasks: [{
+				id: "759C80DCB272D360"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DE6C01397D014F6"]
+			id: "7ACA59D3FAE16F13"
+			size: 0.75d
+			tasks: [{
+				id: "35308FA23FB12CAB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									128122384
+									1891191882
+									-1332114124
+									1539636545
+								]
+							}
+						}
+					}
+					id: "draconicevolution:wyvern_chestpiece"
+				}
+				type: "item"
+			}]
+			x: 7.125d
+			y: -2.25d
+		}
+		{
+			dependencies: ["0DE6C01397D014F6"]
+			id: "5D48525A69EF1818"
+			size: 0.75d
+			tasks: [
+				{
+					id: "7DBBF8C676215698"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										-1837464491
+										-1310700352
+										-1710358915
+										-981786008
+									]
+								}
+							}
+						}
+						id: "draconicevolution:wyvern_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "757DEA7F1E6D9680"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										501526303
+										1159153721
+										-1337513122
+										-2081030134
+									]
+								}
+							}
+						}
+						id: "draconicevolution:wyvern_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "1CC0BDAFAD9D6C5F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										532792570
+										-2090251896
+										-1832156393
+										1000993269
+									]
+								}
+							}
+						}
+						id: "draconicevolution:wyvern_bow"
+					}
+					type: "item"
+				}
+				{
+					id: "60E9A55C7235E061"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										1596791898
+										1113934443
+										-1973042669
+										-1622652675
+									]
+								}
+							}
+						}
+						id: "draconicevolution:wyvern_shovel"
+					}
+					type: "item"
+				}
+			]
+			x: 7.125d
+			y: -0.75d
+		}
+		{
+			dependencies: ["58D6C8A014CA2E97"]
+			id: "045111349730BC54"
+			tasks: [{
+				id: "0E4704AA1827B28D"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"621C0701AA24F70A"
+				"2B7A0C1EF0AC9212"
+			]
+			description: ["Perhaps the most powerful boss in modded Minecraft: &l&4Chaos Guardian&r&r"]
+			id: "32611C83479D7ABC"
+			shape: "hexagon"
+			tasks: [{
+				id: "57CA9D8190843F05"
+				title: "Chaos Guardian"
+				type: "checkmark"
+			}]
+			title: "&4Chaos Guardian&r"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DC537585A7338EE"]
+			id: "2B7A0C1EF0AC9212"
+			size: 0.75d
+			tasks: [{
+				id: "1FF820B73743D749"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									1133773680
+									-1224718566
+									-1428355250
+									-273490363
+								]
+							}
+						}
+					}
+					id: "draconicevolution:draconic_chestpiece"
+				}
+				type: "item"
+			}]
+			x: 7.125d
+			y: 0.75d
+		}
+		{
+			dependencies: ["4DC537585A7338EE"]
+			id: "621C0701AA24F70A"
+			size: 0.75d
+			tasks: [
+				{
+					id: "37E4C448C06398CC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										-706975636
+										99372191
+										-2024578717
+										1480414323
+									]
+								}
+							}
+						}
+						id: "draconicevolution:draconic_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "02F1EB494B518F48"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										-346006554
+										-1472378541
+										-1330394541
+										-401436685
+									]
+								}
+							}
+						}
+						id: "draconicevolution:draconic_bow"
+					}
+					type: "item"
+				}
+			]
+			x: 7.125d
+			y: 2.25d
+		}
+		{
+			dependencies: ["32611C83479D7ABC"]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "draconicevolution:draconic_guardian"
+				}
+			}
+			icon_scale: 2.0d
+			id: "3F0D694A8AD8565E"
+			shape: "hexagon"
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				id: "0987627BF277F202"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F0D694A8AD8565E"]
+			id: "6616431134CCCA3E"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "12FC9E355189A2F0"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6616431134CCCA3E"]
+			id: "79FB755A27D96D0B"
+			tasks: [{
+				id: "323E01BDEC7A840F"
+				item: "draconicevolution:chaotic_core"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["493AB31D6E663C61"]
+			id: "214DB9CB03EA51A1"
+			shape: "hexagon"
+			tasks: [{
+				id: "3D9BB1A7D6658F36"
+				title: "Draconic Reactor"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F0D694A8AD8565E"]
+			description: ["Beat the &l&4Chaos Guardian&r&r under 3 hours. If you want, send me the video of you trying this challenge via Discord"]
+			id: "1CE02E95EA12040D"
+			incompatible: ["2B97C3114CB26D14"]
+			optional: true
+			shape: "pentagon"
+			tasks: [{
+				id: "687A3827E13D41B2"
+				title: "3 Hours Challenge"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["214DB9CB03EA51A1"]
+			id: "60A368A7089D18F1"
+			shape: "gear"
+			tasks: [{
+				id: "4FFA571AA06328A5"
+				item: "draconicevolution:reactor_core"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["214DB9CB03EA51A1"]
+			id: "7895C17423AA9736"
+			shape: "gear"
+			tasks: [{
+				count: 4L
+				id: "7BC17FCF52DFA5FC"
+				item: "draconicevolution:reactor_stabilizer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["214DB9CB03EA51A1"]
+			id: "1EFE4F80FBD59813"
+			shape: "gear"
+			tasks: [{
+				id: "0827DAD9AA68CCC4"
+				item: "draconicevolution:reactor_injector"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["493AB31D6E663C61"]
+			id: "38BB1EEF6D143E6F"
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "3AA941E1873267C0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+								provider_id: [I;
+									1256595682
+									-921876703
+									-2120816881
+									909507529
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_staff"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["493AB31D6E663C61"]
+			id: "16019EA6F940C850"
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "0268644BBAF14186"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+							module_host: {
+								modules: [ ]
+								properties: { }
+								provider_id: [I;
+									-441811016
+									-652063422
+									-1313545812
+									215431547
+								]
+							}
+						}
+					}
+					id: "draconicevolution:chaotic_chestpiece"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+	]
+	title: "Draconic Evolution"
+}
