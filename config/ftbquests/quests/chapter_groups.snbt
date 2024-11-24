@@ -1,3 +1,5 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "3453313E23B8AB3B", title: "&6Food &fand &6Drink" }
+	]
 }
