@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "gtceu"
-	group: ""
+	group: "40CB7CFDC4D0BDFE"
 	icon: {
 		Count: 1
 		id: "gtceu:iron_wrench"
@@ -14,7 +14,7 @@
 		}
 	}
 	id: "2F8B0AFE317363C9"
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -1119,7 +1119,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2C28FA1A5275D24E"
-				table_id: 1702176335602373230L
 				type: "choice"
 			}]
 			size: 0.75d
