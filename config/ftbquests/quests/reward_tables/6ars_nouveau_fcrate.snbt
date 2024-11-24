@@ -1,0 +1,40 @@
+{
+	icon: "ars_nouveau:potion_jar"
+	id: "1FF15D94A4E00A16"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "ars_nouveau_crate"
+	}
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ count: 8, item: "ars_nouveau:sourceberry_bush" }
+		{ count: 4, item: "ars_nouveau:blue_archwood_sapling" }
+		{ count: 4, item: "ars_nouveau:green_archwood_sapling" }
+		{ count: 4, item: "ars_nouveau:red_archwood_sapling" }
+		{ count: 4, item: "ars_nouveau:purple_archwood_sapling" }
+		{ count: 8, item: "ars_nouveau:source_berry_pie" }
+		{ count: 2, item: "ars_nouveau:wilden_wing" }
+		{ count: 2, item: "ars_nouveau:wilden_spike" }
+		{ count: 2, item: "ars_nouveau:wilden_horn" }
+		{ count: 4, item: "ars_nouveau:experience_gem" }
+		{ count: 8, item: "ars_nouveau:source_gem" }
+		{ count: 8, item: "ars_nouveau:magebloom_fiber" }
+		{ count: 4, item: "ars_nouveau:water_essence" }
+		{ count: 4, item: "ars_nouveau:manipulation_essence" }
+		{ count: 4, item: "ars_nouveau:fire_essence" }
+		{ count: 4, item: "ars_nouveau:earth_essence" }
+		{ count: 4, item: "ars_nouveau:air_essence" }
+		{ count: 4, item: "ars_nouveau:conjuration_essence" }
+		{ count: 4, item: "ars_nouveau:abjuration_essence" }
+		{ count: 4, item: "minecraft:diamond" }
+		{ count: 8, item: "minecraft:emerald" }
+		{ count: 8, item: "ars_nouveau:blank_parchment" }
+	]
+	title: "&6Ars Nouveau &fCrate"
+}

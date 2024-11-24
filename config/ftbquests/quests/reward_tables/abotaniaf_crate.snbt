@@ -1,0 +1,56 @@
+{
+	icon: "botania:open_crate"
+	id: "5BE060754446793F"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "botania"
+	}
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ count: 16, item: "botania:fertilizer" }
+		{ count: 4, item: "botania:black_lotus" }
+		{ item: "botania:blacker_lotus" }
+		{ item: "botania:overgrowth_seed" }
+		{ count: 2, item: "botania:golden_seeds" }
+		{ count: 2, item: "botania:scorched_seeds" }
+		{ count: 2, item: "botania:infused_seeds" }
+		{ count: 2, item: "botania:mutated_seeds" }
+		{ item: "botania:vivid_seeds" }
+		{ count: 2, item: "botania:grass_seeds" }
+		{ count: 2, item: "botania:mycelium_seeds" }
+		{ count: 2, item: "botania:podzol_seeds" }
+		{ count: 2, item: "botania:dry_seeds" }
+		{ count: 2, item: "botania:rune_air" }
+		{ count: 2, item: "botania:rune_mana" }
+		{ count: 2, item: "botania:rune_winter" }
+		{ count: 2, item: "botania:rune_autumn" }
+		{ count: 2, item: "botania:rune_autumn" }
+		{ count: 2, item: "botania:rune_summer" }
+		{ count: 2, item: "botania:rune_spring" }
+		{ count: 2, item: "botania:rune_earth" }
+		{ count: 2, item: "botania:rune_fire" }
+		{ count: 2, item: "botania:rune_water" }
+		{ count: 2, item: "botania:rune_sloth" }
+		{ count: 2, item: "botania:rune_greed" }
+		{ count: 2, item: "botania:rune_wrath" }
+		{ count: 2, item: "botania:rune_envy" }
+		{ count: 2, item: "botania:rune_pride" }
+		{ count: 2, item: "botania:rune_lust" }
+		{ count: 2, item: "botania:rune_gluttony" }
+		{ count: 8, item: "botania:livingrock" }
+		{ count: 8, item: "botania:livingwood_log" }
+		{ item: "botania:tiny_potato" }
+		{ count: 4, item: "botania:manasteel_ingot" }
+		{ count: 4, item: "botania:mana_pearl" }
+		{ count: 4, item: "botania:mana_diamond" }
+		{ count: 4, item: "botania:livingwood_twig" }
+	]
+	title: "&6Botania&f Crate"
+	use_title: true
+}
