@@ -1,4 +1,4 @@
-# AAA (it's not an electric baterie) <!-- We will give a better name for the release -->
+## Minecraft Triple A
 
 This is only a dev repository.
 
