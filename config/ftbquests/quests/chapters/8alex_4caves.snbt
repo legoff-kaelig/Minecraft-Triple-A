@@ -1,0 +1,2829 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "8alex_4caves"
+	group: "50C9D5775BEB220E"
+	icon: {
+		Count: 1
+		id: "alexscaves:totem_of_possession"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "471B18E39E1509BD"
+	images: [
+		{
+			height: 1.0d
+			image: "alexscaves:item/extinction_spear"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/copper_diving_helmet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/copper_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/primitive_club"
+			order: 2
+			rotation: -90.0d
+			width: 1.0d
+			x: 1.5d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/burrowing_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/dreadbow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 16.5d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/deepslate/creeper_deepslate_carving"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/hologram_projector"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "lost_aether_content:item/sentry_shield"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/seeking_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:textures/mob_effect/magnetizing.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/desolate_dagger"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/frosted_gingerbread_door"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/candy_cane"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/uranium"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/sulfur_dust"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/toxic_paste"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "scguns:item/anthralite_pickaxe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/cave_tablet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "enigmaticlegacy:item/animal_guidebook"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/cave_codex"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/pearl"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/chiseled_candy_cane_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/chiseled_candy_cane_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/chiseled_candy_cane_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/neodymium/azure_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/neodymium/scarlet_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/neodymium/azure_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/neodymium/scarlet_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/neodymium/azure_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/amber"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/amber"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 16.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:textures/mob_effect/irradiated.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acid_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acid_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acid_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/nuclear_bomb_side_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acid_flowing"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acid_flowing"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acid_flowing"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acid_flowing"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/ambersol"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 19.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 20.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/pewen/pewen_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/pewen/pewen_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 18.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/pewen/pewen_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/fern_thatch_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/fern_thatch_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/fern_thatch_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone_redstone_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone_redstone_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone_redstone_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 14.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone_redstone_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/galena_iron_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/galena_pillar_end"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/galena_pillar_end"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_scarlet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_scarlet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_top_azure"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_top_scarlet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_top_azure"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_top_scarlet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_azure"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_azure"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_neutral"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_top_neutral"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_top_neutral"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/galena_iron_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone_chiseled"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 14.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/radrock_uranium_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/radrock_uranium_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/radrock_uranium_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/radrock_uranium_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/colored_water"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/purple_soda_still"
+			rotation: 0.0d
+			width: 0.020833333333333332d
+			x: 19.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/colored_water"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/colored_water"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 16.0d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/colored_water"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 16.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/colored_water"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 17.0d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/colored_water"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/colored_water"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/muck"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 16.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/muck"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/muck"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/muck"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/purple_soda_still"
+			rotation: 0.0d
+			width: 0.020833333333333332d
+			x: -13.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/purple_soda_still"
+			rotation: 0.0d
+			width: 0.020833333333333332d
+			x: -17.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "create:fluid/chocolate_flow"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -13.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:textures/misc/advancement/icon/feed_gummy_bear.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/frosted_gingerbread_door"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:textures/misc/advancement/icon/gingerbread_town.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "scguns:textures/gui/melee_attack_indicator_progress.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 13.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "154FB4F1435A1BB7"
+			rewards: [
+				{
+					id: "3E7B4185A0696AA0"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "426AAADC822B55E8"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "1D5DBC0DA97C6865"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Underground Cabins are small structures found under the surface in the &2Overworld Dimension"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/root"
+				criterion: ""
+				id: "1C063B6212143A38"
+				type: "advancement"
+			}]
+			title: "Enter &8Underground Cabins"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["154FB4F1435A1BB7"]
+			id: "0D0F11B69A333033"
+			rewards: [{
+				id: "55B4053A85E82E03"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Cave Tablets are an item that can be obtained primarily by exploring and finding &8Underground Cabins,"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/cave_tablet"
+				criterion: ""
+				id: "766A7F72637B87F7"
+				type: "advancement"
+			}]
+			title: "Obtain &6Cave Tablets"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D0F11B69A333033"]
+			description: ["Caves Compendiums provides insightful documentation about the general content Alex's Caves has to offer, such as information on the biomes, mobs, and progression this mod adds. To use this book, holding and using it will cause it to open on your screen. From there, simply hovering your cursor over or past the side of a page will cause it to play a swaying animation if there is another page before or after it. This animation indicates that the page is ready to flip over to the previous/next page by pressing any mouse button."]
+			id: "33583F05E7EAB9E3"
+			rewards: [
+				{
+					id: "72C9BEFE7EFE1DB7"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "164F398A31DE9780"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			subtitle: "Obtained in &2Underground Cabin"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/cave_book"
+				criterion: ""
+				id: "392BEEA737547A34"
+				type: "advancement"
+			}]
+			title: "Obtain &6Caves Compendiums"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D0F11B69A333033"]
+			id: "22950E2D44C0C880"
+			rewards: [{
+				id: "12F854B5451C1962"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Cave Codices are items that can be obtained by completing the research of Cave Tablet in a &6Spelunkery Table&7."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/cave_codex"
+				criterion: ""
+				id: "7468D33F39CBF857"
+				type: "advancement"
+			}]
+			title: "Obtain &6Cave Codex"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["22950E2D44C0C880"]
+			id: "3D26459BA57DAC7E"
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "When a Cave Biome Map is first crafted, it will be empty. The map must then be held and used for it to start scanning a 10,000 block radius for it's targeted biome. The targeted biome will be displayed in the item's tooltip."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/cave_map"
+				criterion: ""
+				id: "296A1E7E0681A43E"
+				type: "advancement"
+			}]
+			title: "Craft &6Cave Biome Map"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3D26459BA57DAC7E"]
+			id: "3D331BCB5128251A"
+			shape: "square"
+			size: 1.0d
+			subtitle: "When inside a Magnetic Caves biome, the sky takes on a dark color. Occasional lightning effects in the colors of azure and scarlet neodymium will arc around the player. Small floating chunks of galena can be seen moving upwards and downwards, seemingly unaffected by gravity."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_magnetic_caves"
+				criterion: ""
+				id: "6C297CDD426B12AE"
+				type: "advancement"
+			}]
+			title: "&1Magnetic Caves"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D331BCB5128251A"]
+			id: "10E05E4F4566BEF1"
+			rewards: [
+				{
+					id: "6DB45646AEDA437E"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "40EEE8B421365A04"
+					item: "alexscaves:notor_gizmo"
+					type: "item"
+				}
+			]
+			subtitle: "Defeat the Notor to obtain Notor Gizmo."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_notor"
+				criterion: ""
+				id: "124C7D937DA9A4C3"
+				type: "advancement"
+			}]
+			title: "Defeat The &4Notor"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D331BCB5128251A"]
+			id: "2061FF3334FC5796"
+			subtitle: "can be used for items - blocks"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/neodymium"
+				criterion: ""
+				id: "5AE5BD28A4524235"
+				type: "advancement"
+			}]
+			title: "Obtain &4Raw Neodymium"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10E05E4F4566BEF1"]
+			id: "688032C6B0EC0DC0"
+			rewards: [{
+				id: "42063892E29B1076"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Craft &fHologram Projector"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/hologram_projector"
+				criterion: ""
+				id: "2B300F315850AE84"
+				type: "advancement"
+			}]
+			title: "Craft &fHologram Projector"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2061FF3334FC5796"]
+			id: "49CC285A65C9F4EE"
+			rewards: [
+				{
+					id: "0A6A32155D7D4544"
+					item: "alexscaves:scarlet_neodymium_ingot"
+					type: "item"
+				}
+				{
+					id: "1965E373AC780AF3"
+					item: "alexscaves:azure_neodymium_ingot"
+					type: "item"
+				}
+				{
+					id: "7DE8050E7174E511"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Smelt &4Neodymium Ingot"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/neodymium_ingot"
+				criterion: ""
+				id: "0785D87067F7D5AD"
+				type: "advancement"
+			}]
+			title: "Obtain &1Neodymium ingot"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2061FF3334FC5796"]
+			id: "389B89CB730371F5"
+			rewards: [
+				{
+					id: "3E352F07135250B1"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "549D613821E126E6"
+					item: "alexscaves:raw_scarlet_neodymium"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "39F589CE968AEFB0"
+					item: "alexscaves:raw_azure_neodymium"
+					type: "item"
+				}
+			]
+			subtitle: "Defeat &4Boundroid"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_boundroid"
+				criterion: ""
+				id: "7386AE7ABA930752"
+				type: "advancement"
+			}]
+			title: "Obtain &4Heavyweight"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49CC285A65C9F4EE"]
+			id: "24FFEF2D7DB784B1"
+			rewards: [{
+				id: "088297C70550EB29"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "By Defeat The &4Teletor"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/telecore"
+				criterion: ""
+				id: "70A11FA2A2776BE0"
+				type: "advancement"
+			}]
+			title: "Obtain &1Telecore"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49CC285A65C9F4EE"]
+			id: "618E37C534A8075B"
+			rewards: [
+				{
+					id: "3871BABBA0FCCD28"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 9
+					id: "534BDCFBF130558F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Defeat &fMagnetron."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_magnetron"
+				criterion: ""
+				id: "169DF8C8BA8AABCE"
+				type: "advancement"
+			}]
+			title: "Obtain &fHeart of Iron"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["49CC285A65C9F4EE"]
+			description: [
+				"Magnetic Levitation Rails can be used to create Minecart tracks. Similarly to Powered Rails, they cannot curve, but unlike Powered Rails, they don't require Redstone power, and they can propel Minecarts even faster."
+				""
+				"Minecarts will levitate above Magnetic Levitation Rails, even when they are not moving. This is accompanied by a cosmetic blue lightning effect under the Minecart."
+			]
+			id: "60EFF7CB77221D68"
+			rewards: [
+				{
+					id: "2E3F8777282229A4"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 20
+					id: "750FAE74CF0EB066"
+					item: "minecraft:rail"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/magnetic_levitation_rail"
+				criterion: ""
+				id: "44AD254B4FD97ED0"
+				type: "advancement"
+			}]
+			title: "Craft &1Magnetic Levitation Rail"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["618E37C534A8075B"]
+			description: ["The Resistor Shield is a unique variant of shield that is used to block damage from oncoming attacks or explosions while simultaneously doing continuous damage and knockback to foes in a small radius. Just like regular shields, they can be temporarily disabled by getting hit with an axe and some attacks completely bypass them altogether. Unlike regular shields, banners cannot be applied to Resistor Shields."]
+			id: "40220219DF062D79"
+			rewards: [{
+				id: "3E768ED12EA511A3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/resistor_shield"
+				criterion: ""
+				id: "4B855419C15A2670"
+				type: "advancement"
+			}]
+			title: "Craft &4Resistor Shield"
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["618E37C534A8075B"]
+			id: "2D7183666507AFA4"
+			rewards: [
+				{
+					count: 5
+					id: "42EA49C49AC98388"
+					item: "alexscaves:magnetic_light"
+					type: "item"
+				}
+				{
+					id: "5D3786A7AF033757"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/quarry"
+				criterion: ""
+				id: "67F099C609179FAF"
+				type: "advancement"
+			}]
+			title: "Craft &1Magnetic Quarry"
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D7183666507AFA4"]
+			description: [
+				"If a Magnetic Quarry Smasher is placed in a square or rectangular area marked with Magnetic Lights and a Magnetic Quarry, the quarry smasher will automatically activate. White electricity will begin to dart between each light and the smasher, and it will start flying toward the most north-western corner of the marked area."
+				""
+				"Once reaching this corner, the smasher will then release its scarlet neodymium weight down to the first solid block below; crushing it in an instant if it isn't a barrier, bedrock, command block, jigsaw block, reinforced deepslate, structure block, or Volcanic Core. If the block below is one of the aforementioned indestructible blocks, the scarlet neodymium weight will simply ignore and phase through it. After breaking the block below itself, it will move one block south and crush the new block below it. This process will keep repeating until it finds itself at a boundary of the marked area, which it will then fly back north and one block adjacent to start a new row of blocks to destroy. After an entire one block deep layer of blocks have been destroyed, it will return to its original starting position and begin mining the layer directly underneath."
+				""
+				"This entire process will keep on repeating itself until the Magnetic Quarry Smasher finishes mining every single mineable block in its marked area, which it will then lay dormant on the ground once reaching this point."
+			]
+			id: "60A82C51C0D977AD"
+			rewards: [{
+				id: "53196E8CC46AF3E2"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "A Magnetic Quarry Smasher is a placeable entity used alongside a Magnetic Quarry to create a fully automatic mining mechanism."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/finished_quarry"
+				criterion: ""
+				id: "2798AB3AE43BC2E3"
+				type: "advancement"
+			}]
+			title: "Craft &1Magnetic Quarry Smasher"
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49CC285A65C9F4EE"]
+			description: [" Seeking Arrow is a special variant of arrow infused with the magnetic properties of neodymium, causing them to curve toward any nearby mob they fly by"]
+			id: "7B18F3A37B9C3AE1"
+			rewards: [
+				{
+					id: "4778E8467E4DCD59"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 15
+					id: "4821B232AADA2E5E"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/seeking_arrow"
+				criterion: ""
+				id: "1C89F550AE3851B0"
+				type: "advancement"
+			}]
+			title: "Craft &4Seeker Arrow"
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49CC285A65C9F4EE"]
+			description: ["When powered, an Magnet repulses magnetic blocks and items in the direction it's facing. Any blocks repulsed by the Magnet cannot be broken until they have left the magnet's range."]
+			id: "14F977DA32D5FD2C"
+			rewards: [{
+				id: "33FB2BAFF62CC132"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/magnet"
+				criterion: ""
+				id: "1F1170CC126A9106"
+				type: "advancement"
+			}]
+			title: "Craft &1Magnet"
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3D26459BA57DAC7E"]
+			id: "38DA59687CAD2A74"
+			rewards: [{
+				id: "7D363C39795184B7"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			subtitle: "Long-abandoned research posts created by an enigmatic, ancient faction can also be discovered, along with far more mysterious ruins..."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_abyssal_chasm"
+				criterion: ""
+				id: "51652A48FB29134A"
+				type: "advancement"
+			}]
+			title: "&3Abyssal Chasm"
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["38DA59687CAD2A74"]
+			id: "6535B8A2D7F5CF44"
+			rewards: [{
+				id: "09EECAB8F7CB4BCD"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Abyssal Ruins are floating structures scattered across the floor of the abyssal chasm. They are the only source of the exclusive pottery sherds and the game controller."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_abyssal_ruins"
+				criterion: ""
+				id: "7B09F8B86C4E1174"
+				type: "advancement"
+			}]
+			title: "Find &3Abyssal Ruins"
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6535B8A2D7F5CF44"]
+			id: "33AFDC1A372A58FE"
+			rewards: [
+				{
+					id: "2A78FF44BA7A975E"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "325BCF249004E2B4"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "The Diving Armor Set is an armor set primarily worn to navigate through the Abyssal Chasm and through water easier."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/diving_armor"
+				criterion: ""
+				id: "0B6AF6F4391F9673"
+				type: "advancement"
+			}]
+			title: "Craft &6Diving Suit Set"
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6535B8A2D7F5CF44"]
+			id: "591BC74BC75B9BA6"
+			rewards: [{
+				id: "0F71522649A7C5FC"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "They are bound to an anchor that limits their movement, but they will explode upon approaching their target, destroying blocks underwater and dealing massive amounts of damage."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_mine_guardian"
+				criterion: ""
+				id: "72A2B462CB763BF2"
+				type: "advancement"
+			}]
+			title: "Defeat &8Mine Guardian"
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6535B8A2D7F5CF44"]
+			id: "761A53062E13E46C"
+			rewards: [{
+				id: "71A93DB1DA27B708"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "A Submarine is a massive drivable vehicle entity used for the transportation of players within large bodies of water such of oceans. Due to their size, they are incredibly durable with multiple hits needed to be destroyed, and move much faster than boats sailing over water."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/ride_submarine"
+				criterion: ""
+				id: "1CF5685F4933F009"
+				type: "advancement"
+			}]
+			title: "Take a Ride in a &6Submarine"
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["38DA59687CAD2A74"]
+			id: "62E28103FD8725B4"
+			rewards: [
+				{
+					id: "3093F1C4CE21621F"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "6D4ABD3552928C6C"
+					item: "alexscaves:cooked_lanternfish"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/abyssal_bucket"
+				criterion: ""
+				id: "5E7906EF3245DC91"
+				type: "advancement"
+			}]
+			title: "Capture any abyssal sea creature in &bbucket"
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["62E28103FD8725B4"]
+			id: "6343D92F0012E68E"
+			rewards: [{
+				id: "3474E817F598AC4B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Bioluminesscence is an item known to be the source of a Gossamer Worm's distinct blue glow. It is used as a crafting and brewing ingredient."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/bioluminesscence"
+				criterion: ""
+				id: "6D59204016647647"
+				type: "advancement"
+			}]
+			title: "Obtain &bBioluminesscence"
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6343D92F0012E68E"]
+			id: "3B3702933907ACF7"
+			rewards: [{
+				id: "3B4DE83434284C5A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "A Floater is a rideable entity primarily used to save yourself from drowning by rapidly ascending yourself above the surface of water."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/floater"
+				criterion: ""
+				id: "4317F05F77AFA6C0"
+				type: "advancement"
+			}]
+			title: "Craft &bFloater"
+			x: 12.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6343D92F0012E68E"]
+			id: "361EC6AE547EA8C8"
+			subtitle: "Bioluminescent Torches are non-solid light-emitting blocks that can be placed underwater."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/bioluminescent_torch"
+				criterion: ""
+				id: "726513224AE83C79"
+				type: "advancement"
+			}]
+			title: "Craft &bBioluminescent Torch"
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["38DA59687CAD2A74"]
+			id: "33B62E5A1E6F20F7"
+			rewards: [{
+				id: "6549C162C117842F"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "mussel can be used for food souce."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/mussel"
+				criterion: ""
+				id: "11AEEDB7A4B837D4"
+				type: "advancement"
+			}]
+			title: "Obtain &bMussel"
+			x: 7.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["33B62E5A1E6F20F7"]
+			id: "1824B064FA0C393B"
+			subtitle: "Pearls are valuable items that are occasionally dropped when breaking Mussels. These commodities are primarily used to barter and exchange for goods with the Deep One society."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/pearl"
+				criterion: ""
+				id: "6F56CE20E297849C"
+				type: "advancement"
+			}]
+			title: "Obtain the &fPearl"
+			x: 9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1824B064FA0C393B"]
+			id: "5366C3CB0714C866"
+			rewards: [{
+				id: "713CC2CC1B124D5D"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Deep Ones are common neutral aquatic mobs found in the Abyssal Chasm. They will cautiously stalk players at first, but can become allies or enemies depending on the players' actions."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/stalked_by_deep_one"
+				criterion: ""
+				id: "4BE6E11B364C23AD"
+				type: "advancement"
+			}]
+			title: "....&1Deep One"
+			x: 10.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5366C3CB0714C866"]
+			id: "0A92BCF37B0E719C"
+			rewards: [{
+				id: "3A811BCBB986F939"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Abyssal Altars are used to trade with the Deep Ones. Any item can be placed on the Altar, but the only items that will attract the Deep Ones' attention are Pearls and Hearts of the Sea.If any member of the Deep Ones spots a Pearl or Heart of the Sea upon an Abyssal Altar, they will slowly swim over to the Altar and pick up the item. After taking a few moments to inspect the offering, they will place an item on the Altar in return, lighting up the cracks on the entire Abyssal Monolith with strange greenish-white lines. A successful trade will slightly increase your reputation with the Deep Ones."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/pearl_on_abyssal_altar"
+				criterion: ""
+				id: "30666431A6E862E3"
+				type: "advancement"
+			}]
+			title: "Craft &1Abyssal Altars."
+			x: 12.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0A92BCF37B0E719C"]
+			id: "1E98918F20C51163"
+			subtitle: "make a successful with a &1Deep ones."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/trade_with_deep_one"
+				criterion: ""
+				id: "3DF3C993DDB3530A"
+				type: "advancement"
+			}]
+			title: "we are friend rig.h..t righ.t. ?"
+			x: 12.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3D26459BA57DAC7E"]
+			id: "1435427EDC1235B1"
+			rewards: [{
+				id: "34A71AAB4EE433F4"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "pentagon"
+			subtitle: "The Primordial Caves have been isolated from the rest of the world for untold millennia - perhaps for tens of millions of years. This isolation has led to the limestone-laden caves to have unique geology, flora and fauna, that have gone extinct elsewhere in the world ages ago."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_primordial_caves"
+				criterion: ""
+				id: "67F9013B305D6862"
+				type: "advancement"
+			}]
+			title: "&6Primordial Caves"
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1435427EDC1235B1"]
+			id: "2E10E819E1D4E0BC"
+			rewards: [{
+				id: "5CE1567ED73B022B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "The Ominous Catalyst is a mysterious item used to awaken the powerful Luxtructosaurus. Unlike most other items, it is immune to fire and lava."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/ominous_catalyst"
+				criterion: ""
+				id: "5FE00B55FAD4FE3B"
+				type: "advancement"
+			}]
+			title: "Craft &6Ominous Catalyst"
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6C2DF2DDDDAA4DB3"]
+			id: "1C9C94CF030B9F95"
+			rewards: [
+				{
+					id: "44BCDB4F04611B8D"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "594208E725854685"
+					item: "alexscaves:tectonic_shard"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "08996674EC6FFDEB"
+					item: "alexsmobs:cooked_kangaroo_meat"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_luxtructosaurus"
+				criterion: ""
+				id: "262BE93AF50F0758"
+				type: "advancement"
+			}]
+			title: "Defeat The &4Luxtructosaurus"
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2E10E819E1D4E0BC"]
+			id: "6C2DF2DDDDAA4DB3"
+			rewards: [{
+				id: "6D99AAEB4DC769DB"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Summoning The &4Luxtructosaurus "
+			tasks: [{
+				advancement: "alexscaves:alexscaves/summon_luxtructosaurus"
+				criterion: ""
+				id: "59B857B6F5FF887C"
+				type: "advancement"
+			}]
+			title: "Lovely, &6i shouldn't done that"
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1C9C94CF030B9F95"]
+			id: "4E14723458D6DC6E"
+			rewards: [{
+				id: "01B98FE5AF1CC6F7"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "The Extinction Spear is a spear imbued with the powers of ancient mobs at your side, it can be used as a melee and ranged weapon similarly to the Limestone Spear and Trident."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/extinction_spear"
+				criterion: ""
+				id: "490A45B05800C632"
+				type: "advancement"
+			}]
+			title: "Craft The &4Extinction Spear"
+			x: 5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1435427EDC1235B1"]
+			description: ["A Heavy Bone is a special variant of bone obtained from slaying only the largest dinosaurs in the Primordial Caves. It can be crafted into more bone meal than regular bones but is predominantly used for crafting exclusive Primordial items"]
+			id: "0F4E28D9A7F6296B"
+			rewards: [
+				{
+					id: "6A9A6276D14B14A1"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "766280D814A33951"
+					item: "alexscaves:tough_hide"
+					type: "item"
+				}
+			]
+			subtitle: "you only obtain them by Tremorsaurus, Relicheirus, and Atlatitan"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_big_dinosaur"
+				criterion: ""
+				id: "6483493F01502916"
+				type: "advancement"
+			}]
+			title: "Welp ,&6they extinct anyways"
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0F4E28D9A7F6296B"]
+			id: "48399546AB65C1BF"
+			rewards: [{
+				id: "657AC498EC7FA2BA"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "The Primordial Armor Set consists of the Primordial Helmet, Primordial Tunic, and Primordial Pants. Unlike all other armor sets, this set does not include boots."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/primordial_armor"
+				criterion: ""
+				id: "6EB120D747FF9D5D"
+				type: "advancement"
+			}]
+			title: "Craft &6Primordia set"
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0F4E28D9A7F6296B"]
+			description: [""]
+			id: "33C8090C80DC03AA"
+			rewards: [{
+				id: "38D1F24B89AFEF63"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "A Primitive Club is an extremely slow but powerful melee weapon that has a chance to inflict enemies with the Stunned effected every hit. It is most useful for running away from powerful enemies."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/primitive_club"
+				criterion: ""
+				id: "69FB2B74752B6EB9"
+				type: "advancement"
+			}]
+			title: "Craft &6Primitive Club"
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3D26459BA57DAC7E"]
+			id: "16FAAFA315A23A5E"
+			rewards: [{
+				id: "456610BE0FBDE462"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "All the fauna that resides within the Forlorn Hollows have been twisted by its dark influences, but some have been subjected to even darker powers. Even now, some beings there call forth even darker brethren from otherwordly shadows..."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_forlorn_hollows"
+				criterion: ""
+				id: "7EA72F55D73D6BC2"
+				type: "advancement"
+			}]
+			title: "&4Forlorn Hollows"
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3D26459BA57DAC7E"]
+			id: "1E67608CDE9C247F"
+			rewards: [{
+				id: "0B0DED3E77144C0D"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Though this cave may seem to the sweetest of taste and of refuge, other creatures live in this place. However, if your ever low on health or hunger, the majority of the blocks and items in the biome are edible and will replenish a large amount of your hunger."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_candy_cavity"
+				criterion: ""
+				id: "04ED4FBB5B30F311"
+				type: "advancement"
+			}]
+			title: "&5Candy Cavity"
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3D26459BA57DAC7E"]
+			id: "73F93EABC9F30550"
+			rewards: [{
+				id: "5F7B5075B210F0FB"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "The Toxic Caves is a massive, underground wasteland that must have been created by the excesses of scientific hubris in ages long past."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_toxic_caves"
+				criterion: ""
+				id: "38662602B289DD50"
+				type: "advancement"
+			}]
+			title: "&2Toxic Caves"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E67608CDE9C247F"]
+			id: "28CE577EFCDBC333"
+			rewards: [
+				{
+					id: "2B66F87B11E90E1F"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "5827AE62FEE0C114"
+					item: {
+						Count: 1
+						id: "aether:candy_cane_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/licowitch_tower"
+				criterion: ""
+				id: "63C3CDEA29F99F9A"
+				type: "advancement"
+			}]
+			title: "Discovered &5Licowitch"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1E67608CDE9C247F"]
+			id: "37F6C0CEB86D6F8A"
+			subtitle: "Gingerbread Towns are structures found naturally generating in the Candy Cavity. These miniature fortresses resemble medieval villages and castles, and are to scale with Gingerbread Men, which spawn and live within them."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/gingerbread_town"
+				criterion: ""
+				id: "42BE9ADAA5165B61"
+				type: "advancement"
+			}]
+			title: "Locate &6Gingerbread Town"
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E67608CDE9C247F"]
+			id: "5798A4AC09028DB8"
+			rewards: [{
+				id: "5B308723DD6411F0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/eat_block_of_chocolate"
+				criterion: ""
+				id: "74F2595A876CCE02"
+				type: "advancement"
+			}]
+			title: "Consume a &eChocolate Block"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["37F6C0CEB86D6F8A"]
+			id: "4D4EA929465AC3B3"
+			rewards: [{
+				id: "1BA2A0F1941A04A5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/gingerbread_armor"
+				criterion: ""
+				id: "261C31CEDA4FD1B2"
+				type: "advancement"
+			}]
+			title: "wear full set of &6Gingerbread armor"
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5798A4AC09028DB8"]
+			id: "5B04DBE1639F8C37"
+			rewards: [{
+				id: "4E5CB56667C4FE74"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_caniac"
+				criterion: ""
+				id: "152E2850BA06178A"
+				type: "advancement"
+			}]
+			title: "Defeat &4Caniacs"
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5B04DBE1639F8C37"]
+			id: "02C26F66F0AB8CE3"
+			rewards: [{
+				id: "3E22E9ADBB660042"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_gumbeeper"
+				criterion: ""
+				id: "1B5DB5B268014511"
+				type: "advancement"
+			}]
+			title: "Defeat &4Gumbeeper"
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["02C26F66F0AB8CE3"]
+			id: "0715AEF3F73A0475"
+			rewards: [{
+				id: "1CE991E4F2C7A096"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/shot_gum"
+				criterion: ""
+				id: "5742661F526BE03E"
+				type: "advancement"
+			}]
+			title: "Craft &6Shot Gum"
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5798A4AC09028DB8"]
+			id: "1271E53801491B43"
+			rewards: [{
+				id: "0109F42CF8F49829"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/candy_cane_hook"
+				criterion: ""
+				id: "6728D2ED8EFF074D"
+				type: "advancement"
+			}]
+			title: "Craft &6Candy Hook"
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1271E53801491B43"]
+			id: "6DE05A6C960E7E3D"
+			rewards: [{
+				id: "5797CBBB20EE2197"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/gobthumper"
+				criterion: ""
+				id: "260AE5FE6ECE87E8"
+				type: "advancement"
+			}]
+			title: "Craft &dGobthumper"
+			x: -8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6DE05A6C960E7E3D"]
+			id: "169E0D23C4106A00"
+			rewards: [{
+				id: "679DE76CB615E00F"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "The Gum Worm is a mini-boss and mountable mob found inside of the Candy Cavity."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_gum_worm"
+				criterion: ""
+				id: "758302242FB485C2"
+				type: "advancement"
+			}]
+			title: "Defeat &4Gum Worm"
+			x: -10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["28CE577EFCDBC333"]
+			id: "6347614E73C60673"
+			rewards: [{
+				id: "720311EA5799FD3B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/radiant_essence"
+				criterion: ""
+				id: "6B61F6D8789068AB"
+				type: "advancement"
+			}]
+			title: "Obtain &5Radiant Essence"
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["16FAAFA315A23A5E"]
+			id: "5C5D5D0505D9398D"
+			rewards: [{
+				id: "1D40ACFFB12D633D"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "A Burrowing Arrow is a unique variant of arrow capable of breaking blocks when landing."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/burrowing_arrow"
+				criterion: ""
+				id: "78F0BA70687609F9"
+				type: "advancement"
+			}]
+			title: "Craft &6Burrowing Arrow"
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["16FAAFA315A23A5E"]
+			id: "7151521511500D05"
+			rewards: [{
+				id: "4BD670543BC8C965"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Gloomoths are common passive flying mobs found in the Forlorn Hollows. They will fly around sources of light, potentially attracting monsters such as Underzealots and Vespers."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_gloomoth"
+				criterion: ""
+				id: "04EFB96E0D1E27A5"
+				type: "advancement"
+			}]
+			title: "Slay &6Gloomoth"
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7151521511500D05"]
+			id: "7C7194A9535A32BC"
+			subtitle: "Underzealots are common hostile mobs found in the Forlorn Hollows. They grab nearby Gloomoths and sacrifice them during rituals, transforming them into Watchers - they will occasionally do the same to Vespers, transforming them into Forsaken."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_underzealot"
+				criterion: ""
+				id: "1915A0F727122A6C"
+				type: "advancement"
+			}]
+			title: "Defeat &4Underzealot"
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7C7194A9535A32BC"]
+			id: "539201BD7BA0D464"
+			subtitle: "The Desolate Dagger is a magically imbued melee weapon capable of summoning ghostly variations of itself that deal extra damage to targets."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/desolate_dagger"
+				criterion: ""
+				id: "54F4678353597EFF"
+				type: "advancement"
+			}]
+			title: "Obtain &4Desolate Dagger"
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7C7194A9535A32BC"]
+			id: "52023945DAFBC867"
+			rewards: [{
+				id: "58BF91CB948CB28A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Watch Underzealot sacrificeing Vespers... and be ready....  "
+			tasks: [{
+				advancement: "alexscaves:alexscaves/underzealot_sacrifice"
+				criterion: ""
+				id: "470D39305FCC451E"
+				type: "advancement"
+			}]
+			title: "Vespers Sacrifice"
+			x: -6.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["52023945DAFBC867"]
+			id: "1051601E7BDC1D97"
+			rewards: [{
+				id: "5F81F6B3F006310C"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "By defeating the &4Forsaken."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/shadow_silk"
+				criterion: ""
+				id: "170EE118D455AB96"
+				type: "advancement"
+			}]
+			title: "Obtain &0Shadow Silk"
+			x: -6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1051601E7BDC1D97"]
+			id: "208AB9D368316115"
+			rewards: [{
+				id: "79462C139640D6B1"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "The Hood and Cloak of Darkness are a duo of items that grant the wearer powers of darkness when worn together."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/shadow_armor"
+				criterion: ""
+				id: "5C09858728C5B3FA"
+				type: "advancement"
+			}]
+			title: "Craft &4Hood and Cloak of Darkness"
+			x: -7.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["1051601E7BDC1D97"]
+			id: "4849FE043BFBF67F"
+			subtitle: "The Dreadbow is a powerful ranged weapon capable of raining down barrages of dark arrows upon enemies from afar."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/dreadbow"
+				criterion: ""
+				id: "299CC7E7F0561BED"
+				type: "advancement"
+			}]
+			title: "Craft &4Dreadbow"
+			x: -5.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["52023945DAFBC867"]
+			id: "0E7F318797181EE5"
+			rewards: [{
+				id: "630FF869BB3F0F5C"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Watchers are hostile mobs that can spawn from Underzealot sacrificial rituals. They can possess players while attacking them, causing their victims' point-of-view to switch to their own."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_watcher"
+				criterion: ""
+				id: "1557DF9E06823638"
+				type: "advancement"
+			}]
+			title: "Defeat &4The Watcher"
+			x: -8.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0E7F318797181EE5"]
+			id: "60C3F4584AC11793"
+			rewards: [{
+				id: "5E571AC168928A7C"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "The Totem of Possession is an ominous, magical weapon capable of binding to and controlling the behaviors of nearby creatures. It seems to strongly resemble the appearance of a Gloomoth."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/totem_of_possession"
+				criterion: ""
+				id: "2AE581D8BC5D80AB"
+				type: "advancement"
+			}]
+			title: "Craft &4Totem of Possession"
+			x: -10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0E7F318797181EE5"]
+			id: "3B200D2F615AC646"
+			rewards: [{
+				id: "307AEA82153F9D17"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Beholders must be placed in the world before anything can be done with them. When placed in the world, they begin to emit strange sounds.Right clicking a Beholder with an Occult Gem links the Gem to the Beholder, causing it to gain a magenta shimmer and display the Beholder's coordinates in its tooltip. From there, right-clicking while holding the linked Gem allows you to see through the Beholder. When seeing through the Beholder, the screen has an orange overlay placed over it, and the camera can be panned in all directions. Pressing Left Shift exits the Beholder's view."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/beholder_far_away"
+				criterion: ""
+				id: "5B212B0793922285"
+				type: "advancement"
+			}]
+			title: "Craft &4Beholder"
+			x: -10.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["761A53062E13E46C"]
+			description: [
+				"As Submarines are entities, they have their own amount of health and can be damaged from various means, such as tridents thrown from drowneds or melee attacks from Deep Ones and Hullbreakers."
+				""
+				"Similarly to an iron golem, a Submarine will begin to crack depending on how much health is depleted from it. Every 10 damage a Submarine absorbs, it will advance one stage in cracking around its main hull, propellors and window. These cracks will keep on getting worse as more stages of damage are advanced through, eventually becoming so severe after three stages that it will fall into full disrepair - instantly kicking out its passenger and losing its left propeller in the process. If being driven through water before becoming this unusable state, it will rapidly sink to the seafloor. After 4 stages of fracturing, and a total of 50 damage has been absorbed, the Submarine will fully break and drop 2-3 copper ingots."
+				""
+				"Fortunately, one can repair a cracked Submarine with the use of copper ingots. If a copper ingot is held and used on a Submarine that visibly has cracks, it will remove up to 10 built-up damage from the Submarine and repair fractures dealt by exactly one level of damage."
+			]
+			id: "6AB106C9312C9842"
+			rewards: [{
+				id: "5C8E8EFCAB1C4714"
+				type: "xp"
+				xp: 4
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/repair_submarine"
+				criterion: ""
+				id: "4EB30B8C4F5E6D18"
+				type: "advancement"
+			}]
+			title: "Repair The &6Submarine"
+			x: 12.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["73F93EABC9F30550"]
+			id: "684A5958EC013E10"
+			rewards: [{
+				id: "66CD0CE5A314E5DA"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Uranium is an item that can be obtained by mining Radrock Uranium Ore. Uranium is radioactive, and simply having enough of it in the player's inventory can inflict the Irradiated effect for 1:30 seconds."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/uranium"
+				criterion: ""
+				id: "65CE74527FA8BD53"
+				type: "advancement"
+			}]
+			title: "Obtain &2Uranium"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C0F79A64A06F254"]
+			id: "765B09F6D4504988"
+			rewards: [{
+				id: "3DDE83E7D913426B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Uranium Rods are used as fuel for Nuclear Furnaces and Uranium Rods are used to craft some other radioactive items."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/uranium_rod"
+				criterion: ""
+				id: "41BD652D6450785C"
+				type: "advancement"
+			}]
+			title: "Craft &2Uranium Rod"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["684A5958EC013E10"]
+			id: "71904D3CE0FD43AD"
+			rewards: [{
+				id: "5704BAD6F66181E3"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Sulfur Dust is an item primarily used to synthesize raw materials or to create food that specialize with healing when inflicted with the Irradiated effect."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/sulfur_dust"
+				criterion: ""
+				id: "4F263DEE382301DF"
+				type: "advancement"
+			}]
+			title: "Obtain &eSulfur Dust"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71904D3CE0FD43AD"]
+			id: "7828A1DF90B2FC9F"
+			rewards: [{
+				id: "27CAC197C5D783BA"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Toxic Paste is an item known to be the grotesque innards of a Gammaroach. It can be used to craft some basic blocks or items."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/toxic_paste"
+				criterion: ""
+				id: "67B7113523A54A61"
+				type: "advancement"
+			}]
+			title: "Obtain &eToxic Paste"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7828A1DF90B2FC9F"]
+			id: "7B69C1867E607B31"
+			rewards: [{
+				id: "359525C49FF3450F"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "A Polymer Plate is a synthetic material crafted from many raw ingredients found inside the Toxic Caves."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/polymer_plate"
+				criterion: ""
+				id: "7384B11583DBB531"
+				type: "advancement"
+			}]
+			title: "Obtain &ePolymer Plate"
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B69C1867E607B31"]
+			id: "640A2E6A8A058BB0"
+			rewards: [{
+				id: "5E10C0C106DDC1C8"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "We need to cook."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/hazmat_armor"
+				criterion: ""
+				id: "2288C193ED8CAC7C"
+				type: "advancement"
+			}]
+			title: "Craft &eHazmat Armor Set"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B69C1867E607B31"]
+			id: "5DFD036E29407C1E"
+			rewards: [{
+				id: "3E6E126F5588C424"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "A Remote Detonator is a unique utility used to ignite TNT and Nuclear Bombs from any distance."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/remote_detonation"
+				criterion: ""
+				id: "3BAA71EE23D2741A"
+				type: "advancement"
+			}]
+			title: "Craft &4Remote Detonator"
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["765B09F6D4504988"]
+			description: [""]
+			id: "212F30C1C7EE1229"
+			rewards: [{
+				id: "22B67DAF3AB6C751"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Brainiacs are common hostile mobs found in the Toxic Caves. They are powerful undead monsters that use a variety of different attacks to dispatch targets."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_brainiac"
+				criterion: ""
+				id: "36DE0D197B48BA18"
+				type: "advancement"
+			}]
+			title: "Defeat &2Brainiac"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["765B09F6D4504988"]
+			description: [""]
+			id: "1192B7E48B0CF02F"
+			rewards: [{
+				id: "4D4F4D2C82257E0F"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "A Raygun is a futuristic ranged weapon that utilizes a continuous beam of energy to hurt any mobs in its way."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/raygun"
+				criterion: ""
+				id: "06201AD4BFB47F0A"
+				type: "advancement"
+			}]
+			title: "Craft &2Raygun"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6DE05A6C960E7E3D"]
+			id: "126DE47A567515CE"
+			rewards: [{
+				id: "6587F82E18B86534"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/ride_gum_worm"
+				criterion: ""
+				id: "5F03D05DF3AAF724"
+				type: "advancement"
+			}]
+			title: "Ride &6Gum Worm"
+			x: -10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["684A5958EC013E10"]
+			id: "4C0F79A64A06F254"
+			rewards: [
+				{
+					id: "22E015E671FC793F"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 15
+					id: "4E0E09418C9B8F32"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			subtitle: " A cybernetic Creeper that can charge up enough power to self-destruct in an atomic explosion."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_nucleeper"
+				criterion: ""
+				id: "017C31B4CF078ED6"
+				type: "advancement"
+			}]
+			title: "Defeat &2Nucleeper"
+			x: -3.5d
+			y: 3.0d
+		}
+	]
+	title: " &6Alex &cCaves"
+}
