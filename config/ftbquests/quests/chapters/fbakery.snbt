@@ -63,8 +63,8 @@
 			}]
 			subtitle: "A must-have for baking bread!"
 			tasks: [{
-				id: "1C55337F13FADD93"
-				item: "bakery:yeast"
+				id: "7CA2BEF1757C9EA0"
+				item: "farm_and_charm:yeast"
 				type: "item"
 			}]
 			x: -1.5d
@@ -95,8 +95,8 @@
 			}]
 			subtitle: "Used to make dough: place items inside, then stir until done."
 			tasks: [{
-				id: "45056CA0F41A3A00"
-				item: "bakery:crafting_bowl"
+				id: "572F5F5437747541"
+				item: "farm_and_charm:crafting_bowl"
 				type: "item"
 			}]
 			x: 1.5d
@@ -111,8 +111,8 @@
 			}]
 			subtitle: "Like a furnace, but with a nicer aroma."
 			tasks: [{
-				id: "0C8EA1CAA0126FE3"
-				item: "bakery:brick_stove"
+				id: "68BCCBB0993EF4BA"
+				item: "candlelight:stone_bricks_stove"
 				type: "item"
 			}]
 			x: 4.5d
@@ -201,8 +201,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "73F4541077330534"
-				item: "bakery:dough"
+				id: "5558BF23A6006F74"
+				item: "farm_and_charm:dough"
 				type: "item"
 			}]
 			x: 1.5d

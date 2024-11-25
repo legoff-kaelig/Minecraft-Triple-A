@@ -15,8 +15,8 @@
 			id: "0A0C5915DDEDC5ED"
 			optional: true
 			rewards: [{
-				id: "751B758F9AA04A42"
-				item: "candlelight:tool_rack"
+				id: "0D4D4DAEF64710C0"
+				item: "farm_and_charm:tool_rack"
 				type: "item"
 			}]
 			size: 1.5d
@@ -102,16 +102,6 @@
 			subtitle: "Click to learn more!"
 			tasks: [
 				{
-					id: "30A74C11F14AE40A"
-					item: "candlelight:table_set"
-					type: "item"
-				}
-				{
-					id: "3861DDFEBEDF42BA"
-					item: "candlelight:table_bowl"
-					type: "item"
-				}
-				{
 					id: "694320AEF8DA7BAB"
 					item: "candlelight:glass"
 					type: "item"
@@ -119,6 +109,16 @@
 				{
 					id: "138FC6C4AF8A047A"
 					item: "candlelight:napkin"
+					type: "item"
+				}
+				{
+					id: "7FE4D8DDCA018C18"
+					item: "candlelight:plate"
+					type: "item"
+				}
+				{
+					id: "03DF6696EC39E160"
+					item: "candlelight:bowl"
 					type: "item"
 				}
 			]
@@ -243,8 +243,8 @@
 				}
 			]
 			tasks: [{
-				id: "49D744846C6BAB84"
-				item: "candlelight:pasta"
+				id: "4AF88F71BC452DA1"
+				item: "farm_and_charm:raw_pasta"
 				type: "item"
 			}]
 			x: 3.0d
@@ -311,8 +311,8 @@
 				}
 			]
 			tasks: [{
-				id: "43005B6A3D6E48EE"
-				item: "candlelight:lettuce_salad"
+				id: "388CEDACDAFC07A2"
+				item: "candlelight:salad"
 				type: "item"
 			}]
 			x: -2.0d
@@ -356,8 +356,14 @@
 				}
 			]
 			tasks: [{
-				id: "577A47478692988F"
-				item: "candlelight:cooked_beef"
+				id: "5A4DBD198D06E4C4"
+				item: {
+					Count: 1
+					id: "candlelight:beef_with_mushroom_in_wine_and_potatoes"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
 				type: "item"
 			}]
 			x: 3.0d
@@ -402,8 +408,8 @@
 				}
 			]
 			tasks: [{
-				id: "2766A6365FD8E941"
-				item: "candlelight:lettuce_beef"
+				id: "1A3423D0D311A971"
+				item: "farm_and_charm:beef_patty_with_vegetables"
 				type: "item"
 			}]
 			x: 1.0d
@@ -424,8 +430,14 @@
 				}
 			]
 			tasks: [{
-				id: "6BA94E2C60E089BB"
-				item: "candlelight:lettuce_tomato"
+				id: "3F8A29E95D30BD3B"
+				item: {
+					Count: 1
+					id: "candlelight:tomato_soup"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
 				type: "item"
 			}]
 			x: -3.0d
@@ -447,8 +459,14 @@
 				}
 			]
 			tasks: [{
-				id: "249562414DB3BEBC"
-				item: "candlelight:salmon_wine"
+				id: "209E1C1C81C2279A"
+				item: {
+					Count: 1
+					id: "candlelight:salmon_on_white_wine"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
 				type: "item"
 			}]
 			x: 1.5d
@@ -469,8 +487,8 @@
 				}
 			]
 			tasks: [{
-				id: "76D99E942B8C3081"
-				item: "candlelight:veggie_plate"
+				id: "3D2BC827D961AF40"
+				item: "candlelight:fresh_garden_salad"
 				type: "item"
 			}]
 			x: -3.0d
@@ -515,8 +533,14 @@
 				}
 			]
 			tasks: [{
-				id: "38131DB8167CE0CB"
-				item: "candlelight:pasta_bolognese"
+				id: "51F0D00FA383240C"
+				item: {
+					Count: 1
+					id: "candlelight:pasta_with_bolognese"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
 				type: "item"
 			}]
 			x: 2.5d
@@ -538,8 +562,8 @@
 				}
 			]
 			tasks: [{
-				id: "38139FBBD06D29A9"
-				item: "candlelight:pasta_lettuce"
+				id: "37588AF861FB686D"
+				item: "candlelight:pasta_with_lettuce"
 				type: "item"
 			}]
 			x: 1.5d
@@ -561,8 +585,8 @@
 				}
 			]
 			tasks: [{
-				id: "7BAA791C2002866A"
-				item: "candlelight:pancake"
+				id: "0532AEE4BFE27F92"
+				item: "farm_and_charm:oat_pancake"
 				type: "item"
 			}]
 			x: 2.5d
@@ -584,8 +608,14 @@
 				}
 			]
 			tasks: [{
-				id: "47E39FF96C0F5C3C"
-				item: "candlelight:fricasse"
+				id: "036D1A6ED9A03B21"
+				item: {
+					Count: 1
+					id: "candlelight:chicken_alfredo"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
 				type: "item"
 			}]
 			x: 1.5d
@@ -607,8 +637,8 @@
 				}
 			]
 			tasks: [{
-				id: "375E1287D7853B9D"
-				item: "candlelight:chicken"
+				id: "6EB6FF3C6C15B5F8"
+				item: "farm_and_charm:chicken_parts"
 				type: "item"
 			}]
 			x: 2.0d
@@ -675,8 +705,14 @@
 				}
 			]
 			tasks: [{
-				id: "7BE03CEAA4B1B7E3"
-				item: "candlelight:roastbeef_carrots"
+				id: "4CD723DF2ED955D3"
+				item: {
+					Count: 1
+					id: "candlelight:roastbeef_with_glazed_carrots"
+					tag: {
+						StoredEffects: [ ]
+					}
+				}
 				type: "item"
 			}]
 			x: 2.0d
@@ -744,8 +780,8 @@
 				}
 			]
 			tasks: [{
-				id: "1573C2AC20FDA085"
-				item: "candlelight:chocolate"
+				id: "327372330232ACFF"
+				item: "minecraft:cocoa_beans"
 				type: "item"
 			}]
 			x: 1.0d
