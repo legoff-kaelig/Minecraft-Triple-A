@@ -5,7 +5,7 @@
 	group: "5E3CAACB575722D6"
 	icon: "ad_astra:moon_globe"
 	id: "28E6A8001A80E5C5"
-	order_index: 5
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,7 +16,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "3D8FBF5C6DB4A211"
-					table_id: 1511897575099731575L
 					type: "random"
 				}
 				{
@@ -54,7 +53,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "007068EED6E89C6E"
-					table_id: 1511897575099731575L
 					type: "random"
 				}
 			]
@@ -107,12 +105,10 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "31F53CA82A78D68C"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
-				icon: "blue_skies:lunar_log"
-				id: "39DADB020A3127DD"
+				id: "28318018D44018DB"
 				structure: "ad_astra:lunarian_village"
 				title: "Find a &cLunarian Vilalge"
 				type: "structure"
@@ -124,7 +120,7 @@
 			dependencies: ["722FA069ADAACB56"]
 			icon: {
 				Count: 1
-				id: "enemyexpansion:headbiter_helmet"
+				id: "create:copper_diving_helmet"
 				tag: {
 					Damage: 0
 				}
@@ -140,13 +136,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "5DCAFFF09B1A47AF"
-					table_id: 28026836370523306L
 					type: "random"
 				}
 			]
 			tasks: [{
-				icon: "minecraft:spawner"
-				id: "20770BC2F96F95DE"
+				id: "1535EC84F6BE8DFE"
 				structure: "ad_astra:moon_dungeon"
 				title: "Find a &dMoon Dungeon"
 				type: "structure"
@@ -160,7 +154,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "60606EE38F9477B4"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -186,7 +179,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "5BF193493DE4C35C"
-					table_id: 28026836370523306L
 					type: "random"
 				}
 			]
@@ -300,7 +292,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "2B2E93AEC4AD30B2"
-					table_id: 28026836370523306L
 					type: "random"
 				}
 			]
@@ -351,24 +342,6 @@
 			y: 3.0d
 		}
 		{
-			id: "2497A5F326FA0B95"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1E027A78D1847FDB"
-				table_id: 1511897575099731575L
-				type: "random"
-			}]
-			subtitle: "A &amasterwork&r of &cengineering&r! Four &bpropellers&r strapped on a bunch of &bbamboos&r. It's quite &ehandy&r for &ebuilding&r.&r"
-			tasks: [{
-				id: "104A943175CE388A"
-				item: "immersive_aircraft:quadrocopter"
-				type: "item"
-			}]
-			title: "Craft a &6Quadrocopter"
-			x: -5.5d
-			y: 5.5d
-		}
-		{
 			dependencies: ["3610CFB86C219197"]
 			icon: "ad_astra:mars_globe"
 			id: "326E670F51543705"
@@ -409,7 +382,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "47303F531306BB2D"
-				table_id: 1511897575099731575L
 				type: "loot"
 			}]
 			shape: "circle"
@@ -423,101 +395,6 @@
 			title: "Obtain &6Desh"
 			x: -7.5d
 			y: 3.0d
-		}
-		{
-			dependencies: ["14377841BB0F2875"]
-			id: "46B37D60D2FCF9D8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5262B1BDB13DD62E"
-				table_id: 1511897575099731575L
-				type: "random"
-			}]
-			tasks: [
-				{
-					id: "394F178501E6BD1E"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"cold_sweat:item_insulation": { }
-						}
-						id: "cp_tweaks:desh_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1371D3F74F290EF9"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"cold_sweat:item_insulation": { }
-						}
-						id: "cp_tweaks:desh_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1854E2465C2C5E29"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"cold_sweat:item_insulation": { }
-						}
-						id: "cp_tweaks:desh_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5F8BB63C4CACEC4C"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"cold_sweat:item_insulation": { }
-						}
-						id: "cp_tweaks:desh_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Craft a &6Desh Armor Set"
-			x: -7.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["46B37D60D2FCF9D8"]
-			id: "1C2112FFA9838A6F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "282D7EC9B2DB2CB8"
-				table_id: 1511897575099731575L
-				type: "random"
-			}]
-			tasks: [{
-				id: "1D39894446165D43"
-				item: {
-					Count: 1
-					id: "cp_tweaks:desh_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Craft a &6Desh Tool Set"
-			x: -7.5d
-			y: 6.0d
 		}
 		{
 			dependencies: ["4C5636DFD629FD1A"]
@@ -560,7 +437,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "28AE92FCC21D1DCF"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -579,7 +455,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5E26090912546DF9"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -598,7 +473,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "108F47AE5DEF4385"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -617,7 +491,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "11B1F7258925AA1C"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{

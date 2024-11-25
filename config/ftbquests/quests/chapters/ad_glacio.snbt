@@ -5,7 +5,7 @@
 	group: "5E3CAACB575722D6"
 	icon: "ad_astra:glacio_globe"
 	id: "35E93C492B4BEDFA"
-	order_index: 9
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -20,7 +20,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "00008C27E4C20A63"
-					table_id: 28026836370523306L
 					type: "choice"
 				}
 			]
@@ -59,13 +58,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "075469B6A1F9E834"
-					table_id: 2645938118790146101L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "746D1DC9232486E2"
-					table_id: 28026836370523306L
 					type: "choice"
 				}
 			]
@@ -93,13 +90,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "17023B457F67E686"
-					table_id: 2645938118790146101L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "2BF1868D7BC53D39"
-					table_id: 28026836370523306L
 					type: "choice"
 				}
 			]
@@ -119,13 +114,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "026460516FE97D25"
-					table_id: 2645938118790146101L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "2B1B31C536FE49ED"
-					table_id: 28026836370523306L
 					type: "choice"
 				}
 			]
@@ -146,13 +139,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "1E26CCD568BBEAFA"
-					table_id: 2645938118790146101L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "4BC2D59F5EB932CF"
-					table_id: 28026836370523306L
 					type: "choice"
 				}
 			]
@@ -173,13 +164,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "3DA7FEA3E0456ED7"
-					table_id: 2645938118790146101L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "4F503DCF9BA13E94"
-					table_id: 28026836370523306L
 					type: "choice"
 				}
 			]
@@ -200,13 +189,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "652DA7B3122B1E4D"
-					table_id: 2645938118790146101L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "7F9A208B21716619"
-					table_id: 28026836370523306L
 					type: "choice"
 				}
 			]
