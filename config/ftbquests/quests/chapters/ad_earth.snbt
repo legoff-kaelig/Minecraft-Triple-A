@@ -5,7 +5,7 @@
 	group: "5E3CAACB575722D6"
 	icon: "ad_astra:earth_globe"
 	id: "50342FF0C32120E0"
-	order_index: 4
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -456,7 +456,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "62095FDA44D4F61C"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -475,7 +474,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "26FF8065DFB13C2F"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -494,7 +492,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "513F74B0D47ADE50"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -513,7 +510,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "025047D92F6C7F47"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{

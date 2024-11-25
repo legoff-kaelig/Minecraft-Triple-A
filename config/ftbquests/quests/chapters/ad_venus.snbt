@@ -5,7 +5,7 @@
 	group: "5E3CAACB575722D6"
 	icon: "ad_astra:venus_globe"
 	id: "45AFAE5FE9971A23"
-	order_index: 7
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -42,7 +42,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "644B0E1A96F79109"
-				table_id: 2645938118790146101L
 				type: "loot"
 			}]
 			shape: "circle"
@@ -64,7 +63,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4D2A8D2C46496229"
-				table_id: 28026836370523306L
 				type: "loot"
 			}]
 			shape: "circle"
@@ -84,7 +82,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "03CADD69F697A4B0"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -103,7 +100,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2E64FB8C181873F2"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -123,7 +119,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6512F8DFC8E7FB48"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -143,7 +138,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3B2665C0CC97595D"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -245,13 +239,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "6CD59A7C65EDF008"
-					table_id: 28026836370523306L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "5AF9D66CA14C1C7D"
-					table_id: 2645938118790146101L
 					type: "loot"
 				}
 			]
@@ -313,13 +305,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "118D52D0F86D2E78"
-					table_id: 28026836370523306L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "4383AA60FE8D5A22"
-					table_id: 2645938118790146101L
 					type: "loot"
 				}
 			]
@@ -346,7 +336,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0A853AE3F551551A"
-				table_id: 28026836370523306L
 				type: "loot"
 			}]
 			subtitle: "Breath AIR!"
@@ -382,158 +371,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["47EB7BF98327B066"]
-			id: "33F03957F5BE6E05"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "72A06E5B659C24E0"
-					table_id: 28026836370523306L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "603976E048250DBE"
-					table_id: 2645938118790146101L
-					type: "loot"
-				}
-			]
-			tasks: [
-				{
-					id: "2BCB276230EE1931"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"cold_sweat:item_insulation": { }
-						}
-						id: "cp_tweaks:calorite_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "569DF9F216F5A673"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"cold_sweat:item_insulation": { }
-						}
-						id: "cp_tweaks:calorite_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "383654C6D349E0BB"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"cold_sweat:item_insulation": { }
-						}
-						id: "cp_tweaks:calorite_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "12C3C77B3ECEEAB0"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"cold_sweat:item_insulation": { }
-						}
-						id: "cp_tweaks:calorite_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Craft &4Calorite Armor Set"
-			x: 2.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["47EB7BF98327B066"]
-			id: "0CD9C26498F92441"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5C2C62B01727B671"
-					table_id: 28026836370523306L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7F30FA2A862CE2DC"
-					table_id: 2645938118790146101L
-					type: "loot"
-				}
-			]
-			tasks: [
-				{
-					id: "0B5140E09BDB7297"
-					item: {
-						Count: 1
-						id: "cp_tweaks:calorite_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "191526856DEE1981"
-					item: {
-						Count: 1
-						id: "cp_tweaks:calorite_axe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6F9838E176336CA7"
-					item: {
-						Count: 1
-						id: "cp_tweaks:calorite_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3F0F2A62976D076C"
-					item: {
-						Count: 1
-						id: "cp_tweaks:calorite_shovel"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Craft &4Calorite Tools Set"
-			x: 3.5d
-			y: -1.5d
-		}
-		{
 			dependencies: ["3721E52FB204ECDB"]
 			id: "07A3A64375283709"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "295741EBC9EABC2F"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -552,7 +394,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6FF71E4B7376F873"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -571,7 +412,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0EE91290C18C8690"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -590,7 +430,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "149EEB4EC0B765F9"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -620,7 +459,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "3442011FFCBE419A"
-					table_id: 28026836370523306L
 					type: "choice"
 				}
 			]
@@ -643,7 +481,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "168B659CCCDABFD8"
-				table_id: 2645938118790146101L
 				type: "loot"
 			}]
 			tasks: [{

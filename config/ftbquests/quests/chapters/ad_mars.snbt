@@ -5,7 +5,7 @@
 	group: "5E3CAACB575722D6"
 	icon: "ad_astra:mars_globe"
 	id: "7408CCEC3E990DEE"
-	order_index: 6
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -78,7 +78,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "5E1CA82FA90F6A0B"
-					table_id: 1511897575099731575L
 					type: "choice"
 				}
 			]
@@ -218,7 +217,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "25145920FD632673"
-					table_id: 2645938118790146101L
 					type: "choice"
 				}
 			]
@@ -245,7 +243,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "125C02FE2F526DBF"
-					table_id: 2645938118790146101L
 					type: "choice"
 				}
 			]
@@ -272,7 +269,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "49C582A43B140C45"
-					table_id: 2645938118790146101L
 					type: "loot"
 				}
 			]
@@ -299,7 +295,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "04FA9C8FB863E867"
-					table_id: 1511897575099731575L
 					type: "choice"
 				}
 			]
@@ -450,7 +445,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3350EFC48AFA8F4A"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -469,7 +463,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "798EC4C2EFBEE01E"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -488,7 +481,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5B6892FF4D6CB172"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -507,7 +499,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "45543C649BF4C1F8"
-				table_id: 28026836370523306L
 				type: "random"
 			}]
 			tasks: [{
@@ -533,13 +524,11 @@
 				{
 					exclude_from_claim_all: true
 					id: "34436710FABD3B95"
-					table_id: 28026836370523306L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "4768719159ACCD87"
-					table_id: 2645938118790146101L
 					type: "random"
 				}
 			]
