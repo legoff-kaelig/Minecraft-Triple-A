@@ -99,8 +99,8 @@
 				xp: 10
 			}]
 			tasks: [{
-				id: "1DA7D9AE7DA88588"
-				item: "brewery:silo_wood"
+				id: "6BAACD68F2720120"
+				item: "farm_and_charm:silo_wood"
 				type: "item"
 			}]
 			x: 0.0d
@@ -116,8 +116,8 @@
 			}]
 			subtitle: "A faster version of the wooden silo."
 			tasks: [{
-				id: "334039F0B0E15526"
-				item: "brewery:silo_copper"
+				id: "37581284AE88ACD8"
+				item: "farm_and_charm:silo_copper"
 				type: "item"
 			}]
 			x: 0.0d

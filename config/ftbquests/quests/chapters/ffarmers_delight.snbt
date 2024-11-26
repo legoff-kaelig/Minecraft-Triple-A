@@ -139,22 +139,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["0ED14D2226AFBB8F"]
-			id: "18C51B2F444BB928"
-			rewards: [{
-				id: "00F7E63C0C03C5D7"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "14A846F9944BC0FA"
-				item: "oceansdelight:elder_guardian_slice"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -3.5d
-		}
-		{
 			dependencies: ["3B8653292F7A7FB8"]
 			id: "31C107434EC18FF5"
 			rewards: [{
@@ -315,19 +299,13 @@
 			subtitle: "Used to craft food, it can be used in place of other methods for a chance of extra output."
 			tasks: [
 				{
-					id: "22748A39A50097CD"
-					item: "ubesdelight:baking_mat_bamboo"
+					id: "13C07199DD34D21C"
+					item: "vintagedelight:cheese_mold"
 					type: "item"
 				}
 				{
-					id: "0E17534CB19A2769"
-					item: {
-						Count: 1
-						id: "ubesdelight:rolling_pin_wood"
-						tag: {
-							Damage: 0
-						}
-					}
+					id: "393005AEEB09BAEE"
+					item: "vintagedelight:fermenting_jar"
 					type: "item"
 				}
 			]
@@ -335,23 +313,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1E4B9F7A8A32E96A"]
-			id: "44689DDB8C299F4B"
-			rewards: [{
-				id: "0B7F496551587FFF"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [{
-				id: "0D48260DD52C2DA4"
-				item: "ubesdelight:ube_cake"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["1E4B9F7A8A32E96A"]
 			id: "320DADF5EDDE6A5D"
 			rewards: [{
 				id: "41D6571514A6801C"
@@ -359,8 +320,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "0965D087AD912DEE"
-				item: "ubesdelight:leche_flan_feast"
+				id: "1B0098D99CEA50AA"
+				item: "quarkdelight:lush_moss_salad"
 				type: "item"
 			}]
 			x: 6.0d
@@ -374,11 +335,18 @@
 				type: "xp"
 				xp: 25
 			}]
-			tasks: [{
-				id: "5EFDFB351077C9B6"
-				item: "ubesdelight:condensed_milk_bottle"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5EFDFB351077C9B6"
+					item: "ubesdelight:condensed_milk_bottle"
+					type: "item"
+				}
+				{
+					id: "7E0A05953278842A"
+					item: "delightful:cactus_chili"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 2.5d
 		}
@@ -391,8 +359,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "6FCBCC3873EEFB79"
-				item: "ubesdelight:fish_sauce_bottle"
+				id: "366740FEE0431BD9"
+				item: "alexsdelight:gongylidia_bruschetta"
 				type: "item"
 			}]
 			x: 1.5d
@@ -407,8 +375,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "4A05A1370D55272B"
-				item: "ubesdelight:milk_tea_ube"
+				id: "2E6342931E2ADD3E"
+				item: "delightful:sinigang"
 				type: "item"
 			}]
 			x: 3.5d
@@ -423,28 +391,12 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "60285739E7ACBAC3"
-				item: "ubesdelight:halo_halo"
+				id: "7AC2C13791327419"
+				item: "alexsdelight:bunfungus_sandwich"
 				type: "item"
 			}]
 			x: 1.5d
 			y: 7.5d
-		}
-		{
-			dependencies: ["0ED14D2226AFBB8F"]
-			id: "49ED7DAB5C57208A"
-			rewards: [{
-				id: "741B6348C22F0504"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [{
-				id: "7152A5860B601A4D"
-				item: "ubesdelight:garlic_chop"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -5.5d
 		}
 		{
 			dependencies: ["0ED14D2226AFBB8F"]
@@ -455,8 +407,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "5188C1E8269C86FD"
-				item: "ubesdelight:ginger_chop"
+				id: "70F71C1D0C767455"
+				item: "vintagedelight:cheese_slice"
 				type: "item"
 			}]
 			x: 1.5d
@@ -471,8 +423,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "3B3297393EC91807"
-				item: "ubesdelight:sinangag"
+				id: "1AD1C717B3B108D0"
+				item: "alexsdelight:kangaroo_pasta"
 				type: "item"
 			}]
 			x: 3.5d
@@ -487,8 +439,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "0CC6CC7301DA336A"
-				item: "ubesdelight:lumpia"
+				id: "36A710EBF9E95E82"
+				item: "alexsdelight:kangaroo_pasta"
 				type: "item"
 			}]
 			x: 2.5d
@@ -503,8 +455,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "3DC73B12998725E6"
-				item: "ubesdelight:tocino"
+				id: "0AF8E085508200CD"
+				item: "alexsdelight:kangaroo_stew"
 				type: "item"
 			}]
 			x: 3.5d
@@ -519,8 +471,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "5CA2AE7801967344"
-				item: "ubesdelight:chicken_inasal"
+				id: "67BA2ABB756B453B"
+				item: "delightful:nut_butter_and_jelly_sandwich"
 				type: "item"
 			}]
 			x: 2.5d
@@ -535,8 +487,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "2EB8C37CA92BB076"
-				item: "ubesdelight:chicken_inasal_rice"
+				id: "5529DC206CF2ECF2"
+				item: "alexsdelight:acacia_blossom_soup"
 				type: "item"
 			}]
 			x: 1.0d
@@ -551,8 +503,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "620950F58FFC5F1C"
-				item: "ubesdelight:tosilog"
+				id: "0E71345F5748C4E7"
+				item: "alexsdelight:lobster_pasta"
 				type: "item"
 			}]
 			x: 2.5d
@@ -567,8 +519,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "69714196C7C79549"
-				item: "ubesdelight:bangsilog"
+				id: "0B243FA981A8FC60"
+				item: "delightful:cactus_soup"
 				type: "item"
 			}]
 			x: 2.5d
@@ -583,8 +535,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "44F68FAD896E7158"
-				item: "ubesdelight:sisig"
+				id: "624BCF5F8AC4F83E"
+				item: "alexsdelight:bison_burger"
 				type: "item"
 			}]
 			x: 4.0d
@@ -599,8 +551,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "0B3AF5E9FC78C098"
-				item: "ubesdelight:bulalo"
+				id: "06C6C1F2CFD38895"
+				item: "delightful:stuffed_cantaloupe"
 				type: "item"
 			}]
 			x: 4.0d
@@ -615,8 +567,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "10B20F7B7201124A"
-				item: "ubesdelight:arroz_caldo"
+				id: "600D3DF14E600B82"
+				item: "delightful:crab_rangoon"
 				type: "item"
 			}]
 			x: 2.5d
@@ -631,15 +583,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "09DE23A718E0714E"
-				item: "ubesdelight:mechado"
+				id: "38A4A522D068EBEE"
+				item: "delightful:smore"
 				type: "item"
 			}]
 			x: 1.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["1E4B9F7A8A32E96A"]
 			id: "24FDD08A34439F42"
 			rewards: [{
 				id: "34AFB90EAF09C67E"
@@ -647,15 +598,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "1FB04406EA9837C3"
-				item: "ubesdelight:cookie_ube"
+				id: "39F81CB96129C454"
+				item: "quarkdelight:bowl_of_exotic_fruits"
 				type: "item"
 			}]
 			x: 6.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["1E4B9F7A8A32E96A"]
 			id: "5F47D257A29E62C1"
 			rewards: [{
 				id: "4147503C730FD6D6"
@@ -663,8 +613,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "280965D7F3911053"
-				item: "ubesdelight:cookie_ginger"
+				id: "43319E1D241B53F0"
+				item: "quarkdelight:miso_with_bamboo_sprouts"
 				type: "item"
 			}]
 			x: 6.0d
@@ -679,8 +629,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "3834D5E1B5697965"
-				item: "ubesdelight:leche_flan"
+				id: "174AF84E22B46780"
+				item: "culturaldelights:chicken_roll_slice"
 				type: "item"
 			}]
 			x: 3.5d
@@ -695,15 +645,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "1ED41F119748A1DB"
-				item: "ubesdelight:ube_cake_slice"
+				id: "61037718EA89418A"
+				item: "delightful:source_berry_pie_slice"
 				type: "item"
 			}]
 			x: 4.0d
 			y: -8.5d
 		}
 		{
-			dependencies: ["1E4B9F7A8A32E96A"]
 			id: "406A4250BE65E126"
 			rewards: [{
 				id: "1036E281F163061B"
@@ -711,8 +660,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "0E4F8B3D7E2E5156"
-				item: "ubesdelight:polvorone"
+				id: "66F4090ED91794B6"
+				item: "cuisinedelight:scrambled_egg_and_tomato"
 				type: "item"
 			}]
 			x: 7.0d
@@ -727,8 +676,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "57CDA1F412BD7E6A"
-				item: "ubesdelight:raw_polvorone"
+				id: "799DD120DE5858AC"
+				item: "delightful:field_salad"
 				type: "item"
 			}]
 			x: 1.5d
@@ -743,15 +692,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "4C3BFA82F63FBAF5"
-				item: "ubesdelight:raw_polvorone_pinipig"
+				id: "105135CBFCEEAB0A"
+				item: "culturaldelights:rice_ball"
 				type: "item"
 			}]
 			x: 1.0d
 			y: 16.5d
 		}
 		{
-			dependencies: ["1E4B9F7A8A32E96A"]
 			id: "04291F9FD89151C2"
 			rewards: [{
 				id: "0D1B511CD397C631"
@@ -759,12 +707,12 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "6B1C0349D3EF777F"
-				item: "ubesdelight:polvorone_pinipig"
+				id: "5571B3F1D1B9A4D0"
+				item: "quarkdelight:cooked_whole_crab"
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["23B2F632F22C994B"]
@@ -775,15 +723,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "0AFFD7BB776CC509"
-				item: "ubesdelight:raw_polvorone_ube"
+				id: "52F2229CAB7F9EF0"
+				item: "delightful:deluxe_cheeseburger"
 				type: "item"
 			}]
 			x: 3.5d
 			y: 3.5d
 		}
 		{
-			dependencies: ["1E4B9F7A8A32E96A"]
 			id: "0887A07AEBFF30BA"
 			rewards: [{
 				id: "1B617E0E261D6C55"
@@ -791,12 +738,12 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "0B3F43A562DFD87E"
-				item: "ubesdelight:polvorone_ube"
+				id: "287310BD2599F194"
+				item: "cuisinedelight:fried_pasta"
 				type: "item"
 			}]
 			x: 11.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["23B2F632F22C994B"]
@@ -807,15 +754,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "02C859F8A68FCB4E"
-				item: "ubesdelight:raw_polvorone_cc"
+				id: "645323049B6313E6"
+				item: "alexsdelight:maggot_salad"
 				type: "item"
 			}]
 			x: 2.5d
 			y: 5.5d
 		}
 		{
-			dependencies: ["1E4B9F7A8A32E96A"]
 			id: "6219F2A04E95EA58"
 			rewards: [{
 				id: "5D25F076969A011E"
@@ -823,15 +769,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "196CE68E4DC3D816"
-				item: "ubesdelight:polvorone_cc"
+				id: "0E1FA86F065991D4"
+				item: "quarkdelight:crab_pasta"
 				type: "item"
 			}]
 			x: 5.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["1E4B9F7A8A32E96A"]
 			id: "1092E9AF87D9BB9B"
 			rewards: [{
 				id: "0C03071E10E92B78"
@@ -839,15 +784,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "3F72260E6D7F5F73"
-				item: "ubesdelight:pandesal_raw"
+				id: "57120EBCEC24AAD4"
+				item: "cuisinedelight:seafood_platter"
 				type: "item"
 			}]
 			x: 9.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["1092E9AF87D9BB9B"]
 			id: "782E08EE1A368DA0"
 			rewards: [{
 				id: "1F0EA485F254542E"
@@ -855,15 +799,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "357B83F81E30643A"
-				item: "ubesdelight:pandesal"
+				id: "46BA88E61B05C3A7"
+				item: "cuisinedelight:meat_platter"
 				type: "item"
 			}]
 			x: 10.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["1E4B9F7A8A32E96A"]
 			id: "46DB9759BF9BB2D6"
 			rewards: [{
 				id: "2F9F675FC8A84D89"
@@ -871,15 +814,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "4CA2C42D99530395"
-				item: "ubesdelight:pandesal_ube_raw"
+				id: "3E167643A3AA131E"
+				item: "cuisinedelight:fried_mushroom"
 				type: "item"
 			}]
 			x: 8.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["46DB9759BF9BB2D6"]
 			id: "0587D79917D122AC"
 			rewards: [{
 				id: "7B3490E6FB8F0E30"
@@ -887,15 +829,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "09B6D763B0D388F6"
-				item: "ubesdelight:pandesal_ube"
+				id: "1B4703EF449880BE"
+				item: "cuisinedelight:meat_pasta"
 				type: "item"
 			}]
 			x: 10.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["1E4B9F7A8A32E96A"]
 			id: "6E1C078224A16C5E"
 			rewards: [{
 				id: "0130148A776FF688"
@@ -903,15 +844,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "53AFAB2871F0FE39"
-				item: "ubesdelight:ensaymada_raw"
+				id: "1AD98A03A6E7E09D"
+				item: "cuisinedelight:seafood_pasta"
 				type: "item"
 			}]
 			x: 9.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["1E4B9F7A8A32E96A"]
 			id: "31ABA16D66AB721C"
 			rewards: [{
 				id: "7DD7CBD5F6E5898B"
@@ -919,15 +859,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "6653151117AF123E"
-				item: "ubesdelight:ensaymada_ube_raw"
+				id: "648B0B2C79A6ACA8"
+				item: "cuisinedelight:vegetable_platter"
 				type: "item"
 			}]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["31ABA16D66AB721C"]
 			id: "2E8DECF5F802BBE6"
 			rewards: [{
 				id: "4210487A98C8129F"
@@ -935,15 +874,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "562F826C8527B44C"
-				item: "ubesdelight:ensaymada_ube"
+				id: "6A906A2EA498C533"
+				item: "cuisinedelight:fried_meat_and_melon"
 				type: "item"
 			}]
 			x: 7.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["1E4B9F7A8A32E96A"]
 			id: "2D7E5FEA14C840A6"
 			rewards: [{
 				id: "478936E61E1A4887"
@@ -951,15 +889,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "16091C9E854271C2"
-				item: "ubesdelight:hopia_munggo_raw"
+				id: "3F848E81C44D8E1D"
+				item: "cuisinedelight:vegetable_fried_rice"
 				type: "item"
 			}]
 			x: 8.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["2D7E5FEA14C840A6"]
 			id: "2B6234C77D505451"
 			rewards: [{
 				id: "2A5ED577177C4D34"
@@ -967,15 +904,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "6645A6D66E8D09B8"
-				item: "ubesdelight:hopia_munggo"
+				id: "444F8B05102557E3"
+				item: "quarkdelight:cavern_explorer_stew"
 				type: "item"
 			}]
 			x: 7.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["1E4B9F7A8A32E96A"]
 			id: "1621D9274F4A245B"
 			rewards: [{
 				id: "56709AAF8E6ABDC4"
@@ -983,15 +919,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "2DF27753CCC6A35F"
-				item: "ubesdelight:hopia_ube_raw"
+				id: "0FDEBFA2381D66CD"
+				item: "cuisinedelight:mixed_pasta"
 				type: "item"
 			}]
 			x: 11.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["1621D9274F4A245B"]
 			id: "7172F5F2C96C558E"
 			rewards: [{
 				id: "629E2451F87DF863"
@@ -999,15 +934,14 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "07DDE5922AFF7193"
-				item: "ubesdelight:hopia_ube"
+				id: "53C3402D3D642245"
+				item: "cuisinedelight:meat_fried_rice"
 				type: "item"
 			}]
 			x: 10.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["6E1C078224A16C5E"]
 			id: "254220C431259611"
 			rewards: [{
 				id: "7DDE7E400D71813A"
@@ -1015,8 +949,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "522EE5559FC7D948"
-				item: "ubesdelight:ensaymada"
+				id: "4645CBC38CDAA7EE"
+				item: "cuisinedelight:seafood_fried_rice"
 				type: "item"
 			}]
 			x: 9.0d
@@ -1329,7 +1263,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0ED14D2226AFBB8F"]
@@ -1344,8 +1278,8 @@
 				item: "farmersdelight:minced_beef"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -7.5d
+			x: 3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3B8653292F7A7FB8"]
@@ -2297,6 +2231,128 @@
 			}]
 			x: -1.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["0ED14D2226AFBB8F"]
+			id: "6F1F15C143FE6B34"
+			rewards: [{
+				id: "38247547A93EFA92"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "65417997F303433B"
+				item: "culturaldelights:midori_roll_slice"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0ED14D2226AFBB8F"]
+			id: "7EBA86399CA794DA"
+			rewards: [{
+				id: "674D18F2FC6954BB"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3B2643F84DC6FBDD"
+				item: "delightful:salmonberry_pie_slice"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			id: "20A8A725CEE0FF02"
+			rewards: [{
+				id: "364CD2F07027C821"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5D69639CBA7413B0"
+				item: "cuisinedelight:seafood_with_vegetables"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			id: "62B701B01414CEF3"
+			rewards: [{
+				id: "3F3356780A6F2F77"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "53826CE9ED865F96"
+				item: "cuisinedelight:meat_with_vegetables"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			id: "6620131328E5C9CE"
+			rewards: [{
+				id: "25C0BB8FCF133B8E"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5A0B1414E436F66C"
+				item: "cuisinedelight:meat_with_seafood"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "4A7BEAC38873DCD6"
+			rewards: [{
+				id: "4D6C739340C6B963"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2B2F8054985B8D52"
+				item: "cuisinedelight:mixed_fried_rice"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			id: "2B472A483D0E17DF"
+			rewards: [{
+				id: "3A03695C881CB59F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5ED81FF3967047E7"
+				item: "cuisinedelight:ham_fried_rice"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			id: "1CC8EC15606D43F8"
+			rewards: [{
+				id: "516F57A7DD702CD0"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "7A9491533C3C16F6"
+				item: "cuisinedelight:suspicious_mix"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
 		}
 	]
 	title: " &6F&farmer's Delight"
