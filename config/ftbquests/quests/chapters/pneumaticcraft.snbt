@@ -6,7 +6,7 @@
 	group: "2136CD76886E1B45"
 	icon: "pneumaticcraft:pressure_gauge"
 	id: "6189F33BEBED0EB7"
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -22,6 +22,11 @@
 					id: "5CF7B5C20227FD4F"
 					item: "fmtt:fmtt_xp_item"
 					type: "item"
+				}
+				{
+					id: "782FA9F275A1A665"
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "pentagon"
