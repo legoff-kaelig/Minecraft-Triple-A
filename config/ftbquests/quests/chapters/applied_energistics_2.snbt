@@ -5,7 +5,7 @@
 	group: "2136CD76886E1B45"
 	icon: "ae2:controller"
 	id: "07210DDF872160BA"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -548,8 +548,8 @@
 				type: "item"
 			}]
 			title: "The IO"
-			x: 24.0d
-			y: 1.5d
+			x: 21.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["40A7CC56DACC2623"]
@@ -1090,13 +1090,12 @@
 			]
 			shape: "rsquare"
 			tasks: [{
-				id: "773E8781B09CA753"
+				id: "2468B69FE9777960"
 				item: {
-					Count: 1b
-					id: "megacells:chemical_storage_cell_256m"
+					Count: 1
+					id: "appmek:chemical_storage_cell_1k"
 					tag: { }
 				}
-				title: "ME Chemical Storage Cell"
 				type: "item"
 			}]
 			title: "Chemical Storage"
@@ -1185,8 +1184,8 @@
 				item: "ae2:import_bus"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 0.5d
+			x: 20.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["74FC0DDDB91DB172"]
@@ -1211,8 +1210,8 @@
 				item: "ae2:export_bus"
 				type: "item"
 			}]
-			x: 25.0d
-			y: 0.5d
+			x: 22.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5E7E35CCAF1C88EE"]
@@ -1243,8 +1242,8 @@
 				item: "ae2:annihilation_plane"
 				type: "item"
 			}]
-			x: 23.0d
-			y: -1.5d
+			x: 20.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["083D458032F0325C"]
@@ -1273,8 +1272,8 @@
 				item: "ae2:formation_plane"
 				type: "item"
 			}]
-			x: 25.0d
-			y: -1.5d
+			x: 22.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["74FC0DDDB91DB172"]
@@ -1306,8 +1305,8 @@
 				type: "item"
 			}]
 			title: "P2P Tunnels"
-			x: 26.0d
-			y: 1.5d
+			x: 23.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["74FC0DDDB91DB172"]
@@ -1336,8 +1335,8 @@
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
-			x: 24.0d
-			y: -0.5d
+			x: 21.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1710B3D05215A71E"]
@@ -1370,8 +1369,8 @@
 				title: "Memory Card"
 				type: "item"
 			}]
-			x: 26.0d
-			y: -0.5d
+			x: 23.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2F556E7919582D2D"]
@@ -1483,8 +1482,8 @@
 				item: "ae2:capacity_card"
 				type: "item"
 			}]
-			x: 24.0d
-			y: -2.5d
+			x: 21.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["74FC0DDDB91DB172"]
@@ -1516,8 +1515,8 @@
 				type: "item"
 			}]
 			title: "Forgot to Mention"
-			x: 25.0d
-			y: 2.5d
+			x: 22.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["51DE3157DE3E57B8"]
@@ -2330,8 +2329,8 @@
 				}
 			]
 			title: "Loosely Speaking"
-			x: 26.0d
-			y: -2.5d
+			x: 23.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3E3DF8E967D95DB0"]
@@ -2449,6 +2448,80 @@
 			title: "Waste Storage"
 			x: 21.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["397165BB305A887E"]
+			id: "55EAC72E991655A6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35D563179E33BEEA"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+				{
+					id: "12CCE0FBC3B398E6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2FEA55B361FB2954"
+				item: {
+					Count: 1
+					id: "appflux:fe_1k_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Energy Storage"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55EAC72E991655A6"]
+			id: "4DC1A31A873DA7BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3EA1D7BA02EB1B5D"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+				{
+					id: "2B9215D64ABE61AA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "70A4C40DB8328574"
+				item: {
+					Count: 1
+					id: "appbot:mana_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Mana Storage"
+			x: 24.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DC1A31A873DA7BC"]
+			id: "7F0584A0C47EB9C9"
+			tasks: [{
+				id: "79A935B418512C38"
+				item: {
+					Count: 1
+					id: "arseng:source_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Source Storage"
+			x: 26.5d
+			y: 1.5d
 		}
 	]
 	title: "Applied Energistics 2"
