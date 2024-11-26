@@ -1,0 +1,1 @@
+Files with trange names (like 0414572B7C36F04F) should be deleted to keep only the ones we needs. The fact is that I don't know wich are the goods ones :)
