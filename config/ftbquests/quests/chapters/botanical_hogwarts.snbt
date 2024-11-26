@@ -1,0 +1,1316 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botanical_hogwarts"
+	group: "02FE910EDEFB2C10"
+	icon: {
+		Count: 1b
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	id: "4A7E3AC8965287EC"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "botania:item/mana_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "kubejs:textures/item/questbook/titlebotania.png"
+			rotation: 0.0d
+			width: 10.026178010471206d
+			x: 11.5d
+			y: -10.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["337C1CA1B5435CDC"]
+			id: "1BECDAF6289A0E2A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60FED31BEBB2B0DA"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "177562D10FC11D25"
+				item: "botania:manaweave_cloth"
+				type: "item"
+			}]
+			x: 6.6d
+			y: -7.199999999999999d
+		}
+		{
+			dependencies: ["1BECDAF6289A0E2A"]
+			id: "19AD0880FDBE20F7"
+			shape: "diamond"
+			tasks: [{
+				id: "5EF41D39512C3FC9"
+				item: {
+					Count: 1b
+					id: "botania:manaweave_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1BECDAF6289A0E2A"]
+			id: "76FB0084BD27FD30"
+			shape: "diamond"
+			tasks: [{
+				id: "7C7D7EA97C67CDB6"
+				item: {
+					Count: 1b
+					id: "botania:manaweave_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1BECDAF6289A0E2A"]
+			id: "4BBB76B368830837"
+			shape: "diamond"
+			tasks: [{
+				id: "2F2B159CD9984917"
+				item: {
+					Count: 1b
+					id: "botania:manaweave_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1BECDAF6289A0E2A"]
+			id: "6F522B63754C5966"
+			shape: "diamond"
+			tasks: [{
+				id: "4BF08DF07BC60ABE"
+				item: {
+					Count: 1b
+					id: "botania:manaweave_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["386C6B89987D7DA1"]
+			id: "559C8E7090C999D6"
+			shape: "diamond"
+			tasks: [{
+				id: "1505681D4BFA040D"
+				item: {
+					Count: 1b
+					id: "botania:manasteel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["386C6B89987D7DA1"]
+			id: "5E2055BE76B157DF"
+			shape: "diamond"
+			tasks: [{
+				id: "15A8C351EF57CA5B"
+				item: {
+					Count: 1b
+					id: "botania:manasteel_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["386C6B89987D7DA1"]
+			id: "34C55C079A4BA558"
+			shape: "diamond"
+			tasks: [{
+				id: "6F4179B31D4B99C3"
+				item: {
+					Count: 1b
+					id: "botania:manasteel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["386C6B89987D7DA1"]
+			id: "59BE4C4355FA5D39"
+			shape: "diamond"
+			tasks: [{
+				id: "08A3DEF7AAA7FDA2"
+				item: {
+					Count: 1b
+					id: "botania:manasteel_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1BECDAF6289A0E2A"]
+			hide_dependency_lines: true
+			id: "386C6B89987D7DA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30861B0672D667E6"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "4704EC0C3E2D8A05"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 2.4d
+			y: -7.199999999999999d
+		}
+		{
+			dependencies: [
+				"74D2DDA6D10C5A99"
+				"4C1622372A721C2F"
+				"6EB1F789B677513F"
+			]
+			id: "68C2B3B0B8BB0E76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67EBC41A97BC572C"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				id: "792C8D2DC18D87BA"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 8.4d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"5C75C66266F1B7F0"
+				"337C1CA1B5435CDC"
+				"4714B28A8C105B50"
+			]
+			id: "50D5FA3E7399DC0C"
+			shape: "hexagon"
+			tasks: [{
+				id: "2F01DE04968C6FDB"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "7D1CA632796E151E"
+			shape: "diamond"
+			tasks: [{
+				id: "1927C9D0E0CADC7E"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "5D323A31A5240808"
+			shape: "diamond"
+			tasks: [{
+				id: "5F83AB79B1BB28FD"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "37D11A6C63C9200E"
+			shape: "diamond"
+			tasks: [{
+				id: "6FF90656D1D82C31"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "0A3A7A9308895936"
+			shape: "diamond"
+			tasks: [{
+				id: "6FAC71046899F9DC"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "5929178ED2400C47"
+			shape: "diamond"
+			tasks: [{
+				id: "481EC34CAB05F31A"
+				item: "botania:rune_spring"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "66719FFF6CAB398D"
+			shape: "diamond"
+			tasks: [{
+				id: "6F93EA4B6DA9E1C8"
+				item: "botania:rune_summer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "668BFC4FA3421E96"
+			shape: "diamond"
+			tasks: [{
+				id: "01B7C6187642A07F"
+				item: "botania:rune_autumn"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "6BD75012187D5453"
+			shape: "diamond"
+			tasks: [{
+				id: "19B84B90C58BEED8"
+				item: "botania:rune_winter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "7CD6061C9699CEB6"
+			shape: "diamond"
+			tasks: [{
+				id: "3A1CC2AF6311D1E4"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "0DEE4E3C05F75BF9"
+			shape: "diamond"
+			tasks: [{
+				id: "5118DA0C64BA10A5"
+				item: "botania:rune_lust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "321E1F582BF7B796"
+			shape: "diamond"
+			tasks: [{
+				id: "7BADE37671B0990D"
+				item: "botania:rune_gluttony"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "176302B74DEC0D06"
+			shape: "diamond"
+			tasks: [{
+				id: "2371F2AC33EE6CF6"
+				item: "botania:rune_greed"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "09FCA2AB11529E85"
+			shape: "diamond"
+			tasks: [{
+				id: "5DBDCBBA8E9985F2"
+				item: "botania:rune_sloth"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "4D50473DFF7E7421"
+			shape: "diamond"
+			tasks: [{
+				id: "0EE03229C5C4DB9D"
+				item: "botania:rune_wrath"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "2656AB5DE67328A3"
+			shape: "diamond"
+			tasks: [{
+				id: "2AB6286393470A19"
+				item: "botania:rune_envy"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["358FC4D0391D54DA"]
+			id: "5C75C66266F1B7F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A1CC8D8958C5AAE"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "231135E722F986A8"
+				item: "kubejs:golden_electron_tube"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"62BE2F4A99E90D62"
+				"7AC42027ECF2727C"
+				"5C75C66266F1B7F0"
+				"358FC4D0391D54DA"
+			]
+			id: "0F1DE50461414EC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02732470D5E74912"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "7D75CEC2E2F32D7B"
+				item: "botania:apothecary_livingrock"
+				type: "item"
+			}]
+			x: 9.6d
+			y: -7.199999999999999d
+		}
+		{
+			dependencies: ["15EC502B65DAD7E2"]
+			id: "7F9A3E89D8A3E0D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A0F2D19BE7280CC"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "74D41C50AC18A046"
+				item: "botania:mana_fluxfield"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F9A3E89D8A3E0D2"]
+			id: "24783F45FC275293"
+			shape: "hexagon"
+			tasks: [{
+				id: "1FB53F52F456344B"
+				item: "botanicadds:elven_fluxfield"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5929178ED2400C47"
+				"66719FFF6CAB398D"
+				"37D11A6C63C9200E"
+			]
+			id: "2AD2CCCB306F7801"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "501BDBC4E193F33F"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				id: "671B32A9C913A3E6"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5CA95309AD76FC87"
+				"44DD3F2D211DDC97"
+			]
+			id: "57844A8087529F0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5179276DBFC50E03"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C17AA63EEE51CDF"
+				item: "botanicadds:gaia_plate"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2AD2CCCB306F7801"]
+			id: "1D80249DF9DD11C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21092BE943A4A0EE"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2286FC2B6E5CD33C"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D80249DF9DD11C8"]
+			icon: "botania:glimmering_livingwood"
+			id: "7AC37526F0B7F469"
+			rewards: [
+				{
+					id: "5B87CB893825BA52"
+					item: "botania:mana_tablet"
+					type: "item"
+				}
+				{
+					id: "4BE6980D4EE5929D"
+					item: "create_confectionery:black_chocolate_candy_1"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12B5A11550A50F19"
+					table_id: 2213562919699284841L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [
+				{
+					id: "79B24A27C949E846"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "79BDB83DD028074C"
+					item: "botania:glimmering_livingwood"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2BC9DF44A7B87133"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7AC37526F0B7F469"]
+			id: "5010D5E4C7D18E98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "670AE176E30D3615"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5B97B7DB9B723A82"
+				item: "botania:dreamwood_log"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7AC37526F0B7F469"]
+			description: [
+				"Dude this is literally the &dLunar Crystal&r from &bExtra Utilities 2&r lol."
+				""
+				"I miss that mod."
+			]
+			id: "44DD3F2D211DDC97"
+			rewards: [
+				{
+					id: "345ADEDD1F7E4C11"
+					item: "constructionwand:core_angel"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "323CD27C162C156B"
+					table_id: 2213562919699284841L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			subtitle: "It looks familiar from somewhere..."
+			tasks: [{
+				id: "69DB7F3572961B04"
+				item: "botanicadds:elven_lapis"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7AC37526F0B7F469"]
+			id: "6174EBB89E1EDE6D"
+			shape: "diamond"
+			tasks: [{
+				id: "483823BDD51EE609"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"5010D5E4C7D18E98"
+				"6174EBB89E1EDE6D"
+			]
+			id: "1451D272AFB848C8"
+			shape: "diamond"
+			tasks: [{
+				id: "204034866470C153"
+				item: {
+					Count: 1b
+					id: "botania:elementium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1451D272AFB848C8"]
+			id: "6D5C45CAD85D4669"
+			shape: "diamond"
+			tasks: [{
+				id: "1686560A13734986"
+				item: {
+					Count: 1b
+					id: "botania:elementium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6D5C45CAD85D4669"]
+			id: "16460C37A1B30C8F"
+			shape: "diamond"
+			tasks: [{
+				id: "27FEAAB329B6E9CC"
+				item: {
+					Count: 1b
+					id: "botania:elementium_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["16460C37A1B30C8F"]
+			id: "4049AC04C02D1020"
+			shape: "diamond"
+			tasks: [{
+				id: "29C10476CE6305B4"
+				item: {
+					Count: 1b
+					id: "botania:elementium_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4049AC04C02D1020"]
+			id: "4101C974248BEDDD"
+			shape: "diamond"
+			tasks: [{
+				id: "24B1832C4B8F160D"
+				item: {
+					Count: 1b
+					id: "botania:elementium_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7AC37526F0B7F469"]
+			icon: "botania:gaia_pylon"
+			id: "5CA95309AD76FC87"
+			rewards: [
+				{
+					id: "12364A3277C7DBEC"
+					item: "create_confectionery:black_chocolate_candy_1"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25CE5D9DC5B761FA"
+					table_id: 2213562919699284841L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					id: "706BBFEB9B4322A8"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "0BB4D8DEF9ACC3E5"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4E0ED695341BAA7D"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+			]
+			title: "&dGaia Boss!"
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5CA95309AD76FC87"]
+			id: "75AF17207B10B0C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4618BE2856515F67"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "203FC76A4DE02658"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7AC37526F0B7F469"]
+			id: "287F8B5762DA11A3"
+			shape: "diamond"
+			tasks: [{
+				id: "6C1DEB17517ACA1A"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7AC37526F0B7F469"]
+			id: "72910095BEBCBB01"
+			shape: "diamond"
+			tasks: [{
+				id: "084E8B5B6A252D4E"
+				item: "botania:pixie_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5CA95309AD76FC87"]
+			id: "1B1FA2872ED6E5D2"
+			shape: "hexagon"
+			tasks: [{
+				id: "7D83019A7C211E93"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"75AF17207B10B0C9"
+				"57844A8087529F0E"
+			]
+			id: "73FFAFF95A2C7507"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "585ADFB7604E6AB7"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3DE3C5D02D96C72F"
+				item: "botanicadds:gaiasteel_ingot"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["73FFAFF95A2C7507"]
+			id: "28705A5951643287"
+			tasks: [{
+				id: "1F792A90B334BDC0"
+				item: "botanicadds:aura_ring_gaia"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["73FFAFF95A2C7507"]
+			id: "6B9D1452D802BAB1"
+			tasks: [{
+				id: "15B42A9E7B43F088"
+				item: "botanicadds:mana_ring_gaia"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73FFAFF95A2C7507"]
+			id: "6D6D454E11045F70"
+			tasks: [{
+				id: "781C214B43C35E66"
+				item: {
+					Count: 1b
+					id: "botanicadds:mana_stealer_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73FFAFF95A2C7507"]
+			id: "187F374B9AC8EC27"
+			tasks: [{
+				id: "2AEE0BDCB6E7B28A"
+				item: "botanicadds:gaiasteel_pylon"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C71DD2B96CD3ACE"]
+			id: "7AC42027ECF2727C"
+			shape: "diamond"
+			tasks: [{
+				id: "1243120A658D3D04"
+				item: "ars_nouveau:water_essence"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7AC42027ECF2727C"]
+			hide_dependency_lines: true
+			id: "62BE2F4A99E90D62"
+			shape: "diamond"
+			tasks: [{
+				id: "3A60469F7C77B500"
+				item: "kubejs:allay_fertilizer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"16460C37A1B30C8F"
+				"4101C974248BEDDD"
+				"1451D272AFB848C8"
+				"4049AC04C02D1020"
+				"6D5C45CAD85D4669"
+			]
+			id: "1FC81023D09C148C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D9E4ACE14DAB293"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "5887A0C696127F75"
+				item: {
+					Count: 1b
+					id: "aiotbotania:elementium_aiot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["70BDDD4E8B1FC96C"]
+			id: "7BC9166354C4866C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D35E1D0D0768281"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "255FC8A0530357D6"
+				item: "botanicadds:dreaming_pool"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7AC37526F0B7F469"]
+			id: "70BDDD4E8B1FC96C"
+			tasks: [{
+				id: "5A2B18D615BEE2E1"
+				item: "botanicadds:dreamrock"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["228453567ED9CAB4"]
+			id: "5401F22704A2C108"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7164BE970B3382C3"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 0.8d
+			subtitle: "Duping The Echo Shards"
+			tasks: [{
+				id: "7E0CC9C2EC0B58A5"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: 12.8d
+			y: -7.2d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "77BA8BE96086262B"
+			shape: "diamond"
+			tasks: [{
+				id: "2534A4A0FEFED865"
+				item: "botanicadds:rune_tp"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68C2B3B0B8BB0E76"]
+			id: "15EC502B65DAD7E2"
+			shape: "diamond"
+			tasks: [{
+				id: "53F79BDF6AC4A6E6"
+				item: "botanicadds:rune_energy"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"72910095BEBCBB01"
+				"6174EBB89E1EDE6D"
+			]
+			id: "228453567ED9CAB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ECE3F66CAEB7CD7"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1B13CB1C79F2273B"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2D0D60B6D73528FE"]
+			id: "0BB345ED1450A484"
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "589CF749C3E1A0FE"
+				item: "exnihilosequentia:fired_crucible"
+				type: "item"
+			}]
+			x: -0.8d
+			y: -1.3999999999999995d
+		}
+		{
+			dependencies: ["0BB345ED1450A484"]
+			id: "69C943B0990977DB"
+			tasks: [{
+				id: "59AE6FDDF11AF88C"
+				item: "thermal:glowstone_bucket"
+				type: "item"
+			}]
+			x: 1.2d
+			y: -0.5999999999999996d
+		}
+		{
+			dependencies: ["7227D94BD940B007"]
+			icon: "exnihilosequentia:birch_barrel"
+			id: "3C5A57398689C2D5"
+			tasks: [{
+				id: "01AD55BE600A5770"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "exnihilosequentia:barrels"
+					}
+				}
+				title: "Any #exnihilosequentia:barrels"
+				type: "item"
+			}]
+			title: "Barrel"
+			x: 1.2d
+			y: -2.5999999999999996d
+		}
+		{
+			dependencies: [
+				"3C5A57398689C2D5"
+				"69C943B0990977DB"
+			]
+			id: "1C518EA9800C58D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0716CBBE279A7624"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7D109898E8A90414"
+				item: "kubejs:glowing_mechanism"
+				type: "item"
+			}]
+			x: 2.7d
+			y: -1.5999999999999996d
+		}
+		{
+			dependencies: [
+				"2D09F6FF8B72F112"
+				"1C518EA9800C58D6"
+			]
+			id: "33C0980659517102"
+			tasks: [{
+				id: "144E38E4799B8DDA"
+				item: "kubejs:glimmering_livingrock"
+				type: "item"
+			}]
+			x: 4.2d
+			y: -2.5999999999999996d
+		}
+		{
+			dependencies: [
+				"1E73A2A27BFD3B89"
+				"0CEC668B34B4B80D"
+			]
+			id: "2D09F6FF8B72F112"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "335F2E4268AA1523"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "4168FAC92B4EDCC5"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 2.7d
+			y: -3.5999999999999996d
+		}
+		{
+			dependencies: ["6A3744132E81B8B1"]
+			description: ["&aBotania is a tech mod&f: This time, unlike what you're used to, you have to craft the pure daisy by throwing it into the &6water in the overworld&r, not in the petal apotheracy thing."]
+			id: "0CEC668B34B4B80D"
+			rewards: [
+				{
+					id: "6495108388B18D0A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "176C3D4C3EFCF378"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Pure Enchanted Blossoms"
+			tasks: [{
+				id: "27E7BB9C9686B2BC"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 1.7d
+			y: -4.1d
+		}
+		{
+			dependencies: ["6430C8C86DF9471C"]
+			description: [
+				"&aPetals:&r Are Used In Every Flower Recipe In Botania."
+				"You Can Travel Around The World And &6Find Mystical Flowers&r Easily. But Sometimes Finding A Flower Of A Specific Color Can Be Very Challenging."
+				""
+				"That's Why I Give You &aFloral Fertilizer&r! Feel Free To Use It. "
+				"As Long As You Right Click On The Ground, &aRandom Mystical Flowers&r Will Be Created."
+			]
+			hide_dependency_lines: true
+			icon: "botania:white_mystical_flower"
+			id: "6A3744132E81B8B1"
+			rewards: [{
+				count: 16
+				id: "60FE1E2CB636BC3A"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "Botania's Color Palette"
+			tasks: [{
+				id: "484026C0C80F7222"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:petals"
+					}
+				}
+				title: "Any #botania:petals"
+				type: "item"
+			}]
+			title: "Floral Blossoms"
+			x: 0.3999999999999999d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"33C0980659517102"
+				"2D09F6FF8B72F112"
+			]
+			id: "337C1CA1B5435CDC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CFD798370CCAB6A"
+				table_id: 2213562919699284841L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				id: "1F94BCB40CE45C68"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 5.2d
+			y: -3.8d
+		}
+		{
+			dependencies: ["337C1CA1B5435CDC"]
+			id: "74D2DDA6D10C5A99"
+			shape: "diamond"
+			tasks: [{
+				id: "35747670F6E75F0F"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: 6.7d
+			y: -4.8d
+		}
+		{
+			dependencies: ["337C1CA1B5435CDC"]
+			id: "4C1622372A721C2F"
+			shape: "diamond"
+			tasks: [{
+				id: "033CA090F8E385F5"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 6.7d
+			y: -3.8d
+		}
+		{
+			dependencies: ["337C1CA1B5435CDC"]
+			id: "6EB1F789B677513F"
+			shape: "diamond"
+			tasks: [{
+				id: "69E0F7984212C02D"
+				item: "botania:mana_string"
+				type: "item"
+			}]
+			x: 7.2d
+			y: -4.3d
+		}
+	]
+	title: "Botanical Hogwarts"
+}
