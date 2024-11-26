@@ -14,7 +14,7 @@
 	images: [{
 		height: 0.3d
 		hover: ["Needed for the ATM Star"]
-		image: "kubejs:item/star"
+		image: "ftblibrary:icons/star"
 		rotation: 0.0d
 		width: 0.3d
 		x: 9.5d
