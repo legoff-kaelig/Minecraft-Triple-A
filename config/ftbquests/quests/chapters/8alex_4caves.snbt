@@ -63,7 +63,7 @@
 		}
 		{
 			height: 1.0d
-			image: "chipped:block/deepslate/creeper_deepslate_carving"
+			image: "rechiseled:block/cobbled_deepslate_pillar_end"
 			rotation: 0.0d
 			width: 1.0d
 			x: 7.0d
@@ -79,7 +79,7 @@
 		}
 		{
 			height: 1.0d
-			image: "lost_aether_content:item/sentry_shield"
+			image: "draconicevolution:module/chaotic_shield_capacity"
 			rotation: 0.0d
 			width: 1.0d
 			x: 12.5d
@@ -151,7 +151,7 @@
 		}
 		{
 			height: 1.0d
-			image: "scguns:item/anthralite_pickaxe"
+			image: "mysticalagriculture:item/gear/prudentium_pickaxe"
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.0d
@@ -311,7 +311,7 @@
 		}
 		{
 			height: 1.0d
-			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			image: "rechiseled:block/cobblestone_sheared"
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
@@ -319,7 +319,7 @@
 		}
 		{
 			height: 1.0d
-			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			image: "rechiseled:block/cobblestone_sheared"
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.0d
@@ -327,7 +327,7 @@
 		}
 		{
 			height: 1.0d
-			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			image: "rechiseled:block/cobblestone_sheared"
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.0d
@@ -335,7 +335,7 @@
 		}
 		{
 			height: 1.0d
-			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			image: "rechiseled:block/cobblestone_sheared"
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.0d
@@ -343,7 +343,7 @@
 		}
 		{
 			height: 1.0d
-			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			image: "rechiseled:block/cobblestone_sheared"
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.0d
@@ -999,7 +999,7 @@
 		}
 		{
 			height: 1.0d
-			image: "cold_sweat:block/colored_water"
+			image: "botania:block/mana_water"
 			rotation: 0.0d
 			width: 1.0d
 			x: 15.0d
@@ -1015,7 +1015,7 @@
 		}
 		{
 			height: 1.0d
-			image: "cold_sweat:block/colored_water"
+			image: "botania:block/mana_water"
 			rotation: 0.0d
 			width: 1.0d
 			x: 14.5d
@@ -1023,7 +1023,7 @@
 		}
 		{
 			height: 1.0d
-			image: "cold_sweat:block/colored_water"
+			image: "botania:block/mana_water"
 			rotation: 0.0d
 			width: 1.0d
 			x: 14.0d
@@ -1031,7 +1031,7 @@
 		}
 		{
 			height: 1.0d
-			image: "cold_sweat:block/colored_water"
+			image: "botania:block/mana_water"
 			rotation: 0.0d
 			width: 1.0d
 			x: 14.0d
@@ -1039,7 +1039,7 @@
 		}
 		{
 			height: 1.0d
-			image: "cold_sweat:block/colored_water"
+			image: "botania:block/mana_water"
 			rotation: 0.0d
 			width: 1.0d
 			x: 14.0d
@@ -1047,7 +1047,7 @@
 		}
 		{
 			height: 1.0d
-			image: "cold_sweat:block/colored_water"
+			image: "botania:block/mana_water"
 			rotation: 0.0d
 			width: 1.0d
 			x: 14.0d
@@ -1055,7 +1055,7 @@
 		}
 		{
 			height: 1.0d
-			image: "cold_sweat:block/colored_water"
+			image: "botania:block/mana_water"
 			rotation: 0.0d
 			width: 1.0d
 			x: 14.0d
@@ -1215,7 +1215,7 @@
 		}
 		{
 			height: 1.0d
-			image: "scguns:textures/gui/melee_attack_indicator_progress.png"
+			image: "quark:textures/attribute/attack_speed.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -8.0d
