@@ -60,40 +60,6 @@
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"Now that you have Steel, you can make a Hang Glider. This might be a good item to grab before you hit up the &cNether&r."
-				""
-				"If you don't have enough Leather yet, make a &9Butchering Knife&r and employ its inherent Looting III to hunt some cows."
-				"{@pagebreak}"
-				"&l&3Lore:&r&o The Hang Glider originally came from a mod known as OpenBlocks. As its utility was too great to be left on earlier versions, it was ported all the way up to modern versions."
-			]
-			id: "0C301014EC4D17B8"
-			rewards: [{
-				count: 8
-				id: "1A39F42877915C72"
-				item: "minecraft:leather"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 0.5d
-			subtitle: "No, it's Steve with a glider!"
-			tasks: [{
-				id: "1D0F8D4470DFFD19"
-				item: {
-					Count: 1
-					id: "hangglider:hang_glider"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Is it a Phantom? Is it an Elytra?"
-			x: 1.9417176870748278d
-			y: -2.5865816326530435d
-		}
-		{
-			dependencies: ["40DE888E6025C646"]
-			description: [
 				"&3High Pressure Boilers&r will be a better source of Steam for powering your Steam machines."
 				""
 				"Keep in mind that you will still be using Steam to power your Electric machines in &7LV&r via the miracles of energy conversion."
@@ -173,7 +139,7 @@
 				""
 				"Using your fancy new &3Macerator&r, you'll need to process &d132 Clay&r, split into &d66 Clay Dusts&r and &d66 Brick Dusts&r."
 				""
-				"Build the structure using &4EMI's Multiblock preview tab&r."
+				"Build the structure using &4JEI's Multiblock preview tab&r."
 				"{@pagebreak}"
 				"Steel will be &9of utmost importance&r throughout the entire game, so make sure you keep that PBF running. We should clarify that the PBF isn't the only way to get Steel throughout your playthrough, though!"
 				""
@@ -232,7 +198,7 @@
 				""
 				"&oPollution was also (infamously) a thing, so four of these monsters would guarantee your character would periodically get negative effects such as slowness, mining fatigue, or even nausea and poison."
 				""
-				"&oPollution is actually integrated into GregTech Modern, but we've graciously disabled it in the configs. You can re-enable it if you're up for a challenge."
+				"&oPollution is eneable defaultly but you can deseable it in the config."
 			]
 			icon: "gtceu:steel_ingot"
 			id: "5D17DFCF6672404C"
@@ -272,19 +238,9 @@
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"Now that you have Steel, you can make a &3Flint and Steel&r. You now have access to the &4Nether&r."
+				"&6Nether Ores are worth two Overworld Ores&r if mined with &3Silk Touch&r. It'd be great if you could craft the book directly, huh? ;)"
 				""
-				"&o&8You could also light the Nether portal using... natural means. Dirty cheater.&r"
-				""
-				"The &4Nether&r has more veins to mine, and with those veins, new ores to discover. Check the Ore Tab to learn more about the Nether Veins."
-				""
-				"Additionally, &6Nether Ores are worth two Overworld Ores&r if mined with &3Silk Touch&r. It'd be great if you could craft the book directly, huh? ;)"
-				"{@pagebreak}"
 				"&4Nether&r veins will take more effort to find - and are more dangerous to mine - than &2Overworld&r veins. Keep on top of your mining by using Waypoints."
-				""
-				"If you're yet to transition to &dPeaceful&r, it isn't too late to make the switch! There's no need to bother fighting Ghasts or Blazes in GTCEu."
-				""
-				"This is because the Blaze/Magma Cube and Enderman loot tables have been changed in this pack to &5Sulfur Dust&r and &5Ender Pearl Dust&r respectively, so you can't just rush the End."
 			]
 			icon: "minecraft:netherrack"
 			id: "7CAD6FF241A827F7"
@@ -320,7 +276,6 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Why WOULDN'T it be made of Steel?"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "01DEABF7BF6C5413"
@@ -335,8 +290,6 @@
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
 				"Mine some &dSulfur&r from the Nether."
-				""
-				"If Lava is \"too hot to handle\", we've included a &6direct crafting recipe&r for &aPotions of Fire Resistance&r. EMI might look a little confusing, but don't worry - you can use &bWater Bottles&r in the potion recipe."
 				""
 				"&l&3Lore:&r&o With the existence of &6Small Sulfur Ores&f scattered in GregTech 5 ore veins, you could mine enough Sulfur in the Overworld to skip having to visit the Nether. Sounds broken, but it was still as much of a grind as Nether travel!"
 			]
@@ -381,7 +334,7 @@
 		{
 			dependencies: ["77EA56D16A9B3BFC"]
 			description: [
-				"Good news - we're going to start to cut down on the amount of components you'll need to submit for quests as you progress further into the modpack. Remember that &2EMI is your true mentor&r if recipes are getting overwhelming."
+				"Good news - we're going to start to cut down on the amount of components you'll need to submit for quests as you progress further into the modpack. Remember that &2JEI is your true mentor&r if recipes are getting overwhelming."
 				""
 				"Getting back on topic, set yourself up for &7LV&r by crafting six &aLV Electric Motors&r! This may seem like a lot, but that's the bare minimum required to get to the good stuff in &7LV&r."
 				""
@@ -409,25 +362,13 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
 				"Obtaining paper is both more difficult and less efficient than in vanilla. Thanks, Greg."
 				""
-				"You'll need to grind &aSugar Canes&r into &aChad&r, and then smush the dust with a mallet and water."
 				"{@pagebreak}"
-				"&9Note 1:&r Don't worry, we're not cruel enough to have the recipe consume the bucket."
+				"&9Note 1:&r Make a manual Sugar Cane farm. You could also automate one with Observers and Pistons. Shoutout to any &aNomifactory&r veterans."
 				"{@pagebreak}"
-				"&9Note 2:&r Make a manual Sugar Cane farm. You could also automate one with Observers and Pistons. Shoutout to any &aNomifactory&r veterans."
-				"{@pagebreak}"
-				"&9Note 3:&r When you reach &7LV&r, you'll be able to make Paper from Wood."
-				"{@pagebreak}"
-				"&9Note 4:&r The Crafting Station makes this microcrafting absolutely &2trivial&r - use it!"
-				"{@pagebreak}"
-				"&9Note 5:&r Paper will be used as a poor-quality wrapping material for the upcoming resistors."
-				"{@pagebreak}"
-				"&9Note 6:&r It is truly a pleasure to share this moment with you, our fellow Greg enjoyer."
-				"{@pagebreak}"
-				"&9Note 7:&r Yes, Paper Dust is really called that. Let's get the giggles out of the way now, shall we?"
+				"&9Note 2:&r Paper will be used as a poor-quality wrapping material for the upcoming resistors."
 			]
 			id: "76B70EF552B35779"
 			rewards: [{
@@ -487,7 +428,7 @@
 			description: [
 				"The &bPrimitive Water Pump&r is an easy way to automatically generate water for your boilers. It doesn't physically pump water from the world, instead generating it &einternally&r. Therefore, you don't need access to a &3body of water&r to make use of it. However, the humidity of the biome does apply a negligible bonus to its water production."
 				""
-				"It's a multiblock, so &5consult EMI&r for the structure. Multiblocks can be previewed in-world if you sneak right-click the \"&a&ocontroller&r\" block with an empty hand (in this case, the controller block is the &bPrimitive Water Pump&r itself)."
+				"It's a multiblock, so &5consult JEI&r for the structure. Multiblocks can be previewed in-world if you sneak right-click the \"&a&ocontroller&r\" block with an empty hand (in this case, the controller block is the &bPrimitive Water Pump&r itself)."
 				""
 				"&6Small tip for you:&r no need to worry about your base's biome for now, as your boilers will need very little water to keep up."
 				"{@pagebreak}"
@@ -627,7 +568,7 @@
 				""
 				"You'll want to use the &3Alloy Smelter&r to make &aRubber Bars&r. These ratios aren't particularly great, but we promise that making Rubber Bars will be much more efficient at &7LV&r."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In base GregTech 5 &7(and in base GTCE)&f, you needed to get string and black wool carpets as your first insulation material. &8&mThat was obviously far, far more fun.&r"
+				"&l&3Lore:&r&o In base GregTech 5, you needed to get string and black wool carpets as your first insulation material. &8&mThat was obviously far, far more fun.&r"
 			]
 			icon: "gtceu:rubber_ingot"
 			id: "77EA56D16A9B3BFC"
@@ -700,10 +641,6 @@
 				"Get either a Small or Normal &6Bronze Fluid Pipe&r to complete this quest. Both are used in crafting."
 				"{@pagebreak}"
 				"&aReminder:&r 1 second = 20 ticks... assuming the server isn't lagging."
-				""
-				"&dNote:&r GT6-style Pipes are enabled. It means that placing Pipes connects them only to the block they were placed against. To open more connections, use your Wrench on the pipe."
-				""
-				"You can also shift-right click with your Wrench to disable input from a side. This can help counteract sloshing &7(liquids travelling in an undesired direction)&r."
 			]
 			icon: "gtceu:bronze_normal_fluid_pipe"
 			id: "1FFD2242B94A7378"
@@ -777,11 +714,7 @@
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
-			description: [
-				"&dSteam Machines&r accept any Steam that is pumped from nearby Boilers into their internal storage tank. They will run recipes from EMI up to 32 EU/t (&7LV&r-tier)."
-				""
-				"&6This quest unlocks a new tutorial on Steam in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
-			]
+			description: ["&dSteam Machines&r accept any Steam that is pumped from nearby Boilers into their internal storage tank. They will run recipes from JEI up to 32 EU/t (&7LV&r-tier)."]
 			id: "03DBF1961AE21C76"
 			rewards: [{
 				count: 4
@@ -864,7 +797,7 @@
 			description: [
 				"Use Mortars or a Macerator (your choice) to microcraft your way to Glass Dust, which you can then turn into a &aGlass Block&r."
 				""
-				"If you are lost, a more detailed guide for this process is on the next page, but &dwe urge you to nose around EMI&r and figure out the recipe on your own. Being able to navigate EMI and parse recipes is an &6essential skill&r for completing this pack."
+				"If you are lost, a more detailed guide for this process is on the next page, but &dwe urge you to nose around JEI&r and figure out the recipe on your own. Being able to navigate JEI and parse recipes is an &6essential skill&r for completing this pack."
 				""
 				"Glass will be easier later on. You've probably already noticed that juicy &3Arc Furnace&r recipe - don't worry, we'll get there soon."
 				""
@@ -933,7 +866,7 @@
 				type: "item"
 			}]
 			title: "Red Alloy"
-			x: 5.625d
+			x: 4.5d
 			y: 0.75d
 		}
 		{
@@ -1000,7 +933,7 @@
 				"{@pagebreak}"
 				"&l&3Lore:&r&o &dPotin Fluid Pipes&f were first seen in &9GT++&f, an addon to GT5, and are a considerable power spike for players in a relatively unknown pack called &4GT:NH&f. We wanted to spread some of that joy."
 				""
-				"&oIn the real world, &dPotin&f is an alloy used in coins, not pipes. GTCEu just gets more unrealistic by the day..."
+				"&oIn the real world, &dPotin&f is an alloy used in coins, not pipes. GT just gets more unrealistic by the day..."
 			]
 			icon: "gtceu:potin_normal_fluid_pipe"
 			id: "3C70B0717E9377A4"
@@ -1206,8 +1139,6 @@
 				"The added spice is the amount of steps, either optional or required."
 				""
 				"Ore Processing will be explained further once you get into &7LV&r."
-				""
-				"&6This quest unlocks a new tutorial on rudimentary Ore Processing in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			icon: "gtceu:crushed_gold_ore"
 			id: "7813F183681E0342"
@@ -1341,52 +1272,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"3CF550B81716B8B9"
-				"54AF8696674766B4"
-			]
-			description: [
-				"The &9Portable Cell&r serves as an early-game digital backpack alternative! It holds up to &a54&r types of items."
-				""
-				"What's more, it acts just like a regular AE2 Storage Cell. Once you get an ME System running, you can simply drop it into an &aME Drive&r or &b&aME IO Port&r for convenience."
-				""
-				"The Portable Cell's energy only drains when it's open. With &6167 minutes&r of juice stored in it thanks to changed config, you shouldn't worry about it running out of energy."
-				""
-				"Regardless, you will be able to &dcharge&r it in &7LV&r in &3machine Charger slots&r, &3Turbo Chargers&r or &3Battery Buffers&r."
-				"{@pagebreak}"
-				"&cWarning&r: Attempting to store items with very large NBT Tags may result in them getting &cstuck&r. So far it seems that the Building Gadgets, Terminal and Clipboards are &lsafe&r, but you never know what could happen."
-				""
-				"If something gets stuck, build a simple AE2 Network with just an Energy Acceptor, an IO Port and a Storage Bus on a chest, then place your Portable Cell inside the IO Port. This will spit out any stored items into the chest."
-			]
-			icon: {
-				Count: 1
-				id: "ae2:portable_item_cell_1k"
-				tag: { }
-			}
-			id: "7DDCB711526F37A0"
-			rewards: [{
-				count: 4
-				id: "3463AA941A74C11C"
-				item: "gtceu:certus_quartz_gem"
-				type: "item"
-			}]
-			shape: "circle"
-			size: 0.66d
-			subtitle: "A higher-tech Backpack! "
-			tasks: [{
-				id: "459D19A750BB8440"
-				item: {
-					Count: 1
-					id: "ae2:portable_item_cell_1k"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Portable Cell"
-			x: 4.5d
-			y: 0.75d
-		}
-		{
 			dependencies: ["03DBF1961AE21C76"]
 			description: ["The Steam Compressor unlocks some tantalising new recipes that will help you to progress towards Steel."]
 			id: "07415D6305C3B1D2"
@@ -1406,41 +1291,6 @@
 			title: "Steam Compressor"
 			x: 1.125d
 			y: -0.375d
-		}
-		{
-			dependencies: ["40DE888E6025C646"]
-			description: [
-				"With your first &8Steel&r under your belt &7(ha!)&r, you can make a &bTool Belt&r to free up inventory space from all those pesky GT tools. It can be equipped in its own &ddedicated Curio slot&r."
-				""
-				"By default, the hotkey to open the belt is &eR&r, but you can rebind it if you prefer. From this GUI, you can place tools inside the belt's storage, and swap them with your &dmain-hand tool&r whenever is convenient."
-				""
-				"The belt has a small initial inventory of a single tool. This can be expanded by combining the belt with &bBelt Pouches&r in an &aAnvil&r - the maximum slottage is &69 slots&r."
-			]
-			icon: "toolbelt:belt"
-			id: "4A993CC40AB6D35C"
-			rewards: [{
-				id: "38A84272E0407C69"
-				item: "toolbelt:pouch"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 0.5d
-			subtitle: "Take some weight off your inventory"
-			tasks: [
-				{
-					id: "281B54469C34A5E2"
-					item: "toolbelt:belt"
-					type: "item"
-				}
-				{
-					id: "5FFC5866C6E85F86"
-					item: "toolbelt:pouch"
-					type: "item"
-				}
-			]
-			title: "Tool Belt"
-			x: 2.4927380952380958d
-			y: -2.1580102040816165d
 		}
 		{
 			dependencies: ["48AED37B4E20A99A"]
@@ -1497,40 +1347,6 @@
 			}]
 			title: "Item Pipes"
 			x: 3.375d
-			y: 1.875d
-		}
-		{
-			dependencies: ["54AF8696674766B4"]
-			description: [
-				"After &lmany&r requests, &6Sophisticated Backpacks&r has now been integrated!"
-				""
-				"Backpacks scale alongside &aPortable Cell&r tiering, with modular upgrades that can be inserted to provide new &dBackpack functionalities&r."
-				""
-				"Before you reach &7LV&r, the upgrade options are &cquite limited&r. However, you should be able to upgrade the starter backpack &eonce&r before you make your first electric machine!"
-				"{@pagebreak}"
-				"Just so you know - backpacks have been configured and will &cnot&r interact with a connected &bStorage Bus&r. If you want the power of digital storage, you'll have to work for it!"
-				""
-				"Oh, and holding one too many backpacks will &6slow you down&r."
-			]
-			icon: "sophisticatedbackpacks:backpack"
-			id: "5E89BDA8943534AF"
-			rewards: [{
-				count: 4
-				id: "7193C5F82152C3EB"
-				item: "minecraft:leather"
-				random_bonus: 2
-				type: "item"
-			}]
-			shape: "circle"
-			size: 0.66d
-			subtitle: "A lower-tech Personal Cell!"
-			tasks: [{
-				id: "193A62DF98B59838"
-				item: "sophisticatedbackpacks:backpack"
-				type: "item"
-			}]
-			title: "Backpacks"
-			x: 4.5d
 			y: 1.875d
 		}
 		{
@@ -1592,7 +1408,7 @@
 				""
 				"Unlike &3Drums&r, these Tanks aren't portable... but you probably guessed that already."
 				""
-				"This Quest generously rewards an extra &6Coke Oven&r. Make the most of GTCEu's &bwallsharing&r mechanic, and place it next to an existing Coke Oven to save on casings."
+				"This Quest generously rewards an extra &6Coke Oven&r. Make the most of GT's &bwallsharing&r mechanic, and place it next to an existing Coke Oven to save on casings."
 				"{@pagebreak}"
 				"&l&3Lore:&r&o Just like Drums, these multiblocks are ported from GregTech 6."
 			]
@@ -1697,14 +1513,21 @@
 			]
 			icon: "gtceu:steel_frame"
 			id: "27240865315F9530"
+			invisible: true
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Spaghetti has never looked so swanky!"
-			tasks: [{
-				id: "431894F9877BC900"
-				item: "gtceu:steel_frame"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "431894F9877BC900"
+					item: "gtceu:steel_frame"
+					type: "item"
+				}
+				{
+					id: "5CDCFB1993D382FB"
+					type: "checkmark"
+				}
+			]
 			title: "Aesthetic Ultra"
 			x: -2.1577721088435453d
 			y: 0.7399489795918583d
