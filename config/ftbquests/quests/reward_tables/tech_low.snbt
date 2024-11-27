@@ -1,0 +1,63 @@
+{
+	id: "6F48D5C7BDF27925"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 16, item: "create:cogwheel" }
+		{ count: 16, item: "create:large_cogwheel" }
+		{ count: 32, item: "create:cogwheel", weight: 0.5f }
+		{ count: 32, item: "create:large_cogwheel", weight: 0.5f }
+		{ count: 64, item: "create:cogwheel", weight: 0.25f }
+		{ count: 64, item: "create:large_cogwheel", weight: 0.25f }
+		{ count: 64, item: "create:andesite_alloy", weight: 0.5f }
+		{ count: 128, item: "create:andesite_alloy", weight: 0.25f }
+		{ count: 16, item: "pneumaticcraft:ingot_iron_compressed" }
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "pneumaticcraft:gun_ammo"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.25f
+		}
+		{ count: 32, item: "pneumaticcraft:pressure_tube" }
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "pneumaticcraft:air_canister"
+				tag: {
+					"pneumaticcraft:air": 30000
+				}
+			}
+			weight: 0.8f
+		}
+		{ count: 48, item: "minecraft:iron_ingot" }
+		{ count: 16, item: "minecraft:iron_block", weight: 0.25f }
+		{ count: 64, item: "pneumaticcraft:chips", weight: 0.2f }
+		{ count: 16, item: "mekanism:ingot_bronze" }
+		{ count: 16, item: "gtceu:iron_plate" }
+		{ count: 32, item: "gtceu:iron_rod", only_one: true }
+		{ count: 8, item: "gtceu:red_alloy_ingot" }
+		{ count: 48, item: "minecraft:slime_ball" }
+		{ count: 12, item: "mekanism:ingot_steel", random_bonus: 4 }
+		{ count: 12, item: "alltheores:aluminum_ingot", random_bonus: 4 }
+		{
+			item: {
+				Count: 1
+				id: "vinery:red_wine"
+				tag: {
+					Year: 0
+				}
+			}
+			weight: 0.2f
+		}
+		{ count: 32, item: "minecraft:redstone", random_bonus: 16 }
+		{ count: 16, item: "minecraft:copper_ingot" }
+		{ count: 4, item: "create:belt_connector", random_bonus: 4 }
+	]
+	title: "Tech Low"
+}

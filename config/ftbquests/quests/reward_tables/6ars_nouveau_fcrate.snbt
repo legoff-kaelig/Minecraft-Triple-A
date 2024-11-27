@@ -11,7 +11,7 @@
 		string_id: "ars_nouveau_crate"
 	}
 	loot_size: 1
-	order_index: 20
+	order_index: 4
 	rewards: [
 		{ count: 8, item: "ars_nouveau:sourceberry_bush" }
 		{ count: 4, item: "ars_nouveau:blue_archwood_sapling" }

@@ -1,0 +1,18 @@
+{
+	id: "07311838F6ECF632"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 8, item: "ae2:certus_quartz_crystal" }
+		{ count: 8, item: "ae2:fluix_dust" }
+		{ count: 8, item: "create_new_age:overcharged_iron" }
+		{ count: 64, item: "create:copper_sheet" }
+		{ count: 8, item: "gtceu:titanium_ingot", random_bonus: 4 }
+		{ count: 16, item: "minecraft:blaze_rod", random_bonus: 16 }
+		{ count: 8, item: "gtceu:epoxy_dust" }
+		{ count: 32, item: "gtceu:rare_earth_dust", random_bonus: 16 }
+		{ count: 24, item: "create:brass_ingot" }
+		{ count: 8, item: "create:polished_rose_quartz" }
+	]
+	title: "Tech Medium"
+}

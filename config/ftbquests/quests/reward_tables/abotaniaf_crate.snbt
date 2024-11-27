@@ -11,7 +11,7 @@
 		string_id: "botania"
 	}
 	loot_size: 1
-	order_index: 14
+	order_index: 3
 	rewards: [
 		{ count: 16, item: "botania:fertilizer" }
 		{ count: 4, item: "botania:black_lotus" }
