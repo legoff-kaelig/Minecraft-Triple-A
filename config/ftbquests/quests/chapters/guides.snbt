@@ -1,0 +1,508 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guides"
+	group: ""
+	icon: {
+		Count: 1
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "apotheosis:apoth_chronicle"
+		}
+	}
+	id: "0DD8C4206098949B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This chapter let you see all guides from any mods !"]
+			id: "63CB1F460FF68724"
+			tasks: [{
+				id: "1DE79FDB9B29A574"
+				title: "Guides"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: "ae2:guide"
+			id: "375BC80AFB7211A1"
+			rewards: [{
+				id: "6DE00F80F749B030"
+				item: "ae2:guide"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A5850BC85FA1513"
+				title: "Guide"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: "rftoolsbase:manual"
+			id: "3A285F053D45FE0C"
+			rewards: [{
+				id: "4198BA6A82D58B74"
+				item: "rftoolsbase:manual"
+				type: "item"
+			}]
+			tasks: [{
+				id: "179C8EEE8B887008"
+				title: "Technology Guide"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "advancedperipherals:manual"
+				}
+			}
+			id: "4530490A8E1D26C2"
+			rewards: [{
+				id: "7751284504CE3585"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "advancedperipherals:manual"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65452F2CB5B699AD"
+				title: "Advanced Peripherals"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: "alexsmobs:animal_dictionary"
+			id: "57A1BE89AF2747C4"
+			rewards: [{
+				id: "344427A3A088CC5D"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01E348BE7EE7ADAB"
+				title: "Animal Dictionary"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: "ars_nouveau:worn_notebook"
+			id: "21707D08A2E2566D"
+			rewards: [{
+				id: "1D8ECAC70ED8F73C"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35EC5A3DE38C85E5"
+				title: "Worn Notebook"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "apotheosis:apoth_chronicle"
+				}
+			}
+			id: "7C7DEC291D5A99F8"
+			rewards: [{
+				id: "6386721924D44EE3"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "308AEB1F8174A5F7"
+				title: "Chronicle Of Shadows"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "parcool:parcool_guide"
+				}
+			}
+			id: "5ED74CF8A565D9BE"
+			rewards: [{
+				id: "1BD11396175D3B99"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "parcool:parcool_guide"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18B82B18183C6BF5"
+				title: "ParCool Guide"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "industrialforegoing:industrial_foregoing"
+				}
+			}
+			id: "12945B87CE94921E"
+			rewards: [{
+				id: "2E38F24BEEC6FF42"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BED18DC2AE99FA6"
+				title: "Industrial Foregoing's Manual"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "pneumaticcraft:book"
+				}
+			}
+			id: "01BADCB1BD63E78D"
+			rewards: [{
+				id: "3C494A772F46C16C"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25DA0BD2A912E66B"
+				title: "PNC:R Manual"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "alchemistry:alchemistry_book"
+				}
+			}
+			id: "7BEC00B449223E95"
+			rewards: [{
+				id: "706FB729FD9B32B1"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "alchemistry:alchemistry_book"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EC89084B57204B0"
+				title: "Alchemistry Labs Catalogue"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "ad_astra:astrodux"
+				}
+			}
+			id: "7259AD751AF619AB"
+			rewards: [{
+				id: "76ADF18F7D808372"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "ad_astra:astrodux"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C4746042FF827B5"
+				title: "Astrodux"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "mysticalagriculture:guide"
+				}
+			}
+			id: "1529DB91FC6E8503"
+			rewards: [{
+				id: "795158E68CA37330"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "mysticalagriculture:guide"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63B46C5CE688023C"
+				title: "Mystical Agriculture"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: "botania:lexicon"
+			id: "71FCD3F2383C96EA"
+			rewards: [{
+				id: "3824734FF4A026A3"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A5EB27FCC79E087"
+				title: "Lexica Botania"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: "solcarrot:food_book"
+			id: "3EF1553D47EAFD30"
+			rewards: [{
+				id: "17BF6EE441183E20"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BDB62C819E44391"
+				title: "Food Book"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0BE6AB6B0810654E"
+				"63CB1F460FF68724"
+			]
+			icon: "iceandfire:bestiary"
+			id: "671777875EE96D79"
+			rewards: [{
+				id: "746B095B0D274FD0"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21E2431348258449"
+				title: "Bestiary"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: "alexscaves:cave_book"
+			id: "15E41BAC5C7F7D23"
+			rewards: [{
+				id: "1B75140CAFC90D0A"
+				item: "alexscaves:cave_book"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "70E534A0B559414B"
+					title: "Cave Compendium"
+					type: "checkmark"
+				}
+				{
+					id: "4B3DAE112F22FC9E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "alexscaves:cave_tablet"
+									tag: {
+										CaveBiome: "alexscaves:magnetic_caves"
+									}
+								}
+								{
+									Count: 1b
+									id: "alexscaves:cave_tablet"
+									tag: {
+										CaveBiome: "alexscaves:primordial_caves"
+									}
+								}
+								{
+									Count: 1b
+									id: "alexscaves:cave_tablet"
+									tag: {
+										CaveBiome: "alexscaves:toxic_caves"
+									}
+								}
+								{
+									Count: 1b
+									id: "alexscaves:cave_tablet"
+									tag: {
+										CaveBiome: "alexscaves:abyssal_chasm"
+									}
+								}
+								{
+									Count: 1b
+									id: "alexscaves:cave_tablet"
+									tag: {
+										CaveBiome: "alexscaves:candy_cavity"
+									}
+								}
+								{
+									Count: 1b
+									id: "alexscaves:cave_tablet"
+									tag: {
+										CaveBiome: "alexscaves:forlorn_hollows"
+									}
+								}
+							]
+						}
+					}
+					title: "Cave Tablet"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["63CB1F460FF68724"]
+			icon: "cookingforblockheads:no_filter_edition"
+			id: "612E830CA3C97AEE"
+			rewards: [{
+				id: "0FA6CE14D7EEAD3E"
+				item: "cookingforblockheads:no_filter_edition"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F6A05905240AF1D"
+				title: "Cooking for Blockheads"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["63CB1F460FF68724"]
+			icon: "chemlib:periodic_table"
+			id: "47351C6D3AAE5E1D"
+			rewards: [
+				{
+					id: "4B53B706202EE862"
+					item: "chemlib:periodic_table"
+					type: "item"
+				}
+				{
+					id: "3A270A4946D8F920"
+					item: {
+						Count: 1
+						id: "minecraft:painting"
+						tag: {
+							EntityTag: {
+								variant: "chemlib:periodic_table"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56714A7B5427333D"
+				title: "Periodic Table of the Elements"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+	]
+	title: "Guides"
+}
