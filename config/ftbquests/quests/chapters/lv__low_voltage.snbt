@@ -156,8 +156,6 @@
 				"The &3Steam Turbine&r is the only Generator you can realistically use in &7LV&r. &2Later, you'll unlock more interesting Power options&r, such as natural gases or petrols."
 				""
 				"When provided Steam, the turbine will output EU at a ratio of &d2 Steam = 1 EU&r."
-				""
-				"&6This quest unlocks two new tutorials on Electricity and Cables in the &lTips and Tricks&r&6 tab - check them out to learn more!&r"
 				"{@pagebreak}"
 				"If you're using a single &3Steam Turbine&r, you only need &a1x Tin Cables&r. On the other hand, if you upgrade to &32 Steam Turbines&r, you should use &a2x Tin Cables&r - else they may end up &cburning&r."
 				""
@@ -181,8 +179,6 @@
 				"This questline serves as a quick guide to &9GregTech Amperage&r. As for &dVoltage&r mechanics, we'll go over those once you reach &bMV&r."
 				""
 				"&6&lTL;DR:&r For safety, match the Amperage limit of your Cables with the max amount of Amps provided by your Energy Producers."
-				""
-				"&6This quest unlocks a new tutorial on Amperage in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			id: "7B0FF43022F6C2EC"
 			shape: "rsquare"
@@ -543,8 +539,6 @@
 				"If you weren't already enamoured, the 1x variant also covers 2 Amps. Isn't that nice?"
 				""
 				"Now is a good time to replace your crappy &aTin Cables&r. Recycle them in the &3Packager&r to recover both the Tin and Rubber used to craft them."
-				"{@pagebreak}"
-				"&l&3Lore:&r&o No version of GregTech has had actual Superconductors for &7LV&f up until Gregicality and GTCEu, though some modpacks had lossless cables."
 			]
 			id: "46AD7A6F3B6775F5"
 			shape: "rsquare"
@@ -607,12 +601,10 @@
 			description: [
 				"&lOutside of Ore Processing:&r"
 				""
-				"You can make &6Paper out of Wood&r so that you no longer rely on &aSugar Canes&9*&r. You're probably sick of them by now, especially if you've played Nomifactory."
+				"You can make &6Paper out of Wood&r."
 				""
 				"There are some other less important recipes, such as applying colours to various items and blocks, or bleaching them."
 				""
-				"&9*&r &aSugar&r is still useful as a requirement for &cTNT&r production in &6HV&r, so don't dismantle your setups."
-				"{@pagebreak}"
 				"&lFor Ore Processing:&r"
 				""
 				"Some &aCrushed Ores&r have alternate routes when washed into &aPurified Ore&r, involving bathing in either &aMercury&r or &aSodium Persulfate&r. This step isn't really important, unless you really want that special &6Byproduct&r. This can be a nice alternate source of Gold (hint, hint!)."
@@ -687,11 +679,7 @@
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
-			description: [
-				"Make this machine when you feel like it's time you invested into Batteries."
-				""
-				"It'll also be required if you want to make Storage Disks from &bApplied Energistics 2&r."
-			]
+			description: ["Make this machine when you feel like it's time you invested into Batteries."]
 			id: "37307A46E70011D3"
 			rewards: [{
 				count: 2
@@ -756,10 +744,8 @@
 				"&6It'll also charge &lboth&r EU and RF Tools inside it&r."
 				""
 				"This is a must have if you don't have unlimited power at hand. Get &eany&r &7LV&r Battery Buffer to finish the quest. However, the 16 slots variant is likely overkill at this stage."
-				"{@pagebreak}"
-				"&9Note:&r Don't loop your lossy Cables back to your Battery Buffer! If you think about it, you'll just end up voiding energy."
 				""
-				"&l&3Lore:&r&o To be frank with you, the GTCE Battery Buffer was... mediocre. It's been reworked in GTCEu to provide a mix between GT5 and GTCE's functionality. Energy now splits evenly across all batteries!"
+				"&9Note:&r Don't loop your lossy Cables back to your Battery Buffer! If you think about it, you'll just end up voiding energy."
 			]
 			icon: "gtceu:lv_battery_buffer_4x"
 			id: "6431381FBE07D6EF"
@@ -831,8 +817,6 @@
 				"The Autoclave is typically the last step of Gem Processing. It is used turn a select few &aGem Dusts&r back into regular Gems."
 				""
 				"It's veeeery slow - thus, it is generally not advised to crush gem ores at all, as the recovery process is too expensive."
-				""
-				"&9Note:&r In this modpack, the Autoclave is required to make &5Fluix Crystals&r if you're to progress in Applied Energistics. Sorry."
 			]
 			id: "22A1A629AF754066"
 			size: 0.75d
@@ -968,8 +952,6 @@
 				"This is still less than half (!) of the cost of the whole EBF in raw materials. You will also need about a stack each of Invar and Steel, so get mining."
 				""
 				"The Cupronickel Coils will allow the EBF to perform recipes up to &d1,800K&r (ignoring Voltage bonuses). That's pretty hot if you ask us."
-				""
-				"&6This quest unlocks a new tutorial on Coils in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			icon: {
 				Count: 1
@@ -1015,8 +997,6 @@
 				"Remember how disappointing it was that you couldn't get byproducts with your Macerator? Well... that disappointment won't be going away until you reach &6HV&r."
 				""
 				"&6The Macerator will unlock its second and third slot at HV&r. Trust us - this is great news for your Ore Processing. In fact, one byproduct is completely locked behind this (after the Thermal Centrifuge step)."
-				""
-				"&cNote:&r Unlike GTCE, the &bMV&r Macerator in GTCEu &4doesn't&r have a second slot."
 				""
 				"&5Writer:&r &oCome back to me when you are stronger, young Cricket.&r"
 			]
@@ -1165,7 +1145,7 @@
 				""
 				"You can also do the same for &6Gears&r and &6Small Gears&r, which will then be superseded when you make a &3MV Extruder&r."
 				""
-				"&9Note:&r Some metals require higher voltages than &7LV&r for Fluid Extraction, so make sure to keep an eye on the recipe tier in EMI."
+				"&9Note:&r Some metals require higher voltages than &7LV&r for Fluid Extraction, so make sure to keep an eye on the recipe tier in JEI."
 			]
 			icon: "gtceu:rotor_casting_mold"
 			id: "115C4226F6473F0C"
@@ -1324,8 +1304,6 @@
 				"&lFor Ore Processing:&r"
 				""
 				"This takes &aImpure Dust&r or &aPurified Dust&r and turns them into clean Dust, plus an added tiny Dust &6Byproduct&r. This is outside of the optimal chain for Byproducts, but this is also the cheapest Ore Processing machine of the presented array to run and to setup on a small scale."
-				"{@pagebreak}"
-				"&l&3Lore:&r&o In base GTCE, this was objectively the strongest Ore Processing machine as it was fairly easy to use, and gave three tiny dusts, just like the Ore Washer or the Thermal Centrifuge. We tuned it down in favor of diversity."
 			]
 			id: "5263F866638D875C"
 			rewards: [{
@@ -1397,8 +1375,6 @@
 				"While this is an extremely &9important&r machine for progression, this will &9&lnot help you immediately&r as it is &cexpensive.&r Most of the recipes you will want to pursue require &cfluids&r. Set up a little bit more infrastructure before rushing this."
 				""
 				"With that out of the way, the &3Assembler&r is crucial to gameplay. Consider it as important as a Crafting Table, except... well, it's a machine, duh."
-				""
-				"We as \"modpack developers\" also love to use this to include all sorts of custom recipes - and speaking of custom recipes, the Assembler now unlocks &dApplied Energistics 2&r!"
 				"{@pagebreak}"
 				"Once you have enough infrastructure you will be able to make use of better recipes for:"
 				""
@@ -1526,7 +1502,7 @@
 				""
 				"Each time you upgrade to a new tier of &3Circuit Assembler&r, you will be able to craft more &dadvanced themes&r of circuit. These will use &ccomplex&r and &m&7sometimes&r unfamiliar ingredients, but will be more efficient to craft overall."
 				""
-				"&l&3Lore:&r&o The Circuit Assembler has made appearances in and out of GregTech versions. GT5 did not have it, and it was reimplemented in GT5 Unofficial. GTCE decided not to port it, and the tug-of-war continues with its inclusion in GTCEu."
+				"&l&3Lore:&r&o The Circuit Assembler has made appearances in and out of GregTech versions. GT5 did not have it, and it was reimplemented in GT5 Unofficial."
 			]
 			id: "199361B5FEC959EA"
 			rewards: [{
@@ -1574,39 +1550,12 @@
 			y: 7.875d
 		}
 		{
-			dependencies: ["3A8D7FC6F316C38C"]
-			description: [
-				"A fancy tool to help with base building. The gadget has different modes that you can view by holding the relevant hotkey - it defaults to &eG&r."
-				""
-				"Be sure to check out the &3Destruction Gadget&r and the &3Copy Paste Gadget&r."
-				""
-				"You &6should&r be able to charge this in the charger slot of any &bGregTech machine&r, but unfortunately, this is currently &cbugged&r. Have a look at the &dTurbo Charger&r quest in the top-right of this page if you want to charge this."
-			]
-			id: "0DAD0A6360448B39"
-			rewards: [{
-				count: 64
-				id: "754F6E206D20BC31"
-				item: "minecraft:bricks"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "A familiar face in the land of Greg"
-			tasks: [{
-				id: "65100C599DB0F30C"
-				item: "buildinggadgets2:gadget_building"
-				type: "item"
-			}]
-			x: -2.25d
-			y: 6.75d
-		}
-		{
 			dependencies: [
 				"5263F866638D875C"
 				"32B08E6F414A00C0"
 			]
 			description: [
-				"You could waste &o&eprecious years of your life&r in EMI looking for the most optimal Oxygen recipe, given the many ways to obtain it. Various minerals will produce it when electrolyzed."
+				"You could waste &o&eprecious years of your life&r in JEI looking for the most optimal Oxygen recipe, given the many ways to obtain it. Various minerals will produce it when electrolyzed."
 				""
 				"If only the quest book had more information!"
 				"{@pagebreak}"
@@ -1725,61 +1674,11 @@
 			y: 7.875d
 		}
 		{
-			dependencies: ["63CD0236B337EAAD"]
-			description: [
-				"Getting into Applied Energistics at this point is possible, but also a little bit involved..."
-				""
-				"You will need to make quite a few &7LV&r machines, and the &7LV-tier&r recipes for some AE2 items are comparatively expensive without access to more advanced technology."
-				""
-				"In &7LV&r, you're able to craft:"
-				""
-				"&6-&r Energy Acceptor"
-				""
-				"&6-&r ME Terminal"
-				""
-				"&6-&r 1k ME Storage component"
-				""
-				"&6-&r ME Chest"
-				"{@pagebreak}"
-				"&9Note:&r This pack includes &5Fluix Crystals&r, but they are generated as a GT material, rather than the default AE2 Fluix Crystals. To get them, put &dFluix Dust&r in the &aAutoclave&r, which is made from &7Certus Quartz Dust&r, &eNether Quartz Dust&o&r and &cRedstone&r in a &aMixer&r. No need to charge the Certus Quartz. It gets... charged in the Mixer... or something like that."
-				"{@pagebreak}"
-				"Additionally - a &6warning&r. Clicking on the Guide button in Applied Energistics 2 machine GUIs will most likely &ccrash your game&r due to an incompatibility with &eStarlight&r. If you're looking for guides on &bApplied Energistics 2&r, more information can be found:"
-				""
-				"The official &dApplied Energistics 2&r website: &9https://appliedenergistics.org/guides&r"
-				""
-				"An &binstructionary video&r made by &aPansmith&r, which covers Applied Energistics 2 on &6Minecraft 1.12.2&r. The fundamentals are still near-identical, however."
-				"&9https://www.youtube.com/watch?v=u0ouTWgdcXk&r"
-			]
-			id: "0E72017800A9766C"
-			rewards: [{
-				id: "73455D7AB7929E27"
-				item: {
-					Count: 1
-					id: "ae2:item_storage_cell_1k"
-					tag: { }
-				}
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Time to ditch those chests"
-			tasks: [{
-				id: "2080D5BB367332D3"
-				item: "ae2:cell_component_1k"
-				type: "item"
-			}]
-			title: "The Digital Age? Already!?"
-			x: 4.5d
-			y: 7.875d
-		}
-		{
 			dependencies: [
 				"63CD0236B337EAAD"
 				"4073577B7EF9B593"
 			]
 			description: [
-				"Don't let EMI fool you... there's only one possible recipe right now for this Primitive Diode."
-				""
 				"Diodes have a infamously &4nasty recipe&r, but they will become cheaper and more convenient once you can obtain &ePolyethylene&r."
 				""
 				"This is required for &dMV Circuits&r."
@@ -1792,7 +1691,6 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Don't be swayed by EMI!"
 			tasks: [{
 				id: "0FE8CA1C2D212378"
 				item: "gtceu:diode"
@@ -1857,11 +1755,7 @@
 		}
 		{
 			dependencies: ["1E9BE8D3F8A602DC"]
-			description: [
-				"Multiblocks bear a large variety of interesting mechanics that might seem daunting, but don't worry - we've written a guide to help you learn."
-				""
-				"&6This quest unlocks a bunch of tutorials on Multiblocks in the &lTips and Tricks&r&6 tab - check them out to learn more!&r"
-			]
+			description: ["Multiblocks bear a large variety of interesting mechanics that might seem daunting."]
 			hide_text_until_complete: false
 			icon: "gtceu:heatproof_machine_casing"
 			id: "2FC7B1E867E4194E"
@@ -2031,7 +1925,7 @@
 				""
 				"&eFish Oil&r can be extracted from Fish, which can be used for &6Bio Diesel&r."
 				""
-				"Get &eany&r tier Fisher to complete this quest. (They only go up to &5EV&r. If you forsee needing enough Fish to justify an &1IV&r or higher Fisher, make a feature request on our GitHub or Discord.)"
+				"Get &eany&r tier Fisher to complete this quest."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_fisher"
@@ -2135,32 +2029,6 @@
 			title: "At The Speed Of Light"
 			x: 7.875d
 			y: 1.125d
-		}
-		{
-			dependencies: ["46AD7A6F3B6775F5"]
-			description: [
-				"If you're a builder, &bweep no more&r - this custom multiblock, freshly made with the powers of &dKubeJS&r, is made for you."
-				""
-				"By providing the multiblock with a near-negligible amount of &6Construction Foam&r, you'll gain access to increased yields of many different &bbuilding blocks&r to spice up your base."
-				""
-				"Don't go too crazy!"
-				""
-				"&8(Crazy? I was crazy once!)&r"
-			]
-			hide_dependency_lines: false
-			icon: "gtceu:construction_core"
-			id: "11989C3388C969DF"
-			shape: "rsquare"
-			size: 0.75d
-			subtitle: "If you build it, they will come"
-			tasks: [{
-				id: "5635E327260121C3"
-				item: "gtceu:construction_core"
-				type: "item"
-			}]
-			title: "Building Resources"
-			x: 8.91d
-			y: 1.65d
 		}
 		{
 			dependencies: ["3E6DC423FE4A99F7"]
