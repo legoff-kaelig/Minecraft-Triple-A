@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "bruh"
+	filename: "create_temp"
 	group: "39BD55737A7439A2"
 	icon: "create:mechanical_arm"
 	id: "547D8D23D3A6A883"
