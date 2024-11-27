@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "4mars"
+	filename: "ad_mars"
 	group: "5E3CAACB575722D6"
 	icon: "ad_astra:mars_globe"
 	id: "7408CCEC3E990DEE"

@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "flmoon"
+	filename: "ad_moon"
 	group: "5E3CAACB575722D6"
 	icon: "ad_astra:moon_globe"
 	id: "28E6A8001A80E5C5"
