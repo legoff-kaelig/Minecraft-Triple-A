@@ -510,6 +510,12 @@
 			]
 			icon: "gtceu:refined_almandine_ore"
 			id: "724FB950CC472BB4"
+			rewards: [{
+				description: "You've unlock a new tip ! Check the GregTech tips and tricks to see it !"
+				id: "34C7957305381D07"
+				title: "New Tips!"
+				type: "toast"
+			}]
 			shape: "circle"
 			size: 0.66d
 			subtitle: "I've been waiting for this!"
@@ -540,6 +546,12 @@
 				"Recipes here will require &aFluids&r, so it's a good idea to keep the &3Input Hatches&r permanently filled with &dSoldering Alloy&r, &dLubricant&r and &dStyrene-Butadienne Rubber&r."
 			]
 			id: "77B7B1EDD19831E0"
+			rewards: [{
+				description: "You've unlock a new tip ! Check the GregTech tips and tricks to see it !"
+				id: "7F6F2BC8B820E8E5"
+				title: "New tips !"
+				type: "toast"
+			}]
 			shape: "gear"
 			size: 1.3d
 			subtitle: "AKA the \"Assline\""

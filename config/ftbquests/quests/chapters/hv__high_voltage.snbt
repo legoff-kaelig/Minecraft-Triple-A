@@ -692,6 +692,12 @@
 			]
 			icon: "gtceu:cleanroom"
 			id: "3568BC9742092FC5"
+			rewards: [{
+				description: "You've unlock a new tip ! Check the GregTech tips and tricks to see it !"
+				id: "5030759B251206EA"
+				title: "New tips !"
+				type: "toast"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "They put me in a room... a clean room"
@@ -1328,50 +1334,6 @@
 			title: "Nanomuscles, son!"
 			x: 4.5d
 			y: -3.0d
-		}
-		{
-			dependencies: ["4AFD3073C731A1E4"]
-			description: [
-				"With &5EV Circuits&r, you can compress your Coprocessors into &3Dense&r variants to get more value-for-money. "
-				""
-				"The crafting ratio is in your favour, so you'll likely have more &eparallel autocrafting power&r than you'd need to finish the pack."
-			]
-			icon: "mae2:4x_crafting_accelerator"
-			id: "1D8170A19E54C5B9"
-			size: 0.75d
-			subtitle: "Who are you calling Dense?"
-			tasks: [{
-				id: "074BEBAAF5C3FF1F"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "mae2:4x_crafting_accelerator"
-							}
-							{
-								Count: 1b
-								id: "mae2:16x_crafting_accelerator"
-							}
-							{
-								Count: 1b
-								id: "mae2:64x_crafting_accelerator"
-							}
-							{
-								Count: 1b
-								id: "mae2:256x_crafting_accelerator"
-							}
-						]
-					}
-				}
-				title: "Dense Coprocessors"
-				type: "item"
-			}]
-			title: "Dense Coprocessors"
-			x: 9.0d
-			y: -5.25d
 		}
 	]
 	subtitle: ["Scale up your power and begin advanced chemistry"]

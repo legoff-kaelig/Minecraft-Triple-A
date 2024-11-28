@@ -99,6 +99,12 @@
 			}
 			id: "188A8C3DD38C2762"
 			min_required_dependencies: 1
+			rewards: [{
+				description: "You've unlock a new tip ! Check the GregTech tips and tricks to see it !"
+				id: "63D962F2D7A66089"
+				title: "New Tips !"
+				type: "toast"
+			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "My mechanics are... complex"
@@ -519,6 +525,12 @@
 			]
 			icon: "gtceu:vibration_safe_casing"
 			id: "3B2D2C47BEBCFFA7"
+			rewards: [{
+				description: "You've unlock a new tip ! Check the GregTech tips and tricks to see it !"
+				id: "534E29880426F26E"
+				title: "New Tips !"
+				type: "toast"
+			}]
 			shape: "gear"
 			size: 1.2d
 			subtitle: "We made it so far..."
@@ -1026,47 +1038,9 @@
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"73E8283634E5E33A"
-				"45F9AAE4ABE32033"
-			]
-			description: [
-				"You can now remotely expand your AE2 network if you're looking to move bases."
-				""
-				"A full set of two &3Quantum Tunnels&r is no slouch to craft, so you'll need to break a sweat if you want them."
-			]
-			icon: "ae2:quantum_link"
-			id: "46C7E1D5E37B1ED2"
-			size: 0.75d
-			subtitle: "[-h^2/2m∇^2 + V(x,t)]ψ(x,t) = iht'ψ(x,t)"
-			tasks: [
-				{
-					count: 2L
-					id: "4C598D3CF4500DB0"
-					item: "ae2:quantum_link"
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "5C8C12569B770B97"
-					item: "ae2:quantum_ring"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "625E95960F92A2F6"
-					item: "ae2:quantum_entangled_singularity"
-					type: "item"
-				}
-			]
-			title: "Quantum Tunnel"
-			x: 3.375d
-			y: 10.125d
-		}
-		{
 			dependencies: ["42FB276AB16258D9"]
 			description: [
-				"&aUranium&r has very few uses in &2GTCEu&r right now, as we're &4yet to&r implement our &3Nuclear Reactor&r (it's planned!)."
+				"&aUranium&r has very few uses in &2GT&r right now."
 				""
 				"Make &dUranium Hexafluoride&r from &aUraninite&r. This will allow you to seperate the isotopes between U-238 and U-235."
 				"{@pagebreak}"

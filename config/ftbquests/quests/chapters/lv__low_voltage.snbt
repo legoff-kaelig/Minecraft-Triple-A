@@ -162,6 +162,12 @@
 				"This is because of the &9Amperage&r mechanic... but that will be explained later so you can enjoy playing. Don't worry!"
 			]
 			id: "6E186F9C57155BFA"
+			rewards: [{
+				description: "You've unlock a new tip ! Check the GregTech tips and tricks to see it !"
+				id: "06BBDBEFF4BB27A9"
+				title: "New Tips!"
+				type: "toast"
+			}]
 			size: 0.75d
 			subtitle: "You must construct more turbines"
 			tasks: [{
@@ -181,6 +187,12 @@
 				"&6&lTL;DR:&r For safety, match the Amperage limit of your Cables with the max amount of Amps provided by your Energy Producers."
 			]
 			id: "7B0FF43022F6C2EC"
+			rewards: [{
+				description: "You've unlock a new tip ! Check the GregTech tips and tricks to see it !"
+				id: "508FB7589E2D1AB7"
+				title: "New Tips!"
+				type: "toast"
+			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "Amps and You: a how-to"
@@ -974,6 +986,12 @@
 					item: "gtceu:copper_ore"
 					type: "item"
 				}
+				{
+					description: "You've unlock a new tip ! Check the GregTech tips and tricks to see it !"
+					id: "68A784C1E3682018"
+					title: "New Tips!"
+					type: "toast"
+				}
 			]
 			size: 0.75d
 			subtitle: "Baby's first heating coil"
@@ -1759,6 +1777,12 @@
 			hide_text_until_complete: false
 			icon: "gtceu:heatproof_machine_casing"
 			id: "2FC7B1E867E4194E"
+			rewards: [{
+				description: "You've unlock a new tip ! Check the GregTech tips and tricks to see it !"
+				id: "26B1F710EF1B1934"
+				title: "New Tips !"
+				type: "toast"
+			}]
 			size: 0.75d
 			subtitle: "By the end of this, you'll be an expert"
 			tasks: [{

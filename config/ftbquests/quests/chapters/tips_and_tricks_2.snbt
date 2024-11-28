@@ -47,8 +47,6 @@
 				"The energy unit of GregTech is the EU."
 				""
 				"&1EU&r mechanics have a certain flair to them, and are not dissimilar to real-world electricity. They can also be &4dangerous and punishing&r if mishandled. However, the power system gives GregTech players a lot of &6satisfaction&r when harnessed well."
-				""
-				"&l&3Lore:&r&o The Amperage bug, exploit or feature (call it whatever you want!) from 1.12.2 GTCE has been &lfixed&r&o in GTCEu. The Energy network now works as intended."
 				"{@pagebreak}"
 				"Let's go over some basic physics:"
 				""
@@ -82,6 +80,7 @@
 				""
 				"It is still possible to run &bMV&r Machines on &7LV&r lines, but only if the recipes are low enough &9Power&r, or if you have a &3MV Battery&r in the charging slot. The machine will only accept &d1A&r when idle, and so the &3Battery&r will recharge at a maximum rate of &932EU/t&r."
 			]
+			hide_until_deps_complete: true
 			icon: "gtceu:lv_battery_hull"
 			id: "61FED75EFA6555EC"
 			size: 0.66d
@@ -111,9 +110,8 @@
 				"They are the best choice for wiring at any tier, if not a little expensive in comparison to the other wires."
 				"{@pagebreak}"
 				"GT6-style Cables are &denabled&r. It means that placing Cables will only connect them to the block they were placed against. To open more connections, use your &5Wire Cutter&r on the grid."
-				"{@pagebreak}"
-				"&2GTCEu&r Cables now have &6native RF support&r! You can plug any RF appliance into an EU source and it will automatically convert. The ratio is &a4 : 1&r (RF : EU). Not that you can produce RF in this pack - but it's a thought if you wanted to make your own!"
 			]
+			hide_until_deps_complete: true
 			icon: "gtceu:copper_double_cable"
 			id: "0F2A7F519B3C67FB"
 			size: 0.75d
@@ -144,6 +142,7 @@
 				""
 				"This means you can safely step down your Cables in certain places - feel free to experiment!"
 			]
+			hide_until_deps_complete: true
 			icon: "gtceu:ulv_transformer_2a"
 			id: "2BE355672E638CF2"
 			size: 0.66d
@@ -161,8 +160,6 @@
 				"Why does every machine have a million variants across each tier? We'll let you in on an industry secret - overclocking is one of the main reasons."
 				""
 				"Overclocking is a mechanic that happens when you try to run a recipe in a machine &dthat is higher tier than the recipe itself.&r The recipe will use an increased amount of energy, but the recipe time will be cut based on how many tiers you're overclocking by."
-				""
-				"&l&3Lore:&r&o GTCE overclocking was extremely awkward. If the recipe consumed 16EU/t or below, it would do a classic 2.0x overclock. However if the recipe consumed more than 16EU/t, every Overclock would be 2.8x faster! GTCEu has a config to select the Overclock speed bonus."
 				"{@pagebreak}"
 				"A pro tip - for automated setups, overclock as little as possible!"
 				""
@@ -176,6 +173,7 @@
 				""
 				"As you can see, there are upsides and downsides. It is a game of balance: ask yourself if you want faster recipes at the cost of greater power consumption."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:clock"
 			id: "54DE75E97153E455"
 			size: 0.75d
@@ -192,7 +190,7 @@
 			description: [
 				"There are two really important factors to know when building Multiblocks."
 				""
-				"Check EMI, and remember to keep things versatile."
+				"Check JEI, and remember to keep things versatile."
 				"{@pagebreak}"
 				"Rule number one - check EMI!"
 				""
@@ -206,6 +204,7 @@
 				""
 				"Taking the EBF as an example, any tier of Energy/Bus/Hatch can be used, and they can be placed anywhere in place of a casing. Fluid Hatches are also optional, though you probably want them if you need to handle recipes involving fluid."
 			]
+			hide_until_deps_complete: true
 			icon: "gtceu:heatproof_machine_casing"
 			id: "1647E0C649E2131C"
 			size: 0.66d
@@ -227,12 +226,13 @@
 				""
 				"&9-&r Verify the recipe's EU/t usage - the max EU/t provided to the multiblock has to be greater than that of the recipe."
 				"{@pagebreak}"
-				"&9- &rCheck the special requirements the recipe may have (EMI always has some kind of indication if this is the case). Do you need to be in a Cleanroom, for example?"
+				"&9- &rCheck the special requirements the recipe may have (JEI always has some kind of indication if this is the case). Do you need to be in a Cleanroom, for example?"
 				""
 				"&9-&r Make sure the correct items are input into the buses/hatches. This is less obvious than in a regular machine, because you have to juggle between the Input Bus and Input Hatch."
 				""
 				"&9-&r Make sure there is space for an output. Maybe the multiblock formed, but you forgot a Hatch. The other biggest offender is the Output Hatches being too low tier and thus having too little capacity - this trips people up with the Greenhouse!"
 			]
+			hide_until_deps_complete: true
 			icon: "gtceu:robust_machine_casing"
 			id: "331F2C12C652D268"
 			size: 0.75d
@@ -261,6 +261,7 @@
 				""
 				"At &6HV&r, you'll unlock other Maintenance Hatches that do not require manual repairs."
 			]
+			hide_until_deps_complete: true
 			id: "6644AAD403127EFB"
 			size: 0.66d
 			tasks: [{
@@ -300,6 +301,7 @@
 				""
 				"Coils in the Multi Smelter reduce the amount of energy per operation whilst also increasing the number of items that can be processed in parallel."
 			]
+			hide_until_deps_complete: true
 			icon: "gtceu:tritanium_coil_block"
 			id: "6C8789A7B8946CFF"
 			size: 0.75d
@@ -323,9 +325,8 @@
 				"When a recipe is performed, there is a small chance for the &3Muffler Hatch&r to give bonus items - typically tiny Dusts of Ash. These items can be processed for some helpful resources."
 				"{@pagebreak}"
 				"Do &onot&r try to automate the extraction of items from the &3Muffler Hatch&r! It's not intended to be an automation challenge, as it voids excess contents when full, so don't worry about it stopping machines from running."
-				""
-				"Muffler Hatches in GTCEu are more about pure aesthetic (c'mon, you can't deny that those particles look good!) and small rewards, rather than punishing game mechanics."
 			]
+			hide_until_deps_complete: true
 			id: "20B98506962B8B17"
 			size: 0.66d
 			tasks: [{
@@ -346,6 +347,7 @@
 				"{@pagebreak}"
 				"The EBF needs a minimum of &4120EU/t&r power input to run its recipes. This can be achieved with &3two LV Energy Hatches&r. Each one takes 2 Amps of LV, so that's 4 Amps of LV for 128EU/t maximum power."
 			]
+			hide_until_deps_complete: true
 			id: "5F320AFEF6F41AAF"
 			size: 0.75d
 			tasks: [{
@@ -365,6 +367,7 @@
 				""
 				"For fluids, you'll instead need &3Hatches&r. Higher tiers of &3Hatches/Buses&r have more slots."
 			]
+			hide_until_deps_complete: true
 			icon: "gtceu:lv_input_bus"
 			id: "0C09F89291D29EF8"
 			size: 0.66d
@@ -423,6 +426,7 @@
 				""
 				"The more you know!"
 			]
+			hide_until_deps_complete: true
 			icon: "gtceu:cleanroom"
 			id: "1E5EFC5880605DD4"
 			size: 0.75d
@@ -438,18 +442,15 @@
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"There are many ways to automate Ordered Items: GT item pipes, Redstone, other mods, you name it! This quest will attempt to guide you through a setup using &3AE2&r."
+				"There are many ways to automate Ordered Items: GT item pipes, Redstone, other mods, you name it!"
 				""
-				"Have the Pattern Provider face an &3Item P2P&r. Set two output P2Ps: one into the first &3Input Bus&r, and the other into &3Item Pipes&r. Make your Item Pipes connect to all Input Buses including the first. Don't forget &dBlocking Mode&r! "
-				""
-				"With this setup, assembly items should be fully automated!"
-				"{@pagebreak}"
 				"Whilst item automation was relatively simple, fluid automation is slightly harder."
 				""
 				"Fluid Pipes behave differently compared to Item Pipes, so you &4won't&r be able to use the same solution as above. "
 				""
 				"This quest won't explain how to do this entirely &7(due to it being off by default)&r, so the full solution is left as an exercise to the reader."
 			]
+			hide_until_deps_complete: true
 			icon: "gtceu:assembly_line"
 			id: "2C70E297DBE3BDF2"
 			size: 0.66d
@@ -464,7 +465,7 @@
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"Scanning is the first step for research. Take the item shown in EMI and put it with a &3Data Stick&r to scan it. This will &4consume&r the item and put Data on the Data Stick. Pretty straightforward, right?"
+				"Scanning is the first step for research. Take the item shown in JEI and put it with a &3Data Stick&r to scan it. This will &4consume&r the item and put Data on the Data Stick. Pretty straightforward, right?"
 				""
 				"You will need at least an &6HV Scanner&r to progress to &dLuV&r, an &5EV Scanner&r for &aLuV Energy Hatches&r, and an &1IV Scanner&r for &aFusion Reactors&r."
 				"{@pagebreak}"
@@ -474,6 +475,7 @@
 				""
 				"&4Important&r: Using two different data sticks with data on them will cause one to &4overwrite&r the other. Be careful!"
 			]
+			hide_until_deps_complete: true
 			icon: "gtceu:data_orb"
 			id: "6DA28F169CED9C7D"
 			size: 0.75d
@@ -549,6 +551,7 @@
 				""
 				"(This is more than a ZPM Amp!)"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "gtceu:turbine_rotor"
@@ -577,6 +580,7 @@
 				"{@pagebreak}"
 				"By including Parallel Control Hatches in your Gregicality Multiblocks, you can grant them parallel processing capability. There are 4 tiers of hatch, each further increasing parallel capability by an factor of 4."
 			]
+			hide_until_deps_complete: true
 			icon: "gtceu:mega_blast_furnace"
 			id: "57DE7059D524FAE9"
 			size: 0.66d
@@ -599,6 +603,7 @@
 				""
 				"Power cost is based on the current recipe being run, times the number of &4parallel&r being performed."
 			]
+			hide_until_deps_complete: true
 			icon: "gtceu:zpm_parallel_hatch"
 			id: "255929EB845E200D"
 			size: 0.75d
@@ -631,16 +636,17 @@
 				"{@pagebreak}"
 				"A pickaxe or mining hammer enchanted with Hammering, or a GregTech Hammer directly, gives Crushed Ores from breaking Ore blocks, but only at a 1:1 ratio."
 				""
-				"Silk Touch is essential to obtain an ore block - this pack includes a recipe for the book."
+				"Silk Touch is essential to obtain an ore block."
 				"{@pagebreak}"
 				"The rule bends for ores giving more than two dusts (such as &cRedstone&r), and for dusts that cannot be smelted (&cRedstone&r... again!)."
 				""
 				"However, you can still smelt the ore directly to get &9half the amount&r you would from the full processing."
 				"{@pagebreak}"
-				"&dEMI does not indicate Impure Dust to Clean Dust conversion&r, so keep that in mind that you can &athrow them into filled cauldrons&r."
+				"&dJEI does not indicate Impure Dust to Clean Dust conversion&r, so keep that in mind that you can &athrow them into filled cauldrons&r."
 				"{@pagebreak}"
 				"Take this reward for listening to us waffle on WITHOUT nodding off!"
 			]
+			hide_until_deps_complete: true
 			icon: "gtceu:crushed_redstone_ore"
 			id: "189612F2C7C60E81"
 			rewards: [
@@ -728,6 +734,7 @@
 				""
 				"The typically \"best\" path is: Macerator -> Ore Washing -> Thermal Centrifuge -> Macerator. If you deviate from it for various reasons, you're gonna have to set filters &emanually&r. Gasp!"
 			]
+			hide_until_deps_complete: true
 			icon: "gtceu:crushed_diamond_ore"
 			id: "7FCFE4C40837CF5E"
 			size: 0.75d
@@ -739,6 +746,23 @@
 			}]
 			x: 5.94d
 			y: 0.0d
+		}
+		{
+			description: [
+				"This chapter include some tips."
+				""
+				"Don't wory if you don't see any things, it's normal all the tips are hidden until you unlock some specific material."
+				""
+				"When you unlock a new tips you will recieve a message in the chat so you can't miss one."
+			]
+			id: "7473090B2A62B45A"
+			tasks: [{
+				id: "7C808AD3D0AA7646"
+				title: "Tips and tricks"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
 		}
 	]
 	subtitle: ["For the Modern Minecrafter"]

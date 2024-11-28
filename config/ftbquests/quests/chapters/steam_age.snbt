@@ -1142,6 +1142,12 @@
 			]
 			icon: "gtceu:crushed_gold_ore"
 			id: "7813F183681E0342"
+			rewards: [{
+				description: "You've unlock a new tip ! Check the GregTech tips and tricks to see it !"
+				id: "77786F432D5F9663"
+				title: "New Tips!"
+				type: "toast"
+			}]
 			shape: "circle"
 			size: 0.66d
 			subtitle: "...and how do I get rid of it?"
