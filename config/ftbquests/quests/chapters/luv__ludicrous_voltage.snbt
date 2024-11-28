@@ -129,7 +129,7 @@
 				""
 				"It also has a second function, detailed in the above quest."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This is yet another feature from TecTech, which also required these cables to be painted. They do look fantastic if you paint them, but it's optional in CEu."
+				"&l&3Lore:&r&o This is yet another feature from TecTech, which also required these cables to be painted. They do look fantastic if you paint them."
 			]
 			id: "1AD003487B4EC2EF"
 			shape: "rsquare"
@@ -387,9 +387,7 @@
 				""
 				"&oGregicality Legacy was hot on its heels with processes for making the Naquadah material (and variants) as well as Fuel. "
 				""
-				"&oAfter that, GTNH added their own Naquadah processes for the material and fuel. "
-				""
-				"&oLastly, GTCEu added the process you're about to set up!"
+				"&oAfter that, GTNH added their own Naquadah processes for the material and fuel."
 			]
 			icon: "gtceu:naquadah_dust"
 			id: "378F0AFCF95354B2"
@@ -596,45 +594,6 @@
 			y: 2.25d
 		}
 		{
-			dependencies: [
-				"77B7B1EDD19831E0"
-				"46C7E1D5E37B1ED2"
-			]
-			description: ["The &aWireless Connector&r will help with logistics, giving &9Wireless Transfer&r for your ME Network with unlimited range. The energy cost scales exponentially with transfer distance."]
-			id: "7E2076D45F83D9C3"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "To infinity, and beyond!"
-			tasks: [{
-				id: "3AC7E29D373750F8"
-				item: "expatternprovider:wireless_connect"
-				type: "item"
-			}]
-			title: "The Power of Wireless"
-			x: 3.96d
-			y: 5.94d
-		}
-		{
-			dependencies: ["77B7B1EDD19831E0"]
-			description: [
-				"If recipe sizes are starting to worry you, don't worry - &2AE2&r now allows you to place an unlimited amount of items into a processing pattern."
-				""
-				"Thanks to this innovation, you can automate all the &3Assembly Line&r recipes."
-			]
-			icon: "expatternprovider:ex_interface"
-			id: "79192BA29BE69170"
-			shape: "rsquare"
-			size: 0.66d
-			tasks: [{
-				id: "3DFCDF1B24506A8A"
-				title: "Wahey!"
-				type: "checkmark"
-			}]
-			title: "PackagedWho?"
-			x: 3.3d
-			y: 4.62d
-		}
-		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
 				"At the cost of 16x the drilling Power, the &3Advanced Fluid Drilling Rig II&r will be gaining &664x the output&r in Fluid."
@@ -654,8 +613,8 @@
 				type: "item"
 			}]
 			title: "Ludicrous Fluid Drilling"
-			x: 5.61d
-			y: 4.62d
+			x: 3.63d
+			y: 5.28d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
@@ -913,7 +872,7 @@
 				""
 				"&9-&r Recursive insertion and/or extraction through sub-networks. If you use sub-networks, make them do very specific things rather than interacting with another AE2 network."
 				"{@pagebreak}"
-				"Things to &cavoid&r with GregTech (GTCEu has received a lot of improvements over GTCE, but it is possible to destroy your TPS, as with any mod):"
+				"Things to &cavoid&r with GregTech:"
 				""
 				"&9-&r Many EU Producers connected to many EU Consumers in the same line. Instead, use a Diode or Battery Buffer to separate your line of generators to your line of machines."
 				""
@@ -949,23 +908,6 @@
 			title: "IV Magnetism"
 			x: 0.375d
 			y: 3.75d
-		}
-		{
-			dependencies: ["77B7B1EDD19831E0"]
-			description: ["The &aQuantum Bridge Card&r is an upgrade to the &9Quantum Link Tunnel&r, which gives &9Wireless Terminals&r access to your AE system with unlimited range, and from any dimension."]
-			icon: "ae2wtlib:quantum_bridge_card"
-			id: "602DA4B4820E9088"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Bridge over Troubled Water"
-			tasks: [{
-				id: "280DF4E4A7E5FC2A"
-				item: "ae2wtlib:quantum_bridge_card"
-				type: "item"
-			}]
-			title: "Infinite Wireless Range"
-			x: 3.63d
-			y: 5.28d
 		}
 		{
 			dependencies: ["0D7C978F9CDF771B"]
@@ -1058,53 +1000,6 @@
 			title: "Two Hatches for the Price of One"
 			x: 2.2414965986394577d
 			y: 5.631377551020407d
-		}
-		{
-			dependencies: ["77B7B1EDD19831E0"]
-			description: [
-				"Let's go over some uses!"
-				""
-				"&2Blank Pattern Storage:&r"
-				""
-				"Right-clicking with the tool in your hand will open a GUI where you can insert &9Blank Patterns&r. There's a considerable amount of storage space for transport of Patterns!"
-				"{@pagebreak}"
-				"&2Bulk Pattern Modification:&r"
-				""
-				"Inserting &9Encoded Patterns&r instead of blank ones will allow you to multiply/divide them all at once in bulk. This is particularly useful when multiplying up your Patterns for parallel on-demand machinery."
-				""
-				"Patterns can also be cleared in bulk with the \"Clear\" button. There isn't any confirmation after clicking it, so use with caution."
-				"{@pagebreak}"
-				"&2Item Search and Replace:&r"
-				""
-				"Right-clicking the tool and clicking the &aChange Mode button&r will bring up a new GUI. This GUI will allow you to replace all occurances of one item with another for the &9Encoded Patterns&r stored within the tool."
-				""
-				"This is particularly useful for &eupgrading GT circuits&r, such as transitioning from Nano to Quantum &5EV&r circuits."
-				"{@pagebreak}"
-				"&2Easy Pattern Transfer:&r"
-				""
-				"Shift-left-clicking Patterns will move them between the Player Inventory and the Modifier where possible. This means you can easily move Patterns around between Interfaces and Terminals without clogging your inventory."
-				"{@pagebreak}"
-				"&bLore&r: Neeve, the author of the NAE2 mod suggested tiering this item at &eUXV&r tier, because it \"gives the player way too much power.\" For reference, &eUXV&r is 4 tiers past &3UV&r tier - two tiers before &c&lMAX&r voltage."
-			]
-			icon: "expatternprovider:pattern_modifier"
-			id: "5CE0B928479D8535"
-			rewards: [{
-				count: 64
-				id: "597FE2E43C76B1E0"
-				item: "ae2:blank_pattern"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "The &aPattern Modifier&r does A LOT!"
-			tasks: [{
-				id: "77D0C17BBE681C85"
-				item: "expatternprovider:pattern_modifier"
-				type: "item"
-			}]
-			title: "Pattern Modifier"
-			x: 4.95d
-			y: 5.94d
 		}
 	]
 	subtitle: ["Investigate the scientific and fuse elements"]

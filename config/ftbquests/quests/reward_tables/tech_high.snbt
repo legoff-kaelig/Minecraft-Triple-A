@@ -10,6 +10,7 @@
 		{ count: 16, item: "gtceu:rare_earth_dust", random_bonus: 16 }
 		{ count: 8, item: "gtceu:indium_ingot" }
 		{ count: 8, item: "alltheores:osmium_ingot" }
+		{ count: 8, item: "gtceu:naquadah_ingot" }
 	]
 	title: "Tech High"
 }
