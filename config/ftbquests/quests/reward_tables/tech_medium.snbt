@@ -13,6 +13,9 @@
 		{ count: 32, item: "gtceu:rare_earth_dust", random_bonus: 16 }
 		{ count: 24, item: "create:brass_ingot" }
 		{ count: 8, item: "create:polished_rose_quartz" }
+		{ count: 8, item: "gtceu:tungsten_steel_ingot" }
+		{ count: 8, item: "alltheores:platinum_ingot" }
+		{ count: 8, item: "moremekanismprocessing:titanium_ingot" }
 	]
 	title: "Tech Medium"
 }

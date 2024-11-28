@@ -84,11 +84,9 @@
 				"4E9DED9569AA17F5"
 			]
 			description: [
-				"The Large Turbines are the most complex Multiblock Generators that you'll find in GTCEu in the present day."
+				"The Large Turbines are the most complex Multiblock Generators that you'll find in GT in the present day."
 				""
 				"Let's delve into Turbines!"
-				""
-				"&6This quest unlocks a new tutorial on Turbine Mechanics in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			icon: {
 				Count: 1
@@ -274,7 +272,6 @@
 		{
 			dependencies: [
 				"330BDB559A7BAB35"
-				"41D32C5178760F47"
 				"57D4E09A9CAB150C"
 			]
 			dependency_requirement: "one_completed"
@@ -390,7 +387,6 @@
 		{
 			dependencies: [
 				"3398FC108D9DCB46"
-				"41D32C5178760F47"
 				"40408FFD02134148"
 				"4AFD3073C731A1E4"
 				"6B08799BCFD01D3D"
@@ -515,38 +511,11 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["30A6EDDF25A5E5F8"]
-			description: [
-				"Even without channels, P2P Tunnels are still extremely important automation tools!"
-				""
-				"&9Note:&r There are many fantastic resources online to explain how P2P Tunnels work. The short description is that they allow transfer of things from 1 input to endless output. You can link them using a Memory Card."
-				""
-				"This Quest acts as a tutorial on how to use the P2P Tunnels to your own benefit."
-			]
-			icon: "ae2:me_p2p_tunnel"
-			id: "39E7997F3080250A"
-			shape: "square"
-			size: 0.75d
-			subtitle: "Fear not, channels are gone"
-			tasks: [{
-				id: "578F4D24289C544E"
-				item: "ae2:me_p2p_tunnel"
-				type: "item"
-			}]
-			title: "P2P Tunnels"
-			x: 7.875d
-			y: 3.375d
-		}
-		{
 			dependencies: ["069FD86133D7D582"]
 			description: [
 				"If you want a big boost to your processing abilities, look no further than these powerful Multiblocks!"
 				""
-				"Formerly known as &2Gregicality Multiblocks&r, the add-on has been fully integrated into GregTech CEu Modern!"
-				""
 				"You'll need to make use of many new &9alloys&r to build the new Multiblocks. Yay, more content!"
-				""
-				"&6This quest unlocks a new tutorial on the GCYM mechanics in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			icon: "gtceu:vibration_safe_casing"
 			id: "3B2D2C47BEBCFFA7"
@@ -602,7 +571,7 @@
 				""
 				"Its main purpose is to &dlimit Amperage&r. It'll help you regulate any centralised power generation, so you can distribute your power everywhere without having to math out what cable size is safe depending on consumers..."
 				""
-				"They can also be used as an electric equivalent to Repeaters when the voltage loss from Cables (or GTEU P2P tunnels - more on that later!) gets too high."
+				"They can also be used as an electric equivalent to Repeaters when the voltage loss from Cables gets too high."
 				""
 				"You can use a &5Soft Hammer&r to change the Amperage limit of the output."
 				""
@@ -653,7 +622,7 @@
 				""
 				"&eNote&r: The LTB is so awful that we'll let you skip this quest (for completion progress) by clicking the Checkmark. You don't actually have to craft one."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GT5u, players can construct another multiblock - the Large Heat Exchanger. It's also constructed with titanium, but produced Superheated Steam from hot IC2 coolant, or lava. This was a much better than regular steam, and was actually viable! This might make its way to CEu in the future."
+				"&l&3Lore:&r&o In GT5u, players can construct another multiblock - the Large Heat Exchanger. It's also constructed with titanium, but produced Superheated Steam from hot IC2 coolant, or lava. This was a much better than regular steam, and was actually viable!"
 			]
 			icon: "gtceu:titanium_large_boiler"
 			id: "249FA99AADAC3710"
@@ -764,7 +733,7 @@
 				"7FA0ACB7F161F378"
 			]
 			description: [
-				"You've probably noticed the &9\"chance per tier\"&r when hovering over the bonus outputs in &2EMI&r Each overclock above the required tier will add that % bonus to the chanced output!"
+				"You've probably noticed the &9\"chance per tier\"&r when hovering over the bonus outputs in &2JEI&r Each overclock above the required tier will add that % bonus to the chanced output!"
 				""
 				"This means using an &3EV Macerator&r will yield &6more Byproducts&r!"
 			]
@@ -1033,37 +1002,7 @@
 			y: 11.25d
 		}
 		{
-			dependencies: [
-				"4024C831C77101CA"
-				"16B735F9C391D260"
-			]
-			description: [
-				"In lieu of GTCEu's &3Ender Fluid Links&r being fully implemented, &dEnder Storage&r makes its way into the pack."
-				""
-				"Recipes have been adjusted to a &asimilar tier&r. You can change the \"frequency\" of &6each tank&r by using dye on the wool pads on top."
-				""
-				"You can also make similar &3Ender Chests&r to transport items - which is nice, because there's currently &cno way&r to wirelessly transport items in base &bGTCEu&r! Don't ever say we don't treat you!"
-				""
-				"Lastly, using a &eDiamond&r on an Ender Tank will lock the tank to your own &dprivate frequency&r, which is helpful if you're playing on a server."
-			]
-			id: "23A7E6D95549B1F8"
-			shape: "rsquare"
-			size: 0.66d
-			subtitle: "Ender? I ha- Ok, this joke is old"
-			tasks: [{
-				id: "5AAF6386B4AA7C69"
-				item: "enderstorage:ender_tank"
-				type: "item"
-			}]
-			title: "Ender Fluid Linking"
-			x: 6.75d
-			y: 9.0d
-		}
-		{
-			dependencies: [
-				"16E3465CF94E2BDD"
-				"4024C831C77101CA"
-			]
+			dependencies: ["4024C831C77101CA"]
 			description: [
 				"The &aAdvanced Energy Detector&r is an RS-latch for Energy Control."
 				""
@@ -1125,10 +1064,7 @@
 			y: 10.125d
 		}
 		{
-			dependencies: [
-				"41D32C5178760F47"
-				"42FB276AB16258D9"
-			]
+			dependencies: ["42FB276AB16258D9"]
 			description: [
 				"&aUranium&r has very few uses in &2GTCEu&r right now, as we're &4yet to&r implement our &3Nuclear Reactor&r (it's planned!)."
 				""
@@ -1183,7 +1119,7 @@
 			description: [
 				"Don't worry, this is nothing compared to running an EBF."
 				""
-				"Hopefully for you, the &3LCR&r recipe in &2EMI&r for &aRadon&r should be self explanatory on how to set it up."
+				"Hopefully for you, the &3LCR&r recipe in &2JEI&r for &aRadon&r should be self explanatory on how to set it up."
 				""
 				"Input some &aUranium&r, loop back the &dPlutonium&r using a &3Electric Furnace&r, and let the magic happen."
 				""
@@ -1303,8 +1239,6 @@
 				"&93 -&r Very appealing if you have an infinite supply of &dChlorine&r. You could achieve this by setting up a &3Fluid Drilling Rig&r on a Salt Water vein."
 				""
 				"&94 -&r ...&4Phosphoric Acid&r is a pain to produce. You'd be mad to consider this."
-				"{@pagebreak}"
-				"&l&3Lore:&r&o The Benzene + Oxygen recipe was added in GTCE with the intent of fixing missing chemical recipes, as the Large Chemical Reactor didn't exist. Now that CEu provides more realistic options, we may remove the recipe in future."
 			]
 			id: "4CD9F6D1B4CC7D81"
 			shape: "rsquare"
@@ -1445,8 +1379,6 @@
 				"&6Multiply the energy density by 2&r and you have &aHigh Octane Gasoline&r."
 				""
 				"&9Note:&r Automating this requires a lot of &3Distillation Towers&r! A huge portion of your base would be dedicated to producing this constantly without anything bottlenecking."
-				""
-				"If you have a base successfully running on &aHOG&r, feel free to brag and share some screenshots on our &8Discord&r."
 			]
 			id: "046B4A0B2639B16A"
 			shape: "rsquare"
@@ -1471,7 +1403,7 @@
 				""
 				"&9Note the special placement rules:&r Energy, Items, and Fluid Inputs can only be placed on the bottom layer. Maintenance can be placed anywhere. Fluid Outputs can only be placed starting on the second vertical layer, and only allow one per layer as well."
 				"{@pagebreak}"
-				"The &3DT&r can form at any height from &c&c3&r to &c13&r blocks, allowing 2 to 12 Fluid Outputs. Fluid will always output on the layer corresponding to the recipe in &2EMI&r."
+				"The &3DT&r can form at any height from &c&c3&r to &c13&r blocks, allowing 2 to 12 Fluid Outputs. Fluid will always output on the layer corresponding to the recipe in &2JEI&r."
 				""
 				"The &3DT&r has one more &9special&r rule. You can deliberately build it too short, and it will &cvoid&r whichever Fluid should have been output at the top layers that were removed. This can be useful in some very niche situations."
 				""
@@ -1484,7 +1416,8 @@
 			id: "48141DBA683F6B5A"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2893ECAD2905293A"
+				id: "038F7CBD18C3E362"
+				table_id: 518222065064277554L
 				type: "choice"
 			}]
 			shape: "gear"
@@ -1551,8 +1484,6 @@
 				"Not many pipes support cold fluids, so you'll want to give &aStainless Steel&r or &aIridium&r a try. Later on you can use &aNaquadah&r or most of the fusion materials when you get there."
 				""
 				"&cWARNING:&r&r Cryogenics in the wrong pipes will cause &cvoiding&r, &cpipe freezing&r, and high rates of &cdeath&r! Be careful."
-				"{@pagebreak}"
-				"&l&3Lore:&r&o This is the first time GregTech has cryogenic mechanics, a GTCEu-original feature!"
 			]
 			icon: "gtceu:stainless_steel_large_fluid_pipe"
 			id: "6D12CE80F92FC485"
@@ -1700,40 +1631,6 @@
 			y: 10.125d
 		}
 		{
-			dependencies: ["39E7997F3080250A"]
-			description: [
-				"To turn a P2P Tunnel into an &aItem P2P Tunnel&r, right-click it in the world with a &dvanilla Chest&r."
-				""
-				"Item P2P Tunnels are useful in a more abstract way so let's start with an example."
-				"{@pagebreak}"
-				"&eExample:&r Making a &9HV Machine Hull&r in the &3Assembler&r also requires an &3Extractor&r for the Fluid. That is two machines, hence two inventories."
-				""
-				"You could passively fill the Assembler with Polyethylene, &lor&r you can also include it in your &dPattern&r, in the form of 2 Bars (Ingots)."
-				""
-				"You may think the next step is just to dump the items in a Buffer and route the items with Pipes - however, this system will eventually &4jam&r due to the incompability with AE2 Interface blocking mode! Oh no!"
-				"{@pagebreak}"
-				"This can be fixed by placing the input of the &aItem P2P&r on your &3ME Interface&r, placing one output on the &3Extractor&r, and another output on the &3Assembler&r."
-				""
-				"Then, use Filter covers where the outputs are connected. &dItem Tag Filters&r are better, since you can configure them to &9ingot&r. Have them on &ewhitelist&r for the &3Extractor&r, and on &eblacklist&r for the &3Assembler&r (no Assembler recipe ever requires Ingots - that's an intentional design decision in GregTech)."
-				""
-				"Don't forget &dBlocking Mode&r on your Interface."
-				""
-				"Look - another reason why it's good to store polymers (Polyethylene, PTFE, PBI) as Bars!"
-			]
-			icon: "ae2:item_p2p_tunnel"
-			id: "7EF57E379F736FBB"
-			shape: "rsquare"
-			size: 0.5d
-			subtitle: "A primer on items and P2P"
-			tasks: [{
-				id: "3CF9C3527F11EDA1"
-				type: "checkmark"
-			}]
-			title: "Item P2P Tunnels"
-			x: 7.653061224489797d
-			y: 4.464285714285715d
-		}
-		{
 			dependencies: ["3B2D2C47BEBCFFA7"]
 			description: [
 				"The &aAlloy Blast Smelter&r is the only main &2GCYM&r machine available in &5EV&r. You can use it to produce any alloy that you'd normally use the Mixer for. "
@@ -1867,14 +1764,14 @@
 				"{@pagebreak}"
 				"&9Note:&r &ePlatinum&r and &7Palladium&r can also be obtained from The End or through normal Ore Processing."
 				""
-				"&l&3Lore:&r&o Heard of the infamous \"Platline\" from either Gregicality or GregTech: New Horizons? The extremely daunting chain was added in GT:NH through Bartworks. The concept is amazing, but we had to tune it down significantly to make entering late game in GTCEu much smoother."
+				"&l&3Lore:&r&o Heard of the infamous \"Platline\" from either Gregicality or GregTech: New Horizons? The extremely daunting chain was added in GT:NH through Bartworks. The concept is amazing, but we had to tune it down significantly to make entering late game in GT much smoother."
 			]
 			icon: "gtceu:platinum_group_sludge_dust"
 			id: "57D4E09A9CAB150C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "766886CFFF5CDC23"
-				title: "Platinum-bearing Ores"
+				id: "5897CE0BA217F32F"
+				table_id: 518222065064277554L
 				type: "choice"
 			}]
 			size: 0.75d
@@ -1990,31 +1887,6 @@
 			y: 4.086734693877553d
 		}
 		{
-			dependencies: ["39E7997F3080250A"]
-			description: [
-				"The &aPattern P2P Tunnel&r is an upgraded version of &9Item/Fluid P2P Tunnels&r."
-				""
-				"The input side is placed on an Pattern Provider containing patterns. It can have multiple outputs, which should connect to inventories."
-				""
-				"When multiple crafts of a single pattern are requested, the P2P Tunnel will evenly distribute the crafts between all of the connected outputs."
-				""
-				"The Pattern P2P Tunnel also respects &eBlocking Mode&r, which is set in the interface containing the patterns."
-			]
-			icon: "mae2:pattern_p2p_tunnel"
-			id: "1722813F617DF39B"
-			shape: "rsquare"
-			size: 0.5d
-			subtitle: "Pattern 2 Pattern"
-			tasks: [{
-				id: "40B572EB6B1D083E"
-				item: "mae2:pattern_p2p_tunnel"
-				type: "item"
-			}]
-			title: "Pattern P2P Tunnels"
-			x: 8.428571428571423d
-			y: 4.178571428571431d
-		}
-		{
 			dependencies: ["3398FC108D9DCB46"]
 			description: ["This hatch acts like an infinite water source for multiblocks! It can make some setups much more convenient, and also has effectively infinite throughput, so it doesn't have the limitations of the &9Infinite Water Source Cover&r not being fast enough."]
 			icon: "gtceu:reservoir_hatch"
@@ -2031,29 +1903,6 @@
 			title: "Reservoir Hatch"
 			x: 3.806122448979586d
 			y: 4.658163265306122d
-		}
-		{
-			dependencies: ["39E7997F3080250A"]
-			description: [
-				"To turn a P2P Tunnel into a &aGTEU P2P Tunnel&r, right-click it in the world with a &dWire&r or &dCable&r."
-				""
-				"This is ideal in lategame situations to negate Cable or Transformer spam. You can also use them in conjunction with the AE2 Quantum Bridge to power your high tier Miners and Drills outside your base."
-				""
-				"There is a &45% Voltage Tax&r on the output side of the P2P, resulting in 5% energy loss."
-			]
-			icon: "mae2:pattern_p2p_tunnel"
-			id: "40FB56274D296BFC"
-			shape: "rsquare"
-			size: 0.5d
-			subtitle: "Unfortunately, unavailable to any British players"
-			tasks: [{
-				id: "74B6B5BE046E9810"
-				item: "mae2:eu_p2p_tunnel"
-				type: "item"
-			}]
-			title: "EU P2P Tunnels"
-			x: 8.418367346938766d
-			y: 2.7806122448979593d
 		}
 	]
 	subtitle: ["Improve your infrastructure and parallelise your setups"]
