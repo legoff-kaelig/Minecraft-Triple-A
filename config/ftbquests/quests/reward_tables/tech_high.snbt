@@ -1,0 +1,15 @@
+{
+	id: "311B849E045850E8"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 8, item: "gtceu:hsss_ingot" }
+		{ count: 8, item: "gtceu:hsse_ingot" }
+		{ count: 8, item: "gtceu:hssg_ingot" }
+		{ count: 8, item: "gtceu:polybenzimidazole_ingot" }
+		{ count: 16, item: "gtceu:rare_earth_dust", random_bonus: 16 }
+		{ count: 8, item: "gtceu:indium_ingot" }
+		{ count: 8, item: "alltheores:osmium_ingot" }
+	]
+	title: "Tech High"
+}

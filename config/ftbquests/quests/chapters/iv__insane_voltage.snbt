@@ -268,8 +268,6 @@
 				"The &3IV Assembler&r is required to unlock &3IV Energy and Dynamo Hatches&r, as well as &3HSS-G Coils&r."
 				""
 				"Upgrading this to its &2GCYM&r variant isn't a bad idea."
-				"{@pagebreak}"
-				"&l&3Lore:&r&o Did you know that GTCE's content stopped at &5EV&r&o, and all content up to &3UV&f was provided by Shadows of Greg, a third party mod?"
 			]
 			icon: "gtceu:iv_assembler"
 			id: "5CA86A333670A55C"
@@ -410,7 +408,7 @@
 				""
 				"Making an &3IV Chemical Reactor&r is &doptional&r. You can craft this with a &3Large Chemical Reactor&r if you wish."
 				""
-				"If you wish to automate your LCR with patterns, circle back to the P2P Tunnel Quest for more information."
+				"If you wish to automate your LCR with patterns, check P2P Tunnel of AE2."
 			]
 			id: "0425179329ED1B72"
 			size: 0.75d
@@ -509,8 +507,6 @@
 				"Welcome to the age of automation!"
 				""
 				"Ore Processing is now at your fingertips."
-				""
-				"&6This quest unlocks a definitive tutorial on Ore Processing in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
 			]
 			icon: "gtceu:refined_almandine_ore"
 			id: "724FB950CC472BB4"
@@ -539,11 +535,9 @@
 				""
 				"This Multiblock has a &evariable size&r&r. Each &3ULV Input Bus&r along the bottom can only hold a &dsingle stack&r of items, so you'll need different lengths for different recipes."
 				""
-				"You'll want to build this with a size of &d10&r to get started, or of a size of &d14&r to accept all possible recipes in base GTCEu. &6Don't worry&r if you overbuild - it can run any recipe if it's too long, but you may find the casings quite &4expensive&r right now. &7Choices, &8choices!&r"
+				"You'll want to build this with a size of &d10&r to get started, or of a size of &d14&r to accept all possible recipes in base GT. &6Don't worry&r if you overbuild - it can run any recipe if it's too long, but you may find the casings quite &4expensive&r right now. &7Choices, &8choices!&r"
 				"{@pagebreak}"
 				"Recipes here will require &aFluids&r, so it's a good idea to keep the &3Input Hatches&r permanently filled with &dSoldering Alloy&r, &dLubricant&r and &dStyrene-Butadienne Rubber&r."
-				""
-				"&6This quest unlocks two new tutorials on the Assembly Line and Research in the &lTips and Tricks&r&6 tab - check them out to learn more!&r"
 			]
 			id: "77B7B1EDD19831E0"
 			shape: "gear"
@@ -619,7 +613,7 @@
 				""
 				"You can also use them for &dBeacons&r if you desire the permanent potion effects. Finally, a vanilla multiblock!"
 				""
-				"We've added a recipe for Nether Star Dust in this pack. &7(Yes - without any tweaks, GTCEu expects you to farm Withers ad nauseam.)"
+				"We've added a recipe for Nether Star Dust in this pack. &7(Yes - without any tweaks, GT expects you to farm Withers ad nauseam.)"
 				"&r"
 				"On the topic of the &aNether Air&r which is required in the recipe: take a look at &9Liquid Nether Air&r distillation at your own leisure. It's quite rewarding."
 				""
@@ -869,7 +863,7 @@
 			description: [
 				"Rocket Fuel mostly exists for compatibility with other mods. You'll love it if you're making your own pack."
 				""
-				"As an actual fuel for GTCEu generators? Terrible!"
+				"As an actual fuel for GT generators? Terrible!"
 				""
 				"In this modpack, &aRocket Fuel&r is required to obtain &dNether Stars&r."
 				""
@@ -1017,7 +1011,7 @@
 			description: [
 				"This armor provides more QoL compared to the Nano suit."
 				""
-				"&9Helmet:&r Provides &dNight vision&r (default keybind &4M&r but check for conflicts), prevents harmful potion effects, and automatically eats for you!"
+				"&9Helmet:&r Provides &dNight vision&r (default keybind \"&4 ; &r\" but check for conflicts), prevents harmful potion effects, and automatically eats for you!"
 				""
 				"&9Chestplate:&r Nullifies burning, but can be further upgraded into the &aAdvanced&r version at the very end of &dLuV&r. Note that this does NOT include a jetpack without the advanced upgrade."
 				""
@@ -1088,7 +1082,7 @@
 		}
 		{
 			dependencies: ["7CFC112B8F460549"]
-			description: ["&bPolybenzimidazole&r is the best material for &6Soft Mallets&r in vanilla GTCEu. Show us that you're on top of your PBI supply by spending some of it on a &dsuperfluous tool upgrade&r."]
+			description: ["&bPolybenzimidazole&r is the best material for &6Soft Mallets&r. Show us that you're on top of your PBI supply by spending some of it on a &dsuperfluous tool upgrade&r."]
 			icon: {
 				Count: 1
 				id: "gtceu:polybenzimidazole_mallet"
