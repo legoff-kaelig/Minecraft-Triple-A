@@ -233,9 +233,9 @@
 		{
 			dependencies: ["023FF9633765A0EB"]
 			description: [
-				"&6Neutronium&r is a hyper-dense material normally found in the hearts of neutron stars: the collapsed cores of stars between ten and thirty times the size of the sun. It is the final primary material in GTCEu."
+				"&6Neutronium&r is a hyper-dense material normally found in the hearts of neutron stars: the collapsed cores of stars between ten and thirty times the size of the sun. It is the final primary material in GT."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GCYL, Neutronium is unlocked at UMV-tier (called UXV in CEu). There is also Cosmic Neutronium, which is equivalent to Avaritia's Neutronium in GT5u, which was unlocked even later in GCYL!"
+				"&l&3Lore:&r&o In GCYL, Neutronium is unlocked at UMV-tier. There is also Cosmic Neutronium, which is equivalent to Avaritia's Neutronium in GT5u, which was unlocked even later in GCYL!"
 				""
 				"&l&3More Lore:&r&o Fun Fact: a single Neutronium block is approximately 2884 million metric tons and somewhere around 600000K, yet you're somehow capable of holding one with your bare hands. Don't think about it too much."
 			]
@@ -410,8 +410,6 @@
 			description: [
 				"This Quest will be completed with &eeither&r a &3UHV Energy Hatch&r&r... or a &3UHV Dynamo Hatch&r for your Multiblock Generators."
 				""
-				"These are the final energy hatches in GTCEu. It's been a pleasure upgrading our multiblocks together o7"
-				""
 				"Don't forget about the &d16 amp&r versions!"
 			]
 			icon: "gtceu:uhv_energy_input_hatch"
@@ -473,7 +471,7 @@
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
-			description: ["The &aGravi Star&r is the final upgraded Nether Star in GTCEu. It's needed for &3UV&r Sensors, Emitters, and Field Generators."]
+			description: ["The &aGravi Star&r is the final upgraded Nether Star in GT. It's needed for &3UV&r Sensors, Emitters, and Field Generators."]
 			id: "0009F48B6E385A47"
 			size: 0.75d
 			subtitle: "Unfortunately, doesn't make you float"
@@ -493,7 +491,7 @@
 				"762C48F0C2EA6B81"
 			]
 			description: [
-				"Build the structure displayed with Fusion Glass in &aEMI&r."
+				"Build the structure displayed with Fusion Glass in &aJEI&r."
 				""
 				"To save on Fusion Casings, fit Input + Output Hatches wherever you can (as displayed in the structure)."
 				""
