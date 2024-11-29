@@ -1,0 +1,2305 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "Relics and Artifacts"
+	group: ""
+	id: "2A4C06811555B5D0"
+	images: [
+		{
+			height: 2.5d
+			image: "ftbquests:textures/gui/relics.png"
+			order: 10
+			rotation: 30.0d
+			width: 9.0d
+			x: 7.0d
+			y: -3.75d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/gui/artifacts.png"
+			order: 10
+			rotation: -150.0d
+			width: 12.0d
+			x: -6.25d
+			y: 3.25d
+		}
+		{
+			color: 2294015
+			height: 2.0d
+			image: "ftbquests:textures/shapes/circle/shape.png"
+			order: 100
+			rotation: 0.0d
+			width: 2.0d
+			x: 37.5d
+			y: -40.0d
+		}
+		{
+			alpha: 160
+			color: 0
+			height: 3.0d
+			image: "ftbquests:textures/gui/artifacts.png"
+			order: 5
+			rotation: -150.0d
+			width: 12.0d
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			alpha: 160
+			color: 0
+			height: 2.5d
+			image: "ftbquests:textures/gui/relics.png"
+			order: 5
+			rotation: 30.0d
+			width: 9.0d
+			x: 7.25d
+			y: -4.0d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.625d
+			y: 0.125d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.125d
+			y: 1.625d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.625d
+			y: 0.125d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.1d
+			y: -1.4d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.125d
+			y: 1.625d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.9d
+			y: 1.6d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.125d
+			y: -5.875d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.125d
+			y: -1.375d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.625d
+			y: -2.875d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.625d
+			y: 0.125d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.1d
+			y: 1.6d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.375d
+			y: 0.125d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.875d
+			y: -1.375d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.875d
+			y: -1.375d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.1d
+			y: -1.4d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.375d
+			y: -2.875d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.125d
+			y: -4.375d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.125d
+			y: -4.375d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.125d
+			y: -4.375d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.625d
+			y: -2.875d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.4d
+			y: 0.1d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.9d
+			y: 1.6d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.875d
+			y: 1.625d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.875d
+			y: 0.125d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.4d
+			y: 3.1d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.4d
+			y: 3.1d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.875d
+			y: 3.125d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.625d
+			y: -2.875d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.25d
+			y: -0.25d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.7d
+			y: -1.6d
+		}
+		{
+			color: 2294015
+			height: 2.0d
+			image: "ftbquests:textures/shapes/circle/shape.png"
+			order: 100
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.0d
+			y: 75.0d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.6d
+			y: -4.4d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.1d
+			y: -1.4d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.6d
+			y: 3.1d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.1d
+			y: 4.6d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.4d
+			y: 4.6d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.9d
+			y: 4.6d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.4d
+			y: 4.6d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.9d
+			y: 4.6d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.375d
+			y: 4.625d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.625d
+			y: -5.875d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.125d
+			y: -5.875d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.375d
+			y: -5.875d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.625d
+			y: -5.875d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.125d
+			y: -5.875d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.125d
+			y: -2.875d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.75d
+			y: -3.25d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.25d
+			y: -1.75d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.25d
+			y: -3.25d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.25d
+			y: -3.25d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.25d
+			y: -1.75d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.75d
+			y: -1.75d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.75d
+			y: -1.75d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.25d
+			y: -0.25d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.25d
+			y: 2.75d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.25d
+			y: 2.75d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.25d
+			y: 2.75d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.75d
+			y: 1.25d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.75d
+			y: -0.25d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.75d
+			y: -0.25d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.25d
+			y: -1.75d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.75d
+			y: -3.25d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.25d
+			y: -4.75d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.25d
+			y: -4.75d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.75d
+			y: -4.75d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.75d
+			y: 1.25d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.25d
+			y: 1.25d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.375d
+			y: -2.875d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.25d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.25d
+			y: 1.25d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.375d
+			y: 0.125d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.375d
+			y: 1.625d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.0d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.375d
+			y: 3.125d
+		}
+		{
+			alpha: 192
+			color: 0
+			height: 1.5d
+			image: "ftbquests:textures/shapes/circle/background.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.4d
+			y: -0.4d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 1.5d
+			id: "1A7191A0861F8923"
+			size: 1.25d
+			tasks: [{
+				id: "57CA1A764A30A717"
+				item: {
+					Count: 1
+					id: "relics:reflection_necklace"
+					tag: {
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 23.94906d
+									damage: 0.28388d
+									stun: 0.13378d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "24C3C90286D92869"
+			size: 1.25d
+			tasks: [{
+				id: "24D2AEA0C9E5FEAF"
+				item: {
+					Count: 1
+					id: "relics:magma_walker"
+					tag: {
+						abilities: {
+							pace: {
+								points: 0
+								stats: {
+									time: 37.12185d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "73408E37869116A3"
+			size: 1.25d
+			tasks: [{
+				id: "400E7079E708F3FF"
+				item: {
+					Count: 1
+					id: "relics:aqua_walker"
+					tag: {
+						abilities: {
+							walking: {
+								points: 0
+								stats: {
+									time: 39.12774d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "361C81931FEA5411"
+			size: 1.25d
+			tasks: [{
+				id: "4AEA119D726FB172"
+				item: {
+					Count: 1
+					id: "relics:midnight_robe"
+					tag: {
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.37498d
+									distance: 18.35705d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.86821d
+									speed: 0.21908d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "0073FC661C34F787"
+			size: 1.25d
+			tasks: [{
+				id: "4F81DB4C86C4527E"
+				item: {
+					Count: 1
+					id: "relics:drowned_belt"
+					tag: {
+						abilities: {
+							anchor: {
+								points: 0
+								stats: {
+									sinking: 3.80263d
+									slowness: 0.43256d
+								}
+							}
+							pressure: {
+								points: 0
+								stats: {
+									damage: 1.55025d
+								}
+							}
+							riptide: {
+								points: 0
+								stats: {
+									cooldown: 7.74434d
+								}
+							}
+							slots: {
+								points: 0
+								stats: {
+									charm: 0.49321d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "1DBBF47A0E25730F"
+			size: 1.25d
+			tasks: [{
+				id: "0FA3C8F2A8347B6E"
+				item: {
+					Count: 1
+					id: "relics:jellyfish_necklace"
+					tag: {
+						abilities: {
+							paralysis: {
+								points: 0
+								stats: {
+									duration: 1.37856d
+								}
+							}
+							shock: {
+								points: 0
+								stats: {
+									damage: 0.61059d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "3F299717033E967F"
+			size: 1.25d
+			tasks: [{
+				id: "629D3C735C45B562"
+				item: {
+					Count: 1
+					id: "relics:hunter_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.97323d
+								}
+							}
+							training: {
+								points: 0
+								stats: {
+									damage: 1.74558d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "2B9944C95AB4BBEA"
+			size: 1.25d
+			tasks: [{
+				id: "041FF2E0545461E0"
+				item: {
+					Count: 1
+					id: "relics:rage_glove"
+					tag: {
+						abilities: {
+							phlebotomy: {
+								points: 0
+								stats: {
+									attack_speed: 0.00691d
+									heal: 2.1E-4d
+									movement_speed: 0.01462d
+								}
+							}
+							rage: {
+								points: 0
+								stats: {
+									dealt_damage: 0.03506d
+									duration: 3.61219d
+									incoming_damage: 0.03564d
+								}
+							}
+							spurt: {
+								points: 0
+								stats: {
+									cooldown: 15.62092d
+									damage: 0.12181d
+									distance: 3.54256d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "22666B65C10D05C3"
+			size: 1.25d
+			tasks: [{
+				id: "4B37CABD4DA6F321"
+				item: {
+					Count: 1
+					id: "relics:ice_skates"
+					tag: {
+						abilities: {
+							ram: {
+								points: 0
+								stats: {
+									damage: 0.10926d
+								}
+							}
+							skating: {
+								points: 0
+								stats: {
+									duration: 35.04642d
+									speed: 0.01687d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "53877B65F7D27FD6"
+			size: 1.25d
+			tasks: [{
+				id: "1735637554144908"
+				item: {
+					Count: 1
+					id: "relics:chorus_inhibitor"
+					tag: {
+						abilities: {
+							blink: {
+								points: 0
+								stats: {
+									cooldown: 9.52935d
+									distance: 23.50236d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "033581BFCC53F7DF"
+			size: 1.25d
+			tasks: [{
+				id: "184F0E435141C1C2"
+				item: {
+					Count: 1
+					id: "relics:bastion_ring"
+					tag: {
+						abilities: {
+							trade: {
+								points: 0
+								stats: {
+									rolls: 0.44721d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "02575C87933FF39C"
+			size: 1.5d
+			tasks: [{
+				id: "1726BB8D0FF183A1"
+				item: {
+					Count: 1
+					id: "relics:space_dissector"
+					tag: {
+						abilities: {
+							dissection: {
+								points: 0
+								stats: {
+									distance: 27.6366d
+									time: 7.79663d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "2FF157E7549611DA"
+			size: 1.25d
+			tasks: [{
+				id: "4EC9B04C0227C6E5"
+				item: {
+					Count: 1
+					id: "relics:holy_locket"
+					tag: {
+						abilities: {
+							belief: {
+								points: 0
+								stats: {
+									amount: 0.12716d
+									capacity: 11.29268d
+									count: 2.97688d
+									radius: 5.5166d
+								}
+							}
+							blessing: {
+								points: 0
+								stats: {
+									consumption: 6.46574d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+							repentance: {
+								points: 0
+								stats: {
+									damage: 0.17311d
+									radius: 5.66686d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "032C710AD746F5CC"
+			size: 1.25d
+			tasks: [{
+				id: "2478F1C8B99A6EB3"
+				item: {
+					Count: 1
+					id: "relics:enders_hand"
+					tag: {
+						abilities: {
+							swap: {
+								points: 0
+								stats: {
+									distance: 16.34544d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "6A9B602109D060CA"
+			size: 1.25d
+			tasks: [{
+				id: "33F36BA29FFA3BA9"
+				item: {
+					Count: 1
+					id: "relics:elytra_booster"
+					tag: {
+						abilities: {
+							boost: {
+								points: 0
+								stats: {
+									capacity: 80.00215d
+									speed: 1.38965d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "2B7943458DE4DD38"
+			size: 1.25d
+			tasks: [{
+				id: "105902B01AFFED3B"
+				item: {
+					Count: 1
+					id: "relics:magic_mirror"
+					tag: {
+						abilities: {
+							teleport: {
+								points: 0
+								stats: {
+									cooldown: 102.40548d
+									distance: 782.52132d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "4660A9612E6F1763"
+			size: 1.25d
+			tasks: [{
+				id: "66E03DBBA0B4FCFD"
+				item: {
+					Count: 1
+					id: "relics:ice_breaker"
+					tag: {
+						abilities: {
+							impact: {
+								points: 0
+								stats: {
+									damage: 4.8805d
+									size: 2.71936d
+								}
+							}
+							sustainability: {
+								points: 0
+								stats: {
+									modifier: 0.62611d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "61EF303F48808AD4"
+			size: 1.25d
+			tasks: [{
+				id: "74B339F2EAED25B8"
+				item: {
+					Count: 1
+					id: "relics:blazing_flask"
+					tag: {
+						abilities: {
+							bonfire: {
+								points: 0
+								stats: {
+									height: 3.28011d
+									speed: 0.04776d
+									step: 2.39104d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "7E7D9F00D412CF17"
+			size: 1.25d
+			tasks: [{
+				id: "4AF6F3012165AA7E"
+				item: {
+					Count: 1
+					id: "relics:spore_sack"
+					tag: {
+						abilities: {
+							buffer: {
+								points: 0
+								stats: {
+									capacity: 3.28567d
+									chance: 0.0531d
+								}
+							}
+							explosion: {
+								points: 0
+								stats: {
+									size: 0.0661d
+								}
+							}
+							multiplying: {
+								points: 0
+								stats: {
+									amount: 0.09999d
+									chance: 0.08869d
+									size: 0.09723d
+								}
+							}
+							spore: {
+								points: 0
+								stats: {
+									cooldown: 12.70374d
+									damage: 0.46627d
+									duration: 2.5429d
+									size: 0.49714d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "65449150E724FB60"
+			size: 1.25d
+			tasks: [{
+				id: "35D14717F2BC02EC"
+				item: {
+					Count: 1
+					id: "relics:shadow_glaive"
+					tag: {
+						abilities: {
+							glaive: {
+								points: 0
+								stats: {
+									bounces: 4.51009d
+									damage: 4.67194d
+									radius: 4.94573d
+									recharge: 12.51072d
+								}
+							}
+							saw: {
+								points: 0
+								stats: {
+									damage: 1.21162d
+									speed: 16.41687d
+								}
+							}
+						}
+						charges: 8
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "672DBB368CA56FB6"
+			size: 1.25d
+			tasks: [{
+				id: "09A112442DD81EDE"
+				item: {
+					Count: 1
+					id: "relics:roller_skates"
+					tag: {
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 17.63915d
+									speed: 0.00437d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "1889B98B321E0B10"
+			size: 1.25d
+			tasks: [{
+				id: "49F8A78492BBD349"
+				item: {
+					Count: 1
+					id: "relics:infinity_ham"
+					tag: {
+						abilities: {
+							autophagy: {
+								points: 0
+								stats: {
+									feed: 1.54993d
+								}
+							}
+							infusion: {
+								points: 0
+								stats: {
+									duration: 3.31632d
+								}
+							}
+						}
+						pieces: 10
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "5FC79456B9AB5449"
+			size: 1.25d
+			tasks: [{
+				id: "3C23F15B9D3FCFF6"
+				item: {
+					Count: 1
+					id: "relics:leather_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 2.31087d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "7A5E91133F7860EA"
+			size: 1.25d
+			tasks: [{
+				id: "085CA39265DA509C"
+				item: {
+					Count: 1
+					id: "relics:wool_mitten"
+					tag: {
+						abilities: {
+							mold: {
+								points: 0
+								stats: {
+									damage: 0.13098d
+									freeze: 1.70173d
+									size: 31.1083d
+									stun: 0.04598d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "14C3ADDA1C2770EF"
+			size: 1.25d
+			tasks: [{
+				id: "02893085A61BC404"
+				item: {
+					Count: 1
+					id: "relics:amphibian_boot"
+					tag: {
+						abilities: {
+							gills: {
+								points: 0
+								stats: {
+									chance: 0.08739d
+								}
+							}
+							slipping: {
+								points: 0
+								stats: {
+									duration: 21.20688d
+									speed: 0.00576d
+								}
+							}
+							swimming: {
+								points: 0
+								stats: {
+									duration: 19.19411d
+									speed: 0.00655d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "045B5D8ECF6C4B78"
+			tasks: [{
+				id: "14751B1EF21FE706"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "31375174C97C6F5C"
+			tasks: [{
+				id: "1F040BFEC3C2A20F"
+				item: {
+					Count: 1
+					id: "artifacts:plastic_drinking_hat"
+					tag: {
+						abilities: {
+							drinking: {
+								points: 0
+								stats: {
+									speed: 0.32029d
+								}
+							}
+							nutrition: {
+								points: 0
+								stats: {
+									hunger: 2.62426d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "01DC777AFBC223A9"
+			tasks: [{
+				id: "1A961640CE8FCAA7"
+				item: {
+					Count: 1
+					id: "artifacts:novelty_drinking_hat"
+					tag: {
+						abilities: {
+							drinking: {
+								points: 0
+								stats: {
+									speed: 0.34121d
+								}
+							}
+							nutrition: {
+								points: 0
+								stats: {
+									hunger: 2.49457d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "384FF5F6F4A281D1"
+			tasks: [{
+				id: "729A83215F433635"
+				item: {
+					Count: 1
+					id: "artifacts:snorkel"
+					tag: {
+						abilities: {
+							diving: {
+								points: 0
+								stats: {
+									duration: 6.00531d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "7FB76B532A82B969"
+			tasks: [{
+				id: "1E22CA746F159827"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "47C9223A072A712F"
+			tasks: [{
+				id: "13B4E17C1A345E2D"
+				item: {
+					Count: 1
+					id: "artifacts:villager_hat"
+					tag: {
+						abilities: {
+							discount: {
+								points: 0
+								stats: {
+									multiplier: 15.88546d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "19DC311321A1CA3B"
+			tasks: [{
+				id: "11A0A00B41FD3C9B"
+				item: {
+					Count: 1
+					id: "artifacts:superstitious_hat"
+					tag: {
+						abilities: {
+							looting: {
+								points: 0
+								stats: {
+									chance: 0.17977d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "015C8DCB320FE273"
+			tasks: [{
+				id: "7A0DEE66DAE1C4BE"
+				item: "artifacts:cowboy_hat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "108619D72DDA8A44"
+			tasks: [{
+				id: "0901237C2D784045"
+				item: {
+					Count: 1
+					id: "artifacts:anglers_hat"
+					tag: {
+						abilities: {
+							catch: {
+								points: 0
+								stats: {
+									chance: 0.19222d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "790A15872EE0DE72"
+			tasks: [{
+				id: "572E34219BD87DED"
+				item: {
+					Count: 1
+					id: "artifacts:lucky_scarf"
+					tag: {
+						abilities: {
+							luck: {
+								points: 0
+								stats: {
+									chance: 0.10964d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "52D15140FFA7CFDF"
+			tasks: [{
+				id: "4678E890C5C80A3A"
+				item: {
+					Count: 1
+					id: "artifacts:scarf_of_invisibility"
+					tag: {
+						abilities: {
+							invisible: {
+								points: 0
+								stats: {
+									radius: 5.90642d
+									threshold: 0.07375d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "0CC99729F600741D"
+			tasks: [{
+				id: "1C7B5AFFE1A92359"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "38344CB9A930CACD"
+			tasks: [{
+				id: "4E277B7F6307AE2B"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "32797A1E0440AF3B"
+			tasks: [{
+				id: "2600CC7661C91256"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "36176E40257B21E9"
+			tasks: [{
+				id: "460EE4A57062E101"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "02C807E825645735"
+			tasks: [{
+				id: "57181FD10A86799D"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "0A0360383E1F097E"
+			tasks: [{
+				id: "4DCFBAC4CD76C61D"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "036CF9FC7B4F29CC"
+			tasks: [{
+				id: "4D9533AC8020C2CA"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "7115F08CF7B0DFBE"
+			tasks: [{
+				id: "39D972C9D09B5517"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "56845FD97A3BFCE9"
+			tasks: [{
+				id: "1217C475FD7FBD34"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "63618155D755427F"
+			tasks: [{
+				id: "2F9CDEF6499D2814"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "4E846875A4080A11"
+			tasks: [{
+				id: "0AD45C9484A3923B"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "19157517A671D0DB"
+			size: 1.0d
+			tasks: [{
+				id: "5E53004756E5C7B6"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "42E8EF6BA6EE7A84"
+			tasks: [{
+				id: "596BE0978F41F612"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "5B9A58AB608517E1"
+			tasks: [{
+				id: "39C6BBCA3AAE39AF"
+				item: "artifacts:chorus_totem"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "3192A98B492852D1"
+			tasks: [{
+				id: "48BDA0DA8FB12232"
+				item: {
+					Count: 1
+					id: "relics:arrow_quiver"
+					tag: {
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							leap: {
+								points: 0
+								stats: {
+									cooldown: 12.58511d
+									duration: 5.56957d
+									multiplier: 0.48735d
+								}
+							}
+							rain: {
+								points: 0
+								stats: {
+									delay: 0.82894d
+									duration: 12.68786d
+									radius: 3.59269d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 2.1151d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "465B8DE91F1F0A6A"
+			tasks: [{
+				id: "7C490B20D3BA5007"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "6EF76D50DFADB67C"
+			tasks: [{
+				id: "0F96A8DD418E247C"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "107F0152E1992CF5"
+			tasks: [{
+				id: "4944E92AE14CE843"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "3E601F1FD232147F"
+			tasks: [{
+				id: "14186BFDB4A60CD6"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "5F2F62193EA16B69"
+			tasks: [{
+				id: "6FD1D919F4844832"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "46085729945D075A"
+			tasks: [{
+				id: "20BB85A76C24B67B"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "544B406A332CA352"
+			tasks: [{
+				id: "108AEC4A736D9806"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "527ED39FB02295DE"
+			tasks: [{
+				id: "6DEBABF519B40611"
+				item: "artifacts:onion_ring"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "484F22F7EF52C979"
+			tasks: [{
+				id: "3DF8D5FD18DFEDCE"
+				item: "artifacts:pickaxe_heater"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "58F7CA568754A68B"
+			tasks: [{
+				id: "1A59614A6DCB28D6"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "1BAC9E056B400F31"
+			tasks: [{
+				id: "74DFEC67AFAA325B"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "76B4D559F6284AED"
+			tasks: [{
+				id: "42E852A098EF2021"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "1A8D470CA28BD267"
+			tasks: [{
+				id: "2C277EB1F84BE15C"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "1EB8C9EBDF24C4DD"
+			tasks: [{
+				id: "3B231F1A96102657"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "4FAAC64E6B60AA7F"
+			tasks: [{
+				id: "7EC828684436932C"
+				item: "artifacts:snowshoes"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "0F55A00A02272383"
+			tasks: [{
+				id: "7BE11DEB1C3A1312"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "439E6090019E81BD"
+			tasks: [{
+				id: "60C55847CE6D3CD7"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "3FCBEC1ACEE004AC"
+			tasks: [{
+				id: "4340898C6FD2B51C"
+				item: "artifacts:rooted_boots"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "121171EAE82FD4B8"
+			tasks: [{
+				id: "1F00ABC59D7DFF23"
+				item: {
+					Count: 1
+					id: "relics:horse_flute"
+					tag: {
+						abilities: {
+							heal: {
+								points: 0
+								stats: {
+									amount: 0.08665d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "2B66A819A1864A2D"
+			tasks: [{
+				id: "2D368D762E797A1B"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			icon_scale: 1.5d
+			id: "4EF839DDC8344042"
+			size: 1.25d
+			tasks: [{
+				id: "17A7746CC4156DAA"
+				item: {
+					Count: 1
+					id: "relics:spatial_sign"
+					tag: {
+						abilities: {
+							seal: {
+								points: 0
+								stats: {
+									time: 3.277d
+								}
+							}
+						}
+						pos: "[\"-226.0,63.0,134.2\",\"-225.9,63.0,136.6\",\"-226.7,62.9,133.9\",\"-226.9,62.9,136.3\",\"-228.7,64.0,135.2\",\"-227.6,63.0,133.6\",\"-228.4,63.0,131.0\"]"
+						world: "minecraft:overworld"
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+	]
+	title: "Relics and Artifacts"
+}
