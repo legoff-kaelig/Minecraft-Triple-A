@@ -1,0 +1,2977 @@
+{
+	autofocus_id: "775D35416263E2B5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: ""
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "botania:pure_daisy"
+	}
+	id: "6F379C74A5FFBE73"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Mystical flowers can be found scattered throughout the world. They can be crafted into &apetals&r which can then be used in botanical creations or even crushed into dyes! "
+				""
+				"Flowers can also be grown using floral fertilizer, you will learn more about this shortly."
+				""
+				"Different recipes will require different colored petals, so it's always wise to pick up any you do not already have."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botania:white_mystical_flower"
+			}
+			id: "585F7153AFC98B12"
+			rewards: [{
+				id: "2D41B7424430E878"
+				type: "xp"
+				xp: 5
+			}]
+			size: 2.0d
+			subtitle: "Magic Botanics"
+			tasks: [{
+				advancement: "botania:main/flower_pickup"
+				criterion: ""
+				id: "49C12E387F7DBF4F"
+				type: "advancement"
+			}]
+			title: "Welcome to Botania!"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["585F7153AFC98B12"]
+			description: [
+				"Floral fertilizer can be used to spawn a few flowers per use, it effectively works like bonemeal for creating mystical flowers when used"
+				""
+				"If you find yourself running low on a particular color, try burying a petal of that color and using some bone meal on it."
+			]
+			id: "08DDE1BA7270501B"
+			rewards: [{
+				id: "3D2F55835C99602E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Gathering Flowers, The Easy Way"
+			tasks: [{
+				id: "3863F67A69DE5EBC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:fertilizer"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["585F7153AFC98B12"]
+			description: [
+				"The petal apothecary, when provided with water, will accept any mystical petals thrown into it."
+				""
+				"Once the correct combination of petals have been provided, throwing any type of seeds in will finalize the crafting process."
+				"All Functional and Generating Flora are made here more information on this later in the questline (or even better, read through the respective sections in the lexicon)."
+				""
+				"Right clicking the apothecary with an empty hand will remove the last item thrown in. Right clicking with an empty hand &oafter&r the completion of a recipe will automatically pull and add another round of the recipes ingredients from your inventory, for up to 20 seconds after the recipe completes."
+				""
+				"If filled with lava, the apothecary will act as both a lightsource and an incernator, destroying any items that come into contact."
+			]
+			id: "34B1F78384E7FE7F"
+			rewards: [{
+				id: "684577A51F90791D"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Basic Botanical Crafting"
+			tasks: [{
+				id: "32670C20B95C21FB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:apothecary_default"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34B1F78384E7FE7F"]
+			description: [
+				"The pure daisy is going to be a mainstay in your botanic journey. The first and most critical use is the conversion of wood and stone blocks into livingwood and livingstone, you are going to use these resources throughout your entire use of Botania, so automating this one earlier rather than later might be a good idea."
+				""
+				"Other uses for the pure daisy include: Purifying netherrack into cobblestone, soul sand into sand, blaze mesh into obsidian, water into snow, ice into packed ice, packed ice into blue ice, and end stone into cobbled deepslate which will also release a small cloud of ender air in the process."
+			]
+			id: "5571549F78AD7942"
+			rewards: [{
+				id: "1777750DD37D9E3D"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Your First Functional Flower"
+			tasks: [{
+				id: "526EA6E799B3AE8F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:pure_daisy"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5571549F78AD7942"]
+			description: [
+				"Using 3 livingwood twigs and 2 petals, craft a wand of the forest, allowing you to manipulate, link and unlink flowers and botanic devices."
+				""
+				"The wand has two modes, bind mode and function mode."
+				"{@pagebreak}"
+				"Sneak-right click on a compatible block with the wand in hand to select it, then sneak-right click elsewhere to bind the two blocks."
+				""
+				"Sneak-right clicking a block in Function Mode rotates the block around the axis of the side that was clicked. Using the wand on the top of a chest will change the direction it faces. Most blocks with orientations can be reoriented this way."
+				""
+				"The two modes can be switched between by sneak-right clicking the wand in the air. A dispenser holding a wand will use the wand on the block it currently faces, when activated."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botania:twig_wand"
+				tag: {
+					color1: 0
+					color2: 3
+				}
+			}
+			id: "55D80F8F2BE16A7A"
+			rewards: [{
+				id: "2A378EF592240586"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Your Botanical \"Wrench\""
+			tasks: [
+				{
+					id: "7BF4B5AA4BB499D5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:livingwood_twig"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1670853BB13F1DEE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:petals"
+						}
+					}
+					title: "Any #botania:petals"
+					type: "item"
+				}
+			]
+			title: "Wand of the Forest"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["585F7153AFC98B12"]
+			description: ["Flower pouchs can hold up to 1 stack of all colors of mystical flowers as well as tall mystical flowers. It will automatically collect any mystical flowers you pick up and sneak-right clicking it on an inventory will empty its contents into the container."]
+			id: "7B850BCDE25616EF"
+			rewards: [{
+				id: "64F1F179B357F851"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Saving Some Inventory Space"
+			tasks: [{
+				id: "30C15015E6611354"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:flower_bag"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55D80F8F2BE16A7A"]
+			description: [
+				"Mana is Botanias form of \"energy\", learning to generate and properly manipulate it can get somewhat complicated down the road. As for the basics? It's fairly straight forward."
+				""
+				"Generating flora are used to create Mana. Mana generated can be extracted and transferred with mana spreaders and stored in mana pools."
+				""
+				"The primary use of mana, is powering functional flora and well... you, the trinkets and magics you use will required stored mana (more on that later)."
+				""
+				"{@pagebreak}"
+				""
+				"The first step in generating mana is as follows:"
+				""
+				"Choose a starter flower - &cendoflames&r or &9hydroangeas&r."
+				""
+				"&cEndoflames&r last forever but require a burnable source be provided for them to consume (dropping them on the flower in any way works)."
+				""
+				"&9Hydroangeas&r die after about 3 days and consume water source blocks on the same Y level within a 3x3 block range to generate mana."
+				""
+				"{@pagebreak}"
+				""
+				"Next craft a &6mana spreader&r and &6mana pool&r, using your wand of the forest, link the flower to the spreader, then the mana spreader to the mana pool. supply the flower with its required resource and you're all done with your first mana set up!"
+			]
+			id: "775D35416263E2B5"
+			rewards: [{
+				id: "181BBA83A0545857"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Generating Mana and How It Works"
+			tasks: [{
+				id: "7BCDFE4175FD8E8B"
+				title: "The Basics"
+				type: "checkmark"
+			}]
+			title: "The Basics of Mana"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["775D35416263E2B5"]
+			description: [
+				"Mana pools accept mana from mana spreaders, and any adjacent ones will fill from it automatically."
+				""
+				"All functional flora require a nearby mana pool to draw power from in order to operate."
+				""
+				"There are 2 types of mana pool, \"normal\" mana pools and the diluted mana pool. The diluted mana pool works exactly the same as the normal one, with the exception that it holds approx. 100x less mana, good for making small buffers where limited amounts of mana are needed and you don't want to store a large supply."
+				""
+				"Right-clicking with any color of mystical petal on a pool will have give the pool its color, for decoration or easier labelling. You can scrub the color off again with a clay ball."
+			]
+			id: "25A502390EB93B31"
+			rewards: [{
+				id: "56F75B9BA28F6997"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Mana Storage"
+			tasks: [{
+				id: "4C394DE7D456FA49"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_pool"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["775D35416263E2B5"]
+			description: [
+				"Mana spreaders have a small internal buffer of mana, which will get filled by generating flora bound to it. (Flowers, when placed, auto-bind to the nearest spreader.) This buffer can be viewed by hovering over the spreader with a wand in hand. Their primary function is simple. Moving mana from one location to another. This process is handled without the use of pipes or wires."
+				""
+				"Holding a wand of the forest makes nearby spreaders display aiming beams. Hovering over a spreader highlights its target. The sparkles show where mana loss begins to occur."
+				""
+				"As long as the target of the spreader can accept mana and isn't full, the spreader will repeatedly fire mana bursts, which travel to their destination and transfer their Mana to it."
+				""
+				"{@pagebreak}"
+				""
+				"Spreadesr will only fire another mana burst when the last one reaches its target destination."
+				""
+				"Furthermore, a mana burst will start suffering mana loss after a small amount of time: this can be seen in the burst's appearance, as it thins out at that point."
+				""
+				"Applying a Redstone Signal to a spreader will pause its firing of bursts. If more control is needed, use a pulse mana spreader, as it fires upon a redstone signal in lieu of a target."
+				""
+				"{@pagebreak}"
+				""
+				"Right-clicking the spreader with a piece of wool will sleeve and silence it, reducing the potential noise of multiple spreaders in a small area."
+				""
+				"Right-clicking it while holding scaffolding will surround it in a sturdy frame. This allows it to support redstone components like buttons and levers on all sides. Redstone dust, repeaters, and the like can now also be placed on top of it. "
+			]
+			id: "46D18D5A3C7E5DFF"
+			rewards: [{
+				id: "335DD3A190E35057"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Moving Mana"
+			tasks: [{
+				id: "73ED2D2F55DE53AF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_spreader"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["775D35416263E2B5"]
+			description: ["There are many types of generating flora, as the name implies, they generate mana for you when certain conditions are met. Using &aJEI&r or the &eLexica Botania&r will better help to choose which flower will best suit your needs at any point of progress."]
+			id: "159792662A8F6A9F"
+			subtitle: "Flowers that MAKE mana"
+			tasks: [{
+				id: "677731C46EF223B0"
+				title: "Generating Flora"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["775D35416263E2B5"]
+			description: ["Functional flora can cover a wide range of needs, as the name implies, any given functional flower will consume mana in order to perform a specified function. &aJEI&r or the &eLexica Botania&r will provide information on which flora will best suit your needs."]
+			id: "74974B293BF303C1"
+			subtitle: "Flowers that USE mana"
+			tasks: [{
+				id: "087F10F521D22FE1"
+				title: "Functional Flora"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "6EF8EF579D32EAB0"
+			rewards: [{
+				id: "53C09C8F6C7FB1D9"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "41ADE2D80FB84D43"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:hydroangeas"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "1DA1F954B56E642B"
+			rewards: [{
+				id: "5920D480276B11F2"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "01D45BA3DCF535AA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:endoflame"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"25A502390EB93B31"
+				"46D18D5A3C7E5DFF"
+			]
+			description: [
+				"The mana tablet is a portable item that can carry mana stored within itself. Other items contained in the inventory or curios slots can draw from it for their own use, making it essential for any botanist."
+				""
+				""
+				"Tossing a tablet into a Mana Pool will allow for flow of Mana between them."
+				"Sneak-right clicking on the Mana Pool with a wand of the forest (or using a dispenser containing one) will the direction in which mana will flow."
+				""
+				"Unlike normal, dropped mana tablets never despawn."
+			]
+			id: "4F66AAEF33D85B38"
+			rewards: [{
+				id: "351441D77691CA3F"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Portable Mana Storage"
+			tasks: [{
+				id: "3975D6DD8CF48C8C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_tablet"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"25A502390EB93B31"
+				"46D18D5A3C7E5DFF"
+			]
+			description: [
+				"If you are familiar with the \"engineers goggles\" from the create mod. Then this will require little explanation, it's Botanias version of them."
+				""
+				"When equipped, the manaseer monocle automatically displays mana burst and functional ranges of flowers to the player without the need of holding the wand of the forest."
+			]
+			id: "6ED33F5A8C4852CD"
+			rewards: [{
+				id: "28A6AE08ACFA0C2A"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Visualizing Your Set Ups"
+			tasks: [{
+				id: "5B550275AE05E791"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:monocle"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"25A502390EB93B31"
+				"46D18D5A3C7E5DFF"
+			]
+			description: ["Manastars can be used to display net-gain or net-loss of mana from a mana pool at any given time. If the manastar turns blue it is gaining mana, red means it is losing mana, pretty simple."]
+			id: "076633469576309F"
+			rewards: [{
+				id: "4FBF0A2AE1A6FB35"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "So What's Going On In The Mana Pools?"
+			tasks: [{
+				id: "0C1CEB8836888F6F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:manastar"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["25A502390EB93B31"]
+			id: "4E6415314C1C1207"
+			rewards: [{
+				id: "4868E74D84511F21"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "5212DD81CF457737"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_string"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["25A502390EB93B31"]
+			id: "674AB289787B179F"
+			rewards: [{
+				id: "71425785D339C540"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "19866119D37BC13C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:quartz_mana"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["25A502390EB93B31"]
+			id: "0235A3E2044132D5"
+			rewards: [{
+				id: "0F61C05298372FAE"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "4E89505F588D8B1A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_diamond"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["25A502390EB93B31"]
+			id: "32A9EF5F4F5A432F"
+			rewards: [{
+				id: "191D7C46E64DEDE5"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "599DED85E110D484"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_pearl"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["498CEA081D94A5AB"]
+			description: [
+				"The velocity lens will dramatically increase the speed at which a mana burst travels, but at the expense of initial capacity and faster mana loss. Meaning you will transfer mana faster but will \"lose\" mana in the process more readily. "
+				""
+				"They can be great but it is recommended &onot&r to use them until you have mana generation to the point of the loss being acceptable. Refrain from using them if you are still at a point of using mana virtually as fast as you can create it, as long as this is the case using the velocity lens is a bad idea."
+			]
+			id: "76D89F923391FFAF"
+			rewards: [{
+				id: "40A508DDCEE094A9"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Mana Moving FAST"
+			tasks: [{
+				id: "4D4806E0032CB59D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:lens_speed"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"25A502390EB93B31"
+				"46D18D5A3C7E5DFF"
+			]
+			description: ["As with many other vanilla items, manasteel ingots are created by dropping iron ingots into a mana pool, consuming some of mana contained to infuse the ingot. These are used in a wide variety of recipes so if botanical progression is what you're shooting for, automating this process in some shape or form will be wise."]
+			id: "04A3CE7E46200063"
+			rewards: [{
+				id: "5FFA8CC617AF1531"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Fantastically Magical Botanical Alloys"
+			tasks: [{
+				id: "58CCD34CC190389A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:manasteel_ingot"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["46D18D5A3C7E5DFF"]
+			description: [
+				"Mana lenses can be used to upgrade mana spreaders. The most basic mana lens does absolutely nothing."
+				""
+				"A lens can be dyed by crafting it with any color of dye to give it that color, or with a mana pearl to create a rainbow lens. These change the color of the fired burst. This is the least valuable thing to use lenses for, however, if you do not need an upgraded spreader it may be worth doing if it helps fit your aesthetic."
+				""
+				"{@pagebreak}"
+				""
+				"Lenses aren't just for fancy colors... They can be upgraded with many different materials to create all kinds of effects with their mana bursts."
+				"Keep in mind that a normal mana spreader must point at a mana-receiving block to fire. This is why a pulse mana spreader is recommended for certain lenses instead. Bear in mind, components such as pipes and hoppers can add or remove spreaders' lenses."
+			]
+			id: "498CEA081D94A5AB"
+			rewards: [{
+				id: "05B4AD527B521C05"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Tweaking Your Mana Dispersion"
+			tasks: [{
+				id: "78DAC768A206FB44"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:lens_normal"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["498CEA081D94A5AB"]
+			description: ["The potency lens will double the amount of mana a mana burst can carry, however, the beam travels slower, and after it starts to lose mana, does so at a much faster rate."]
+			id: "310BB257C68EE1CB"
+			rewards: [{
+				id: "3728DA379CB9508C"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "MORE mana per burst"
+			tasks: [{
+				id: "5818D65114EDDCBF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:lens_power"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["498CEA081D94A5AB"]
+			description: ["The resistance lens will significantly increase the amount of time a mana burst can travel without starting to lose Mana, but slows its overall transfer rate as well."]
+			id: "526384363131A0AA"
+			rewards: [{
+				id: "73E7C2B0505F8A99"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Stop wasting mana"
+			tasks: [{
+				id: "53BACA89AE4EA152"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:lens_time"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["498CEA081D94A5AB"]
+			description: ["The efficiency lens will slightly increase the amount of time it takes for a mana burst to start losing its mana, and will also significantly decrease its rate of loss."]
+			id: "112C035B003CABF3"
+			rewards: [{
+				id: "3459B3D43BC66A86"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "77D508C00FE070ED"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:lens_efficiency"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"25A502390EB93B31"
+				"46D18D5A3C7E5DFF"
+			]
+			description: [
+				"Black lotus can be found as loot throughout the world, a lot of people just mindlessly ignore them, which is fine later on when you have more mana than you know what to do with... However, especially early on, they are EXTREMELY useful for the large amount of mana they grant when dropped into a mana pool."
+				""
+				"Think of them as mana tablets you can loot."
+			]
+			id: "6118AE87E3739408"
+			rewards: [{
+				id: "15E029A03F691A5C"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "THESE ARE NOT JUNK"
+			tasks: [{
+				id: "2E65EC4E9A714D46"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:black_lotus"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["72820219DBE77D92"]
+			description: ["Terrasteel is a magical alloy, infused with vast amounts of mana. Its creation it proves to be no small feat. To start, requires a terrestrial agglomeration plate placed over a checkerboard pattern of lapis lazuli blocks and livingrock or shimmerrock. This block then needs to be provided with mana, with sparks being the most efficient method."]
+			id: "02B9CDBCE083183B"
+			rewards: [{
+				id: "1A3D56F208210E34"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Making Terrasteel"
+			tasks: [{
+				id: "52DE2DE99ABCE1C2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:terrasteel_ingot"
+				}
+				type: "item"
+			}]
+			title: "Terrestrial Agglomeration Plate"
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["15169FE8866CD32A"]
+			description: [
+				"The elven folk of Alfheim have proposed a trade agreement, you trade resources not available in &otheir&r world in return for resources not available in &oyour&r world. Manasteel in return for elementium is one of these trades and one you will need to make. "
+				""
+				"Throw 2 manasteel ingots into a portal to Alfheim and the elves will send an elementium ingot in return."
+			]
+			id: "09639200E03A54C2"
+			rewards: [{
+				id: "673BD315D8AEC42E"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Trading With The Elves Of Alfheim"
+			tasks: [{
+				id: "41F043E07B171629"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:elementium_ingot"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["04A3CE7E46200063"]
+			description: [
+				"The terrestrial Agglomeration plate is the capstone or focus point for the terrestrial agglomeration process. It should be placed over a checkerboard pattern of lapi lazuli blocks and livingrock (or shimmerrock) and centered. This block then needs to be provided with mana, with sparks being the most efficient mode of transfer. the \"board\" is made with 5 living stone (corners and center) and 4 lapis lazuli blocks in the remaining space, completing the square."
+				""
+				"Terrasteel is a complex and extremely potent magical alloy, so prepare for infusion to cost ridiculous amounts of mana."
+				""
+				"{@pagebreak}"
+				"When a single manasteel ingot, mana diamond and mana pearl are dropped on the center of the structure, the crafting process will begin and the plate block will start accepting mana. While mana can be provided with mana spreaders, the Lexica Botania recommends using sparks for much higher transfer rates. If any item is dropped on, picked up, or despawns from the plate while crafting is ongoing, all progress will be lost and consumed mana will not be recovered."
+				""
+				"Right-clicking the plate block with the components will drop them onto the plate."
+			]
+			id: "72820219DBE77D92"
+			rewards: [{
+				id: "0E65D5B7A046749A"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "The Agglomeration Multi-Block"
+			tasks: [{
+				id: "40F24D289FAA2762"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:terra_plate"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["5571549F78AD7942"]
+			description: [
+				"Made with 5 livingstone and either a mana pearl or mana diamond, the runic altar is another form of magical crafting in the the wide world of botanical magics."
+				""
+				"To create a rune, recipe components must be placed onto the altar, in any order, it does not matter. By either right-clicking the altar with them or throwing them upon the altar. Looking at the altar will display its contents, The placed items will be shown orbiting above the altar."
+				""
+				"{@pagebreak}"
+				""
+				"Shift right-clicking the runic altar with an empty hand will return the last placed item into the player's inventory. The items cannot be retrieved after the altar has been activated. When all necessary items are placed on the altar it will activate and start accepting mana."
+				""
+				"All runes used in Runic Altar recipes will be returned after crafting."
+			]
+			hide_dependency_lines: true
+			id: "5D9CDC1CB8BA8EA3"
+			rewards: [{
+				id: "088CF8BD67AC8A28"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Runic crafting"
+			tasks: [{
+				id: "27BD7AE33F6CEB2C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:runic_altar"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "4C3D61F312732CCD"
+			rewards: [{
+				id: "1529969F4BBD2EF6"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3985A8833594DD19"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_water"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "3E782B26DADD186E"
+			rewards: [{
+				id: "7ACEC0827087F5FA"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6AE9F03A1B66D232"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_fire"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "1447842048E39146"
+			rewards: [{
+				id: "0F6FBAFF978DD81F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3F6BF292A987511C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_earth"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "7E3DE4FCB7EA385C"
+			rewards: [{
+				id: "0F800E13E9278286"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2B4EF6C09B2D0B63"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_air"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "7F238EE9A1167EB9"
+			rewards: [{
+				id: "003ACF484F304F5C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3E0C83CDC9B05263"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_spring"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "413BD213703238DD"
+			rewards: [{
+				id: "7792607B66D0D39F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6664D50D55B7CA1E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_summer"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "63E29195E8A7437B"
+			rewards: [{
+				id: "2ED5664AD18EE20C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "716013088F1B6A4F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_autumn"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "48C379EAF298010F"
+			rewards: [{
+				id: "7104655ECBD8B05D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "40C23558E7F1B301"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_winter"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "063A2B560823582C"
+			rewards: [{
+				id: "0F31155D3C2F50D0"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6311CB46BC44E8F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_mana"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "53E68B29DFA9CA66"
+			rewards: [{
+				id: "284499FFAA8957D6"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4F00FB73BC167E48"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_lust"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "54AB3E71B41AB881"
+			rewards: [{
+				id: "078DA9D9A6A5DC6A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "68A5BF25A7F86E1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_gluttony"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "73C1CA8C3432BCAB"
+			rewards: [{
+				id: "112C5F799DD9EE88"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "547D484CBCEF3BCC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_greed"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "380E38842E2C9ECE"
+			rewards: [{
+				id: "0CBE86D95D6C45E6"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4E63E9D059B8D378"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_sloth"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "07C1996CECF0485C"
+			rewards: [{
+				id: "79C460AB87158A6C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2293A302BA37FD48"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_wrath"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "1F3800E3E70028F3"
+			rewards: [{
+				id: "40F56BAF9945C00F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "632F4230AE2D8C99"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_envy"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "4A764120EA808884"
+			rewards: [{
+				id: "578C504B7DAA99E0"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "362AFB3BCF82080C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_pride"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["02B9CDBCE083183B"]
+			description: [
+				"The portal to Alfheim allows you to exchange certain blocks and items with the elves of a distant land, Alfheim. Unlike most portals, the portal to Alfheim cannot be travelled through. if you stand in it, it will not teleport you anywhere."
+				""
+				"If the portal runs out of Mana, or a part of the structure is broken, the Portal will close."
+				""
+				"The portal frame is 5x5 with no corners and requires:"
+				""
+				"8 x Livingwood"
+				"3 x Glimmering livingwood"
+				"1 x Elven gateway core"
+				""
+				""
+				"{@pagebreak}"
+				"At least 2 natura pylons with mana pools below them must be placed in an 11×11×11 area centered on the gateway core. Once the structure is complete, use the wand of the forest on the gateway core to open the portal. This consumes a large amount of mana split between all pools feeding the gateway."
+				""
+				"To exchange resources, throw items into the portal - if they can be exchanged, the portal will slowly drop resulting items in its center and consume mana after each trade operation. If a Lexica Botania without elven knowledge is thrown into the portal, it will be returned with this knowledge added. You can extract your lexicon from the eccentric tome for this upgrade using sneak + Q with the tome in hand, set to the lexicon."
+				"after upgrading it, it can then be reinsterted into the eccentric tome via shapeless crafting. Eccentric tome + upgraded lexicon. "
+				""
+				"{@pagebreak}"
+				"Items with no exchange recipe will be lost when thrown into the portal, with the exception of diamonds, iron ingots and ender pearls which will be returned."
+				""
+				"Note: Attempting to trade bread will cause a &csmall explosion&r, destroying most of the portal frame... for some stupid reason."
+			]
+			id: "15169FE8866CD32A"
+			subtitle: "The Portal To Alfheim"
+			tasks: [{
+				id: "2C49B263289A6FAA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:alfheim_portal"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "60A633CB92C4380E"
+			rewards: [{
+				id: "25DA16D5745C6EA9"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6CC755E83C62051B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:dandelifeon"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "0786CBC21C9C62EC"
+			rewards: [{
+				id: "521CEFC98416BFE6"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "60354A96C95C5359"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:thermalily"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "124C791F7EB4F9C8"
+			rewards: [{
+				id: "74ECA0B7ED108875"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "72A891851FD4EE0D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rosa_arcana"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "3B093545AB861AB2"
+			rewards: [{
+				id: "6909B2BA0FEDA5B5"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "2F5581C5534FAE93"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:munchdew"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "1E9B144AD43DB095"
+			rewards: [{
+				id: "3C24516E3D9E5F1C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "718A2B47F35B07A2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:entropinnyum"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "496CBABFEF926FCC"
+			rewards: [{
+				id: "57BEDE64AC2D142F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2F3731A12F7B9CFD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:kekimurus"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "2163E43C8D6F58EC"
+			rewards: [{
+				id: "0A910179B7AA8F88"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "709EE8CB0958F15D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:gourmaryllis"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "242287085FA7718A"
+			rewards: [{
+				id: "203AA1B45DFA36A8"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "24E0FB04507578A0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:narslimmus"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "0E5CD382A9CF2116"
+			rewards: [{
+				id: "7CD925CB5E6402EA"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "67286A2CC7B7E4AE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:spectrolus"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "3DEA84347E3F9457"
+			rewards: [{
+				id: "432B251851519F77"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "7C39371A91D41257"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rafflowsia"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "4953A679E9CC31DC"
+			rewards: [{
+				id: "407EDA6B209D2832"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5F9D88EF21AB12C9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:shulk_me_not"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "60A7D013A5A9DB4B"
+			rewards: [{
+				id: "3B55F7D18C6C64C4"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6A8CA313C100EE6E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:bellethorn"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "2A53624D4A290BF6"
+			rewards: [{
+				id: "6C39E9DA69205679"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5FB6A6B95507C888"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:bergamute"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "25F90334E79A4BA0"
+			rewards: [{
+				id: "738F9C7E12B62974"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "62DC770A482603D6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:dreadthorn"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "06D7055EAAF4F8FD"
+			rewards: [{
+				id: "09B3036E14D4316F"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6419B410DC8E205D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:heisei_dream"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "678BA6E0FDBA529F"
+			rewards: [{
+				id: "5D78FDF9159F5E89"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5BA7E2DBEB6B6E26"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:tigerseye"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "591899C2EEE556DA"
+			rewards: [{
+				id: "0F5B5297EBF416BC"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "313258B684A26C96"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:jaded_amaranthus"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "17AB109B31B13B1A"
+			rewards: [{
+				id: "19E0CE6EB19F962C"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5D6E5120B8FEA608"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:orechid"
+				}
+				type: "item"
+			}]
+			x: 13.374999999999986d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "019B5D7920DAC31C"
+			rewards: [{
+				id: "68CD64EC10BADCDD"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0151769261F88566"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:fallen_kanade"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "1F7F2DA602B5D2F2"
+			rewards: [{
+				id: "4D9CAC54D5B20B42"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "3859C55A5F64E9FF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:exoflame"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "1AC2CB3D5AA69AA7"
+			rewards: [{
+				id: "578A252BAF3DDBE8"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "706A2BB1C171A06F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:agricarnation"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "10F6C182A160BF70"
+			rewards: [{
+				id: "36DAF1BB07A015D1"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "165C7A4611191205"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:hopperhock"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "0598F4791AC98A60"
+			rewards: [{
+				id: "288F8317CCA32A66"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0212B71343361A73"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:tangleberrie"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "61537DA632D4F793"
+			rewards: [{
+				id: "196A5B72AA415B0D"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "2F650B49F3B62F3F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:jiyuulia"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "5DF3505465AB7382"
+			rewards: [{
+				id: "7BB828B823D664DA"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "1FD35FBBCD24244B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rannuncarpus"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "6DD0D2B0CCEE428D"
+			rewards: [{
+				id: "3C0699A7396743D0"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "307FF65A6FD22154"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:hyacidus"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "10038EEBAD47FD33"
+			rewards: [{
+				id: "3D2A5806BA54E741"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "61664675FC1DF54F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:pollidisiac"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "0DED2EB3DA27FFFD"
+			rewards: [{
+				id: "73170D8543799706"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "4A59ED0222816332"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:clayconia"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "0A56E51EEA2A2F31"
+			rewards: [{
+				id: "60F34D14DCD0A556"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "1C874F00297E9856"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:loonium"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "7AF7C930D7951FA5"
+			rewards: [{
+				id: "1ECDDE89C4057F14"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "2EA2A7F5AF8D3458"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:daffomill"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "641465DA01092C64"
+			rewards: [{
+				id: "5AB7F75A8B2DE1F9"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0BE1102392A3C6F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:vinculotus"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "798367D4FF2C28B3"
+			rewards: [{
+				id: "2733F0375E38B343"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "4B6E6400F5572749"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:spectranthemum"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "68D744FE07264535"
+			rewards: [{
+				id: "136EB98F971F5FA0"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "4F96F3D94FC72407"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:medumone"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "137097D308BBDDFA"
+			rewards: [{
+				id: "2705BA962CB8473F"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5058EE0452B5CB83"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:marimorphosis"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "4F0BA283C5F285C8"
+			rewards: [{
+				id: "53CE9B6D21A91925"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "2BB3775B43301A17"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:bubbell"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "7ED9900A3E2B933A"
+			rewards: [{
+				id: "77E8CE528EDF40F2"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "330BBD4F36ABD815"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:solegnolia"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "14BFA10329AB5698"
+			rewards: [{
+				id: "5CFF268123BF7E57"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "716B8DC5FEEDEA6F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:orechid_ignem"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "7FAC67E26E772859"
+			rewards: [{
+				id: "41F4DD51E1A104C9"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "122BEF46E22A7DD7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:labellia"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"2DF1230AFB800F95"
+				"09639200E03A54C2"
+			]
+			description: ["Elven mana spreaders conduct more mana, faster, and for longer distances before experiencing mana loss. You are not able to makelse spreader out of these though."]
+			id: "745E25B61B899BCD"
+			rewards: [{
+				id: "131DC0533DAC1420"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "The Better Mana Spreader"
+			tasks: [{
+				id: "306CFF8DB703567F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:elven_spreader"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["46D18D5A3C7E5DFF"]
+			description: [
+				"Crafting a mana spreader with redstone dust yields a pulse mana spreader, which (as the name implies) fires when given a redstone pulse, regardless of it's targets capabilities to recieve mana."
+				""
+				"Keep in mind that it still won't shoot a second burst until the last one dissipates or is absorbed."
+			]
+			hide_dependency_lines: true
+			id: "2DF1230AFB800F95"
+			rewards: [{
+				id: "4D63F563CFD3B38F"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Controlling Your Mana Bursts"
+			tasks: [{
+				id: "17FD89C9E1E52A2B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:redstone_spreader"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "24EEB676E61B31E4"
+			rewards: [{
+				id: "7D1A8DE32E04BA61"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7336C5FA6932069E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:redstone_root"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"745E25B61B899BCD"
+				"15169FE8866CD32A"
+				"4CEC896F997FA1E2"
+			]
+			description: [
+				"The Gaia mana spreader is similar to the previous tiers of spreaders and is the highest upgraded spreader available."
+				""
+				"A Gaia spreaders mana bursts contains four times more mana than that of the standard Spreader. The mana burst range is increased to 48 blocks. The internal storage is much larger at over 6 times the storage capacity of the other spreader types."
+				""
+				"&6These spreaders fire larger payloads at once&r (and thus might fire less often)."
+			]
+			id: "6A6C553A07792322"
+			rewards: [{
+				id: "469636A26D459A28"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Now We're Really Moving Mana!"
+			tasks: [{
+				id: "77831255CEC3279C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:gaia_spreader"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"2B34CE966764F7D8"
+				"15169FE8866CD32A"
+				"09639200E03A54C2"
+			]
+			description: ["Crafting your mana pylons with 2 pixie dust and 2 elementium ingots will yield an augmented pylon. Attuned to the Godess. When placed around a beacon, they form the basis for the \"summoning point\"."]
+			id: "53AEAF0267FC2CE6"
+			rewards: [{
+				id: "33754B4BC5218A89"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "Preparing Pylons For The Ritual Of Gaia"
+			tasks: [{
+				id: "596571239C90AE9E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:gaia_pylon"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["04A3CE7E46200063"]
+			description: [
+				"A Mana Pylon is a structure that pulls natural energies from the earth and uses them to power enchanting processes."
+				""
+				"Setting one adjacent to an Enchanting Table as if it was a Bookshelf will dramatically increase the power of the table: just two pylons are enough for most if not all situations."
+			]
+			hide_dependency_lines: true
+			id: "34BBB5DD3224D05C"
+			rewards: [{
+				id: "66CF1A87F0ADF2E4"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Mana Enchanting Boosts"
+			tasks: [{
+				id: "0098A83AD20ACA14"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_pylon"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"34BBB5DD3224D05C"
+				"02B9CDBCE083183B"
+			]
+			description: ["Natura pylons are used to create the portal to Alfheim, in which 2 are required. If used in place of a bookshelf near an enchanting table, it will also boost the tables enchanting level."]
+			id: "2B34CE966764F7D8"
+			rewards: [{
+				id: "311284FD1D49D30D"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Channeling Alfheim Commerce"
+			tasks: [{
+				id: "39BE1C677842868D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:natura_pylon"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["53AEAF0267FC2CE6"]
+			description: [
+				"Gaia spirits are recieved as fragments of the power of the Goddess of Gaia upon her guardians defeat. This ritual requires an active beacon with gaia pylons surrounding it to act as a summoning altar, as well as a single terrasteel ingot to sacrific for summoning."
+				""
+				"To start the ritual, sneak and right click the beacon with the terrasteel ingot, take a step back, and prepare for a tough fight. Preparation is absolutely required, the fight with the Guardian of Gaia can be even harder than that with the Wither or Warden. Upon the guardian's defeat,   spirits of gaia will be dropped as a prize."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"The difficulty and reward yielded by the ritual depends on the number of people participating. Performing the ritual with 5+ people in the vicinity can be a very big mistake, the guardians stats scale with the number of players present. Staying clear of the purple particle effects is also probably a good idea."
+			]
+			id: "4CEC896F997FA1E2"
+			rewards: [{
+				id: "7CD7DDF92C3A7A09"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "The Botanical Boss Battle"
+			tasks: [{
+				id: "6E1F2ECC2289FAA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:life_essence"
+				}
+				type: "item"
+			}]
+			title: "The Guardian of Gaia"
+			x: 1.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["4CEC896F997FA1E2"]
+			description: [
+				"The Gaia spirit ingot, one sacrificed to the beacon, will summon an even stronger Guardian of Gaia with more strength, speed, and resistance."
+				""
+				"On the other hand, slaying this greater guardian yields many more Gaia spirits, as well as a handful of useful drops and rare treasure. It's a worthwhile foe, porivded you can actually manage to beat it."
+			]
+			id: "7AEE296F4A7A950D"
+			rewards: [{
+				id: "2F0A817F94B38A60"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "The Big Bad Botanical Boss Battle"
+			tasks: [{
+				id: "3DDAD123710192B6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:gaia_ingot"
+				}
+				type: "item"
+			}]
+			title: "The Guardian of Gaia II"
+			x: 1.0d
+			y: 24.0d
+		}
+		{
+			description: [
+				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				""
+				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+			]
+			disable_toast: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "architects_palette:hazard_sign"
+			}
+			icon_scale: 2.0d
+			id: "5541743AC51F286D"
+			invisible: true
+			optional: true
+			tasks: [
+				{
+					id: "0ACDDAB4F06ED8CF"
+					type: "checkmark"
+				}
+				{
+					id: "062DD05247BAAE8B"
+					type: "checkmark"
+				}
+				{
+					id: "628EF385268FECDB"
+					type: "checkmark"
+				}
+			]
+			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			x: 30.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["7AEE296F4A7A950D"]
+			description: [
+				"The high clans of Alfheim have passed down an old legend that roughly translates to \"Whosoever rolls a die of fate shall be rewarded with a gift from the gods\". "
+				""
+				"These gifts, known as Relics of the Aesir, are player-bound and unique. (giving someone a relic they themselves didn't earn is a bad idea.)"
+				""
+				"These items are obtained from rolls of the dice of fate, and possess tremendous power. Relics will never be given to the same player twice, so if you have recieved one that you were not hoping for, keep it. Having it will ensure that you will not recieve it a second time from proceeding rolls."
+				""
+				"Once a relic is obtained, any pertinent information to it will magically appear within your copy of the Lexica Botania."
+			]
+			id: "53AC4B4AEB9895D7"
+			rewards: [{
+				id: "1A4B91538F27E466"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Phenomenal Cosmic... Plant?... Power?"
+			tasks: [{
+				id: "50A703587DB7C3DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:dice"
+				}
+				type: "item"
+			}]
+			title: "Relics of the Aesir"
+			x: 1.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["53AC4B4AEB9895D7"]
+			id: "604F1CA2C6D24B31"
+			rewards: [{
+				id: "692EF9AD418B5A02"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "194295FB71062171"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:infinite_fruit"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["53AC4B4AEB9895D7"]
+			id: "25AF27984D54520B"
+			rewards: [{
+				id: "3354525F34E4411F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "2668978BF99F1A57"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:king_key"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["53AC4B4AEB9895D7"]
+			id: "45D0E3DA0188BC4C"
+			rewards: [{
+				id: "4825CC039C6533FD"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "3F6565C4167AE54A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:flugel_eye"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["53AC4B4AEB9895D7"]
+			id: "024B43F6EAFF8ED7"
+			rewards: [{
+				id: "7C8D37F58361EB1B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "0272942E98AD0633"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:loki_ring"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["53AC4B4AEB9895D7"]
+			id: "206B76BC872CB220"
+			rewards: [{
+				id: "7BD2AD45170EDD1F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "20A2335C1578119F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:thor_ring"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["53AC4B4AEB9895D7"]
+			id: "146402CDEB12CC3B"
+			rewards: [{
+				id: "5203E916BAD0E935"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "5F3631D192562B45"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:odin_ring"
+					tag: {
+						baubleUUID: [I;
+							1120657865
+							-486585395
+							-1149804385
+							-122338766
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["04A3CE7E46200063"]
+			description: ["Any mana bursts received by the fluxfield are converted into Energy and sent to any nearby recepticals capable of recieving/transferring it."]
+			hide_dependency_lines: true
+			id: "5CD92A1F116229BD"
+			rewards: [{
+				id: "66B3511F234D829D"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Convert Mana Into Power!"
+			tasks: [{
+				id: "368E1DCBFEDC11E9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_fluxfield"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"4F66AAEF33D85B38"
+				"02B9CDBCE083183B"
+			]
+			description: ["The mana mirror is where it's at. It functions the same as mana tablet in many ways, except rather than having to drop it into a pool to refill it, the mana mirror is itself, is a linking tool capable of linking to a mana pool and drawing mana from it for you remotely!"]
+			hide_dependency_lines: true
+			id: "3B6F95D0F5BA14D1"
+			rewards: [{
+				id: "2B46F6330C8C0913"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Mana Tablets Are So Yesterday...."
+			tasks: [{
+				id: "53B30026CD93A935"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_mirror"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0235A3E2044132D5"]
+			description: [
+				"Combining 5 livingwood and a mana diamond in a crafting table yields an apparatus known as the Livingwood Avatar. By itself, the block is just a pretty face... however, giving it a Rod enables it to cast magic. At the cost of Mana, from a spreader, of course."
+				""
+				""
+				"Not all Rods can be used by an avatar though. If forwhatever reason you would like to toggle its casting for specific situations, a redstone signal can be used to disable it."
+			]
+			hide_dependency_lines: true
+			id: "07B875E19AF689B6"
+			rewards: [{
+				id: "7257368E5AB1CCAF"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Automating Magic Rods"
+			tasks: [{
+				id: "5DCABE5ACB737E7D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:avatar"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4E6415314C1C1207"]
+			description: [
+				"&l&nExtremely valuable in any mineolonies related affairs&r&r."
+				""
+				"The teru teru bozu is an amulet that can be placed into the world. Placing it while doing nothing else, will by itself shorten the duration of inclimate weather."
+				""
+				"However, feeding it a sunflower will automagically end rains and storms. The same effects can be applied in reverse to induce them, by feeding the bozu a blue orchid."
+				""
+				""
+				"{@pagebreak}"
+				"If on a server however, be mindful of the fact that their are some scenarios in which rain and/or storms are desired if not blatantly necessary to accomplish a task. So automating this or immediately using it can easily become a detriment to other players."
+				""
+				"Like Uncle Ben said: \"With great botanic power, comes great botanic responsibility\""
+				"Or something like that... He said it... we're sure."
+			]
+			hide_dependency_lines: true
+			id: "5853555A01D57315"
+			rewards: [{
+				id: "5EA3E83D7C8CCFD7"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Controlling The Weather With Mana"
+			tasks: [{
+				id: "32DE91641DC73F54"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:teru_teru_bozu"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6118AE87E3739408"]
+			description: [
+				"Overgrowth seeds are elusive items that, when planted on grass, magically converts it into enchanted soil. Flowers that are planted on enchanted soil will function at twice their normal speed."
+				""
+				"They are uncraftable and only obtainable from either rare loot in chests OR a potential drop from a guardian of Gaia."
+			]
+			hide_dependency_lines: true
+			id: "36B15D5A38A76D21"
+			rewards: [{
+				id: "4A1614D821011775"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Speeding Up Flowers"
+			tasks: [{
+				id: "21CE51B1B3F14AEF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:overgrowth_seed"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.5d
+		}
+	]
+	title: "&eBotania"
+}
