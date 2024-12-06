@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create"
-	group: ""
+	group: "2136CD76886E1B45"
 	icon: "create:mechanical_arm"
 	id: "547D8D23D3A6A883"
 	order_index: 1
