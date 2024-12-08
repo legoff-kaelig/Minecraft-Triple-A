@@ -1,0 +1,31 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: ""
+	icon: "supplementaries:checker_block"
+	id: "691EE08436CE02E2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Hello there, the modpack is under developpment."
+			"Some quests aren't finished. We planned to create custom items for progression."
+			"So please be patient ;)"
+		]
+		id: "260050B3CB9FC356"
+		rewards: [{
+			id: "3AF0A16FF622ED8C"
+			item: "minecraft:diamond"
+			type: "item"
+		}]
+		tasks: [{
+			id: "3C9BD94B151647CA"
+			title: "Welcome !"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Introduction"
+}

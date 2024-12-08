@@ -6,7 +6,7 @@
 	group: "2136CD76886E1B45"
 	icon: "pneumaticcraft:pressure_gauge"
 	id: "6189F33BEBED0EB7"
-	order_index: 6
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

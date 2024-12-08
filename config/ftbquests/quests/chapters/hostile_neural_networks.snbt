@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: true
 	default_quest_shape: "square"
 	filename: "hostile_neural_networks"
-	group: "278B495A0CDBEC75"
+	group: "2136CD76886E1B45"
 	icon: {
 		Count: 1
 		id: "hostilenetworks:data_model"
@@ -31,7 +31,7 @@
 			y: 10.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
