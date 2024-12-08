@@ -1,8 +1,9 @@
 {
+	autofocus_id: "02575C87933FF39C"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "Relics and Artifacts"
-	group: ""
+	group: "4EBD007B117E8463"
 	id: "2A4C06811555B5D0"
 	images: [
 		{
