@@ -1,5 +1,3 @@
-## Minecraft Triple A
+## Absolute Automation Adventure
 
-This is only a dev repository.
-
-If you want to download the modpack go to the curseforge page : (coming soon)
+If you want to download the modpack go to the curseforge page : https://www.curseforge.com/minecraft/modpacks/absolute-automation-adventure
