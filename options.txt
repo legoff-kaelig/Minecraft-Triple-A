@@ -234,7 +234,7 @@ key_key.xpScroll:key.keyboard.j
 key_key.ftbultimine:key.keyboard.grave.accent
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
-key_key.ftbchunks.map:key.keyboard.unknown
+key_key.ftbchunks.map:key.keyboard.m
 key_key.ftbchunks.toggle_minimap:key.keyboard.unknown
 key_key.ftbchunks.claim_manager:key.keyboard.unknown
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
@@ -285,9 +285,6 @@ key_key.mekanism.description:key.keyboard.n:SHIFT
 key_key.mekanism.module_tweaker:key.keyboard.unknown
 key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.h
-key_key.inventorysorter.itemin:key.mouse.100
-key_key.inventorysorter.sort:key.mouse.middle
-key_key.inventorysorter.itemout:key.mouse.102
 key_keybind.sophisticatedstorage.sort:key.mouse.middle
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
@@ -355,7 +352,7 @@ key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
 key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_quark.keybind.sort_player:key.mouse.middle
-key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.sort_container:key.mouse.middle
 key_quark.keybind.lock_rotation:key.mouse.5
 key_quark.keybind.narrator_readout:key.keyboard.unknown
 key_quark.keybind.narrator_full_readout:key.keyboard.unknown
