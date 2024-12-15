@@ -78,7 +78,11 @@
     "uranium",
     "zinc"
   ],
-  "priorityOverrides": {"forge:plates/iron": "gtceu"},
+  "priorityOverrides": {
+    "forge:plates/iron": "gtceu",
+    "forge:plates/copper" : "gtceu",
+    "forge:plates/brass": "gtceu",
+    "forge:plates/gold": "gtceu"},
   "customTags": {},
   "tagOwnerships": {},
   "itemTagInheritanceMode": "ALLOW",
