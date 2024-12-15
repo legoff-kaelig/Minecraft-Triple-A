@@ -6,7 +6,7 @@
 	group: "2136CD76886E1B45"
 	icon: "pneumaticcraft:pressure_gauge"
 	id: "6189F33BEBED0EB7"
-	order_index: 6
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -14,19 +14,15 @@
 			id: "7FC3915290C5D874"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "5DE237EBF551D5CD"
-					type: "random"
-				}
-				{
-					id: "5CF7B5C20227FD4F"
-					item: "fmtt:fmtt_xp_item"
-					type: "item"
-				}
-				{
 					id: "782FA9F275A1A665"
 					type: "xp"
 					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7162FF569F244901"
+					table_id: 8018894190395160869L
+					type: "random"
 				}
 			]
 			shape: "pentagon"
@@ -43,9 +39,10 @@
 			dependencies: ["7FC3915290C5D874"]
 			id: "5F602738FCC3A8EA"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "06653DE709727271"
-				type: "random"
+				count: 8
+				id: "7B979EFA263DA7E6"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
 			}]
 			tasks: [{
 				id: "1AFC1DE47C079C6E"
@@ -59,9 +56,10 @@
 			dependencies: ["7FC3915290C5D874"]
 			id: "608947EF9EAF52BA"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "5592B0EEA39F4A1E"
-				type: "random"
+				count: 8
+				id: "4CC60CF40BFB2F40"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
 			}]
 			tasks: [{
 				id: "279962F2F7DBCC0D"
@@ -75,9 +73,10 @@
 			dependencies: ["7FC3915290C5D874"]
 			id: "30DE5578E1FC0E80"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "1172505CB8A2A2B4"
-				type: "random"
+				count: 8
+				id: "76E33489EBAD8057"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
 			}]
 			tasks: [{
 				id: "1CE366FB5653E944"
@@ -91,9 +90,10 @@
 			dependencies: ["7FC3915290C5D874"]
 			id: "54AD6FC599AF86CE"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "00B0CA16E518A331"
-				type: "random"
+				count: 8
+				id: "09C825A36BAF5BBF"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
 			}]
 			tasks: [{
 				id: "291677866800A641"
@@ -107,9 +107,9 @@
 			hide_until_deps_visible: true
 			id: "521C06E4EB741372"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "5A808DADD11A0E59"
-				type: "random"
+				id: "3870FEE25DBFAAD6"
+				item: "pneumaticcraft:oil_bucket"
+				type: "item"
 			}]
 			shape: "pentagon"
 			size: 1.0d
@@ -131,8 +131,9 @@
 			id: "00672C279E763A5B"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "459A2C56DD9C35D4"
-				type: "random"
+				id: "43087B17C9018657"
+				table_id: 8018894190395160869L
+				type: "choice"
 			}]
 			tasks: [{
 				advancement: "pneumaticcraft:pressure_chamber"
@@ -147,9 +148,10 @@
 			dependencies: ["00672C279E763A5B"]
 			id: "5B665334FA095503"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "4697C97B38F9C881"
-				type: "random"
+				count: 3
+				id: "4B134BE5D73FC413"
+				item: "minecraft:diamond"
+				type: "item"
 			}]
 			tasks: [{
 				id: "65BCD5655CA9513A"
@@ -164,7 +166,8 @@
 			id: "673C8E5C4440D3FF"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6930910BBDBE6A63"
+				id: "3D81A13256ADEB40"
+				table_id: 8018894190395160869L
 				type: "random"
 			}]
 			tasks: [{
@@ -179,9 +182,10 @@
 			dependencies: ["00672C279E763A5B"]
 			id: "0A138D0E638D2740"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "2F9172B6D7B7B8B2"
-				type: "random"
+				count: 3
+				id: "055BE83A846E1A87"
+				item: "minecraft:diamond"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -207,9 +211,10 @@
 			]
 			id: "5F4C0ACAC8AF9B2C"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "72BE13C65E8B4C48"
-				type: "random"
+				count: 6
+				id: "2544170A16329429"
+				item: "pneumaticcraft:plastic"
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -225,9 +230,10 @@
 			dependencies: ["673C8E5C4440D3FF"]
 			id: "775D6B81052823BF"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "6794BFBEF9748C1A"
-				type: "random"
+				count: 6
+				id: "03504EAF294D4731"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
 			}]
 			tasks: [{
 				id: "6272C553093D1178"
@@ -242,7 +248,8 @@
 			id: "37A6C9424A6D46C5"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6AA9E03DA1AB6E9E"
+				id: "682EF93802472889"
+				table_id: 518222065064277554L
 				type: "random"
 			}]
 			tasks: [{
@@ -258,7 +265,8 @@
 			id: "42E2CF06DDBF4EC4"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "736D888AE8A03B39"
+				id: "70478659A31D1074"
+				table_id: 8018894190395160869L
 				type: "random"
 			}]
 			tasks: [{
@@ -274,7 +282,8 @@
 			id: "4594FAADAF59BAE0"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "356CCBC0B2DBFCD4"
+				id: "11E06D75C5FD30D0"
+				table_id: 518222065064277554L
 				type: "random"
 			}]
 			tasks: [{
@@ -290,7 +299,8 @@
 			id: "46B9FBC0D5836EC6"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "142C3CD08B3856F3"
+				id: "7BBF153E9D5FA19C"
+				table_id: 518222065064277554L
 				type: "random"
 			}]
 			tasks: [{
@@ -306,7 +316,8 @@
 			id: "7CBCF9E33798E93A"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "67AD4BD8AF92BA2E"
+				id: "7E3A2685C5EFDD2E"
+				table_id: 518222065064277554L
 				type: "random"
 			}]
 			tasks: [{
@@ -322,7 +333,8 @@
 			id: "255F146B13C43B39"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "314CE9EC2F962E42"
+				id: "01D3808739461A75"
+				table_id: 518222065064277554L
 				type: "random"
 			}]
 			tasks: [{
@@ -336,11 +348,6 @@
 		{
 			dependencies: ["37A6C9424A6D46C5"]
 			id: "0008738AB1FC88BA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4579901FA325084C"
-				type: "random"
-			}]
 			tasks: [{
 				id: "675EB03F47163110"
 				item: {
@@ -360,7 +367,8 @@
 			id: "03F7FB37F25EFE30"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2990F3D0C2F87C85"
+				id: "61AF132152185353"
+				table_id: 8018894190395160869L
 				type: "random"
 			}]
 			tasks: [{
@@ -382,7 +390,8 @@
 			id: "5E10449A416E7C5B"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "051B0CEA0AB6316E"
+				id: "6B6BE3C0A366B292"
+				table_id: 8018894190395160869L
 				type: "random"
 			}]
 			tasks: [{
@@ -404,7 +413,8 @@
 			id: "33476929003737C8"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6999087AA90FD797"
+				id: "6D4EFD55CC504842"
+				table_id: 8018894190395160869L
 				type: "random"
 			}]
 			tasks: [{
@@ -426,7 +436,8 @@
 			id: "6276650EA7132280"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "1DED4C526AED1774"
+				id: "4F71A976F4C0DF3D"
+				table_id: 8018894190395160869L
 				type: "random"
 			}]
 			tasks: [{
@@ -448,7 +459,8 @@
 			id: "28212D9DC7B57D5F"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "71FEFEB59A9BB046"
+				id: "1C5D37513F5F424B"
+				table_id: 8018894190395160869L
 				type: "random"
 			}]
 			tasks: [{
@@ -469,9 +481,15 @@
 			dependencies: ["5F4C0ACAC8AF9B2C"]
 			id: "115609EFC475F5EF"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "2642AC42C2420356"
-				type: "random"
+				id: "5EDF2833D228AC9F"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:air_canister"
+					tag: {
+						"pneumaticcraft:air": 30000
+					}
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "47632B203CC4109D"
@@ -486,7 +504,8 @@
 			id: "1563EACBAF89FD0C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "272E68D577077480"
+				id: "172D510057FAE330"
+				table_id: 518222065064277554L
 				type: "random"
 			}]
 			tasks: [{
@@ -500,11 +519,6 @@
 		{
 			dependencies: ["115609EFC475F5EF"]
 			id: "10F7E9F757CC7A19"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0F88D41733E8EBE4"
-				type: "random"
-			}]
 			tasks: [{
 				id: "5FB38BECFC3E787B"
 				item: "pneumaticcraft:empty_pcb"
@@ -517,9 +531,9 @@
 			dependencies: ["115609EFC475F5EF"]
 			id: "78B0A2C5244E2972"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "10AE9398FFFAAB8A"
-				type: "random"
+				id: "09C56E83C7EDBF42"
+				item: "pneumaticcraft:etching_acid_bucket"
+				type: "item"
 			}]
 			tasks: [{
 				amount: 1000L
@@ -535,7 +549,8 @@
 			id: "30198E68CC941097"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2C0AD49B0F0224E2"
+				id: "6D9F0C528788BBC6"
+				table_id: 518222065064277554L
 				type: "random"
 			}]
 			tasks: [{
@@ -551,7 +566,8 @@
 			id: "1A7C6D2DAF32B46C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3B7DB55C4C1C237C"
+				id: "3CEB4031BF8E8569"
+				table_id: 518222065064277554L
 				type: "random"
 			}]
 			tasks: [
@@ -579,7 +595,8 @@
 			id: "57439F6A45D1684A"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "79F2C8D26BF0ED66"
+				id: "4CECD7CF13F91C99"
+				table_id: 3538567746442252520L
 				type: "random"
 			}]
 			tasks: [{
@@ -594,9 +611,10 @@
 			dependencies: ["42E2CF06DDBF4EC4"]
 			id: "3B9BE7FC8D1DD9F2"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "1AC89C1F9EBE474C"
-				type: "random"
+				count: 32
+				id: "5C6F0E12AAE2CB9C"
+				item: "minecraft:redstone_block"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -658,7 +676,8 @@
 			id: "02EE9CCF93139F4F"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "682F7C20592F9BD8"
+				id: "629622CDBA9317D9"
+				table_id: 3538567746442252520L
 				type: "random"
 			}]
 			tasks: [{
@@ -674,7 +693,8 @@
 			id: "390FC71194987936"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "23E2A8184593A7FC"
+				id: "2D7846A25B6C1A45"
+				table_id: 3538567746442252520L
 				type: "random"
 			}]
 			tasks: [{
@@ -690,7 +710,8 @@
 			id: "45E13E5C85688BA6"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "1DCE9DE104333D7E"
+				id: "68C2CDE9EBEA9106"
+				table_id: 3538567746442252520L
 				type: "random"
 			}]
 			tasks: [{
@@ -706,7 +727,8 @@
 			id: "790FC936C2BF0E96"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "64F365B150FEEBFF"
+				id: "37CD9998105C8895"
+				table_id: 3538567746442252520L
 				type: "random"
 			}]
 			tasks: [{
@@ -722,7 +744,8 @@
 			id: "1EC684FE02F0EA23"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2FCFF6265AC3BFF8"
+				id: "1B39D4E1FEA4412F"
+				table_id: 3538567746442252520L
 				type: "random"
 			}]
 			tasks: [{
@@ -738,7 +761,8 @@
 			id: "2DEA8B83B2E9394D"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "70DE2A90E82EE6B5"
+				id: "0B8BC3B7A9E2AFEE"
+				table_id: 3538567746442252520L
 				type: "random"
 			}]
 			tasks: [{
@@ -753,9 +777,10 @@
 			dependencies: ["42E2CF06DDBF4EC4"]
 			id: "0CE74F7E47D2039E"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "158D6FB53DFFFE46"
-				type: "random"
+				count: 3
+				id: "5C260DC7C7A6F37E"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
 			}]
 			tasks: [{
 				id: "46D0A6ADCB80F8B5"
@@ -770,7 +795,8 @@
 			id: "492767EC8620FA05"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "34785AE93AD7EE5F"
+				id: "05492DC1E95CED27"
+				table_id: 3538567746442252520L
 				type: "random"
 			}]
 			tasks: [{
@@ -786,7 +812,8 @@
 			id: "32F0B36F870F9510"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5B9FEE9B18CDDA14"
+				id: "17E6EDE77A5714E0"
+				table_id: 3538567746442252520L
 				type: "random"
 			}]
 			tasks: [{
@@ -802,7 +829,8 @@
 			id: "43D6714ED9175B9C"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2E0945A9AE79563D"
+				id: "4BAF55DA007A3C0F"
+				table_id: 8018894190395160869L
 				type: "random"
 			}]
 			tasks: [{
@@ -824,38 +852,19 @@
 			id: "7E1A8722BB0F5333"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "37326FFAC0BA231A"
+				id: "3A18985C0CFCF5E5"
+				table_id: 8018894190395160869L
 				type: "random"
 			}]
 			shape: "gear"
-			size: 0.5d
+			size: 1.0d
 			tasks: [{
 				id: "160D45D475E9A2D0"
 				item: "pneumaticcraft:sentry_turret"
 				type: "item"
 			}]
 			x: -2.5d
-			y: 6.5d
-		}
-		{
-			description: ["Missing quests and descriptions"]
-			hide_until_deps_visible: true
-			id: "742A0C8CE3F34826"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "07EE92687492004F"
-				type: "random"
-			}]
-			shape: "rsquare"
-			size: 1.5d
-			subtitle: "Notes"
-			tasks: [{
-				id: "7A34068FB6CFCB1E"
-				title: "FMTT"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: -2.25d
+			y: 7.0d
 		}
 	]
 	title: "PneumaticCraft"

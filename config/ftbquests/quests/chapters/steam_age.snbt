@@ -216,18 +216,20 @@
 					count: 2L
 					id: "74C4EEA936A5EE4E"
 					item: "gtceu:primitive_blast_furnace"
+					optional_task: true
 					type: "item"
 				}
 				{
 					count: 52L
 					id: "01198A1525737B75"
 					item: "gtceu:firebricks"
+					optional_task: true
 					type: "item"
 				}
 				{
 					count: 32L
-					id: "2446080B788A8A19"
-					item: "gtceu:steel_ingot"
+					id: "6E63A3F8599DCA30"
+					item: { Count: 32, id: "mekanism:ingot_steel" }
 					type: "item"
 				}
 			]
@@ -323,8 +325,8 @@
 			subtitle: "A little bit of exploring never hurt anyone"
 			tasks: [{
 				count: 16L
-				id: "36D03210534D3226"
-				item: "gtceu:sulfur_dust"
+				id: "7130FDD0F1DC420A"
+				item: { Count: 16, id: "mekanism:dust_sulfur" }
 				type: "item"
 			}]
 			title: "S is for Sulfur"
@@ -697,7 +699,6 @@
 				""
 				"The Boiler can auto eject steam on all its faces except the bottom. For automated Water input, use the bottom face."
 				""
-				"&3Note:&r In this modpack, explosions are configured to &cnot&r damage any block or entity, but you'll &dstill lose&r your machine."
 			]
 			id: "5DD49D500327A0E2"
 			shape: "square"
@@ -1143,6 +1144,7 @@
 			icon: "gtceu:crushed_gold_ore"
 			id: "7813F183681E0342"
 			rewards: [{
+				auto: "enabled"
 				description: "You've unlock a new tip ! Check the GregTech tips and tricks to see it !"
 				id: "77786F432D5F9663"
 				title: "New Tips!"

@@ -450,7 +450,7 @@
 				""
 				"It is used to make &aCoke&r from &eCoal&r, or &aCharcoal&r from &eWood&r, in addition to &dliquid Creosote&r as a &3bonus&r output."
 				""
-				"Take a look at the &6Multiblock Preview&r tab in EMI (press &dU&r over the controller block of any Multiblock!) to see the structure pattern."
+				"Take a look at the &6Multiblock Preview&r tab in JEI (press &dU&r over the controller block of any Multiblock!) to see the structure pattern."
 				"{@pagebreak}"
 				"&9Note:&r &lAny&r Brick block can be replaced with a &3Coke Oven Hatch&r. You can have up to five of them."
 				""
@@ -472,11 +472,19 @@
 			shape: "gear"
 			size: 1.2d
 			subtitle: "Your first big project... hopefully"
-			tasks: [{
-				id: "3545479A7C09CDFC"
-				item: "gtceu:coke_oven"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3545479A7C09CDFC"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "63D322DF52329D9D"
+					item: { Count: 26, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+			]
 			title: "Coke Oven"
 			x: 3.75d
 			y: -4.5d
@@ -494,33 +502,40 @@
 			id: "45969FFBF88F4FBB"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2C28FA1A5275D24E"
-				type: "choice"
+				id: "5A26E167F05DEAEB"
+				table_id: 8018894190395160869L
+				type: "random"
 			}]
 			size: 0.75d
 			subtitle: "Gather more resources!"
-			tasks: [{
-				count: 32L
-				id: "616556ECE4DB6103"
-				item: {
-					Count: 32
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "minecraft:copper_ingot"
-							}
-							{
-								Count: 1b
-								id: "gtceu:tin_ingot"
-							}
-						]
+			tasks: [
+				{
+					count: 32L
+					id: "69BC46D35D16613A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/tin"
+						}
 					}
+					title: "32x Tin Ingot"
+					type: "item"
 				}
-				title: "32 Copper or Tin"
-				type: "item"
-			}]
+				{
+					count: 32L
+					id: "741CC4382DFFD1E7"
+					item: {
+						Count: 32
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					}
+					title: "32x Copper Ingot"
+					type: "item"
+				}
+			]
 			title: "Onwards to the Age of Bronze!"
 			x: 3.75d
 			y: -1.5d

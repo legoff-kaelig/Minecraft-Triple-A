@@ -13,7 +13,6 @@
 		{ count: 128, item: "create:andesite_alloy", weight: 0.25f }
 		{ count: 16, item: "pneumaticcraft:ingot_iron_compressed" }
 		{
-			count: 16
 			item: {
 				Count: 1
 				id: "pneumaticcraft:gun_ammo"
@@ -21,9 +20,9 @@
 					Damage: 0
 				}
 			}
-			weight: 0.25f
+			weight: 0.1f
 		}
-		{ count: 32, item: "pneumaticcraft:pressure_tube" }
+		{ count: 8, item: "pneumaticcraft:pressure_tube", weight: 0.5f }
 		{
 			count: 3
 			item: {
@@ -44,7 +43,6 @@
 		{ count: 8, item: "gtceu:red_alloy_ingot" }
 		{ count: 48, item: "minecraft:slime_ball" }
 		{ count: 12, item: "mekanism:ingot_steel", random_bonus: 4 }
-		{ count: 12, item: "alltheores:aluminum_ingot", random_bonus: 4 }
 		{
 			item: {
 				Count: 1
@@ -58,6 +56,7 @@
 		{ count: 32, item: "minecraft:redstone", random_bonus: 16 }
 		{ count: 16, item: "minecraft:copper_ingot" }
 		{ count: 4, item: "create:belt_connector", random_bonus: 4 }
+		{ count: 12, item: "gtceu:aluminium_ingot" }
 	]
 	title: "Tech Low"
 }

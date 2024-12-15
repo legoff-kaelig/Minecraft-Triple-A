@@ -335,18 +335,11 @@
 				type: "xp"
 				xp: 25
 			}]
-			tasks: [
-				{
-					id: "5EFDFB351077C9B6"
-					item: "ubesdelight:condensed_milk_bottle"
-					type: "item"
-				}
-				{
-					id: "7E0A05953278842A"
-					item: "delightful:cactus_chili"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7E0A05953278842A"
+				item: "delightful:cactus_chili"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 2.5d
 		}
@@ -471,8 +464,8 @@
 				xp: 25
 			}]
 			tasks: [{
-				id: "67BA2ABB756B453B"
-				item: "delightful:nut_butter_and_jelly_sandwich"
+				id: "399BBE9F22FD545A"
+				item: "adastradelight:cheese_sandwich"
 				type: "item"
 			}]
 			x: 2.5d

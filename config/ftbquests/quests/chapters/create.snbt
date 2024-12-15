@@ -1035,13 +1035,26 @@
 		}
 		{
 			dependencies: ["4EB4838CCED125E2"]
+			description: ["&cKeep Coaxial Cogs &rto put them in &5Mechanical Saw's filter &rbecause without one you will craft other things."]
 			id: "50190D2982688862"
-			rewards: [{
-				count: 6
-				id: "54A82711B9779F9E"
-				item: "create:iron_sheet"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "54A82711B9779F9E"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					id: "20255556FB85A61A"
+					item: "petrolsparts:coaxial_gear"
+					type: "item"
+				}
+				{
+					id: "546C2B0AD5F7E76A"
+					item: "petrolsparts:large_coaxial_gear"
+					type: "item"
+				}
+			]
 			subtitle: "&bSaws&r can produce many different items. They can be fiddly to setup with a belt system, so don't forget to press and hold &bW&r to 'Ponder' and see how best to set them up."
 			tasks: [{
 				id: "5297BEFB9235E70B"
@@ -1156,6 +1169,7 @@
 				"4AFCFC5B50979259"
 				"514C4EBE77DC871B"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"You might be wondering why on earth you need &c21 crafters&r to complete this quest."
 				""
@@ -1583,6 +1597,7 @@
 				"50B220FE7B1E3EF4"
 				"000CB6AFBD03894F"
 			]
+			dependency_requirement: "one_completed"
 			id: "5C95FF3125CA51B0"
 			rewards: [{
 				count: 6
@@ -1952,7 +1967,7 @@
 				table_id: 8018894190395160869L
 				type: "random"
 			}]
-			subtitle: "Item drains&r let you manually pour buckets, which can then be pumped into tanks or other fluid machines. The &d&fhose pulley&r&c lets you either suck up a large body of fluid, or let you drain a large amount of fluid into the environment. They're important for harvesting natural resources."
+			subtitle: "Item drains&r let you manually pour buckets, which can then be pumped into tanks or other fluid machines."
 			tasks: [{
 				consume_items: false
 				id: "1E9B3DF979040C1B"
@@ -3124,7 +3139,7 @@
 			}]
 			subtitle: "Hmm.. it's a big cogwheel :)"
 			tasks: [{
-				count: 8L
+				count: 2L
 				id: "636B181DDA5E97E8"
 				item: "petrolsparts:colossal_cogwheel"
 				type: "item"
@@ -3364,23 +3379,53 @@
 				}
 				{
 					consume_items: false
-					count: 5L
-					id: "041EE0FBAA40C701"
-					item: "tfmg:cast_iron_pipe"
-					type: "item"
-				}
-				{
-					consume_items: false
-					count: 2L
-					id: "71646AC93DB45A51"
-					item: "tfmg:cast_iron_mechanical_pump"
-					type: "item"
-				}
-				{
-					consume_items: false
 					count: 3L
 					id: "0B3A2533A8C7704E"
 					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5C99F477373A80F7"
+					item: {
+						Count: 2
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tfmg:cast_iron_mechanical_pump"
+								}
+								{
+									Count: 1b
+									id: "create:mechanical_pump"
+								}
+							]
+						}
+					}
+					title: "Pump"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "03BB7BF9CC20359F"
+					item: {
+						Count: 5
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tfmg:cast_iron_pipe"
+								}
+								{
+									Count: 1b
+									id: "create:fluid_pipe"
+								}
+							]
+						}
+					}
+					title: "Pipes"
 					type: "item"
 				}
 			]

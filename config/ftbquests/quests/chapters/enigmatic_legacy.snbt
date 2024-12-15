@@ -471,7 +471,7 @@
 			y: -7.5d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -1370,18 +1370,11 @@
 			id: "41450B6B4771506B"
 			shape: "square"
 			subtitle: "It can be created in a &6Crafting Table&r, Hold &4Shift&r for More Info."
-			tasks: [
-				{
-					id: "6E3D3D2989794D54"
-					item: "enigmaticaddons:ode_to_living"
-					type: "item"
-				}
-				{
-					id: "3DFB9D8B3E61F3EB"
-					item: "enigmaticlegacy:curse_transposer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3DFB9D8B3E61F3EB"
+				item: "enigmaticlegacy:curse_transposer"
+				type: "item"
+			}]
 			x: 5.5d
 			y: -1.0d
 		}

@@ -199,8 +199,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1E359BB97FC14B5A"
-					type: "loot"
+					id: "58E9233E2DBB4FC0"
+					table_id: 8018894190395160869L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -318,8 +319,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4D0D5D21778C093A"
-					type: "loot"
+					id: "2BDA10A00FBDF5A3"
+					table_id: 518222065064277554L
+					type: "random"
 				}
 			]
 			tasks: [{

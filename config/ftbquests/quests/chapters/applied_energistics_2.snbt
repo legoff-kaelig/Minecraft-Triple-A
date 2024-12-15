@@ -5,7 +5,7 @@
 	group: "2136CD76886E1B45"
 	icon: "ae2:controller"
 	id: "07210DDF872160BA"
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -100,18 +100,11 @@
 				}
 			]
 			subtitle: "Some basic machines"
-			tasks: [
-				{
-					id: "29C4195E8366DBDD"
-					item: "ae2:charger"
-					type: "item"
-				}
-				{
-					id: "1F40760C2108BA36"
-					item: "ae2:inscriber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "29C4195E8366DBDD"
+				item: "ae2:charger"
+				type: "item"
+			}]
 			title: "First Things First"
 			x: 2.0d
 			y: 0.5d
@@ -150,6 +143,7 @@
 				{
 					id: "4D57E005D20BEDB9"
 					item: "ae2:meteorite_compass"
+					optional_task: true
 					type: "item"
 				}
 				{

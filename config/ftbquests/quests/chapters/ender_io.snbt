@@ -5,7 +5,7 @@
 	group: "2136CD76886E1B45"
 	icon: "enderio:octadic_capacitor"
 	id: "66C5C048397ED81C"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -13,7 +13,8 @@
 			id: "42D601B71D4081EA"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "646AE1E17E8A782B"
+				id: "57486E8B7FAEFEC5"
+				table_id: 518222065064277554L
 				type: "random"
 			}]
 			shape: "pentagon"

@@ -14,8 +14,8 @@
 		{ count: 24, item: "create:brass_ingot" }
 		{ count: 8, item: "create:polished_rose_quartz" }
 		{ count: 8, item: "gtceu:tungsten_steel_ingot" }
-		{ count: 8, item: "alltheores:platinum_ingot" }
 		{ count: 8, item: "moremekanismprocessing:titanium_ingot" }
+		{ count: 8, item: "gtceu:platinum_ingot" }
 	]
 	title: "Tech Medium"
 }

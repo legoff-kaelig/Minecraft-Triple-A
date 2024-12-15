@@ -163,6 +163,7 @@
 			]
 			id: "6E186F9C57155BFA"
 			rewards: [{
+				auto: "enabled"
 				description: "You've unlock a new tip ! Check the GregTech tips and tricks to see it !"
 				id: "06BBDBEFF4BB27A9"
 				title: "New Tips!"

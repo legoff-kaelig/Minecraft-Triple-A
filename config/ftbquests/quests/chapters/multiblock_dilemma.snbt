@@ -80,13 +80,6 @@
 			y: 1.5d
 		}
 		{
-			id: "5D2C26C1501A2CE1"
-			linked_quest: "2655B72C9FF3B372"
-			shape: "rsquare"
-			x: 4.5d
-			y: 1.5d
-		}
-		{
 			id: "2637BCFD9681EABF"
 			linked_quest: "53DC6E32C41C94C3"
 			x: 3.0d

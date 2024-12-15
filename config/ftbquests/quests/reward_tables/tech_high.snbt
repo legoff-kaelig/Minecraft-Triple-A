@@ -9,8 +9,8 @@
 		{ count: 8, item: "gtceu:polybenzimidazole_ingot" }
 		{ count: 16, item: "gtceu:rare_earth_dust", random_bonus: 16 }
 		{ count: 8, item: "gtceu:indium_ingot" }
-		{ count: 8, item: "alltheores:osmium_ingot" }
 		{ count: 8, item: "gtceu:europium_ingot" }
+		{ count: 32, item: "mekanism:ingot_osmium" }
 	]
 	title: "Tech High"
 }
