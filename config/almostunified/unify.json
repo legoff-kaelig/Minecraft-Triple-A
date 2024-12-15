@@ -4,7 +4,9 @@
     "kubejs",
     "create",
     "mekanism",
+    "moremekanismprocessing",
     "gtceu",
+    "chemlib",
     "ad_astra"
   ],
   "stoneStrata": [
@@ -79,12 +81,17 @@
     "zinc"
   ],
   "priorityOverrides": {
-    "forge:plates/iron": "gtceu",
-    "forge:plates/copper" : "gtceu",
-    "forge:plates/brass": "gtceu",
     "forge:plates/gold": "gtceu",
-    "forge:ingots/aluminium": "forge:ingots/aluminum"},
-  "customTags": {},
+    "forge:plates/brass": "gtceu",
+    "forge:plates/iron": "gtceu",
+    "forge:plates/copper": "gtceu"
+  },
+  "customTags": {
+    "forge:ingots/aluminum": ["gtceu:aluminium_ingot"],
+    "forge:plates/aluminum": ["gtceu:aluminium_plate"],
+    "forge:nuggets/aluminum": ["gtceu:aluminium_nugget"],
+    "forge:dusts/aluminum": ["gtceu:aluminium_dust"]
+  },
   "tagOwnerships": {},
   "itemTagInheritanceMode": "ALLOW",
   "itemTagInheritance": {},
