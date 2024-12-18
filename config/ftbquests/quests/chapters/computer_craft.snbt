@@ -1,11 +1,11 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "bcomputer_craft"
+	filename: "computer_craft"
 	group: "2136CD76886E1B45"
 	icon: "computercraft:computer_normal"
 	id: "1EF5D3F6E14DA3C4"
-	order_index: 5
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -827,5 +827,5 @@
 			y: -3.0d
 		}
 	]
-	title: " &3Computer &cCraft"
+	title: "&3Computer Craft"
 }

@@ -5,7 +5,7 @@
 	group: "2136CD76886E1B45"
 	icon: "ae2:controller"
 	id: "07210DDF872160BA"
-	order_index: 4
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -2314,5 +2314,5 @@
 			y: 1.5d
 		}
 	]
-	title: "Applied Energistics 2"
+	title: "&9Applied Energistics 2"
 }

@@ -6,7 +6,7 @@
 	group: "2136CD76886E1B45"
 	icon: "draconicevolution:chaotic_core"
 	id: "16967B0B3BFED1E9"
-	order_index: 0
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -647,5 +647,5 @@
 			y: 6.5d
 		}
 	]
-	title: "Draconic Evolution"
+	title: "&dDraconic Evolution"
 }

@@ -6,7 +6,7 @@
 	group: "2136CD76886E1B45"
 	icon: "create:mechanical_arm"
 	id: "547D8D23D3A6A883"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -3946,5 +3946,5 @@
 			y: 2.0d
 		}
 	]
-	title: " &eCreate"
+	title: "&eCreate"
 }

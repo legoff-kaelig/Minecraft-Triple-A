@@ -57,6 +57,10 @@
 		{ count: 16, item: "minecraft:copper_ingot" }
 		{ count: 4, item: "create:belt_connector", random_bonus: 4 }
 		{ count: 12, item: "gtceu:aluminium_ingot" }
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
 	]
 	title: "Tech Low"
 }

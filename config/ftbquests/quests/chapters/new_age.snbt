@@ -5,7 +5,7 @@
 	group: "2136CD76886E1B45"
 	icon: "create_new_age:nuclear_fuel"
 	id: "016D52CB8F1295E5"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -688,5 +688,5 @@
 			y: 0.0d
 		}
 	]
-	title: " &eCreate New Age"
+	title: "&eCreate New Age"
 }

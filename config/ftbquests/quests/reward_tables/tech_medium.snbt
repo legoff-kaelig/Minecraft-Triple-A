@@ -16,6 +16,38 @@
 		{ count: 8, item: "gtceu:tungsten_steel_ingot" }
 		{ count: 8, item: "moremekanismprocessing:titanium_ingot" }
 		{ count: 8, item: "gtceu:platinum_ingot" }
+		{ count: 6, item: "mekanism:alloy_infused", random_bonus: 2 }
+		{ count: 3, item: "mekanism:alloy_reinforced", random_bonus: 2 }
+		{ count: 12, item: "mekanism:ingot_osmium" }
+		{ count: 12, item: "mekanism:ingot_tin" }
+		{
+			item: {
+				Count: 1
+				id: "mekanism:energy_tablet"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "1000000"
+						}]
+					}
+				}
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:mana_tablet"
+				tag: {
+					mana: 500000
+				}
+			}
+			weight: 0.5f
+		}
+		{ item: "mekanism:alloy_atomic", random_bonus: 1, weight: 0.7f }
+		{ item: "mekanism:elite_control_circuit", random_bonus: 1, weight: 0.9f }
+		{ count: 3, item: "mekanism:hdpe_sheet", random_bonus: 3, weight: 0.2f }
 	]
 	title: "Tech Medium"
 }

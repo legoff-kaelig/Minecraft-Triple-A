@@ -4,17 +4,9 @@
 	default_quest_shape: ""
 	filename: "botania"
 	group: "0555E5C3250B1EBE"
-	icon: {
-		Count: 1
-		ForgeCaps: {
-			"celestisynth:celestisynthitemstackcapabilities": {
-				cs.aquaSkin: 0
-			}
-		}
-		id: "botania:pure_daisy"
-	}
+	icon: "botania:pure_daisy"
 	id: "6F379C74A5FFBE73"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -2973,5 +2965,5 @@
 			y: 10.5d
 		}
 	]
-	title: "&eBotania"
+	title: " &eBotania"
 }

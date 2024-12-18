@@ -6,7 +6,7 @@
 	group: "2136CD76886E1B45"
 	icon: "chemlib:periodic_table"
 	id: "32FC4E2E75698C18"
-	order_index: 9
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
@@ -2136,5 +2136,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Chemistry"
+	title: "Alchemistry"
 }

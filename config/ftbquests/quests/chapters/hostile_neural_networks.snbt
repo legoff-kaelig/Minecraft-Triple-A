@@ -31,7 +31,7 @@
 			y: 10.0d
 		}
 	]
-	order_index: 3
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -1520,5 +1520,5 @@
 			y: 10.0d
 		}
 	]
-	title: "Hostile Neural Networks"
+	title: "&3Hostile Neural Networks"
 }
