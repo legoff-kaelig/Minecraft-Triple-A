@@ -24,7 +24,6 @@
 		}
 		{ count: 8, item: "pneumaticcraft:pressure_tube", weight: 0.5f }
 		{
-			count: 3
 			item: {
 				Count: 1
 				id: "pneumaticcraft:air_canister"
@@ -32,7 +31,7 @@
 					"pneumaticcraft:air": 30000
 				}
 			}
-			weight: 0.8f
+			weight: 0.5f
 		}
 		{ count: 48, item: "minecraft:iron_ingot" }
 		{ count: 16, item: "minecraft:iron_block", weight: 0.25f }
@@ -40,7 +39,7 @@
 		{ count: 16, item: "mekanism:ingot_bronze" }
 		{ count: 16, item: "gtceu:iron_plate" }
 		{ count: 32, item: "gtceu:iron_rod", only_one: true }
-		{ count: 8, item: "gtceu:red_alloy_ingot" }
+		{ count: 8, item: "gtceu:red_alloy_ingot", weight: 0.5f }
 		{ count: 48, item: "minecraft:slime_ball" }
 		{ count: 12, item: "mekanism:ingot_steel", random_bonus: 4 }
 		{
@@ -61,6 +60,8 @@
 			type: "xp_levels"
 			xp_levels: 5
 		}
+		{ count: 8, item: "gtceu:basic_electronic_circuit" }
+		{ count: 4, item: "forbidden_arcanus:arcane_crystal_dust", weight: 0.3f }
 	]
 	title: "Tech Low"
 }

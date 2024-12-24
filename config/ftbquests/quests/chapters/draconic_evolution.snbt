@@ -28,9 +28,22 @@
 		{
 			dependencies: ["023261B403563795"]
 			id: "39E7BEC31D9CCE4F"
-			tasks: [{
-				id: "3F5214804434E3F2"
+			rewards: [{
+				count: 4
+				id: "7587B45D4A85198F"
 				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A7BA076481F413F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/draconium"
+					}
+				}
+				title: "Draconium Ingot"
 				type: "item"
 			}]
 			x: -2.0d
@@ -39,6 +52,12 @@
 		{
 			dependencies: ["39E7BEC31D9CCE4F"]
 			id: "69DA2F1B4F0FC055"
+			rewards: [{
+				count: 16
+				id: "3FD5E12BDC2B29C3"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "0AC70A14ABA4099C"
@@ -51,6 +70,12 @@
 		{
 			dependencies: ["69DA2F1B4F0FC055"]
 			id: "0A3856C17F119DF9"
+			rewards: [{
+				count: 32
+				id: "43EEB2827DCC9E08"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -64,6 +89,11 @@
 		{
 			dependencies: ["69DA2F1B4F0FC055"]
 			id: "058FF1F8F1654ED2"
+			rewards: [{
+				id: "6E6768E861511D34"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
 			tasks: [{
 				id: "24F75E9795BA4B4B"
 				item: "draconicevolution:wyvern_core"
@@ -75,6 +105,12 @@
 		{
 			dependencies: ["69DA2F1B4F0FC055"]
 			id: "5C45E299807866BB"
+			rewards: [{
+				count: 24
+				id: "38118E6AAEFE2C99"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "05241A1EC39E8F02"
 				item: {
@@ -138,6 +174,12 @@
 		{
 			dependencies: ["0A3856C17F119DF9"]
 			id: "56AE8D5C6DE6CEC8"
+			rewards: [{
+				count: 8
+				id: "34EDDD9F77DE519D"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
@@ -154,6 +196,12 @@
 				"0DE6C01397D014F6"
 			]
 			id: "4DC537585A7338EE"
+			rewards: [{
+				count: 32
+				id: "7520816CE869856E"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
@@ -183,6 +231,12 @@
 		{
 			dependencies: ["0DE6C01397D014F6"]
 			id: "58D6C8A014CA2E97"
+			rewards: [{
+				count: 32
+				id: "67D3C4BC23E9403D"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "759C80DCB272D360"
@@ -195,6 +249,20 @@
 		{
 			dependencies: ["0DE6C01397D014F6"]
 			id: "7ACA59D3FAE16F13"
+			rewards: [
+				{
+					count: 32
+					id: "45F06E4C9E53A720"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "67704834AD9DC83C"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
 			size: 0.75d
 			tasks: [{
 				id: "35308FA23FB12CAB"
@@ -227,6 +295,12 @@
 		{
 			dependencies: ["0DE6C01397D014F6"]
 			id: "5D48525A69EF1818"
+			rewards: [{
+				count: 64
+				id: "1410D97F8FFCD8B5"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
 			size: 0.75d
 			tasks: [
 				{
@@ -346,6 +420,11 @@
 		{
 			dependencies: ["58D6C8A014CA2E97"]
 			id: "045111349730BC54"
+			rewards: [{
+				id: "1AB14DB663EA6B80"
+				item: "draconicevolution:dragon_heart"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E4704AA1827B28D"
 				item: "draconicevolution:awakened_core"
@@ -359,7 +438,11 @@
 				"621C0701AA24F70A"
 				"2B7A0C1EF0AC9212"
 			]
-			description: ["Perhaps the most powerful boss in modded Minecraft: &l&4Chaos Guardian&r&r"]
+			description: [
+				"Perhaps the most powerful boss in modded Minecraft: &l&4Chaos Guardian&r&r"
+				""
+				"The &4Chaos Island &rspawns in The End when x and z coordinates are a multiple of 10 000 (ex: x=10000, z=0) or (ex: x=10000, z=10000) or even (ex: x=20000, z=0)."
+			]
 			id: "32611C83479D7ABC"
 			shape: "hexagon"
 			tasks: [{
@@ -374,6 +457,12 @@
 		{
 			dependencies: ["4DC537585A7338EE"]
 			id: "2B7A0C1EF0AC9212"
+			rewards: [{
+				count: 24
+				id: "349CF2BA395A31CE"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
 			size: 0.75d
 			tasks: [{
 				id: "1FF820B73743D749"
@@ -406,6 +495,12 @@
 		{
 			dependencies: ["4DC537585A7338EE"]
 			id: "621C0701AA24F70A"
+			rewards: [{
+				count: 32
+				id: "6EFDFF7AE72AA3EE"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
 			size: 0.75d
 			tasks: [
 				{
@@ -647,5 +742,5 @@
 			y: 6.5d
 		}
 	]
-	title: "&dDraconic Evolution"
+	title: " &dDraconic Evolution"
 }
