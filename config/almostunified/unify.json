@@ -87,7 +87,10 @@
     "forge:plates/gold": "gtceu",
     "forge:plates/brass": "gtceu",
     "forge:plates/iron": "gtceu",
-    "forge:plates/copper": "gtceu"
+    "forge:plates/copper": "gtceu",
+    "forge:ingots/draconium": "draconicevolution:draconium_ingot",
+    "forge:nuggets/draconium": "draconicevolution:draconium_nugget",
+    "forge:dusts/draconium": "draconicevolution:draconium_dust"
   },
   "customTags": {
     "forge:ingots/aluminum": ["gtceu:aluminium_ingot"],
