@@ -1,8 +1,6 @@
 ServerEvents.recipes(event => {
     event.shaped('industrialforegoing:tinydryrubber', [
-      'AAA',
-      '',
-      ''
+      'AAA'
     ], {
       A: 'mysticalagriculture:rubber_essence'
     })
