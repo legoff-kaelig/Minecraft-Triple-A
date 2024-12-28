@@ -72,7 +72,7 @@
 				"{@pagebreak}"
 				"If a &3Machine&r receives a &2higher Voltage&r than its Tier, it'll &cexplode&r. Kaboom! Any excess &dAmperage&r won't have an adverse affect, as machines only consume as they need."
 				""
-				"The machine explosion would usually also damage terrain, but we have disabled that feature in this pack."
+				"The machine explosion would usually also damage terrain."
 				"{@pagebreak}"
 				"In summary, Energy is transported in &apackets&r of &132EU&r for &7LV&r, &1128EU&r for &bMV&r... so on and so forth. The amount of energy that is actually received by a machine can end up being lower than energy sent, due to cable loss."
 				""

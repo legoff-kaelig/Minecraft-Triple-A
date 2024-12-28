@@ -80,14 +80,15 @@
 			id: "3E3CBDCEAB0FF28F"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "601E3BA6CC04F9AE"
-					type: "loot"
-				}
-				{
 					id: "5CA80FB9829DC39F"
 					type: "xp"
 					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A6F50D13D554960"
+					table_id: 518222065064277554L
+					type: "random"
 				}
 			]
 			shape: "square"
@@ -114,14 +115,15 @@
 			id: "58C2ABED43B2EA61"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "050F4D5ACBA8C0C4"
-					type: "loot"
-				}
-				{
 					id: "5FAF62796246C4E8"
 					type: "xp"
 					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "481759CF2D15CB5B"
+					table_id: 518222065064277554L
+					type: "random"
 				}
 			]
 			shape: "square"
@@ -1471,14 +1473,15 @@
 			id: "14B3542ECB59869C"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "4531787C434F9718"
-					type: "loot"
-				}
-				{
 					id: "0AA237BF385028BD"
 					type: "xp"
 					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "622B90221611C4AA"
+					table_id: 518222065064277554L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -1520,5 +1523,5 @@
 			y: 10.0d
 		}
 	]
-	title: "&3Hostile Neural Networks"
+	title: " &3Hostile Neural Networks"
 }

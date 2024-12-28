@@ -6,7 +6,7 @@
 		{ count: 8, item: "ae2:certus_quartz_crystal" }
 		{ count: 8, item: "ae2:fluix_dust" }
 		{ count: 8, item: "create_new_age:overcharged_iron" }
-		{ count: 64, item: "create:copper_sheet" }
+		{ count: 32, item: "create:copper_sheet", weight: 0.3f }
 		{ count: 8, item: "gtceu:titanium_ingot", random_bonus: 4 }
 		{ count: 16, item: "minecraft:blaze_rod", random_bonus: 16 }
 		{ count: 8, item: "gtceu:epoxy_dust" }
@@ -43,11 +43,14 @@
 					mana: 500000
 				}
 			}
-			weight: 0.5f
+			weight: 0.2f
 		}
 		{ item: "mekanism:alloy_atomic", random_bonus: 1, weight: 0.7f }
 		{ item: "mekanism:elite_control_circuit", random_bonus: 1, weight: 0.9f }
 		{ count: 3, item: "mekanism:hdpe_sheet", random_bonus: 3, weight: 0.2f }
+		{ item: "minecraft:nether_star", weight: 0.05f }
+		{ item: "minecraft:ancient_debris", random_bonus: 3, weight: 0.3f }
+		{ count: 6, item: "tfmg:raw_lithium", random_bonus: 6, weight: 0.8f }
 	]
 	title: "Tech Medium"
 }

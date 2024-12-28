@@ -2535,12 +2535,18 @@
 			dependencies: ["16D49DE5E99C22FB"]
 			icon: "tfmg:blast_furnace_output"
 			id: "76676C05D7520F84"
-			rewards: [{
-				count: 18
-				id: "7CB78F6D09192E64"
-				item: "tfmg:steel_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "794CEB5F45DA3EF9"
+					item: "tfmg:molten_steel_bucket"
+					type: "item"
+				}
+				{
+					id: "46618EFD150496D1"
+					item: "tfmg:molten_slag_bucket"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			subtitle: "In the &fBlast Furnace&r you will be able to make &fMolten Slag&r \\& &fMolten Steel"
 			tasks: [
@@ -2552,7 +2558,7 @@
 				}
 				{
 					consume_items: false
-					count: 15L
+					count: 16L
 					id: "245B70DBBCBCA729"
 					item: "tfmg:fireproof_bricks"
 					type: "item"
@@ -2579,6 +2585,7 @@
 				type: "random"
 			}]
 			tasks: [{
+				count: 2L
 				id: "5A5E25202A1F23F2"
 				item: "tfmg:molten_slag_bucket"
 				type: "item"
@@ -2597,6 +2604,7 @@
 				type: "random"
 			}]
 			tasks: [{
+				count: 2L
 				id: "0D2661A3907E7003"
 				item: "tfmg:molten_steel_bucket"
 				type: "item"
@@ -2611,16 +2619,15 @@
 			id: "60C739C6251C6816"
 			rewards: [{
 				count: 6
-				id: "2DC78ECCD88DA8F2"
-				item: "tfmg:steel_ingot"
+				id: "1B0548729B4DF6CB"
+				item: "mekanism:ingot_steel"
 				type: "item"
 			}]
 			shape: "circle"
 			size: 1.75d
 			tasks: [{
-				consume_items: true
-				id: "5B73D5B8200B5A32"
-				item: "tfmg:steel_ingot"
+				id: "5ECB9CC8D8C6B720"
+				item: "mekanism:ingot_steel"
 				type: "item"
 			}]
 			title: "Obtain &7Steel"
@@ -2708,10 +2715,13 @@
 		}
 		{
 			dependencies: ["34C69CC2874A3B19"]
+			description: ["&c⚠ &7&oYou need to glue the whole Hammer Part"]
 			id: "00584ABF4308F8D6"
 			rewards: [{
+				count: 2
 				id: "4550EF3DE8D9FDE3"
-				item: "tfmg:steel_block"
+				item: "mekanism:block_steel"
+				random_bonus: 3
 				type: "item"
 			}]
 			shape: "gear"
@@ -2740,6 +2750,28 @@
 					consume_items: false
 					id: "1DF6B5F093142C3B"
 					item: "tfmg:pumpjack_hammer"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "72FC9B32C8A9EA74"
+					item: { Count: 3, id: "tfmg:steel_truss" }
+					type: "item"
+				}
+				{
+					id: "2A946B043CFE75CF"
+					item: "tfmg:pumpjack_hammer_head"
+					type: "item"
+				}
+				{
+					id: "335E2D33D373FCDE"
+					item: "tfmg:pumpjack_hammer_connector"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "084AF3A54DD1141E"
+					item: { Count: 5, id: "tfmg:pumpjack_hammer_part" }
 					type: "item"
 				}
 			]
@@ -2786,8 +2818,8 @@
 				type: "item"
 			}]
 			title: "Craft a &8Surface Scanner"
-			x: -6.0d
-			y: 7.5d
+			x: -5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6B0E30C741162AF3"]
@@ -2820,7 +2852,7 @@
 			id: "1AF78CC2D548F05E"
 			rewards: [{
 				id: "3BB4E3D51A5EB04B"
-				item: "tfmg:steel_block"
+				item: "mekanism:block_steel"
 				type: "item"
 			}]
 			subtitle: "Each output blocks provides one of the &8Oil&r byproducts"
@@ -3442,12 +3474,19 @@
 				table_id: 8018894190395160869L
 				type: "random"
 			}]
-			tasks: [{
-				consume_items: false
-				id: "02AD46F5956E1EB0"
-				item: "tfmg:rebar_formwork_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "02AD46F5956E1EB0"
+					item: "tfmg:rebar_formwork_block"
+					type: "item"
+				}
+				{
+					id: "0E039567C46AB070"
+					item: "tfmg:formwork_block"
+					type: "item"
+				}
+			]
 			title: "Craft &8Concrete Formwork"
 			x: -7.0d
 			y: 1.5d
@@ -3475,7 +3514,7 @@
 			id: "202EDB69CF47E300"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "40DA759E9D26315E"
+				id: "5AFCD1184583938F"
 				table_id: 518222065064277554L
 				type: "random"
 			}]
@@ -3946,5 +3985,5 @@
 			y: 2.0d
 		}
 	]
-	title: "&eCreate"
+	title: " &eCreate"
 }

@@ -11,8 +11,10 @@
 		{ count: 8, item: "gtceu:indium_ingot" }
 		{ count: 8, item: "gtceu:europium_ingot" }
 		{ count: 64, item: "mekanism:ingot_osmium", weight: 0.6f }
-		{ count: 3, item: "mekanism:advanced_control_circuit", random_bonus: 2 }
+		{ count: 12, item: "mekanism:advanced_control_circuit", random_bonus: 16 }
 		{ count: 64, item: "mekanism:ingot_tin", weight: 0.6f }
+		{ count: 6, item: "mekanism:elite_control_circuit", random_bonus: 12 }
+		{ count: 4, item: "mekanism:ultimate_control_circuit", random_bonus: 8 }
 	]
 	title: "Tech High"
 }

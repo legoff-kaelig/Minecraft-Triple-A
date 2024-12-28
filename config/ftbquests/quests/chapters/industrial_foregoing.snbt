@@ -199,19 +199,11 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "66F8BD188ACD43E0"
-					item: "industrialforegoing:dryrubber"
-					title: "Cured Rubber"
-					type: "item"
-				}
-				{
-					id: "552D0B3522068AAC"
-					item: "industrialforegoing:tinydryrubber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "66F8BD188ACD43E0"
+				item: "industrialforegoing:dryrubber"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
@@ -1393,5 +1385,5 @@
 			y: 9.5d
 		}
 	]
-	title: "&fIndustrial Foregoing"
+	title: " &fIndustrial Foregoing"
 }

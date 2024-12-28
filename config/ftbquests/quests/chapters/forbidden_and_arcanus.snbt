@@ -11,15 +11,6 @@
 		}
 	}
 	id: "34E8FF3196478229"
-	images: [{
-		height: 0.3d
-		hover: ["Needed for the ATM Star"]
-		image: "ftblibrary:icons/star"
-		rotation: 0.0d
-		width: 0.3d
-		x: 9.5d
-		y: 2.25d
-	}]
 	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -294,8 +285,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2C776EFCAC879354"
-					type: "loot"
+					id: "2A39FE461BD0D02F"
+					table_id: 8018894190395160869L
+					type: "random"
 				}
 			]
 			shape: "square"

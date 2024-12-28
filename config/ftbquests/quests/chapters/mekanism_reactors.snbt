@@ -1353,19 +1353,12 @@
 			icon: "mekanism:dust_lithium"
 			id: "0FF852DE33E41C90"
 			min_width: 250
-			rewards: [
-				{
-					id: "46B1303CEB9C37DE"
-					item: "lootbundles:loot_bundle"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					id: "26F4539A8CFFFE41"
-					item: "chancecubes:chance_cube"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21ABD1293CF17FD5"
+				table_id: 518222065064277554L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 4L
@@ -2797,5 +2790,5 @@
 			y: -4.25d
 		}
 	]
-	title: "&2Mekanism:&r &fPhase two"
+	title: " &2Mekanism:&r &fPhase two"
 }

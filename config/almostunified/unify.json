@@ -7,6 +7,8 @@
     "moremekanismprocessing",
     "gtceu",
     "chemlib",
+    "ae2",
+    "enderio",
     "ad_astra"
   ],
   "stoneStrata": [
@@ -29,7 +31,8 @@
     "forge:rods/{material}",
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
-    "forge:storage_blocks/raw_{material}"
+    "forge:storage_blocks/raw_{material}",
+    "forge:silicon"
   ],
   "materials": [
     "aeternium",
@@ -84,7 +87,10 @@
     "forge:plates/gold": "gtceu",
     "forge:plates/brass": "gtceu",
     "forge:plates/iron": "gtceu",
-    "forge:plates/copper": "gtceu"
+    "forge:plates/copper": "gtceu",
+    "forge:ingots/draconium": "draconicevolution:draconium_ingot",
+    "forge:nuggets/draconium": "draconicevolution:draconium_nugget",
+    "forge:dusts/draconium": "draconicevolution:draconium_dust"
   },
   "customTags": {
     "forge:ingots/aluminum": ["gtceu:aluminium_ingot"],

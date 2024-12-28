@@ -1646,7 +1646,7 @@
 			id: "5E116409DC7D30BB"
 			progression_mode: "linear"
 			rewards: [{
-				id: "5DB1838CA971B7B6"
+				id: "6C3F8EEE261706E6"
 				item: {
 					Count: 1
 					id: "mekanism:configurator"
@@ -1663,9 +1663,16 @@
 			}]
 			subtitle: "Mekanism's Wrench"
 			tasks: [{
-				consume_items: true
-				id: "2612CACBDDF9AD1A"
-				item: "mekanism:configurator"
+				id: "3CD10B06E3B20D01"
+				item: {
+					Count: 1
+					id: "mekanism:configurator"
+					tag: {
+						mekData: {
+							state: 0
+						}
+					}
+				}
 				type: "item"
 			}]
 			x: -12.0d
@@ -2122,8 +2129,8 @@
 			]
 			id: "3B43DB1A6B0A7B44"
 			rewards: [{
-				id: "2D21524C3B23A57C"
-				item: "cuisinedelight:vegetable_pasta"
+				id: "7AA3334409615308"
+				item: "farmersdelight:vegetable_noodles"
 				type: "item"
 			}]
 			tasks: [{
@@ -2529,19 +2536,12 @@
 			hide_dependency_lines: true
 			id: "006A26D253D4D1C2"
 			optional: true
-			rewards: [
-				{
-					id: "2058E57DE7824238"
-					item: "lootbundles:loot_bundle"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					id: "12264AFF248E7EB1"
-					item: "chancecubes:chance_cube"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50B22FF3C27E8E93"
+				table_id: 518222065064277554L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "210CB8067DE0602D"
@@ -2620,19 +2620,12 @@
 			hide_dependency_lines: true
 			id: "7F38E9C6DA5B99EA"
 			optional: true
-			rewards: [
-				{
-					id: "13AA2245D793B929"
-					item: "lootbundles:loot_bundle"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					id: "0B134F29E2828D81"
-					item: "chancecubes:chance_cube"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BBAC40DAC0E5566"
+				table_id: 518222065064277554L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "2ADDE24DC501BFDE"
@@ -2652,19 +2645,12 @@
 			hide_dependency_lines: true
 			id: "095E1C928584FAAC"
 			optional: true
-			rewards: [
-				{
-					id: "4377CEDB12E14C08"
-					item: "lootbundles:loot_bundle"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					id: "4495178B5A79EAAF"
-					item: "chancecubes:chance_cube"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15753BBBC4B60816"
+				table_id: 518222065064277554L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "5D1446769C4F7480"
@@ -2686,19 +2672,12 @@
 			hide_dependency_lines: true
 			id: "7653935BDE025D18"
 			optional: true
-			rewards: [
-				{
-					id: "28971BDC273636F3"
-					item: "lootbundles:loot_bundle"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					id: "2DA45B11E03A0946"
-					item: "chancecubes:chance_cube"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "683867F9D1DFC912"
+				table_id: 518222065064277554L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2748,7 +2727,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				id: "1AD35B06822B93AA"
+				id: "4657A6BA3E78865C"
 				item: "mekanism:atomic_disassembler"
 				type: "item"
 			}]
@@ -2756,5 +2735,5 @@
 			y: -1.0d
 		}
 	]
-	title: "&2Mekanism:&r &fPhase one"
+	title: " &2Mekanism:&r &fPhase one"
 }
